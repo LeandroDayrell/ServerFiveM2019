@@ -8,6 +8,30 @@ local lang = {
     title = "Alo, tem como trazer uma coca-cola e uma pizza aqui em casa?",
     item = "- {2} {1}"
       },
+   trigo = {
+	title = "Vender trigo",
+	item = "- {2} {1}"
+	  },
+   sal = {
+	title = "Vender sal",
+	item = "- {2} {1}"
+	  },
+   cobre = {
+	title = "Vender cobre",
+	item = "- {2} {1}"
+	  },
+   ouro = {
+	title = "Vender ouro",
+	item = "- {2} {1}"
+	  },
+  diamante = {
+	title = "Vender diamante",
+	item = "- {2} {1}"
+	  },
+  leite = {
+	title = "Vender leite",
+	item = "- {2} {1}"
+	  },
   farmaceutico = {
 	title = "Vender drogas",
 	item = "- {2} {1}"
@@ -17,7 +41,7 @@ local lang = {
     item = "- {2} {1}"
      },
   lixeiro = {
-	title = "vamo limpa a cidade!",
+	title = "vamos limpar a cidade!",
 	item = "- {2} {1}"
 	 },
   hacker = {
@@ -29,17 +53,13 @@ local lang = {
 	item = "- {2} {1}"
 	 },
   carteiro = {
-	title = "Empreda encomenda!",
+	title = "Entregar encomenda!",
 	item = "- {2} {1}"
 	 },
   pescador = {
     title = "Alo.E ai amigao tem como trazer alguns peixes aqui em casa!",
     item = "- {2} {1}"
     },
-  aviaozinho = {
-	title = "Alo. ja podi trazer aquela grana. ta limpo aqui em casa!",
-	item = "- {2} {1}"
-	 },
   traficante = {
 	title = "Alo. Fala mano, preciso da quela parada aqui em casa!",
 	item = "- {2} {1}"
@@ -50,6 +70,10 @@ local lang = {
      },
   uranio = {
 	title = "Alo. Fala ai, Tem como trazer aquela parada. So toma cuidado!",
+	item = "- {2} {1}"
+     },
+  extase = {
+	title = "Alo. Fala ai, Tem como trazer aquele lanche aqui em casa!",
 	item = "- {2} {1}"
      },
   crack = {
