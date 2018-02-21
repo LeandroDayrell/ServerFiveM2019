@@ -1,3 +1,6 @@
+local htmlEntities = module("lib/htmlEntities")
+local Tools = module("lib/Tools")
+
 local function choice_tpprisao(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id then
