@@ -275,7 +275,7 @@ cfg.item_transformers = {
     r=0,g=125,b=255, -- color
     max_units=1000,
     units_per_minute=500,
-    x=-297.13427734375,y=-988.45617675782,z=31.080602645874, 
+    x=132.14855957031,y=-1462.1141357422,z=29.357055664063,
     radius=2, height=1.0, -- area
     recipes = {
     ["Pegando cocacola"] = { -- action name
@@ -505,7 +505,7 @@ cfg.item_transformers = {
     r=255,g=255,b=0,
     max_units=1000,
     units_per_minute=500,
-    x=-323.15786743164,y=-953.49523925782,z=31.080625534058,   
+    x=491.59954833984,y=215.01063537598,z=104.74440765381,   
     radius=2, height=1.0,
     recipes = {
     ["Pegando  kitlimpeza"] = {    
