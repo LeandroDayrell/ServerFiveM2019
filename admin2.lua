@@ -58,22 +58,22 @@ vRP.registerMenuBuilder("main", function(add, data)
         menu.css = {top="75px",header_color="rgba(0,125,255,0.75)"}
 
         if vRP.hasPermission(user_id,"TP_Prisao") then
-          menu[lang.police.menu.handcuff.title()] = choice_tpprisao
+          menu["TP Prisao"] = {choice_tpprisao}
         end
 		if vRP.hasPermission(user_id,"TP_Prefeitura") then
-          menu[lang.police.menu.handcuff.title()] = choice_tpprefeitura
+          menu["TP Prefeitura"] = {choice_tpprefeitura}
         end
 		if vRP.hasPermission(user_id,"TP_Concessionaria") then
-          menu[lang.police.menu.handcuff.title()] = choice_tpconcessionaria
+          menu["TP Concessionaria"] = {choice_tpconcessionaria}
         end
 		if vRP.hasPermission(user_id,"TP_Detran") then
-          menu[lang.police.menu.handcuff.title()] = choice_tpdetran
+          menu["TP Detran"] = {choice_tpdetran}
 		end
 		if vRP.hasPermission(user_id,"TP_dp") then
-          menu[lang.police.menu.handcuff.title()] = choice_tpdp
+          menu["TP Delegacia"] = {choice_tpdp}
         end
 
-
+-- menu["Teleporta player para mim"] = {ch_tptome}
     add(choices)
   end
 end)
