@@ -5,6 +5,7 @@ local function choice_tpprisao(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id then
 	vRPclient._teleport(player,425.7607421875,-978.73425292969,30.709615707397)
+	vRPclient._notify(player,"Você teleportou para a prisão")
    end
   
 end
@@ -13,6 +14,7 @@ local function choice_tpprefeitura(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id then
 	vRPclient._teleport(player,-259.36041259766,-977.61163330078,32.494007110596)
+	vRPclient._notify(player,"Você teleportou para a prefeitura")
    end
   
 end
@@ -21,6 +23,7 @@ local function choice_tpspawn(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id then
 	vRPclient._teleport(player,-536.34484863281,-213.68432617188,39.520641326904)
+	vRPclient._notify(player,"Você teleportou para o spawn")
    end
   
 end
@@ -29,6 +32,7 @@ local function choice_tpconcessionaria(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id then
 	vRPclient._teleport(player,-38.738796234131,-1111.9030761719,27.389364242554)
+	vRPclient._notify(player,"Você teleportou para concessionaria")
    end
   
 end
@@ -37,6 +41,7 @@ local function choice_tpdetran(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id then
 	vRPclient._teleport(player,239.46119689941,-1388.2928466797,35.946884155273)
+	vRPclient._notify(player,"Você teleportou para detran")
    end
   
 end
@@ -45,6 +50,7 @@ local function choice_tpdp(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id then
 	vRPclient._teleport(player,441.203308105469, -981.135131835938, 30.6896057128906)
+	vRPclient._notify(player,"Você teleportou para Delegacia")
    end
   
 end
@@ -71,8 +77,8 @@ vRP.registerMenuBuilder("main", function(add, data)
 		if vRP.hasPermission(user_id,"TP_Prefeitura") then
           menu["TP Prefeitura"] = {choice_tpprefeitura}
         end
-		if vRP.hasPermission(user_id,"TP_Prefeitura") then
-          menu["TP Prefeitura"] = {choice_tpprefeitura}
+		if vRP.hasPermission(user_id,"TP_Spawn") then
+          menu["TP Prefeitura"] = {choice_tpspawn}
         end
 		if vRP.hasPermission(user_id,"TP_Concessionaria") then
           menu["TP Concessionaria"] = {choice_tpconcessionaria}
