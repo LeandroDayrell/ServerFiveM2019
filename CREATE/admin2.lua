@@ -4,7 +4,7 @@ local Tools = module("lib/Tools")
 local function choice_tpprisao(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id then
-	vRPclient._teleport(player,x,y,z)
+	vRPclient._teleport(player,425.7607421875,-978.73425292969,30.709615707397)
    end
   
 end
@@ -12,7 +12,15 @@ end
 local function choice_tpprefeitura(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id then
-	vRPclient._teleport(player,x,y,z)
+	vRPclient._teleport(player,-259.36041259766,-977.61163330078,32.494007110596)
+   end
+  
+end
+
+local function choice_tpspawn(player,choice)
+  local user_id = vRP.getUserId(player)
+  if user_id then
+	vRPclient._teleport(player,-536.34484863281,-213.68432617188,39.520641326904)
    end
   
 end
@@ -20,7 +28,7 @@ end
 local function choice_tpconcessionaria(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id then
-	vRPclient._teleport(player,x,y,z)
+	vRPclient._teleport(player,-38.738796234131,-1111.9030761719,27.389364242554)
    end
   
 end
@@ -28,7 +36,7 @@ end
 local function choice_tpdetran(player,choice)
   local user_id = vRP.getUserId(player)
   if user_id then
-	vRPclient._teleport(player,x,y,z)
+	vRPclient._teleport(player,239.46119689941,-1388.2928466797,35.946884155273)
    end
   
 end
@@ -59,6 +67,9 @@ vRP.registerMenuBuilder("main", function(add, data)
 
         if vRP.hasPermission(user_id,"TP_Prisao") then
           menu["TP Prisao"] = {choice_tpprisao}
+        end
+		if vRP.hasPermission(user_id,"TP_Prefeitura") then
+          menu["TP Prefeitura"] = {choice_tpprefeitura}
         end
 		if vRP.hasPermission(user_id,"TP_Prefeitura") then
           menu["TP Prefeitura"] = {choice_tpprefeitura}
