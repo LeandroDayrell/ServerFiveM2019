@@ -616,17 +616,17 @@ vRP.registerMenuBuilder("main", function(add, data)
           menu[lang.police.menu.fine.title()] = choice_fine
         end
 
-     --[[   if vRP.hasPermission(user_id,"police.darlicenca") then
-          menu[lang.police.menu.darlicenca.title()] = choice_licenca
+       if vRP.hasPermission(user_id,"police.darlicenca") then
+          menu["Dar Licença"] = choice_licenc
         end
         
         if vRP.hasPermission(user_id,"police.verificarlicenca") then
-          menu[lang.police.menu.verificarlicenca.title()] = ch_show_police_licenca
+          menu["Verificar Licença"] = ch_show_police_licenc
         end
 
         if vRP.hasPermission(user_id,"police.deletarlicenca") then
-          menu[lang.police.menu.deletarlicenca.title()] = ch_delete_police_licenca
-        end ]]
+          menu["Remover Licença"] = ch_delete_police_licenc
+        end 
 
         vRP.openMenu(player,menu)
       end}
