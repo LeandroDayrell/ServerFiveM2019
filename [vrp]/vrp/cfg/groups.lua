@@ -705,7 +705,9 @@ cfg.groups = {
     "harvest.sal",
     "process.sal",
 	"venda.sal",
-	"bolsafamilia.paycheck"
+	"bolsafamilia.paycheck",
+	"harvest.vacas",
+	"process.Leite",
   },
   ["GARIMPEIRO SAL"] = {
     _config = { gtype = "job",
@@ -2187,11 +2189,11 @@ cfg.selectors = {
   ["ILEGAL"] = {  ----favela de baixo
     _config = {x = 451.00347900391, y = -1747.2805175781, z = 29.043659210205, blipid = 407, blipcolor = 27},
     "TRAFICANTE DE MACONHA", ---- cv
-    "VENDEDOR DE ARMA",
+    --"VENDEDOR DE ARMA",
     "HACKER",
-    "FARMACEUTICO",
-    "TRAFICANTE DE ARMA",
-    "LADRAO DE CARRO",
+    ----"FARMACEUTICO",
+    --"TRAFICANTE DE ARMA",
+    --"LADRAO DE CARRO",
     "TRAFICANTE DE LSD",
 	"TRAFICANTE DE EXTASE",
     "TRAFICANTE DE COCAINA",
@@ -2202,11 +2204,11 @@ cfg.selectors = {
   ["ILEGAL4"] = { ---esse
     _config = {x = 768.24780273438, y = -257.55416870117, z = 66.114326477051, blipid = 407, blipcolor = 27},--tca
     "TRAFICANTE DE MACONHA",----   tcp
-    "VENDEDOR DE ARMA",
+    --"VENDEDOR DE ARMA",
     "HACKER",
-    "FARMACEUTICO",
-    "TRAFICANTE DE ARMA",
-    "LADRAO DE CARRO",
+    ----"FARMACEUTICO",
+    --"TRAFICANTE DE ARMA",
+    --"LADRAO DE CARRO",
     "TRAFICANTE DE LSD",
 	"TRAFICANTE DE EXTASE",
     "TRAFICANTE DE COCAINA",
@@ -2217,11 +2219,11 @@ cfg.selectors = {
   ["ILEGAL 3"] = { ---esse
     _config = {x = -784.19067382813, y = 577.82110595703, z = 126.74500274658, blipid = 407, blipcolor = 27},
     "TRAFICANTE DE MACONHA",----- ada
-    "VENDEDOR DE ARMA",
+    --"VENDEDOR DE ARMA",
     "HACKER",
-    "FARMACEUTICO",
-    "TRAFICANTE DE ARMA",
-    "LADRAO DE CARRO",
+    ----"FARMACEUTICO",
+    --"TRAFICANTE DE ARMA",
+    --"LADRAO DE CARRO",
     "TRAFICANTE DE LSD",
 	"TRAFICANTE DE EXTASE",
     "TRAFICANTE DE COCAINA",
@@ -2232,11 +2234,11 @@ cfg.selectors = {
   ["TRABALHO ILEGAL"] = { 
     _config = {x = -270.6329650879, y = -977.49603271484, z = 31.217309951782, blipid = 407, blipcolor = 27},
     "TRAFICANTE DE MACONHA", ---prefeitura
-    "VENDEDOR DE ARMA",
+    --"VENDEDOR DE ARMA",
     "HACKER",
-    "FARMACEUTICO",
-    "TRAFICANTE DE ARMA",
-    "LADRAO DE CARRO",
+    ----"FARMACEUTICO",
+    --"TRAFICANTE DE ARMA",
+    --"LADRAO DE CARRO",
     "TRAFICANTE DE LSD",
 	"TRAFICANTE DE EXTASE",
     "TRAFICANTE DE COCAINA",
@@ -2246,11 +2248,11 @@ cfg.selectors = {
   ["ILEGAL 1"] = { 
     _config = {x = 1398.2086181641, y = -749.51385498047, z = 66.814186096191, blipid = 407, blipcolor = 27},
     "TRAFICANTE DE MACONHA",------cv 
-    "VENDEDOR DE ARMA",
+    --"VENDEDOR DE ARMA",
     "HACKER",
-    "FARMACEUTICO",
-    "TRAFICANTE DE ARMA",
-    "LADRAO DE CARRO",
+    --"FARMACEUTICO",
+    --"TRAFICANTE DE ARMA",
+    --"LADRAO DE CARRO",
     "TRAFICANTE DE LSD",
 	"TRAFICANTE DE EXTASE",
     "TRAFICANTE DE COCAINA",

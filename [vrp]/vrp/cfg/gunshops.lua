@@ -53,7 +53,7 @@ cfg.gunshop_types = {
 	["WEAPON_StunGun"] = {"Arma de Choque",0,0,""}
   },
   ["paletobay1"] = {
-    _config = {blipid=150,blipcolor=1},
+    _config = {blipid=150,blipcolor=2},
     ["WEAPON_MARKSMANPISTOL"] = {"Marksman Pistol",9600,0,""},
 	["WEAPON_SWITCHBLADE"] = {"Faca do CS",0,0,""}
   },
@@ -63,7 +63,7 @@ cfg.gunshop_types = {
     ["WEAPON_MARKSMANPISTOL"] = {"Marksman Pistol",9600,0,""}
   },
   ["policeloadout"] = {
-    _config = {blipid=150,blipcolor=1, permissions = {"police.loadshop"}},
+    _config = {blipid=150,blipcolor=69, permissions = {"police.loadshop"}},
     ["WEAPON_STUNGUN"] = {"Arma de choque",0,0,""},
     ["WEAPON_SNSPISTOL"] = {"Pistola",0,0,""},
     ["WEAPON_SMOKEGRENADE"] = {"Granada de fumaça",0,0,""},
@@ -82,7 +82,7 @@ cfg.gunshop_types = {
 -- list of gunshops positions
 
 cfg.gunshops = {
-  {"bombeiro arma",233.00392150879,-1372.0064697266,39.534381866455},----bombeiro 
+  {"bombeiro arma",1207.1614990234,-1465.1883544922,34.85954284668},----bombeiro 
   --{"AmmuNation",-664.147, -935.119, 21.8292},
   --{"agiota",-31.488765716553,-1114.2690429688,26.422355651855},
   --{"arma chefe",1441.1966552734,-811.46807861328,102.47248840332},---cv
@@ -90,9 +90,9 @@ cfg.gunshops = {
   --{"arma chefe",-791.0869140625,601.23199462891,127.36179351807},-----ada 
   --{"arma chefe",758.98504638672,-205.8599395752,66.114479064941},-----tca
   --{"AmmuNation",-1320.983, -389.260, 36.483},      
-  {"Police Armory",452.3533,-980.0969,30.6896},  
+  --{"Police Armory",452.3533,-980.0969,30.6896},  
   {"policeloadout",-451.15170288086,6011.662109375,31.716388702393},-----  -451.15170288086,6011.662109375,31.716388702393
-  {"policeloadout",-1116.2705078125,-844.26898193359,13.360802650452},
+  --{"policeloadout",-1116.2705078125,-844.26898193359,13.360802650452},
   {"paletobay1",-331.624, 6082.46, 31.4548},
   --{"chumash1",-3172.60375976563,1085.74816894531,20.8387603759766},
   {"policeloadout",455.83148193359,-993.33074951172,30.689588546753},

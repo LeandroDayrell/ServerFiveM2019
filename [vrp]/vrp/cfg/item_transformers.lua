@@ -62,9 +62,7 @@ cfg.item_transformers = {
     description="Diamante Bruto minerar com a Picareta.", -- Descrição do produto a se colher
     in_money=0, -- Dinheiro dado por unidade
     out_money=0, -- Dinheiro ganho por unidade
-    reagents={  -- items taken per unit
-    ["picareta"] = 1
-      },
+    reagents={},
     products={ -- items given per unit
     ["Diamante com Pedra"] = 2
         }
@@ -525,7 +523,7 @@ cfg.item_transformers = {
     r=204,g=255,b=0,
     max_units=1000,
     units_per_minute=500,
-    x=-320.10595703125,y=-942.92755126954,z=31.080602645874,      
+    x=474.5302734375,y=-1956.1446533203,z=24.556396484375,      
     radius=2, height=1.0,
     recipes = {
     ["Pegando  encomenda"] = {    
@@ -810,7 +808,7 @@ cfg.item_transformers = {
     }
   },
   { -- COLHEITA DE EXTASE
-    name="Colheita Extasie", -- menu name
+    name="Pegar Metil para fabricar Ecstasy", -- menu name
     r=195,g=178,b=235, -- color
     max_units=200,
     units_per_minute=999,
@@ -824,7 +822,7 @@ cfg.item_transformers = {
 	out_dinheirosujo=80,
     reagents={}, -- items taken per unit
     products={
-    ["exta"] = 1
+    ["metil"] = 1
     }, -- items given per unit
         aptitudes={} -- optional
       }
@@ -832,8 +830,8 @@ cfg.item_transformers = {
     onstart = function(player,recipe) vRPclient.applyWantedLevel(player,{3}) end,-- items given per unit
     aptitudes={} -- optional
   },
-  { -- PROCESSADOR DE EXTASE
-    name="Tratamento Extase", -- menu name traitement 
+  { -- PROCESSADOR DE ECSTASY
+    name="Tratamento Ecstasy", -- menu name traitement 
     r=195,g=178,b=235, -- color
     max_units=200,
     units_per_minute=999,
@@ -846,10 +844,10 @@ cfg.item_transformers = {
     out_money=0, -- money earned per 
 	out_dinheirosujo=80,
     reagents={
-    ["exta"] = 1
+    ["metil"] = 1
     }, -- items taken per unit
     products={
-    ["extat"] = 1
+    ["ecstasy"] = 1
     }, -- items given per unit
     aptitudes={} -- optional
       }

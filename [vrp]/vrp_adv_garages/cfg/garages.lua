@@ -55,7 +55,7 @@ cfg.adv_garages = {
   },
 
   ["hospitalele"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=50,blipcolor=3,permissions={"emergency.vehicle"}},
+    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=43,blipcolor=3,permissions={"emergency.vehicle"}},
 	["samumav"] = {"Helicoptero SAMU",50, "emergency"}
   },
   
@@ -397,7 +397,7 @@ cfg.garages = {
   {"loja moto",-40.997344970703,-1099.4600830078,26.422344207764},-----------loja
   ----garagem--- 
   {"Garagem",-332.6287,-779.1125,33.9648},
-  {"Garagem",1158.8588867188,-1510.8195800781,34.692577362061},----ospi
+  {"Garagem",1110.3327636719,-1477.3360595703,34.692569732666},----ospi
   {"Garagem",752.60040283203,-201.75495910645,66.114463806152},-------tca  
   {"Garagem",455.05880737305,-1020.3707275391,28.31156539917},------delegacia 
   {"Garagem",379.26959228516,-578.05090332031,28.687629699707},

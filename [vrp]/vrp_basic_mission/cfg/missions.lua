@@ -1436,7 +1436,7 @@ cfg.extase = {
   ["mission.extase.information"] = {
     positions = common_extase_positions,
     items = {
-      ["extat"] = {6,10,150}
+      ["ecstasy"] = {6,10,100}
     }
   }
 }
