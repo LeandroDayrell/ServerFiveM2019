@@ -304,7 +304,7 @@ cfg.item_transformers = {
     r=0,g=200,b=0, -- cor
     max_units=1000,
     units_per_minute=500,
-    x=-1917.013671875,y=5101.9907226563,z=43.21529006958, -- Localização
+    x=1917.013671875,y=5101.9907226563,z=43.21529006958, -- Localização
     radius=2, height=1.0, -- area
     recipes = {
     ["Colher"] = { -- Nome da ação
@@ -419,7 +419,7 @@ cfg.item_transformers = {
     r=255,g=255,b=0,
     max_units=1000,
     units_per_minute=500,
-    x=-315.84259033203,y=-932.46270751953,z=31.080619812012,
+    x=-472.36685180664,y=-1695.7678222656,z=18.906158447266,
     radius=2, height=1.0,
     recipes = {
     ["Pegando saco"] = {    

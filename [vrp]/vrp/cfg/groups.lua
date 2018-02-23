@@ -88,6 +88,9 @@ cfg.groups = {
     "admin.announce",
     "player.kick",
   },
+  ["pamonheiro22"] = {
+	"freeze.admin",
+  },
   -- USER
   ["user"] = {
     "player.player_menu",
@@ -459,7 +462,7 @@ cfg.groups = {
     "repair.vehicle",
     "repair.market",
     "mecanico.cloakroom",
-    "repair.paycheck"
+    "repair.paycheck",
   },
   ["UBER"] = {
     _config = { gtype = "job",
@@ -2175,7 +2178,7 @@ cfg.selectors = {
     "CIDADAO"
   },
   ["EMPREGO DO BOMBEIRO"] = {
-    _config = {x =  362.84716796875, y = -580.83245849609, z = 28.835662841797, blipid = 351, blipcolor = 3, permissions = {"bm.whitelisted"} },
+    _config = {x =  1207.8588867188, y = -1472.9903564453, z = 34.859539031982, blipid = 351, blipcolor = 3, permissions = {"bm.whitelisted"} },
     "CHEFE BOMBEIRO",-----
     "BOMBEIRO RECRUTA",
     "BOMBEIRO",   
@@ -2277,7 +2280,7 @@ cfg.selectors = {
     _config = {x = 1442.6218261719, y = -812.27301025391, z = 112.33569335938, blipid = 407, blipcolor = 27, permissions = {"cv.whitelisted"} },
     "CHEFE C.V",
     "SOLDADO C.V",
-    "BRACO DIREITO C.V"
+    "BRACO DIREITO C.V",
   }  
 }
 
