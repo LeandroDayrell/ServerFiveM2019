@@ -1259,7 +1259,7 @@ cfg.groups = {
     "emergency.vehicle",
     "emergency.market",
     "bm.whitelisted",
-    "bombeiro.paycheck"
+    "bombeiro.paycheck",
   },
   ["DELEGADO GERAL"] = {
     _config = { gtype = "job",
