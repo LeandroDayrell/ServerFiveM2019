@@ -208,7 +208,7 @@ cfg.adv_garages = {
   },
   
   ["loja carro"]  = {
-    _config = {gpay="bank",gtype={"showroom","store","rental"},vtype="car",blipid=225,blipcolor=81},
+    _config = {gpay="bank",gtype={"showroom","store","rental","personal"},vtype="car",blipid=225,blipcolor=81},
     --["golf6"] = {"Golf Mk6",60000, ""},
     --["golfgti"] = {"Golf GTI",130000, ""},
 	--["206"] = {"Peugeot 206",13426, ""},
@@ -276,12 +276,9 @@ cfg.adv_garages = {
 	["EK9"] = {"EK9",500, ""},
 	["208"] = {"Peugeot 208",500, ""},
 	--["police2"] = {"S10 POLICIA",500, ""},
-    ["bros60"] = {"Bros 160",500, ""},
-	["150"] = {"FAN ESD",500, ""},
-	["cbb"] = {"CBR1000",500, ""},
-	["xj6vip"] = {"XJ6 VIP",500, ""},
 	["parati"] = {"Parati 1988 Turbo",500, ""},
-	["unosport"] = {"Uno Sport",500, ""},
+	["GTI"] = {"Gol 1989",500, ""},
+	--["unosport"] = {"Uno Sport",500, ""},
 	["golg7"] = {"Gol G7",500, ""},
 	["amarok"] = {"Amarok",500, ""},
 	["civic2"] = {"Civic 2010",500, ""},
@@ -292,11 +289,15 @@ cfg.adv_garages = {
 	["up"] = {"up",500, ""},
 	["ranger"] = {"Ranger",500, ""},
 	["celta"] = {"CELTA",500, ""},
-	["polo"] = {"Polo",500, ""},
-  },  
+	--["duster"] = {"Duster",500, ""},
+	["agile"] = {"Agile",500, ""},
+  }, 
+
+
+  -59.609813690186,-1116.4064941406,26.434505462646  
   
   ["loja moto"] = {
-   _config = {gpay="bank",gtype={"showroom","store","rental"},vtype="car",blipid=226,blipcolor=4},
+   _config = {gpay="bank",gtype={"showroom","store","rental","personal"},vtype="car",blipid=226,blipcolor=4},
     ["cbrr"] = {"cb1000",500, ""},
     ["bros60"] = {"Bros 160",500, ""},
     ["r1"] = {"r1",500, ""},

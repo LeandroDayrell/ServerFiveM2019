@@ -786,7 +786,7 @@ cfg.item_transformers = {
     r=51,g=153,b=255, -- color
     max_units=200,
     units_per_minute=999,
-    x=953.11242675781,y=-1698.1973876953,z=29.73952293396,
+    x=1389.6033935547,y=3603.8266601563,z=38.941886901855,
     radius=2, height=1.0, -- area
     recipes = {
     ["Produzir"] = { -- action name
