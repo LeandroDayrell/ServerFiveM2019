@@ -68,8 +68,8 @@ local TeleportFromTo = {
 	   positionTo = { ['x'] = 1336.1596679688, ['y'] = 4310.626953125, ['z'] = 38.014312744141, nom = "Limpador de peixe"},
 	},
 	["encomenda"] = {
-	   positionFrom = { ['x'] = -320.10595703125, ['y'] = -942.92755126954, ['z'] = 31.080602645874, nom = "encomenda"},
-	   positionTo = { ['x'] = -320.10595703125, ['y'] = -942.92755126954, ['z'] = 31.080602645874, nom = "encomenda"},
+	   positionFrom = { ['x'] = 474.5302734375, ['y'] = -1956.1446533203, ['z'] = 24.556396484375, nom = "encomenda"},
+	   positionTo = { ['x'] = 474.5302734375, ['y'] = -1956.1446533203, ['z'] = 24.556396484375, nom = "encomenda"},
 	},
 	["kit limpeza"] = {
 	   positionFrom = { ['x'] = 491.59954833984, ['y'] = 215.01063537598, ['z'] = 104.74440765381, nom = "kit limpeza"},
