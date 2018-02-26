@@ -1,37 +1,31 @@
-local m = {} -- <<< Don't touch this!
------------[ SETTINGS ]---------------------------------------------------
-
--- Delay in minutes between messages
-m.delay = 7
-
--- Prefix appears in front of each message. 
--- Suffix appears on the end of each message.
--- Leave a prefix/suffix empty ( '' ) to disable them.
-m.prefix = '^5[Information] '
-m.suffix = '^3!'
-
--- You can make as many messages as you want.
--- You can use ^0-^9 in your messages to change text color.
-m.messages = {   
-    '^3Obrigado por jogar no nosso servidor BRASIL RIO DE JANEIRO',
-    '^3Se voce gostaria de ser policial, EMS , entre em nosso discord e procure pela sala Recrutamento',
-	'^3Se voce tiver alguma duvida nao hesite em perguntar no bate-papo',
-	'^3Proibido rouba viatura. anda em volta da DP',
-    '^3Proibido mata sem motivo ban',
-	'^3Digite /dv pra deletar o carro pra nao lag o server',
-    '^3Nosso DISCORD: https://discord.gg/SNbSreZ',
+------------------[ CHANGE THIS ]--------------------
+local minutesBetweenAnnouncements = 3
+local prefix = "^2[BOT]^0"
+local suffix = "^0."
+local messages = {
+    '^1 Siga o RP- Respeite as regras',
+	'^12 Pegue seu Trabalho no i ROXO',
+    '^2 Pressione M para acessar o Celular',
+    '^11 Proibido Roubar VTR Sujeito a Ban Permanente',
+	'^4 proibido Relogar quando morre-chame BOMBEIRO ou aguarde',
+	'^5 Proibido matar plays sem motivos ',
+	'^5 proibido matar safezone ',
+	'^6 favela PVP cuidado ',
+	'^7 Proibido Matar (spaw inicial,agencia emprego,hospital,auto escola) ',
+	
+	
+	--'Message ^5five',
+    --'Message ^6six'
 }
+-----------------------------------------------------
 
--- Player identifiers on this list will not receive any messages.
--- Simply remove all identifiers if you don't want an ignore list.
-m.ignorelist = { 
-}
---------------------------------------------------------------------------
-
-
-
-
-
+--  Extra info:
+--  You can use ^0-^9 in your messages to change text color.
+--  You only need to change the messages above,
+--  the code below shouldn't be touched.
+--  The script runs only on the client side so the server won't
+--  have any extra load.
+-- 
 
 
 
@@ -45,54 +39,23 @@ m.ignorelist = {
 
 
 
------[ CODE, DON'T TOUCH THIS ]-------------------------------------------
-local playerIdentifiers
-local enableMessages = true
-local timeout = m.delay * 1000 * 60 -- from ms, to sec, to min
-local playerOnIgnoreList = false
-RegisterNetEvent('va:setPlayerIdentifiers')
-AddEventHandler('va:setPlayerIdentifiers', function(identifiers)
-    playerIdentifiers = identifiers
-end)
+
+
+
+-------[ CODE, NO NEED TO TOUCH THIS PART! ]---------
+local count = 0
+for _ in pairs(messages) do count = count + 1 end
+
+local timeout = minutesBetweenAnnouncements * 60000
+local i = 1
 Citizen.CreateThread(function()
-    while playerIdentifiers == {} or playerIdentifiers == nil do
-        Citizen.Wait(1000)
-        TriggerServerEvent('va:getPlayerIdentifiers')
-    end
-    for iid in pairs(m.ignorelist) do
-        for pid in pairs(playerIdentifiers) do
-            if m.ignorelist[iid] == playerIdentifiers[pid] then
-                playerOnIgnoreList = true
-                break
-            end
+    while true do
+        TriggerEvent('chatMessage', '', { 255, 255, 255 }, prefix .. " " .. messages[i] .. suffix)
+        i = i + 1
+        if (i == (count + 1)) then
+            i = 1
         end
-    end
-    if not playerOnIgnoreList then
-        while true do
-            for i in pairs(m.messages) do
-                if enableMessages then
-                    chat(i)
-                    print('[vAnnouncer] Message #' .. i .. ' sent.')
-                end
-                Citizen.Wait(timeout)
-            end
-            
-            Citizen.Wait(0)
-        end
-    else
-        print('[vAnnouncer] Player is on ignorelist, no announcements will be received.')
+        Citizen.Wait(timeout)
     end
 end)
-function chat(i)
-    TriggerEvent('chatMessage', '', {255,255,255}, m.prefix .. m.messages[i] .. m.suffix)
-end
-RegisterCommand('automessage', function()
-    enableMessages = not enableMessages
-    if enableMessages then
-        status = '^2enabled^5.'
-    else
-        status = '^1disabled^5.'
-    end
-    TriggerEvent('chatMessage', '', {255, 255, 255}, '^5[vAnnouncer] automessages are now ' .. status)
-end, false)
---------------------------------------------------------------------------
+-----------------------------------------------------

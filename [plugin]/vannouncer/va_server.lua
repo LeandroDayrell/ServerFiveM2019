@@ -1,8 +1,13 @@
------[ CODE, DON'T TOUCH THIS ]-------------------------------------------
+--- [there's nothing here that needs configuring, so you're best off not touching this!]-------
 RegisterServerEvent('va:getPlayerIdentifiers')
 AddEventHandler('va:getPlayerIdentifiers', function()
-    if GetPlayerIdentifiers(source) ~= nil then
-        TriggerClientEvent('va:setPlayerIdentifiers', source, GetPlayerIdentifiers(source))
+    local playerIdentifiers = GetPlayerIdentifiers(source)
+    if playerIdentifiers == nil then
+        playerIdentifiers = {"null"}
     end
+    TriggerClientEvent('va:setPlayerIdentifiers', source, playerIdentifiers)
 end)
---------------------------------------------------------------------------
+RegisterCommand('automessage', function(source)
+    TriggerClientEvent('va:toggleAutoMessage', source)
+end)
+-----------------------------------------------------------------------------------------------
