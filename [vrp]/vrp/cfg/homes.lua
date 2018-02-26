@@ -213,7 +213,7 @@ cfg.slot_types = {
       {"itemtr", _config = itemtr_hacker, -761.95947265625,614.33587646484,136.53060913086}
     }
   },
-  ["barraco9"] = {
+  --[[["barraco9"] = {
     {
     {"entry",1447.2883300781,-810.88580322266,112.32314300537},
       {"chest",1443.3333740234,-814.43377685547,112.32317352295, _config = {weight=200}},
@@ -221,7 +221,7 @@ cfg.slot_types = {
       {"gametable",1448.7856445313,-811.52740478516,112.32300567627},
     {"itemtr", _config = itemtr_study, 1446.3872070313,-811.81329345703,112.32316589355}
     }
-  },
+  },]]
   ["barraco8"] = {
     {
     {"entry",1369.8107910156,-783.84368896484,70.743957519531},
@@ -293,7 +293,7 @@ cfg.slot_types = {
       {"itemtr", _config = itemtr_hacker, 1278.1821289063,-660.05529785156,70.972709655762}
     }
   },
-  ["mansion"] = {
+  --[["mansion"] = {
     {
       {"entry",-815.5,178.78350830078,72.153137207031},
       {"chest",-808.51202392578,175.12515258789,76.740737915039, _config = {weight=200}},
@@ -302,7 +302,7 @@ cfg.slot_types = {
       {"itemtr", _config = itemtr_study, -811.89361572266,182.51545715332,76.740768432617},
       {"itemtr", _config = itemtr_laboratory, -799.93286132813,187.0225982666,72.605445861816}
     }
-  },
+  },]]
   ["Modern_Apt"] = {
     {
       {"entry",-262.89743041992,-713.50500488281,71.032737731934},
@@ -359,7 +359,7 @@ cfg.slot_types = {
       --{"itemtr", _config = itemtr_study, -1156.6875,-1517.3475341797,10.632729530334}
     }
   },
-  ["trevor_trailer"] = {
+  --[[["trevor_trailer"] = {
     {
       {"entry",1972.5347900391,3817.2524414063,33.428737640381},
       {"chest",1972.7764892578,3819.447265625,33.428737640381, _config = {weight=200}},
@@ -367,7 +367,7 @@ cfg.slot_types = {
       {"gametable",1975.8670654297,3821.0249023438,33.44958114624},
       {"itemtr", _config = itemtr_study, 1970.9127197266,3818.9682617188,33.428722381592}
     }
-  },
+  },]]
   ["franklin_house"] = {
     {
       {"entry",-13.934011459351,-1438.681640625,31.101552963257},
@@ -581,39 +581,7 @@ cfg.slot_types = {
 
 -- define home clusters
 cfg.homes = {
-  ["barraco do lider 4"] = {
-    slot = "barraco14",
-    entry_point = {761.92340087891,-207.39292907715,66.114540100098},
-    buy_price = 20000000,
-    sell_price = 100,
-    max = 5,
-    blipid=374,
-    blipcolor=2
-  },
-  ["barraco 12"] = {
-    slot = "barraco12",
-    entry_point = {433.26638793945,-1769.3093261719,28.9996509552},
-    buy_price = 200000,
-    sell_price = 150000,
-    max = 2                            
-  },
-  ["barraco do lider 1"] = {
-    slot = "barraco11",
-    entry_point = {418.39028930664,-1811.1170654297,28.526830673218},
-    buy_price = 20000000,
-    sell_price = 100,
-    max = 5,
-    blipid=374,
-    blipcolor=2
-  },
-  ["barraco 10"] = {
-    slot = "barraco10",
-    entry_point = {272.04278564453,-1951.01171875,24.146371841431},
-    buy_price = 200000,
-    sell_price = 150000,
-    max = 2
-  },
-  ["barraco do lider 3"] = {
+  ["barraco do lider 3"] = { -- FAVELA RICA TCP
     slot = "barraco13",
     entry_point = {-789.33831787109,599.568359375,127.3191986084},
     buy_price = 20000000,
@@ -622,65 +590,35 @@ cfg.homes = {
   blipid=374,
     blipcolor=2
   },
-  ["barraco do lider"] = {
-    slot = "barraco9",
-    entry_point = {1442.4128417969,-810.66815185547,102.52326202393},
-    buy_price = 20000000,
-    sell_price = 100,
-    max = 5,
-  blipid=374,
-    blipcolor=2
-  },
-  ["barraco 8"] = {
-    slot = "barraco8",
-    entry_point = {1365.4982910156,-782.17126464844,67.127410888672},
-    buy_price = 200000,
-    sell_price = 150000,
-    max = 2
-  },
-  ["barraco 7"] = {
-    slot = "barraco7",
-    entry_point = {1388.0170898438,-794.69793701172,67.429466247559},
-    buy_price = 200000,
-    sell_price = 150000,
-    max = 2
-  },
-  ["barraco 6"] = {
-    slot = "barraco6",
-    entry_point = {1346.5207519531,-722.21496582031,66.977333068848},
-    buy_price = 200000,
-    sell_price = 150000,
-    max = 2
-  },
-  ["barraco 4"] = {
+  ["barraco 4"] = { -- FAVELA BR ADA
     slot = "barraco4",
     entry_point = {1309.1112060547,-542.18518066406,71.268539428711},
     buy_price = 200000,
     sell_price = 150000,
     max = 2
   },
-  ["barraco 3"] = {
+  ["barraco 3"] = { -- FAVELA BR ADA
     slot = "barraco3",
     entry_point = {1312.6828613281,-565.75512695313,72.066627502441},
     buy_price = 200000,
     sell_price = 150000,
     max = 2
   },
-  ["barraco 2"] = {
+  ["barraco 2"] = { -- FAVELA BR ADA
     slot = "barraco2",
     entry_point = {1368.4372558594,-595.38323974609,74.337738037109},
     buy_price = 200000,
     sell_price = 150000,
     max = 2
   },
-  ["barraco 1"] = {
+  ["barraco 1"] = {-- FAVELA BR ADA
     slot = "barraco1",
     entry_point = {1281.9010009766,-653.41528320313,67.487602233887},
     buy_price = 200000,
     sell_price = 150000,
     max = 2
   },
-  ["Rundown Trailor"] = {
+  --[[["Rundown Trailor"] = {
     slot = "trevor_trailer",
     entry_point = {1980.0181884766,3816.54296875,32.275169372559},
     buy_price = 150000,
@@ -688,7 +626,7 @@ cfg.homes = {
     max = 1,
     blipid=374,
     blipcolor=2
-  },
+  },]]
   ["Cheap Home"] = {
     slot = "Cheap_Home",
     entry_point = {500.54632568359,-1697.3969726563,29.789241790771},
@@ -707,7 +645,7 @@ cfg.homes = {
     blipid=374,
     blipcolor=2
   },
-  ["Lowside House'"] = {
+  --[[["Lowside House'"] = {
     slot = "franklin_house",
     entry_point = {-13.843012809753,-1444.6134033203,30.646482467651},
     buy_price = 350000,
@@ -715,7 +653,7 @@ cfg.homes = {
     max = 1,
     blipid=374,
     blipcolor=2
-  },
+  },]]
   ["Beach Bungalo"] = {
     slot = "beach_bungalo",
     entry_point = {1245.6123046875,-2686.2346191406,2.4227623939514},
@@ -842,7 +780,7 @@ cfg.homes = {
     blipid=374,
     blipcolor=5
   },
-  ["Downtown Mansion"] = {
+  --[[["Downtown Mansion"] = {
     slot = "mansion",
     entry_point = {-818.27014160156,177.49227905273,72.222503662109},
     buy_price = 6000000,
@@ -850,7 +788,7 @@ cfg.homes = {
     max = 1,
     blipid=374,
     blipcolor=5
-  }
+  } ]]
 }
 
 return cfg

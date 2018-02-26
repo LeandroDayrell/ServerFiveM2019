@@ -13,7 +13,7 @@ local blips = {
 {name="Refinaria de Crack", colour=49, scale=1.0, id=89, x=-779.89514160156,y=535.04681396484,z=121.24387359619},-----crak    
 {name="Campo de Cocaina", colour=38, scale=1.0, id=89, x=1917.013671875,y=5101.9907226563,z=43.21529006958}, -- cocaina
 {name="Processador de cocaina", colour=38, scale=1.0, id=89, x=767.90173339844,y=-370.1455078125,z=49.977001190186}, -- cocaina
-{name="Ecstasy", colour=83, scale=1.0, id=206, x=416.65802001953,y=-1833.1413574219,z=28.073215484619},
+{name="Ecstasy", colour=83, scale=1.0, id=206, x=16.626104354858,y=-1832.2036132813,z=24.769153594971},
 {name="Tratamento Ecstasy", colour=83, scale=1.0, id=365, x=-561.68438720703,y=281.64797973633,z=85.676383972168},
 {name="Venda Ecstasy", colour=83, scale=1.0, id=431, x=-1666.24609375,y=-978.77520751953,z=8.1596422195435},
 {name="Extrair LsD", colour=24, scale=1.0, id=445, x=-115.86870574951, y=1908.5133056641, z=197.42163085938},

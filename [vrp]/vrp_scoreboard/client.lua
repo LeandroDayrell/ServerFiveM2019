@@ -27,7 +27,7 @@ Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
 
-        if IsControlPressed(1, 20)--[[ INPUT_PHONE ]] then
+        if IsControlPressed(0, 20)--[[ INPUT_PHONE ]] then
             if not listOn then
                 local players = ""
                 for k, v in pairs(users) do

@@ -57,10 +57,10 @@ cfg.adv_garages = {
 	["police2"] = {"Carro BOPE jazz",0, "police"},
   },
 
-  --[[["hospitalele"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=43,blipcolor=3,permissions={"emergency.vehicle"}},
-	["samumav"] = {"Helicoptero SAMU",50, "emergency"}
-  },]]
+  ["hospitalele"] = {
+    _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=43,blipcolor=3,permissions={"emergency.vehicle"}},
+	["polmav"] = {"Helicoptero SAMU",50, "emergency"}
+  },
   
    ["hospitalcar"] = {
     _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=50,blipcolor=3,permissions={"emergency.vehicle"}},
@@ -466,7 +466,7 @@ cfg.garages = {
   --{"police",378.612274169922,-1629.18676757813,28.5226573944092},  -- jobs garage 
   {"hospitalcar",1161.3110351563,-1493.9163818359,34.692573547363}, 
   --{"hospitalcar",-312.04141235352,-961.15649414063,31.080619812012}, -- PREFEITURA
-  --{"hospitalele",1219.2795410156,-1517.4210205078,34.700019836426},
+  {"hospitalele",1219.2795410156,-1517.4210205078,34.700019836426},
   {"uber",900.77600097656,-181.19085693359,73.90412902832}, -- jobs garage
   --{"moto_boy",-298.0983581543,-991.42559814453,31.080617904663},   -- jobs garage
   {"PDHeli",481.621856689453,-982.223693847656,41.0080757141113},
