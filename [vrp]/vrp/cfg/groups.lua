@@ -2202,9 +2202,9 @@ cfg.selectors = {
     "TRAFICANTE DE URANIO",
     --"FOQUETEIRO"  
   },
-  ["ILEGAL4"] = { ---esse
-    _config = {x = 768.24780273438, y = -257.55416870117, z = 66.114326477051, blipid = 407, blipcolor = 27},--tca
-    "TRAFICANTE DE MACONHA",----   tcp
+  ["ILEGAL4"] = { --- FAVELA DA BR ADA
+    _config = {x = 1419.1293945313, y = -415.75665283203, z = 135.99172973633, blipid = 407, blipcolor = 27},
+    "TRAFICANTE DE MACONHA",
     --"VENDEDOR DE ARMA",
     "HACKER",
     ----"FARMACEUTICO",
@@ -2217,9 +2217,9 @@ cfg.selectors = {
     "TRAFICANTE DE URANIO",
     --"FOQUETEIRO"   
   },
-  ["ILEGAL 3"] = { ---esse
+  ["ILEGAL 3"] = { --- FAVELA TCP
     _config = {x = -784.19067382813, y = 577.82110595703, z = 126.74500274658, blipid = 407, blipcolor = 27},
-    "TRAFICANTE DE MACONHA",----- ada
+    "TRAFICANTE DE MACONHA",
     --"VENDEDOR DE ARMA",
     "HACKER",
     ----"FARMACEUTICO",
@@ -2262,7 +2262,7 @@ cfg.selectors = {
     --"FOQUETEIRO"
   },
   ["chefe do Trafico 2"] = {
-    _config = {x = -765.22796630859, y = 615.81060791016, z = 136.53059387207, blipid = 407, blipcolor = 27, permissions = {"ada.whitelisted"} },
+    _config = {x = 1414.6766357422, y = -413.46575927734, z = 135.99172973633, blipid = 407, blipcolor = 27, permissions = {"ada.whitelisted"} },
     "CHEFE A.D.A",
     "SOLDADO A.D.A",
     "BRACO DIREITO A.D.A"

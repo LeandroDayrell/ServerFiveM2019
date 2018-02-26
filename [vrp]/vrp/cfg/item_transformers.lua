@@ -437,7 +437,7 @@ cfg.item_transformers = {
     r=0,g=102,b=0,
     max_units=1000,
     units_per_minute=500,
-    x=1412.4180908203,y=-702.66357421875,z=73.950286865234,    
+    x=1482.2690429688,y=-1738.5200195313,z=90.62540435791,    
     radius=2, height=1.0,
     recipes = {
     ["Processando sua erva"] = {
