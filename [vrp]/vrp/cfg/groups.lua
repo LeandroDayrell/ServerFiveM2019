@@ -106,6 +106,7 @@ cfg.groups = {
     "user.paycheck",
 	"mobile.pay",
 	--"mobile.charge",
+	"admin.deleteveh",
   },
  -- FACÇÕES
   ["CHEFE A.D.A"] = {
@@ -2186,8 +2187,8 @@ cfg.selectors = {
     "BOMBEIRO",   
     "CIDADAO"   
   },
-  ["ILEGAL"] = {  ----favela de baixo
-    _config = {x = 451.00347900391, y = -1747.2805175781, z = 29.043659210205, blipid = 407, blipcolor = 27},
+  ["ILEGAL"] = {  ---- FAVELA SANANDREAS TCA
+    _config = {x = 130.53402709961, y = -1943.1276855469, z = 20.494197845459, blipid = 407, blipcolor = 27},
     "TRAFICANTE DE MACONHA", ---- cv
     --"VENDEDOR DE ARMA",
     "HACKER",
@@ -2199,7 +2200,7 @@ cfg.selectors = {
     "TRAFICANTE DE COCAINA",
     "TRAFICANTE DE CRACK",
     "TRAFICANTE DE URANIO",
-    "FOQUETEIRO"  
+    --"FOQUETEIRO"  
   },
   ["ILEGAL4"] = { ---esse
     _config = {x = 768.24780273438, y = -257.55416870117, z = 66.114326477051, blipid = 407, blipcolor = 27},--tca
@@ -2214,7 +2215,7 @@ cfg.selectors = {
     "TRAFICANTE DE COCAINA",
     "TRAFICANTE DE CRACK",
     "TRAFICANTE DE URANIO",
-    "FOQUETEIRO"   
+    --"FOQUETEIRO"   
   },
   ["ILEGAL 3"] = { ---esse
     _config = {x = -784.19067382813, y = 577.82110595703, z = 126.74500274658, blipid = 407, blipcolor = 27},
@@ -2229,7 +2230,7 @@ cfg.selectors = {
     "TRAFICANTE DE COCAINA",
     "TRAFICANTE DE CRACK",
     "TRAFICANTE DE URANIO",
-    "FOQUETEIRO"  
+    --"FOQUETEIRO"  
   },
   ["TRABALHO ILEGAL"] = { 
     _config = {x = -270.6329650879, y = -977.49603271484, z = 31.217309951782, blipid = 407, blipcolor = 27},
@@ -2245,8 +2246,8 @@ cfg.selectors = {
     "TRAFICANTE DE CRACK",
     "TRAFICANTE DE URANIO"
   },
-  ["ILEGAL 1"] = { 
-    _config = {x = 1398.2086181641, y = -749.51385498047, z = 66.814186096191, blipid = 407, blipcolor = 27},
+  ["ILEGAL 1"] = {   -- FAVELA PETROLEO CV
+    _config = {x = 1674.7474365234, y = -1893.0368652344, z = 110.31902313232, blipid = 407, blipcolor = 27},
     "TRAFICANTE DE MACONHA",------cv 
     --"VENDEDOR DE ARMA",
     "HACKER",
@@ -2258,7 +2259,7 @@ cfg.selectors = {
     "TRAFICANTE DE COCAINA",
     "TRAFICANTE DE CRACK",
     "TRAFICANTE DE URANIO",
-    "FOQUETEIRO"
+    --"FOQUETEIRO"
   },
   ["chefe do Trafico 2"] = {
     _config = {x = -765.22796630859, y = 615.81060791016, z = 136.53059387207, blipid = 407, blipcolor = 27, permissions = {"ada.whitelisted"} },
@@ -2273,13 +2274,13 @@ cfg.selectors = {
     "BRACO DIREITO T.C.P"
   },
   ["chefe do Trafico 1"] = {
-    _config = {x = 761.21813964844, y = -206.62785339355, z = 70.355651855469, blipid = 407, blipcolor = 27, permissions = {"tca.whitelisted"} },
+    _config = {x = 129.20359802246, y = -1938.8078613281, z = 20.621507644653, blipid = 407, blipcolor = 27, permissions = {"tca.whitelisted"} },
     "CHEFE T.C.A",
     "SOLDADO T.C.A",
     "BRACO DIREITO T.C.A"
   },
   ["chefe do Trafico"] = {
-    _config = {x = 1442.6218261719, y = -812.27301025391, z = 112.33569335938, blipid = 407, blipcolor = 27, permissions = {"cv.whitelisted"} },
+    _config = {x = 1672.251953125, y = -1895.6634521484, z = 110.31903076172, blipid = 407, blipcolor = 27, permissions = {"cv.whitelisted"} },
     "CHEFE C.V",
     "SOLDADO C.V",
     "BRACO DIREITO C.V",
