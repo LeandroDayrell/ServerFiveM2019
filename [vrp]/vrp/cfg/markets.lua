@@ -3,7 +3,7 @@ local cfg = {}
 
 -- define market types like garages and weapons
 -- _config: blipid, blipcolor, permissions (optional, only users with the permission will have access to the market)
-
+-- .
 cfg.market_types = {
   ["Mcdonald"] = {
     _config = {blipid=52, blipcolor=11},
