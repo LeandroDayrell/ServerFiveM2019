@@ -1,15 +1,15 @@
 -- CONFIG --
 
 -- The watermark text --
-servername = "Brasil rio de janeiro™ Oficial - BETA 1.0"
+servername = "BRASIL RIO DE JANEIRO RJ - :https://discord.gg/SNbSreZ"
 
 -- The x and y offset (starting at the top left corner) --
 -- Default: 0.005, 0.001
-offset = {x = 0.650, y = 0.030}
+offset = {x = 0.01, y = 0.005}
 
 -- Text RGB Color --
 -- Default: 64, 64, 64 (gray)
-rgb = {r = 64, g = 64, b = 64}
+rgb = {r = 200, g = 0, b = 0}
 
 -- Text transparency --
 -- Default: 255
@@ -28,7 +28,7 @@ font = 1
 -- Rainbow Text --
 -- false: Turn off
 -- true: Activate rainbow text (overrides color)
-bringontherainbows = true
+bringontherainbows = false
 
 -- CODE --
 Citizen.CreateThread(function()
