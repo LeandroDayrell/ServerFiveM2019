@@ -1,20 +1,5 @@
 local TeleportFromTo = {
-	--["Lavagem 40% aqui"] = {
-	--   positionFrom = { ['x'] = -854.92791748047, ['y'] = 673.74481201172, ['z'] = 159.90536499023, nom = "Lavagem 40% aqui"},
-	 --  positionTo = { ['x'] = -854.92791748047, ['y'] = 673.74481201172, ['z'] = 159.90536499023, nom = "Lavagem 40% aqui"},
-	--},
-	---["Lavagem 40% aqui"] = {
-	 --  positionFrom = { ['x'] = 794.94415283203, ['y'] = -217.4128112793, ['z'] = 79.330581665039, nom = "Lavagem 40% aqui"},
-	 --  positionTo = { ['x'] = 794.94415283203, ['y'] = -217.4128112793, ['z'] = 79.330581665039, nom = "Lavagem 40% aqui"},
-	--},
-	--["Lavagem 40% aqui"] = {
-	  -- positionFrom = { ['x'] = 1448.1339111328, ['y'] = -813.67755126953, ['z'] = 112.32288360596, nom = "Lavagem 40% aqui"},
-	 --  positionTo = { ['x'] = 1448.1339111328, ['y'] = -813.67755126953, ['z'] = 112.32288360596, nom = "Lavagem 40% aqui"},
-	--},
-	--["Lavagem 40% aqui"] = {
-	 --  positionFrom = { ['x'] = 356.88934326172, ['y'] = -1850.1040039063, ['z'] = 38.734081268311, nom = "Lavagem 40% aqui"},
-	 --  positionTo = { ['x'] = 356.88934326172, ['y'] = -1850.1040039063, ['z'] = 38.734081268311, nom = "Lavagem 40% aqui"},
-	--},
+
 	["Produzir LsD"] = {
 	   positionFrom = { ['x'] = 1389.6108398438, ['y'] = 3603.7277832031, ['z'] = 38.941837310791, nom = "Produzir LsD"},
 	   positionTo = { ['x'] = 1389.6108398438, ['y'] = 3603.7277832031, ['z'] = 38.941837310791, nom = "Produzir LsD"},
@@ -80,8 +65,8 @@ local TeleportFromTo = {
 	   positionTo = { ['x'] = -1053.7222900391, ['y'] = -4322.240234375, ['z'] = 2.3005771636963, nom = "Mar de peixe"},
 	},
 	["Enrolado de maconha"] = {
-	   positionFrom = { ['x'] = 347.20532226563, ['y'] = -1865.0452880859, ['z'] = 30.848142623901, nom = "Enrolado de maconha"},
-	   positionTo = { ['x'] = 347.20532226563, ['y'] = -1865.0452880859, ['z'] = 30.848142623901, nom = "Enrolado de maconha"},
+	   positionFrom = { ['x'] = 45.760025024414, ['y'] = -1939.0877685547, ['z'] = 21.589450836182, nom = "Enrolado de maconha"},
+	   positionTo = { ['x'] = 45.760025024414, ['y'] = -1939.0877685547, ['z'] = 21.589450836182, nom = "Enrolado de maconha"},
 	},
 	["Processador de erva"] = {
 	   positionFrom = { ['x'] = 1482.2690429688, ['y'] = -1738.5200195313, ['z'] = 90.62540435791, nom = "Processador de erva"},

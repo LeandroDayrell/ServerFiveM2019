@@ -460,7 +460,7 @@ cfg.item_transformers = {
     r=0,g=102,b=0,
     max_units=1000,
     units_per_minute=500,
-    x=347.20532226563,y=-1865.0452880859,z=30.848142623901,    
+    x=45.760025024414,y=-1939.0877685547,z=21.589450836182,    
     radius=2, height=1.0,
     recipes = {
     ["Enrolando sua maconha"] = {

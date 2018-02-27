@@ -47,7 +47,8 @@ cfg.seizable_items = {
   "extat",
   "folhadecoca",
   "lsdt",
-  "crack"
+  "crack",
+  "WEAPON_SMG",
 }
 
 -- jails {x,y,z,radius}

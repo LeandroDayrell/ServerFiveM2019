@@ -385,7 +385,6 @@ local choice_check = {function(player,choice)
     local weapons = vRPclient.getWeapons(nplayer)
     -- prepare display data (money, items, weapons)
     local money = vRP.getMoney(nuser_id)
-    local dinheirosujo = vRP.getDinheirosujo(nuser_id)
     local items = ""
     local data = vRP.getUserDataTable(nuser_id)
     if data and data.inventory then
@@ -401,6 +400,8 @@ local choice_check = {function(player,choice)
     for k,v in pairs(weapons) do
       weapons_info = weapons_info.."<br />"..k.." ("..v.ammo..")"
     end
+	
+	local dinheirosujo = vRP.getDinheirosujo(nuser_id)
 
     vRPclient._setDiv(player,"police_check",".div_police_check{ background-color: rgba(0,0,0,0.75); color: white; font-weight: bold; width: 500px; padding: 10px; margin: auto; margin-top: 150px; }",lang.police.menu.check.info({money,dinheirosujo,items,weapons_info}))
     -- request to hide div

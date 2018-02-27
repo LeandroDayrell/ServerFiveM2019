@@ -26,10 +26,6 @@ local blips = {
 {name="Plantação de erva", colour=2, scale=1.0, id=140, x=2219.1667480469,y=5577.13671875,z=53.843963623047},-- erva
 {name="Processador de erva", colour=25, scale=1.0, id=17, x=1412.4180908203,y=-702.66357421875,z=73.950286865234},--erva
 {name="Enrolado de maconha", colour=25, scale=1.0, id=18, x=347.20532226563,y=-1865.0452880859,z=30.848142623901},--erva
---{name="Lavagem 40%", colour=75, scale=1.0, id=434, x=356.88934326172,y=-1850.1040039063,z=38.734081268311,},  Lavagem
---{name="Lavagem 40%", colour=75, scale=1.0, id=434, x=1448.1339111328,y=-813.67755126953,z=112.32288360596,},  Lavagem
---{name="Lavagem 40%", colour=75, scale=1.0, id=434, x=794.89459228516,y=-217.07513427734,z=79.330581665039},
---{name="Lavagem 40%", colour=75, scale=1.0, id=434, x=-854.30010986328,y=672.37396240234,z=159.90687561035},
 }
 --configblips
 for _, map in pairs(blips) do
