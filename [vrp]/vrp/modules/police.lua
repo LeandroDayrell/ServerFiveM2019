@@ -338,6 +338,7 @@ local choice_askid = {function(player,choice)
     vRPclient._notify(player,lang.police.menu.askid.asked())
     if vRP.request(nplayer,lang.police.menu.askid.request(),15) then
       local identity = vRP.getUserIdentity(nuser_id)
+      local identity = vRP.getUserIdentity(nuser_id)
       if identity then
         -- display identity and business
         local name = identity.name
@@ -411,6 +412,33 @@ local choice_check = {function(player,choice)
     vRPclient._notify(player,lang.common.no_player_near())
   end
 end, lang.police.menu.check.description()}
+
+--- POLICE CHECK DINHEIROSUJO
+
+local choice_checkdinheirosujo = {function(player,choice)
+  local nplayer = vRPclient.getNearestPlayer(player,5)
+  local nuser_id = vRP.getUserId(nplayer)
+  if nuser_id then
+    vRPclient._notify(nplayer,lang.police.menu.checkdinheirosujo.checked())
+    -- prepare display data (money, items, weapons)	
+	local dinheirosujo = vRP.getDinheirosujo(nuser_id)
+	
+    vRPclient._setDiv(player,"police_checkdinheirosujo",".div_police_checkdinheirosujo{ background-color: rgba(0,0,0,0.75); color: white; font-weight: bold; width: 250px; padding: 10px; margin: auto; margin-top: 75px; }",lang.police.menu.checkdinheirosujo.info({dinheirosujo}))
+    -- request to hide div
+    vRP.request(player, lang.police.menu.checkdinheirosujo.request_hide(), 1000)
+    vRPclient._removeDiv(player,"police_checkdinheirosujo")
+  else
+    vRPclient._notify(player,lang.common.no_player_near())
+  end
+end, lang.police.menu.checkdinheirosujo.description()}
+
+--------------------------------------------------------
+
+
+
+
+
+
 
 local choice_seize_weapons = {function(player, choice)
   local user_id = vRP.getUserId(player)
@@ -596,6 +624,10 @@ vRP.registerMenuBuilder("main", function(add, data)
 
         if vRP.hasPermission(user_id,"police.check") then
           menu[lang.police.menu.check.title()] = choice_check
+        end
+		
+		if vRP.hasPermission(user_id,"police.checkdinheirosujo") then
+          menu[lang.police.menu.checkdinheirosujo.title()] = choice_checkdinheirosujo
         end
 
         if vRP.hasPermission(user_id,"police.seize.weapons") then

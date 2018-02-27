@@ -307,6 +307,14 @@ local lang = {
         info = "<em>Dinheiro: </em>{1} $<br /><br /><em>Inventario: </em>{2}<br /><br /><em>Armas: </em>{3}<br /><br /><em>Dinheiro sujo: </em>{4}",
         checked = "Voce está sendo Revistado por um jogador."
       },
+	  
+	   checkdinheirosujo = {
+        title = "Revistar Dinheirosujo",
+        description = "checar dinheiro sujo do servidor.",
+        request_hide = "Fechar Relatório de checagem.",
+        info = "Dinheiro: {1} $",
+        checkeddinheirosujo = "Os policiais estão vendo se você tem dinheiro do trafico"
+      },
       seize = {
         seized = "Apreendido {2} ~r~{1}",
         weapons = {
