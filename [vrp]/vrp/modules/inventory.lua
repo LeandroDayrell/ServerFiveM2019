@@ -184,7 +184,7 @@ function vRP.giveInventoryItem(user_id,idname,amount,notify)
     if notify then
       local player = vRP.getUserSource(user_id)
       if player then
-        vRPclient._notify(player,lang.inventory.give.received({vRP.getItemName(idname),amount}))
+        TriggerClientEvent("pNotify:SendNotification",player,{text = "Recebeu <span color='green'>"..vRP.getItemName(idname).."</span> "..amount, type = "info", timeout = (3000),layout = "centerLeft"})
       end
     end
   end
@@ -209,7 +209,7 @@ function vRP.tryGetInventoryItem(user_id,idname,amount,notify)
       if notify then
         local player = vRP.getUserSource(user_id)
         if player then
-          vRPclient._notify(player,lang.inventory.give.given({vRP.getItemName(idname),amount}))
+          TriggerClientEvent("pNotify:SendNotification",player,{text = "Recebeu <span color='green'>"..vRP.getItemName(idname).."</span> "..amount, type = "info", timeout = (3000),layout = "centerLeft"})
         end
       end
 

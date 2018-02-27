@@ -147,7 +147,7 @@ local function ch_identity(player,choice)
 
             -- update client registration
             vRPclient._setRegistrationNumber(player,registration)
-            vRPclient._notify(player,lang.money.paid({cfg.new_identity_cost}))
+            TriggerClientEvent("pNotify:SendNotification",player,{text = "Pagou <span color='red'>" ..cfg.new_identity_cost.. "R$</span>", type = "success", timeout = (3000),layout = "centerLeft"})
           else
             TriggerClientEvent("pNotify:SendNotification",player,{text = "<span color='red'>Você não tem dinheiro suficiente</span>", type = "error", timeout = (3000),layout = "centerLeft"})
           end
