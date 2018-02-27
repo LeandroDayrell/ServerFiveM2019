@@ -56,14 +56,13 @@ cfg.adv_garages = {
 	["sheriff"] = {"s10 POLICIA jazz",0, "police"},
 	["police2"] = {"Carro BOPE jazz",0, "police"},
   },
-
-  ["hospitalele"] = {
-    _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=43,blipcolor=3,permissions={"emergency.vehicle"}},
-	["polmav"] = {"Helicoptero SAMU",50, "emergency"}
+   ["hospitalele"] = {
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=50,blipcolor=3,permissions={"emergency.vehicle"}},
+	["polmav"] = {"Helicoptero SAMU",0, ""},
   },
   
    ["hospitalcar"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=50,blipcolor=3,permissions={"emergency.vehicle"}},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=50,blipcolor=3,permissions={"emergency.vehicle"}},
 	["ambulance"] = {"Ambulancia Bombeiro",0, ""},
 	["pranger"] = {"Resgate",0, ""},
 	["ems_gs1200"] = {"Moto Samu",0, ""},
@@ -71,22 +70,22 @@ cfg.adv_garages = {
   },
 
   ["uber"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=50,blipcolor=81,permissions={"uber.vehicle"}},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=50,blipcolor=81,permissions={"uber.vehicle"}},
 	["civic"] = {"Honda Civic 2001", 50, ""}
   },
   
   ["advogado"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=225,blipcolor=59,permissions={"advogado.vehicle"}},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=225,blipcolor=59,permissions={"advogado.vehicle"}},
     ["hondacivictr"] = {"Honda Civic", 50, ""},
   },
   
   ["moto_boy"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=226,blipcolor=31,permissions={"moto_boy.vehicle"}},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=226,blipcolor=31,permissions={"moto_boy.vehicle"}},
     ["enduro"] = {"HONDA CG TITAN 2009",50, ""}
   },
   
   ["barcos"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=427,blipcolor=4},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=427,blipcolor=4},
      ["dinghy"] = {"Dinghy", 500000, "Un zodiac."},
      ["dinghy2"] = {"Dinghy II", 500000, "Un zodiac."},
      ["dinghy3"] = {"Dinghy III", 500000, "Un zodiac."},
@@ -120,21 +119,21 @@ cfg.adv_garages = {
 	["skylift"] = {"Skylift",40000000, ""}
   },
     ["Barco pescador"] = {
-  _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=410,blipcolor=30,permissions={"pescador.barco"}},
+  _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=410,blipcolor=30,permissions={"pescador.barco"}},
     ["Tug"] = {"Tug", 50,"Barco pra pesca!"},
   },
     ["lixeiro"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=318,blipcolor=31,permissions={"lixeiro.vehicle"}},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=318,blipcolor=31,permissions={"lixeiro.vehicle"}},
     ["Trash"] = {"Trash", 50,"carro do lixeiro!"},
   },
     ["PDHeli"] = {
-   _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car", permission = "police.vehicle"},
+   _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car", permission = "police.vehicle"},
     ["swift2"] = {"Swift II", 0, "Swift II"},
     ["swift"] = {"swift", 0, "swift"}
   },
   
   ["Transport"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=318,blipcolor=4},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=318,blipcolor=4},
     ["packer"] = {"Packer", 42000, "18-Wheeler Cabin : Holds 50lbs"},
     ["benson"] = {"Benson", 25000, "Large Box Truck : Holds 50lbs"},
     ["bison"] = {"Bison", 12000, "PickUp Truck : Holds 120lbs"},
@@ -143,27 +142,27 @@ cfg.adv_garages = {
   },
   
   ["Trailers"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=318,blipcolor=17},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=318,blipcolor=17},
     ["trailersmall"] = {"Petit", 30000, "Small Trailer : Holds 100lbs"},
     ["trailers"] = {"Basic", 300000, "18-Wheeler Trailer : Holds 350lbs"},
     ["tanker"] = {"Tanker", 50000, "18-Wheeler Tanker Trailer : Holds 500lbs"}
   },
   
   ["repair"] = {
-   _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=50,blipcolor=31,permissions={"repair.vehicle"}},
+   _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=50,blipcolor=31,permissions={"repair.vehicle"}},
     ["towtruck2"] = {"towtruck2",50, "towtruck2"}
   },
   
   ["Motorista_bancario"] = {
-   _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=67,blipcolor=4,permissions={"Motorista_bancario.vehicle"}},
+   _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=67,blipcolor=4,permissions={"Motorista_bancario.vehicle"}},
     ["stockade"] = {"stockade",50, "stockade"}
   }, 
     ["correio"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=513,blipcolor=46,permissions={"carteiro.vehicle"}},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=513,blipcolor=46,permissions={"carteiro.vehicle"}},
     ["Burrito3"] = {"carro do carteiro", 50,"carro do carteiro"}
   },
     ["limpador de piscina"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=225,blipcolor=30,permissions={"limpador_de_piscina.vehicle"}},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=225,blipcolor=30,permissions={"limpador_de_piscina.vehicle"}},
     ["UtilliTruck3"] = {"carro do limpador", 50,"carro do limpador"}
   },
   
@@ -488,7 +487,7 @@ cfg.garages = {
   {"Caminhões",2700.82080078125,5136.41650390625,44.4120025634766},
   {"Caminhões",-882.533325195313,-2730.81713867188,13.8284845352173},
   {"Jatos de loja",-1144.0738525391,-2944.1264648438,13.944903373718},
-  {"Aeronaves turboélice Loja",-1169.9676513672,-2931.8337402344,13.944881439209}
+  {"Aeronaves turboélice Loja",-1169.9676513672,-2931.8337402344,13.944881439209},
  
 }
 
