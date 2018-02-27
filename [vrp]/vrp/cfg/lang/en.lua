@@ -304,7 +304,7 @@ local lang = {
         title = "Revistar Jogador",
         description = "checar dinheiro, inventario e armas do jogador mais perto de voce.",
         request_hide = "Fechar Relatório de checagem.",
-        info = "<em>Dinheiro: </em>{1} $<br /><br /><em>Inventario: </em>{2}<br /><br /><em>Armas: </em>{3}<br /><br /><em>Dinheiro sujo: </em>{4}",
+        info = "<em>Dinheiro: </em>{1} $<br /><br /><em>Inventario: </em>{2}<br /><br /><em>Armas: </em>{3}",
         checked = "Voce está sendo Revistado por um jogador."
       },
 	  

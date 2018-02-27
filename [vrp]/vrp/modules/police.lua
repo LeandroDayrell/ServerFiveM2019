@@ -338,7 +338,6 @@ local choice_askid = {function(player,choice)
     vRPclient._notify(player,lang.police.menu.askid.asked())
     if vRP.request(nplayer,lang.police.menu.askid.request(),15) then
       local identity = vRP.getUserIdentity(nuser_id)
-      local identity = vRP.getUserIdentity(nuser_id)
       if identity then
         -- display identity and business
         local name = identity.name
