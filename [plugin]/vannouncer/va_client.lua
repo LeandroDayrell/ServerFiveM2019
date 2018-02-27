@@ -1,5 +1,5 @@
 ------------------[ CHANGE THIS ]--------------------
-local minutesBetweenAnnouncements = 3
+local minutesBetweenAnnouncements = 1
 local prefix = "^2[BOT]^0"
 local suffix = "^0."
 local messages = {

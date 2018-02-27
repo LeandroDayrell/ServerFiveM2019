@@ -1,7 +1,7 @@
 -- CONFIG --
 
 -- The watermark text --
-servername = "BRASIL RIO DE JANEIRO BETA 1.0"
+servername = "Brasil rio de janeiro™ Oficial - BETA 1.0"
 
 -- The x and y offset (starting at the top left corner) --
 -- Default: 0.005, 0.001
