@@ -10,7 +10,7 @@ local cfg = {}
 
 cfg.gunshopdinheirosujo_types = {
   ["Armas ilegais"] = {
-    _config = {blipid=154,blipcolor=1},
+    _config = {blipid=154,blipcolor=150},
     ["WEAPON_BOTTLE"] = {"Bottle",1000,0,""},
     ["WEAPON_BAT"] = {"Bat",1500,0,""},
 	["WEAPON_ASSAULTRIFLE"] = {"Ak-47",89000,50,""},
@@ -120,7 +120,6 @@ cfg.gunshopdinheirosujo_types = {
 -- list of gunshops positions
 
 cfg.gunshopsdinheirosujo = {
-  {"Armas ilegais", 1565.3829345703,-2166.3781738281,77.535255432129},  -- FACA
   {"Armas ilegais", -856.16662597656,585.86663818359,103.08406829834},  -- FAVELA RICA TCP
   {"Armas ilegais", 1399.6605224609,-460.32315063477,121.33157348633},  -- FAVELA DA BR ADA
   {"Armas ilegais", 1678.6430664063,-1890.5793457031,110.31903076172},  -- FAVELA PETROLEO CV

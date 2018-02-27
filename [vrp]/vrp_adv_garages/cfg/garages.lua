@@ -38,7 +38,7 @@ cfg.items = {
 -- configure garage types
 cfg.adv_garages = {
   ["police"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=56,blipcolor=49,permissions={"police.vehicle"}},
+    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",permissions={"police.vehicle"}},
     ["polarteon"] = {"BOPE - Arteon",0, "police"},
 	["riot"] = {"BOPE - Caveirao",0, "police"},
 	["police3"] = {"BOPE - Dodge",0, "police"},
@@ -57,7 +57,7 @@ cfg.adv_garages = {
 	["police2"] = {"Carro BOPE jazz",0, "police"},
   },
    ["hospitalele"] = {
-    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=50,blipcolor=3,permissions={"emergency.vehicle"}},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=360,blipcolor=3,permissions={"emergency.vehicle"}},
 	["polmav"] = {"Helicoptero SAMU",0, ""},
   },
   
@@ -80,7 +80,7 @@ cfg.adv_garages = {
   },
   
   ["moto_boy"] = {
-    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=226,blipcolor=31,permissions={"moto_boy.vehicle"}},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",permissions={"moto_boy.vehicle"}},
     ["enduro"] = {"HONDA CG TITAN 2009",50, ""}
   },
   
@@ -404,14 +404,14 @@ cfg.garages = {
   {"Garagem",178.48603820801,-1656.724609375,29.803203582764}, 
   --{"Garagem",1371.5729980469,-1525.9226074219,56.687828063965},
   {"Garagem",1925.3059082031,3738.9421386719,32.591606140137},---------------favelao
-  {"Garagem",-616.450500488281,52.6333084106445,43.7445030212402}, -- house garage
-  {"Garagem",-616.535278320313,61.0899543762207,43.7443008422852},  
-  {"Garagem",-1450.5,-529.359191894531,31.5818099975586},
-  {"Garagem",-1452.89953613281,-526.068786621094,31.5818119049072},
-  {"Garagem",-1455.28564453125,-522.530517578125,31.5818119049072},
-  {"Garagem",-1457.74731445313,-519.201416015625,31.5818138122559},
-  {"Garagem",-791.546447753906,336.615081787109,85.7004776000977},
-  {"Garagem",-800.535583496094,336.329803466797,85.700439453125},
+  {"Garagem",-623.28009033203,56.552303314209,43.7301902771}, -- house garage
+  --{"Garagem",-616.535278320313,61.0899543762207,43.7443008422852},  
+  --{"Garagem",-1450.5,-529.359191894531,31.5818099975586},
+  --{"Garagem",-1452.89953613281,-526.068786621094,31.5818119049072},
+  --{"Garagem",-1455.28564453125,-522.530517578125,31.5818119049072},
+  {"Garagem",-1448.5615234375,-516.96600341797,31.581823348999},
+  {"Garagem",-796.19598388672,324.0544128418,85.700408935547},
+  --{"Garagem",-800.535583496094,336.329803466797,85.700439453125},
   
   -- GARAGEM FAVELA
   

@@ -2170,11 +2170,11 @@ cfg.selectors = {
     "PESCADOR",
     "CIDADAO"
   },
-  ["EMPREGO DA POLICIA"] = {
+  --[[["EMPREGO DA POLICIA"] = {
     _config = {x = -449.62930297852, y = 6010.1455078125, z = 31.71639251709, blipid = 407, blipcolor = 27, permissions = {"cop.whitelisted"} },
     "PRF",
     "CIDADAO"
-  },
+  },]]
   ["EMPREGO DA POLICIA 1"] = { 
     _config = {x = 441.203308105469, y = -981.135131835938, z = 30.6896057128906, blipid = 407, blipcolor = 27, permissions = {"cop.whitelisted"} },
     "POLICIA DE FOLGA",

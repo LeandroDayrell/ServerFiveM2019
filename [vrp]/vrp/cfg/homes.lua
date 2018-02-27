@@ -762,7 +762,7 @@ cfg.homes = {
     blipid=374,
     blipcolor=2
   },
-  ["Rich Home"] = {
+  --[[["Rich Home"] = {
     slot = "Rich_Home",
     entry_point = {1394.4956054688,1152.6457519531,114.41397857666},
     buy_price = 500000,
@@ -770,7 +770,7 @@ cfg.homes = {
     max = 1,
     blipid=374,
     blipcolor=2
-  },
+  },]]
   ["Mountainside Mansion"] = {
     slot = "mansion2",
     entry_point = {8.5883893966675,541.60162353516,176.02816772461},

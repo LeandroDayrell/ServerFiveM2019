@@ -108,11 +108,11 @@ cfg.robbery = { -- list of robberies
 	  pos = {-2959.37524414063, 387.556365966797, 14.043158531189}, 
 	  dist = 15.0, rob = 120, wait = 300, cops = 2, stars = 2, min = 8000, max = 17000
 	},
-	["delperro_robsliquor"] = { 
+	--[[["delperro_robsliquor"] = { 
 	  name = "Rob's Liquor. (Del Perro)", 
 	  pos = {-1220.14123535156, -915.712158203125, 11.3261671066284}, 
 	  dist = 15.0, rob = 120, wait = 300, cops = 2, stars = 2, min = 8000, max = 17000
-	},
+	},]]
 	["eastlossantos_gasstop"] = { 
 	  name = "Limited LTD Gas Stop. (East Los Santos)", 
 	  pos = {1160.06237792969, -314.061828613281, 69.2050628662109},
