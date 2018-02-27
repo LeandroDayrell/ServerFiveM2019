@@ -391,6 +391,10 @@ local lang = {
       },
       remove = {
         title = "Remover"
+      },
+	  call = {
+        title = "Ligar",
+        not_reached = "~r~ n°{1} não encontrado."
       }
     },
     sms = {
@@ -414,6 +418,16 @@ local lang = {
       description = "Publique um anúncio visível para todos no servidor por alguns segundos.",
       item_desc = "{1} $<br /><br/>{2}",
       prompt = "Anunciar conteúdo (10-1000 caracteres): "
+    },
+	 call = {
+      ask = "Aceitar telefonema {1} ?",
+      notify_to = "Ligando~b~ {1}...",
+      notify_from = "Receive call from ~b~ {1}...",
+      notify_refused = "Call to ~b~ {1}... ~r~ refused."
+    },
+    hangup = {
+      title = "Desligar",
+      description = "Desligue o telefone (desligar chamada atual)."
     }
   },
   emotes = {

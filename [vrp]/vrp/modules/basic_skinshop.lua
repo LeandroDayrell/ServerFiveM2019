@@ -97,10 +97,8 @@ function vRP.openSkinshop(source,parts)
 
       async(function()
         -- get max drawables
-       drawables[k][2] = vRPclient.getDrawables(source,v)  -- set max
+        drawables[k][2] = vRPclient.getDrawables(source,v)  -- set max
 
-      -- get max textures for this drawable
-      textures[k][2] = vRPclient.getDrawableTextures(source,v,drawables[k][1]) -- set max
         -- get max textures for this drawable
         textures[k][2] = vRPclient.getDrawableTextures(source,v,drawables[k][1]) -- set max
       end)

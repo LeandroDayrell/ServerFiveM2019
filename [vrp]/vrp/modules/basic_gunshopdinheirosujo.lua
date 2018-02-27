@@ -76,14 +76,14 @@ local function build_client_gunshopsdinheirosujo(source)
       if group and menu then
         local gcfg = group._config
 
-        local function gunshopdinheirosujo_enter()
+        local function gunshopdinheirosujo_enter(source)
           local user_id = vRP.getUserId(source)
           if user_id and vRP.hasPermissions(user_id,gcfg.permissions or {}) then
             vRP.openMenu(source,menu) 
           end
         end
 
-        local function gunshopdinheirosujo_leave()
+        local function gunshopdinheirosujo_leave(source)
           vRP.closeMenu(source)
         end
 

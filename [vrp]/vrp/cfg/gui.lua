@@ -60,4 +60,13 @@ cfg.static_menus = {
   {"emergency_heal", 243.5588684082,-1370.9942626953,39.534370422363}-----hosp
 }
 
+-- VoIP
+
+-- configuration passed to RTCPeerConnection
+cfg.voip_peer_configuration = {
+  iceServers = {
+    {urls = {"stun:stun.l.google.com:19302", "stun:stun1.l.google.com:19302", "stun:stun2.l.google.com:19302"}}
+  }
+}
+
 return cfg

@@ -167,6 +167,7 @@ end
 -- SERVER TUNNEL API
 
 function tvRP.closeMenu(id)
+local source = source
   local menu = client_menus[id]
   if menu and menu.source == source then
 
@@ -182,6 +183,7 @@ function tvRP.closeMenu(id)
 end
 
 function tvRP.validMenuChoice(id,choice,mod)
+  local source = source
   local menu = client_menus[id]
   if menu and menu.source == source then
     -- call choice callback
@@ -265,19 +267,19 @@ local function build_client_static_menus(source)
       local smenu = cfg.static_menu_types[mtype]
 
       if menu and smenu then
-        local function smenu_enter()
+        local function smenu_enter(source)
           local user_id = vRP.getUserId(source)
           if user_id ~= nil and vRP.hasPermissions(user_id,smenu.permissions or {}) then
             vRP.openMenu(source,menu) 
           end
         end
 
-        local function smenu_leave()
+        local function smenu_leave(source)
           vRP.closeMenu(source)
         end
 
-        vRPclient.addBlip(source,x,y,z,smenu.blipid,smenu.blipcolor,smenu.title)
-        vRPclient.addMarker(source,x,y,z-1,1.1,1.1,1.7,255,226,0,125,150)
+        vRPclient._addBlip(source,x,y,z,smenu.blipid,smenu.blipcolor,smenu.title)
+        vRPclient._addMarker(source,x,y,z-1,1.1,1.1,1.7,255,226,0,125,150)
 
         vRP.setArea(source,"vRP:static_menu:"..k,x,y,z,1,1.5,smenu_enter,smenu_leave)
       end
@@ -311,5 +313,19 @@ AddEventHandler("vRP:playerLeave", function(user_id, source)
       client_menus[id] = nil
       rclient_menus[source] = nil
     end
+  end
+end)
+
+
+-- VoIP
+
+function tvRP.signalVoicePeer(player, data)
+  vRPclient._signalVoicePeer(player, source, data)
+end
+
+AddEventHandler("vRP:playerSpawn",function(user_id, source, first_spawn)
+  if first_spawn then
+    -- send peer config
+    vRPclient._setPeerConfiguration(source, cfg.voip_peer_configuration)
   end
 end)

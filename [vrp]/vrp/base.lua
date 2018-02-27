@@ -279,6 +279,29 @@ function vRP.kick(source,reason)
   DropPlayer(source,reason)
 end
 
+-- drop vRP player/user (internal usage)
+function vRP.dropPlayer(source)
+  local user_id = vRP.getUserId(source)
+  local endpoint = vRP.getPlayerEndpoint(source)
+
+  -- remove player from connected clients
+  vRPclient._removePlayer(-1, source)
+
+  if user_id then
+    TriggerEvent("vRP:playerLeave", user_id, source)
+
+    -- save user data table
+    vRP.setUData(user_id,"vRP:datatable",json.encode(vRP.getUserDataTable(user_id)))
+
+    print("[vRP] "..endpoint.." disconnected (user_id = "..user_id..")")
+    vRP.users[vRP.rusers[user_id]] = nil
+    vRP.rusers[user_id] = nil
+    vRP.user_tables[user_id] = nil
+    vRP.user_tmp_tables[user_id] = nil
+    vRP.user_sources[user_id] = nil
+  end
+end
+
 -- tasks
 
 function task_save_datatables()
@@ -297,32 +320,19 @@ async(function()
   task_save_datatables()
 end)
 
-local max_pings = math.ceil(config.ping_timeout*60/30)+1
-function task_timeout() -- kick users not sending ping event in 2 minutes
+-- ping timeout
+function task_timeout()
   local users = vRP.getUsers()
   for k,v in pairs(users) do
-    local tmpdata = vRP.getUserTmpTable(tonumber(k))
-    if tmpdata.pings == nil then
-      tmpdata.pings = 0
-    end
-
-    tmpdata.pings = tmpdata.pings+1
-    if tmpdata.pings >= max_pings then
+	if GetPlayerPing(v) <= 0 then
       vRP.kick(v,"[vRP] Ping timeout.")
+	  vRP.dropPlayer(v)
     end
   end
 
   SetTimeout(30000, task_timeout)
 end
 task_timeout()
-
-function tvRP.ping()
-  local user_id = vRP.getUserId(source)
-  if user_id then
-    local tmpdata = vRP.getUserTmpTable(user_id)
-    tmpdata.pings = 0 -- reinit ping countdown
-  end
-end
 
 -- handlers
 
@@ -388,17 +398,21 @@ AddEventHandler("playerConnecting",function(name,setMessage,deferrals)
         else
           print("[vRP] "..name.." ("..vRP.getPlayerEndpoint(source)..") Faça a WhiteList no Discord: https://discord.gg/SNbSreZ pegue seu (user_id = "..user_id..")")
           deferrals.done("Faça a WhiteList no Discord: https://discord.gg/SNbSreZ pegue seu (user_id = "..user_id..").")
+		  Citizen.Wait(1000)
         end
       else
         print("[vRP] "..name.." ("..vRP.getPlayerEndpoint(source)..") rejected: banned (user_id = "..user_id..")")
+		Citizen.Wait(1000)
         deferrals.done("[vRP] Banned (user_id = "..user_id..").")
       end
     else
       print("[vRP] "..name.." ("..vRP.getPlayerEndpoint(source)..") rejected: identification error")
+	  Citizen.Wait(1000)
       deferrals.done("[vRP] Identification error.")
     end
   else
     print("[vRP] "..name.." ("..vRP.getPlayerEndpoint(source)..") rejected: missing identifiers")
+	Citizen.Wait(1000)
     deferrals.done("[vRP] Missing identifiers.")
   end
   Debug.pend()
@@ -407,26 +421,7 @@ end)
 AddEventHandler("playerDropped",function(reason)
   local source = source
   Debug.pbegin("playerDropped")
-
-  local user_id = vRP.getUserId(source)
-  local endpoint = vRP.getPlayerEndpoint(source)
-
-  -- remove player from connected clients
-  vRPclient._removePlayer(-1, source)
-
-  if user_id then
-    TriggerEvent("vRP:playerLeave", user_id, source)
-
-    -- save user data table
-    vRP.setUData(user_id,"vRP:datatable",json.encode(vRP.getUserDataTable(user_id)))
-
-    print("[vRP] "..endpoint.." disconnected (user_id = "..user_id..")")
-    vRP.users[vRP.rusers[user_id]] = nil
-    vRP.rusers[user_id] = nil
-    vRP.user_tables[user_id] = nil
-    vRP.user_tmp_tables[user_id] = nil
-    vRP.user_sources[user_id] = nil
-  end
+  vRP.dropPlayer(source)
   Debug.pend()
 end)
 

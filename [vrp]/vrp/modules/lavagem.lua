@@ -6,7 +6,7 @@ local sanitizes = module("cfg/sanitizes")
 
 
 
-local function lavagem_enter()
+local function lavagem_enter(source)
   local source = source
 
   local user_id = vRP.getUserId(source)
@@ -41,7 +41,7 @@ local function lavagem_enter()
   end
 end
 
-local function lavagem_leave()
+local function lavagem_leave(source)
   vRP.closeMenu(source)
 end
 

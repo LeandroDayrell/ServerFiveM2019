@@ -65,7 +65,7 @@ local atm_menu = {
 atm_menu[lang.atmdinheirosujo.deposit.title()] = {atm_choice_deposit,lang.atmdinheirosujo.deposit.description()}
 atm_menu[lang.atmdinheirosujo.withdraw.title()] = {atm_choice_withdraw,lang.atmdinheirosujo.withdraw.description()}
 
-local function atm_enter()
+local function atm_enter(source)
   local user_id = vRP.getUserId(source)
   if user_id then
     atm_menu[lang.atmdinheirosujo.info.title()] = {function()end,lang.atmdinheirosujo.info.bank({vRP.getBankDinheirosujo(user_id)})}
@@ -73,7 +73,7 @@ local function atm_enter()
   end
 end
 
-local function atm_leave()
+local function atm_leave(source)
   vRP.closeMenu(source) 
 end
 
