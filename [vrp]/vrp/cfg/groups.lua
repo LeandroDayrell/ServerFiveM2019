@@ -1167,35 +1167,10 @@ cfg.groups = {
     "mission.delivery.shotgun",
     "mission.delivery.smg"
   },
-  ["FOQUETEIRO"] = {
-    _config = { gtype = "job",
-    onspawn = function(player) vRPclient._notify(player,"Voce e foqueteiro do trafico.") end
-    },
-    "player.player_menu",
-    "toggle.service",
-    "player.store_money",
-    "player.phone",
-    "player.calladmin",
-    "police.askid",
-    "userr.paycheck",
-    "police.store_weapons",
-    "emergency_heal",
-    "police.seizable",
-    "campo.cocaina",
-    "processador.cocaina",
-    "campo.crack",
-    "processador.crack",
-    "fogueteiro.paycheck",
-    "hacker.credit_cards",
-    "traficante.baseado",
-    "fogueteiro.arma",
-    "trafico_drogas",
-    "fogueteiro.arma"
-  },
 
   
   -- BOMBEIRO
-  ["CHEFE BOMBEIRO"] = {
+  ["COMANDANTE BOMBEIRO"] = {
     _config = { gtype = "job",
     onspawn = function(player) vRPclient._notify(player,"Voce e chefe do bombeiro") end
     },
@@ -1206,7 +1181,6 @@ cfg.groups = {
     "em.announce",
     "samu.loadshop",
     "player.store_money",
-    "userr.paycheck",
     "emergency_heal",
     "player.phone",
     "player.calladmin",
@@ -1222,9 +1196,9 @@ cfg.groups = {
     "emergency.vehicle",
     "emergency.market",
     "bm.whitelisted",
-    "bombeirochefe.paycheck"
+    "bombeirocomandante.paycheck",
   },
-  ["BOMBEIRO RECRUTA"] = {
+  ["SUBCOMANDANTE RECRUTA"] = {
     _config = { gtype = "job",
     onspawn = function(player) vRPclient._notify(player,"Voce e bombeiro recruta.") end
     },
@@ -1233,7 +1207,6 @@ cfg.groups = {
     "player.player_menu",
     "toggle.service",
     "reviveadmin",
-    "userr.paycheck",
     "player.store_money",
     "emergency_heal",
     "player.phone",
@@ -1250,9 +1223,9 @@ cfg.groups = {
     "emergency.vehicle",
     "emergency.market",
     "bm.whitelisted",
-    "bombeirore.paycheck"
+    "bombeirosubccomandante.paycheck",
   },
-  ["BOMBEIRO"] = {
+  ["CORONEL BOMBEIRO"] = {
     _config = { gtype = "job",
     onspawn = function(player) vRPclient._notify(player,"Voce e bombeiro.") end
     },
@@ -1266,7 +1239,6 @@ cfg.groups = {
     "player.phone",
     "player.calladmin",
     "police.askid",
-    "userr.paycheck",
     "police.store_weapons",
     "police.seizable",
     "emergency.revive",
@@ -1278,8 +1250,172 @@ cfg.groups = {
     "emergency.vehicle",
     "emergency.market",
     "bm.whitelisted",
-    "bombeiro.paycheck",
+    "bombeirocoronel.paycheck",
   },
+  ["TEN CORONEL BOMBEIRO"] = {
+    _config = { gtype = "job",
+    onspawn = function(player) vRPclient._notify(player,"Voce e bombeiro.") end
+    },
+    "samu.loadshop",
+    "em.announce",
+    "player.player_menu",
+    "toggle.service",
+    "reviveadmin",
+    "player.store_money",
+    "emergency_heal",
+    "player.phone",
+    "player.calladmin",
+    "police.askid",
+    "police.store_weapons",
+    "police.seizable",
+    "emergency.revive",
+    
+    "emergency.shop",
+    "emergency.service",
+    "emergency.medkit",--------novo
+    "emergency.cloakroom",
+    "emergency.vehicle",
+    "emergency.market",
+    "bm.whitelisted",
+    "bombeirotencoronel.paycheck",
+  },
+  ["CAPITAO BOMBEIRO"] = {
+    _config = { gtype = "job",
+    onspawn = function(player) vRPclient._notify(player,"Voce e bombeiro.") end
+    },
+    "samu.loadshop",
+    "em.announce",
+    "player.player_menu",
+    "toggle.service",
+    "reviveadmin",
+    "player.store_money",
+    "emergency_heal",
+    "player.phone",
+    "player.calladmin",
+    "police.askid",
+    "police.store_weapons",
+    "police.seizable",
+    "emergency.revive",
+    
+    "emergency.shop",
+    "emergency.service",
+    "emergency.medkit",--------novo
+    "emergency.cloakroom",
+    "emergency.vehicle",
+    "emergency.market",
+    "bm.whitelisted",
+    "bombeirocapitao.paycheck",
+  },
+  ["PRIMEIRO SARG BOMBEIRO"] = {
+    _config = { gtype = "job",
+    onspawn = function(player) vRPclient._notify(player,"Voce e bombeiro.") end
+    },
+    "samu.loadshop",
+    "em.announce",
+    "player.player_menu",
+    "toggle.service",
+    "reviveadmin",
+    "player.store_money",
+    "emergency_heal",
+    "player.phone",
+    "player.calladmin",
+    "police.askid",
+    "police.store_weapons",
+    "police.seizable",
+    "emergency.revive",
+    
+    "emergency.shop",
+    "emergency.service",
+    "emergency.medkit",--------novo
+    "emergency.cloakroom",
+    "emergency.vehicle",
+    "emergency.market",
+    "bm.whitelisted",
+    "bombeiroprimeirosargento.paycheck",
+  },
+  ["CABO BOMBEIRO"] = {
+    _config = { gtype = "job",
+    onspawn = function(player) vRPclient._notify(player,"Voce e bombeiro.") end
+    },
+    "samu.loadshop",
+    "em.announce",
+    "player.player_menu",
+    "toggle.service",
+    "reviveadmin",
+    "player.store_money",
+    "emergency_heal",
+    "player.phone",
+    "player.calladmin",
+    "police.askid",
+    "police.store_weapons",
+    "police.seizable",
+    "emergency.revive",
+    
+    "emergency.shop",
+    "emergency.service",
+    "emergency.medkit",--------novo
+    "emergency.cloakroom",
+    "emergency.vehicle",
+    "emergency.market",
+    "bm.whitelisted",
+    "bombeirocabo.paycheck",
+  },
+  ["SOLDADO BOMBEIRO"] = {
+    _config = { gtype = "job",
+    onspawn = function(player) vRPclient._notify(player,"Voce e bombeiro.") end
+    },
+    "samu.loadshop",
+    "em.announce",
+    "player.player_menu",
+    "toggle.service",
+    "reviveadmin",
+    "player.store_money",
+    "emergency_heal",
+    "player.phone",
+    "player.calladmin",
+    "police.askid",
+    "police.store_weapons",
+    "police.seizable",
+    "emergency.revive",
+    
+    "emergency.shop",
+    "emergency.service",
+    "emergency.medkit",--------novo
+    "emergency.cloakroom",
+    "emergency.vehicle",
+    "emergency.market",
+    "bm.whitelisted",
+    "bombeirotensoldado.paycheck",
+  },
+  ["RECRUTA BOMBEIRO"] = {
+    _config = { gtype = "job",
+    onspawn = function(player) vRPclient._notify(player,"Voce e bombeiro.") end
+    },
+    "samu.loadshop",
+    "em.announce",
+    "player.player_menu",
+    "toggle.service",
+    "reviveadmin",
+    "player.store_money",
+    "emergency_heal",
+    "player.phone",
+    "player.calladmin",
+    "police.askid",
+    "police.store_weapons",
+    "police.seizable",
+    "emergency.revive",
+    
+    "emergency.shop",
+    "emergency.service",
+    "emergency.medkit",--------novo
+    "emergency.cloakroom",
+    "emergency.vehicle",
+    "emergency.market",
+    "bm.whitelisted",
+    "bombeirotenrecruta.paycheck",
+  },
+  
+  ---- POLICIA
   ["DELEGADO GERAL"] = {
     _config = { gtype = "job",
     onjoin = function(player) vRPclient._setCop(player,true) end,
@@ -1328,8 +1464,6 @@ cfg.groups = {
     "cop.whitelisted",
     "dg.paycheck"
   },
-
-  -- POLICIA
   ["BOPE"] = {
     _config = { gtype = "job",
     onjoin = function(player) vRPclient._setCop(player,true) end,
@@ -1429,6 +1563,55 @@ cfg.groups = {
     "cop.whitelisted",
     "prf.paycheck"
   },
+  
+  ["PMRJ (Recruta)"] = {
+    _config = { gtype = "job",
+    onjoin = function(player) vRPclient._setCop(player,true) end,
+    onspawn = function(player) vRPclient._setCop(player,true) end,
+    onleave = function(player) vRPclient._setCop(player,true) end
+    },
+    "Civil.cloakroom",-- < ROUPA DA POLICIA
+    "police.store_money",
+    "police.easy_jail",
+    "police.bmunjail",
+    "police.askid",
+	"robbery.police",
+    "police.fine",
+    "police.easy_cuff",
+    "Police Interaction",
+    "police.spikes",
+    "police.vehicle",
+    "emergency_heal",
+    "police.drag",
+	"police.checkdinheirosujo",
+    "recruta.paycheck"
+	--"police.portamalas",
+    "player.list",
+	"police.asklc",
+	"police.takelc",
+    "police.verificarlicenca",
+    "holdup.police",
+    "police.weapons",
+    "police.menu",
+    "police.pc",
+    "police.handcuff",
+    "police.putinveh",
+    "police.getoutveh",
+    "police.check",
+    "police.service",
+    "police.wanted",
+    "police.seize.weapons",
+    "police.seize.items",
+    "police.bmjail", -- PRISÃO DA DP
+    "police.announce",
+    "store.weapons",
+    "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
+    "policiaaguia.garagem", -- GARAGEM AGUIA
+    "police.weapons", -- ARMAS DA POLICIA
+
+    "police.loadshop",
+    "cop.whitelisted",
+  },
   ["PMRJ (Soldado)"] = {
     _config = { gtype = "job",
     onjoin = function(player) vRPclient._setCop(player,true) end,
@@ -1449,7 +1632,6 @@ cfg.groups = {
     "emergency_heal",
     "police.drag",
 	"police.checkdinheirosujo",
-    "userr.paycheck",
 	--"police.portamalas",
     "player.list",
 	"police.asklc",
@@ -1476,7 +1658,7 @@ cfg.groups = {
 
     "police.loadshop",
     "cop.whitelisted",
-    "Soldado.paycheck"
+	"Soldado.paycheck",
   },
   ["PMRJ (Cabo)"] = {
     _config = { gtype = "job",
@@ -1489,7 +1671,6 @@ cfg.groups = {
     "police.easy_jail",
     "police.bmunjail",
     "police.askid",
-    "userr.paycheck",
     "police.fine",
     "police.easy_cuff",
 	--"police.portamalas",
@@ -1525,8 +1706,9 @@ cfg.groups = {
 
     "police.loadshop",
     "cop.whitelisted",
-    "cabo.paycheck"
+    "cabo.paycheck",
   },
+  
   ["PMRJ (Terceiro Sargento)"] = {
     _config = { gtype = "job",
     onjoin = function(player) vRPclient._setCop(player,true) end,
@@ -1547,7 +1729,6 @@ cfg.groups = {
 	"police.takelc",
     "police.vehicle",
 	"police.checkdinheirosujo",
-    "userr.paycheck",
     "emergency_heal",
     "police.drag",
     "player.list",
@@ -1589,7 +1770,6 @@ cfg.groups = {
     "police.askid",
     "police.fine",
 	"robbery.police",
-    "userr.paycheck",
 	"police.asklc",
 	"police.takelc",
     "police.easy_cuff",
@@ -1623,7 +1803,7 @@ cfg.groups = {
 
     "police.loadshop",
     "cop.whitelisted",
-    "segundosargento.paycheck"
+    "segundosargento.paycheck",
   },
   ["PMRJ (Primeiro Sargento)"] = {
     _config = { gtype = "job",
@@ -1653,7 +1833,6 @@ cfg.groups = {
     "holdup.police",
     "police.weapons",
     "police.menu",
-    "userr.paycheck",
     "police.pc",
 	"police.darlicenca",
     "police.handcuff",
@@ -1673,8 +1852,9 @@ cfg.groups = {
 
     "police.loadshop",
     "cop.whitelisted",
-    "primeirosargento.paycheck"
+    "primeirosargento.paycheck",
   },
+  
   ["PMRJ (Sub-Tenente)"] = {
     _config = { gtype = "job",
     onjoin = function(player) vRPclient._setCop(player,true) end,
@@ -1700,7 +1880,6 @@ cfg.groups = {
     "emergency_heal",
     "police.drag",
     "player.list",
-    "userr.paycheck",
     "police.verificarlicenca",
     "holdup.police",
     "police.weapons",
@@ -1723,107 +1902,7 @@ cfg.groups = {
 
     "police.loadshop",
     "cop.whitelisted",
-    "subtenente.paycheck"
-  },
-  ["PMRJ (Cadete)"] = {
-    _config = { gtype = "job",
-    onjoin = function(player) vRPclient._setCop(player,true) end,
-    onspawn = function(player) vRPclient._setCop(player,true) end,
-    onleave = function(player) vRPclient._setCop(player,true) end
-    },
-    "Civil.cloakroom",-- < ROUPA DA POLICIA
-    "police.store_money",
-    "police.easy_jail",
-    "police.bmunjail",
-    "police.askid",
-    "police.fine", --
-    "police.easy_cuff",
-	"robbery.police",
-    "Police Interaction",
-    "police.spikes",
-    "police.vehicle",
-    "emergency_heal",
-	"police.checkdinheirosujo",
-	"police.asklc",
-	----"police.portamalas",
-	"police.takelc",
-	"police.darlicenca",
-    "police.drag",
-    "userr.paycheck",
-    "player.list",
-    "police.verificarlicenca",
-    "holdup.police",
-    "police.weapons",
-    "police.menu",
-    "police.pc",
-    "police.handcuff",
-    "police.putinveh",
-    "police.getoutveh",
-    "police.check",
-    "police.service",
-    "police.wanted",
-    "police.seize.weapons",
-    "police.seize.items",
-    "police.bmjail", -- PRISÃO DA DP
-    "police.announce",
-    "store.weapons",
-    "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
-    "policiaaguia.garagem", -- GARAGEM AGUIA
-    "police.weapons", -- ARMAS DA POLICIA
-
-    "police.loadshop",
-    "cop.whitelisted",
-    "cadete.paycheck"
-  },
-  ["PMRJ (Aspirante)"] = {
-    _config = { gtype = "job",
-    onjoin = function(player) vRPclient._setCop(player,true) end,
-    onspawn = function(player) vRPclient._setCop(player,true) end,
-    onleave = function(player) vRPclient._setCop(player,true) end
-    },
-    "Civil.cloakroom",-- < ROUPA DA POLICIA
-    "police.store_money",
-    "police.easy_jail",
-    "police.bmunjail",
-    "police.askid",
-    "police.fine",
-	"robbery.police",
-	"police.checkdinheirosujo",
-    "police.easy_cuff",
-    "Police Interaction",
-    "police.spikes",
-    "police.vehicle",
-	"police.darlicenca",
-    "emergency_heal",
-    "police.drag",
-	"police.asklc",
-	"police.takelc",
-    "player.list",
-    "police.verificarlicenca",
-	----"police.portamalas",
-    "holdup.police",
-    "police.weapons",
-    "police.menu",
-    "police.pc",
-    "police.handcuff",
-    "police.putinveh",
-    "userr.paycheck",
-    "police.getoutveh",
-    "police.check",
-    "police.service",
-    "police.wanted",
-    "police.seize.weapons",
-    "police.seize.items",
-    "police.bmjail", -- PRISÃO DA DP
-    "police.announce",
-    "store.weapons",
-    "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
-    "policiaaguia.garagem", -- GARAGEM AGUIA
-    "police.weapons", -- ARMAS DA POLICIA
-
-    "police.loadshop",
-    "cop.whitelisted",
-    "aspirante.paycheck"
+    "subtenente.paycheck",
   },
   ["PMRJ (Segundo Tenente)"] = {
     _config = { gtype = "job",
@@ -1856,7 +1935,6 @@ cfg.groups = {
     "police.menu",
     "police.pc",
     "police.handcuff",
-    "userr.paycheck",
     "police.putinveh",
     "police.getoutveh",
     "police.check",
@@ -1873,7 +1951,7 @@ cfg.groups = {
 
     "police.loadshop",
     "cop.whitelisted",
-    "segundotenente.paycheck"
+    "segundotenente.paycheck",
   },
   ["PMRJ (Primeiro Tenente)"] = {
     _config = { gtype = "job",
@@ -1893,7 +1971,6 @@ cfg.groups = {
     "Police Interaction",
 	"robbery.police",
     "police.spikes",
-    "userr.paycheck",
 	"police.checkdinheirosujo",
 	"police.asklc",
 	"police.takelc",
@@ -1925,6 +2002,7 @@ cfg.groups = {
     "cop.whitelisted",
     "primeirotenente.paycheck"
   },
+  
   ["PMRJ (Capitao)"] = {
     _config = { gtype = "job",
     onjoin = function(player) vRPclient._setCop(player,true) end,
@@ -1948,7 +2026,6 @@ cfg.groups = {
     "police.vehicle",
 	"police.darlicenca",
     "emergency_heal",
-    "userr.paycheck",
     "police.drag",
     "player.list",
     "police.verificarlicenca",
@@ -1973,7 +2050,7 @@ cfg.groups = {
 
     "police.loadshop",
     "cop.whitelisted",
-    "capitao.paycheck"
+    "capitao.paycheck",
   },
   ["PMRJ (Major)"] = {
     _config = { gtype = "job",
@@ -1987,7 +2064,6 @@ cfg.groups = {
     "police.bmunjail",
 	"police.asklc",
 	"police.takelc",
-    "userr.paycheck",
     "police.askid",
 	"police.checkdinheirosujo",
     "police.fine",
@@ -2023,7 +2099,7 @@ cfg.groups = {
 
     "police.loadshop",
     "cop.whitelisted",
-    "major.paycheck"
+    "major.paycheck",
   },
   ["PMRJ (Tenente Coronel)"] = {
     _config = { gtype = "job",
@@ -2034,7 +2110,6 @@ cfg.groups = {
     "Civil.cloakroom",-- < ROUPA DA POLICIA
     "police.store_money",
     "police.easy_jail",
-    "userr.paycheck",
     "police.bmunjail",
     "police.askid",
 	"robbery.police",
@@ -2073,7 +2148,7 @@ cfg.groups = {
 
     "police.loadshop",
     "cop.whitelisted",
-    "tenentecoronel.paycheck"
+    "tenentecoronel.paycheck",
   },
   ["PMRJ (Coronel)"] = {
     _config = { gtype = "job",
@@ -2086,7 +2161,6 @@ cfg.groups = {
     "police.easy_jail",
     "police.bmunjail",
     "police.askid",
-    "userr.paycheck",
     "police.fine",
 	"police.darlicenca",
 	"police.checkdinheirosujo",
@@ -2122,9 +2196,56 @@ cfg.groups = {
     "police.weapons", -- ARMAS DA POLICIA
     "police.loadshop",
     "cop.whitelisted",
-    "coronel.paycheck"
+    "coronel.paycheck",
   },
-  
+  ["PMRJ (Comandante Geral)"] = {
+    _config = { gtype = "job",
+    onjoin = function(player) vRPclient._setCop(player,true) end,
+    onspawn = function(player) vRPclient._setCop(player,true) end,
+    onleave = function(player) vRPclient._setCop(player,true) end
+    },
+    "Civil.cloakroom",-- < ROUPA DA POLICIA
+    "police.store_money",
+    "police.easy_jail",
+    "police.bmunjail",
+    "police.askid",
+    "police.fine",
+	"police.darlicenca",
+	"police.checkdinheirosujo",
+    "police.easy_cuff",
+	"robbery.police",
+    "Police Interaction",
+    "police.spikes",
+	--"police.portamalas",
+    "police.vehicle",
+	"police.asklc",
+	"police.takelc",
+    "emergency_heal",
+    "police.drag",
+    "player.list",
+    "police.verificarlicenca",
+    "holdup.police",
+    "police.weapons",
+    "police.menu",
+    "police.pc",
+    "police.handcuff",
+    "police.putinveh",
+    "police.getoutveh",
+    "police.check",
+    "police.service",
+    "police.wanted",
+    "police.seize.weapons",
+    "police.seize.items",
+    "police.bmjail", -- PRISÃO DA DP
+    "police.announce",
+    "store.weapons",
+    "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
+    "policiaaguia.garagem", -- GARAGEM AGUIA
+    "police.weapons", -- ARMAS DA POLICIA
+    "police.loadshop",
+    "cop.whitelisted",
+    "comandantegeral.paycheck",
+  },
   
   
   -- whitelist group for police, emergency and president jobs / add player to this group and user can view the job selection / search in the map
@@ -2193,30 +2314,35 @@ cfg.selectors = {
   },]]
   ["EMPREGO DA POLICIA 1"] = { 
     _config = {x = 441.203308105469, y = -981.135131835938, z = 30.6896057128906, permissions = {"cop.whitelisted"} },
-    "POLICIA DE FOLGA",
     "BOPE",
     "DELEGADO GERAL",
-    "PMRJ (Soldado)",
-    "PMRJ (Cabo)",
-    "PMRJ (Terceiro Sargento)",
-    "PMRJ (Segundo Sargento)",
-    "PMRJ (Primeiro Sargento)",
-    "PMRJ (Sub-Tenente)",
-    "PMRJ (Cadete)",
-    "PMRJ (Aspirante)",
-    "PMRJ (Segundo Tenente)",
-    "PMRJ (Primeiro Tenente)",
-    "PMRJ (Capitao)",
-    "PMRJ (Major)",
-    "PMRJ (Tenente Coronel)",
-    "PMRJ (Coronel)",
+	"PMRJ (Recruta)",
+	"PMRJ (Soldado)",
+	"PMRJ (Cabo)",
+	"PMRJ (Terceiro Sargento)",
+	"PMRJ (Segundo Sargento)",
+	"PMRJ (Primeiro Sargento)",
+	"PMRJ (Sub-Tenente)",
+	"PMRJ (Segundo Tenente)",
+	"PMRJ (Primeiro Tenente)",
+	"PMRJ (Capitao)",
+	"PMRJ (Major)",
+	"PMRJ (Tenente Coronel)",
+	"PMRJ (Coronel)",
+	"PMRJ (Comandante Geral)",
     "CIDADAO"
   },
   ["EMPREGO DO BOMBEIRO"] = {
     _config = {x =  1207.8588867188, y = -1472.9903564453, z = 34.859539031982, blipid = 351, blipcolor = 3, permissions = {"bm.whitelisted"} },
-    "CHEFE BOMBEIRO",-----
-    "BOMBEIRO RECRUTA",
-    "BOMBEIRO",   
+	"COMANDANTE BOMBEIRO",
+	"SUBCOMANDANTE RECRUTA",
+	"CORONEL BOMBEIRO",
+	"TEN CORONEL BOMBEIRO",
+	"CAPITAO BOMBEIRO",
+	"PRIMEIRO SARG BOMBEIRO",
+	"CABO BOMBEIRO",
+	"SOLDADO BOMBEIRO",
+	"RECRUTA BOMBEIRO",   
     "CIDADAO"   
   },
   ["ILEGAL"] = {  ---- FAVELA SANANDREAS TCA

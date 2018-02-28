@@ -46,17 +46,17 @@ cfg.paycheck = { -- ["permission"] = paycheck
   ["bus.paycheck"] = 100,
   -- BOMBEIRO
   
-  ["bombeirochefe.paycheck"] = 1066,
-  ["bombeirochefe.paycheck"] = 1066, --ADICIONAR
+  ["bombeirocomandante.paycheck"] = 1066,
+  ["bombeirosubccomandante.paycheck"] = 1066, --ADICIONAR
   
   ["bombeirocoronel.paycheck"] = 800, -- adicionar
   ["bombeirotencoronel.paycheck"] = 800, -- adicionar
-  ["bombeirotencoronel.paycheck"] = 800, -- adicionar
+  ["bombeirocapitao.paycheck"] = 800, -- adicionar
   
   ["bombeiroprimeirosargento.paycheck"] = 666, -- adicionar
   ["bombeirocabo.paycheck"] = 666, -- adicionar
   ["bombeirotensoldado.paycheck"] = 666, -- adicionar
-  ["bombeirotensoldado.paycheck"] = 666, -- adicionar
+  ["bombeirotenrecruta.paycheck"] = 666, -- adicionar
   
 
   
@@ -98,17 +98,17 @@ cfg.bill = { -- ["permission"] = withdrawal
   ["bus.paycheck"] = 10,
   -- BOMBEIRO
   
-  ["bombeirochefe.paycheck"] = 106,
-  ["bombeirochefe.paycheck"] = 106, --ADICIONAR
+  ["bombeirocomandante.paycheck"] = 106,
+  ["bombeirosubccomandante.paycheck"] = 106, --ADICIONAR
   
   ["bombeirocoronel.paycheck"] = 80, -- adicionar
   ["bombeirotencoronel.paycheck"] = 80, -- adicionar
-  ["bombeirotencoronel.paycheck"] = 80, -- adicionar
+  ["bombeirocapitao.paycheck"] = 80, -- adicionar
   
   ["bombeiroprimeirosargento.paycheck"] = 66, -- adicionar
   ["bombeirocabo.paycheck"] = 66, -- adicionar
   ["bombeirotensoldado.paycheck"] = 66, -- adicionar
-  ["bombeirotensoldado.paycheck"] = 66, -- adicionar
+  ["bombeirotenrecruta.paycheck"] = 66, -- adicionar
   
 
   
