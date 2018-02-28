@@ -38,7 +38,7 @@ cfg.items = {
 -- configure garage types
 cfg.adv_garages = {
   ["police"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",permissions={"police.vehicle"}},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",permissions={"police.vehicle"}},
     ["polarteon"] = {"BOPE - Arteon",0, "police"},
 	["riot"] = {"BOPE - Caveirao",0, "police"},
 	["police3"] = {"BOPE - Dodge",0, "police"},
@@ -54,6 +54,15 @@ cfg.adv_garages = {
 	--["policeb"] = {"MOTO ROCAM",0, "police"},
 	["police3"] = {"Logan POLICIA jazz",0, "police"},
 	["sheriff"] = {"s10 POLICIA jazz",0, "police"},
+	["police2"] = {"Carro BOPE jazz",0, "police"},
+  },
+  ["bope"] = {
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",permissions={"bope.vehicle"}},
+    ["polarteon"] = {"BOPE - Arteon",0, "police"},
+	["riot"] = {"BOPE - Caveirao",0, "police"},
+	["police3"] = {"BOPE - Dodge",0, "police"},
+	["sef_pfinder"] = {"BOPE - Nissan Pathfinder",0, "police"},
+    ["fbi2"] = {"BOPE - Suburban",0, "police"},
 	["police2"] = {"Carro BOPE jazz",0, "police"},
   },
    ["hospitalele"] = {
@@ -461,6 +470,7 @@ cfg.garages = {
   
   {"police",-479.62710571289,6022.0771484375,31.340547561646},---prf 
   {"police",448.804, -1020.32, 28.4669},
+  {"police",141.06597900391,-742.68548583984,33.133296966553},
   --{"police",-329.00738525391,-979.23400878906,31.080610275269},
   --{"police",378.612274169922,-1629.18676757813,28.5226573944092},  -- jobs garage 
   {"hospitalcar",1161.3110351563,-1493.9163818359,34.692573547363}, 

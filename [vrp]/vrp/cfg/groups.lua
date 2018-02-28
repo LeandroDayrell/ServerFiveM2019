@@ -1198,7 +1198,7 @@ cfg.groups = {
     "bm.whitelisted",
     "bombeirocomandante.paycheck",
   },
-  ["SUBCOMANDANTE RECRUTA"] = {
+  ["SUBCOMANDANTE BOMBEIRO"] = {
     _config = { gtype = "job",
     onspawn = function(player) vRPclient._notify(player,"Voce e bombeiro recruta.") end
     },
@@ -1484,7 +1484,7 @@ cfg.groups = {
     "emergency_heal",
     "police.verificarlicenca",
     "Police Interaction",
-    "police.vehicle",
+    "bope.vehicle",
     "police.drag",
     "player.list",
     "robbery.police",
@@ -1533,7 +1533,7 @@ cfg.groups = {
     "emergency_heal",
     "police.verificarlicenca",
     "Police Interaction",
-    "police.vehicle",
+    "bope.vehicle",
     "police.drag",
     "player.list",
     "robbery.police",
@@ -2361,7 +2361,7 @@ cfg.selectors = {
     "PRF",
     "CIDADAO"
   },]]
-  ["EMPREGO DA POLICIA 1"] = { 
+  ["EMPREGO DA PMRJ"] = { 
     _config = {x = 441.203308105469, y = -981.135131835938, z = 30.6896057128906, permissions = {"cop.whitelisted"} },
     "CMD BOPE",
 	"SOLDADO BOPE",
@@ -2382,10 +2382,16 @@ cfg.selectors = {
 	"PMRJ (Comandante Geral)",
     "CIDADAO"
   },
+  ["EMPREGO BOPE"] = { 
+    _config = {x = 139.24792480469, y = -763.82971191406, z = 258.15173339844, permissions = {"cop.whitelisted"} },
+    "CMD BOPE",
+	"SOLDADO BOPE",
+    "CIDADAO",
+  },
   ["EMPREGO DO BOMBEIRO"] = {
     _config = {x =  1207.8588867188, y = -1472.9903564453, z = 34.859539031982, blipid = 351, blipcolor = 3, permissions = {"bm.whitelisted"} },
 	"COMANDANTE BOMBEIRO",
-	"SUBCOMANDANTE RECRUTA",
+	"SUBCOMANDANTE BOMBEIRO",
 	"CORONEL BOMBEIRO",
 	"TEN CORONEL BOMBEIRO",
 	"CAPITAO BOMBEIRO",
