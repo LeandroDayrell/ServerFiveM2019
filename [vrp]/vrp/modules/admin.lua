@@ -104,7 +104,6 @@ local function ch_reviveadmin(player,choice)
     if user_id ~= nil then
       vRPclient._varyHealth(player,100)
       vRPclient._notify(player,"~g~ Restaurando vida.")
-      vRP.closeMenu(player)
     end
   end
 end

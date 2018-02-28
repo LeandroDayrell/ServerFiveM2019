@@ -37,105 +37,104 @@ cfg.bill_picture = "CHAR_MP_MORS_MUTUAL" -- define bill notification picture wan
 cfg.paycheck = { -- ["permission"] = paycheck
   
   --- LEGAIS
-  ["moto_boy.paycheck"] = 5500,
-  ["taxista.paycheck"] = 5500,
-  ["repair.paycheck"] = 5500,
-  ["advogado.paycheck"] = 6500,
-  ["lixeiro.paycheck"] = 5500,
-  ["Pescador.paycheck"] = 5500,
-  ["bus.paycheck"] = 5500,
+  ["moto_boy.paycheck"] = 166,
+  ["taxista.paycheck"] = 200,
+  ["repair.paycheck"] = 200,
+  ["advogado.paycheck"] = 300,
+  ["lixeiro.paycheck"] = 167,
+  ["Pescador.paycheck"] = 166,
+  ["bus.paycheck"] = 100,
   -- BOMBEIRO
   
-  ["bombeirore.paycheck"] = 17000,
-  ["bombeiro.paycheck"] = 12000,
-  ["bombeirochefe.paycheck"] = 12000,
+  ["bombeirochefe.paycheck"] = 1066,
+  ["bombeirochefe.paycheck"] = 1066, --ADICIONAR
   
-  -- ILEGAIS
-  ["fogueteiro.paycheck"] = 2000,
-  ["agiota.paycheck"] = 2000,
+  ["bombeirocoronel.paycheck"] = 800, -- adicionar
+  ["bombeirotencoronel.paycheck"] = 800, -- adicionar
+  ["bombeirotencoronel.paycheck"] = 800, -- adicionar
   
-  
-  -- FACÇÕES
-  
-  ["c.v.paycheck"] = 5000,
-  ["t.c.p.paycheck"] = 5000,
-  ["a.d.a.paycheck"] = 5000,
-  ["braco.paycheck"] = 5000,
-  
-  
-  -- POLICIA
-  
-  ["coronel.paycheck"] = 20000,
-  ["tenentecoronel.paycheck"] = 18000,
-  ["major.paycheck"] = 17000,
-  ["capitao.paycheck"] = 16000,
-  ["primeirotenente.paycheck"] = 15000,
-  ["segundotenente.paycheck"] = 14000,
-  ["aspirante.paycheck"] = 13000,
-  ["cadete.paycheck"] =  12000,
-  ["subtenente.paycheck"] = 12000,
-  ["primeirosargento.paycheck"] = 10000,
-  ["segundosargento.paycheck"] = 9000,
-  ["terceirosargento.paycheck"] = 8000,
-  ["cabo.paycheck"] = 7000,
-  ["Soldado.paycheck"] = 6000,
+  ["bombeiroprimeirosargento.paycheck"] = 666, -- adicionar
+  ["bombeirocabo.paycheck"] = 666, -- adicionar
+  ["bombeirotensoldado.paycheck"] = 666, -- adicionar
+  ["bombeirotensoldado.paycheck"] = 666, -- adicionar
   
 
-  ["dg.paycheck"] = 20000,      -- DELEGADO
-  ["bope.paycheck"] = 20000,    -- BOPE
-  ["prf.paycheck"] = 20000,     -- POLICIA RODOVIARIO FEDERAL
+  
+  -- POLICIA
+  ["comandantegeral.paycheck"] = 1300, -- ADICIONAR
+  
+  ["coronel.paycheck"] = 1150,
+  ["tenentecoronel.paycheck"] = 1150,
+  ["major.paycheck"] = 1150,
+  ["capitao.paycheck"] = 1000,
+  
+  ["primeirotenente.paycheck"] = 1000,
+  ["segundotenente.paycheck"] = 1000,
+  ["subtenente.paycheck"] = 1000,
+  
+  ["primeirosargento.paycheck"] = 900,
+  ["segundosargento.paycheck"] = 900,
+  ["terceirosargento.paycheck"] = 900,
+  
+  ["cabo.paycheck"] = 700,
+  ["Soldado.paycheck"] = 700, 
+  ["recruta.paycheck"] = 700,  -- ADICIONAR
+
+  ["dg.paycheck"] = 1000,      -- DELEGADO
+  ["bope.paycheck"] = 1150,    -- BOPE
+  --["prf.paycheck"] = 700,     -- POLICIA RODOVIARIO FEDERAL
   
   
 }
 
 cfg.bill = { -- ["permission"] = withdrawal
-  ["moto_boy.paycheck"] = 1500,
-  ["taxista.paycheck"] = 1500,
-  ["repair.paycheck"] = 1500,
-  ["advogado.paycheck"] = 1500,
-  ["lixeiro.paycheck"] = 1500,
-  ["Pescador.paycheck"] = 1500,
-  ["bus.paycheck"] = 1500,
+  --- LEGAIS
+  ["moto_boy.paycheck"] = 16,
+  ["taxista.paycheck"] = 20,
+  ["repair.paycheck"] = 20,
+  ["advogado.paycheck"] = 30,
+  ["lixeiro.paycheck"] = 15,
+  ["Pescador.paycheck"] = 16,
+  ["bus.paycheck"] = 10,
   -- BOMBEIRO
   
-  ["bombeirore.paycheck"] = 2000,
-  ["bombeiro.paycheck"] = 1500,
-  ["bombeirochefe.paycheck"] = 12000,
+  ["bombeirochefe.paycheck"] = 106,
+  ["bombeirochefe.paycheck"] = 106, --ADICIONAR
   
-  -- ILEGAIS
-  ["fogueteiro.paycheck"] = 2000,
-  ["agiota.paycheck"] = 2000,
+  ["bombeirocoronel.paycheck"] = 80, -- adicionar
+  ["bombeirotencoronel.paycheck"] = 80, -- adicionar
+  ["bombeirotencoronel.paycheck"] = 80, -- adicionar
   
-  
-  -- FACÇÕES
-  
-  ["c.v.paycheck"] = 1500,
-  ["t.c.p.paycheck"] = 1500,
-  ["a.d.a.paycheck"] = 1500,
-  ["braco.paycheck"] = 1500,
-  
-  
-  -- POLICIA
-  
-  ["coronel.paycheck"] = 2000,
-  ["tenentecoronel.paycheck"] = 2000,
-  ["major.paycheck"] = 2000,
-  ["capitao.paycheck"] = 2000,
-  ["primeirotenente.paycheck"] = 2000,
-  ["segundotenente.paycheck"] = 2000,
-  ["aspirante.paycheck"] = 2000,
-  ["cadete.paycheck"] =  2000,
-  ["subtenente.paycheck"] = 2000,
-  ["primeirosargento.paycheck"] = 1500,
-  ["segundosargento.paycheck"] = 1500,
-  ["terceirosargento.paycheck"] = 1500,
-  ["cabo.paycheck"] = 1200,
-  ["Soldado.paycheck"] = 1000,
+  ["bombeiroprimeirosargento.paycheck"] = 66, -- adicionar
+  ["bombeirocabo.paycheck"] = 66, -- adicionar
+  ["bombeirotensoldado.paycheck"] = 66, -- adicionar
+  ["bombeirotensoldado.paycheck"] = 66, -- adicionar
   
 
-  ["dg.paycheck"] = 3000,      -- DELEGADO
-  ["bope.paycheck"] = 3000,    -- BOPE
-  ["prf.paycheck"] = 3000,     -- POLICIA RODOVIARIO FEDERAL
+  
+   -- POLICIA
+  ["comandantegeral.paycheck"] = 130, -- ADICIONAR
+  
+  ["coronel.paycheck"] = 150,
+  ["tenentecoronel.paycheck"] = 150,
+  ["major.paycheck"] = 150,
+  ["capitao.paycheck"] = 150,
+  
+  ["primeirotenente.paycheck"] = 100,
+  ["segundotenente.paycheck"] = 100,
+  ["subtenente.paycheck"] = 100,
+  
+  ["primeirosargento.paycheck"] = 90,
+  ["segundosargento.paycheck"] = 90,
+  ["terceirosargento.paycheck"] = 90,
+  
+  ["cabo.paycheck"] = 70,
+  ["Soldado.paycheck"] = 70, 
+  ["recruta.paycheck"] = 70,  -- ADICIONAR
+
+  ["dg.paycheck"] = 100,      -- DELEGADO
+  ["bope.paycheck"] = 150,    -- BOPE
+  --["prf.paycheck"] = 700,     -- POLICIA RODOVIARIO FEDERAL
 }
 
 return cfg
