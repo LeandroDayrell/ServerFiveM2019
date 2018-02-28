@@ -81,7 +81,8 @@ cfg.paycheck = { -- ["permission"] = paycheck
   ["recruta.paycheck"] = 700,  -- ADICIONAR
 
   ["dg.paycheck"] = 1000,      -- DELEGADO
-  ["bope.paycheck"] = 1150,    -- BOPE
+  ["cmdbope.paycheck"] = 1150,    -- BOPE
+  ["soldadobope.paycheck"] = 666,    -- BOPE
   --["prf.paycheck"] = 700,     -- POLICIA RODOVIARIO FEDERAL
   
   
@@ -133,7 +134,8 @@ cfg.bill = { -- ["permission"] = withdrawal
   ["recruta.paycheck"] = 70,  -- ADICIONAR
 
   ["dg.paycheck"] = 100,      -- DELEGADO
-  ["bope.paycheck"] = 150,    -- BOPE
+  ["cmdbope.paycheck"] = 150,    -- BOPE
+  ["soldadobope.paycheck"] = 66,    -- BOPE
   --["prf.paycheck"] = 700,     -- POLICIA RODOVIARIO FEDERAL
 }
 

@@ -1464,7 +1464,7 @@ cfg.groups = {
     "cop.whitelisted",
     "dg.paycheck"
   },
-  ["BOPE"] = {
+  ["CMD BOPE"] = {
     _config = { gtype = "job",
     onjoin = function(player) vRPclient._setCop(player,true) end,
     onspawn = function(player) vRPclient._setCop(player,true) end,
@@ -1511,7 +1511,56 @@ cfg.groups = {
 
     "police.loadshop",
     "cop.whitelisted",
-    "bope.paycheck"
+    "cmdbope.paycheck",
+  },
+  ["SOLDADO BOPE"] = {
+    _config = { gtype = "job",
+    onjoin = function(player) vRPclient._setCop(player,true) end,
+    onspawn = function(player) vRPclient._setCop(player,true) end,
+    onleave = function(player) vRPclient._setCop(player,true) end
+    },
+    "police.cloakroom", -- < ROUPA DA POLICIA
+    "police.store_money",
+    "police.easy_jail",
+    "police.bmunjail",
+    "police.askid",
+    "police.fine",
+    "police.easy_cuff",
+	--"police.portamalas",
+	"police.checkdinheirosujo",
+    "police.spikes",
+    "userr.paycheck",
+    "emergency_heal",
+    "police.verificarlicenca",
+    "Police Interaction",
+    "police.vehicle",
+    "police.drag",
+    "player.list",
+    "robbery.police",
+	"police.asklc",
+	"police.takelc",
+    "holdup.police",
+    "police.weapons",
+    "police.menu",
+    "police.pc",
+    "police.handcuff",
+    "police.putinveh",
+    "police.getoutveh",
+    "police.check",
+    "police.service",
+    "police.wanted",
+    "police.seize.weapons",
+    "police.seize.items",
+    "police.bmjail", -- PRISÃO DA DP
+    "police.announce",
+    "store.weapons",
+    "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
+    "policiaaguia.garagem", -- GARAGEM AGUIA
+    "police.weapons", -- ARMAS DA POLICIA
+
+    "police.loadshop",
+    "cop.whitelisted",
+    "soldadobope.paycheck",
   },
   ["PRF"] = {
     _config = { gtype = "job",
@@ -1584,7 +1633,7 @@ cfg.groups = {
     "emergency_heal",
     "police.drag",
 	"police.checkdinheirosujo",
-    "recruta.paycheck"
+    "recruta.paycheck",
 	--"police.portamalas",
     "player.list",
 	"police.asklc",
@@ -2314,7 +2363,8 @@ cfg.selectors = {
   },]]
   ["EMPREGO DA POLICIA 1"] = { 
     _config = {x = 441.203308105469, y = -981.135131835938, z = 30.6896057128906, permissions = {"cop.whitelisted"} },
-    "BOPE",
+    "CMD BOPE",
+	"SOLDADO BOPE",
     "DELEGADO GERAL",
 	"PMRJ (Recruta)",
 	"PMRJ (Soldado)",
