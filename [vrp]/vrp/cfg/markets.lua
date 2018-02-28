@@ -76,6 +76,15 @@ cfg.market_types = {
     _config = {blipid=446, blipcolor=47, permissions={"repair.market"}},
     ["repairkit"] = 0
   },
+  
+  ["Loja de Materiais"] = {
+    _config = {blipid=478, blipcolor=56},
+    ["picareta"] = 100,
+    ["foice"] = 100,
+    ["pa"] = 100,
+    ["rede"] = 380,
+    ["balde"] = 100,
+  },
  
 }
 
@@ -120,7 +129,8 @@ cfg.markets = {
   
   {"Mercado Policial",152.97636413574,-755.92291259766,258.15194702148},
   {"Mercado Policial",436.57998657227,-986.58032226563,30.689590454102},
-  
+  {"Loja de Materiais",841.1220703125,-1031.0849609375,28.194864273071},
+  {"Loja de Materiais",22.106534957886,-1110.1981201172,29.797025680542},
   
   
   

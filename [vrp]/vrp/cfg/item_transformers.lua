@@ -309,7 +309,7 @@ cfg.item_transformers = {
     description="Colher pasta de Coca.", -- Descrição do produto a se colher
     in_money=0, -- Dinheiro dado por unidade
     out_money=0, -- Dinheiro ganho por unidades
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     reagents={}, -- Itens colhidos por unidade
     products={ -- Nome do produto fornecido por unidade
     ["pastadecocaina"] = 1
@@ -325,7 +325,7 @@ cfg.item_transformers = {
     r=0,g=200,b=0, -- cor do menu
     max_units=1000, -- unidades maximas do item
     units_per_minute=500, -- unidades que o transformador ganha de volta por minuto
-    x=1316.7137451172,y=-350.80725097656,z=90.406730651855, -- pos
+    x=1218.8428955078,y=-618.83123779297,z=69.582069396973, -- pos
     radius=2, height=1.0, -- area
     recipes = { -- items do menu
     ["Processar"] = { -- action name     767.90173339844,-370.1455078125,49.977001190186
@@ -341,7 +341,54 @@ cfg.item_transformers = {
       }
     }
   },
-
+  
+  { -- PESCADOR DE TARTARUGA
+name="Pescador de Tartaruga", -- menu name
+    permissions = {"harvest.tartaruga"}, -- you can add permissions
+    r=0,g=200,b=0, -- cor do menu
+    max_units=200, -- unidades maximas do item
+    units_per_minute=20, -- unidades que o transformador ganha de volta por minuto
+    x=4095.5485839844,y=4464.8696289063,z=1.9822434186935, -- pos
+    radius=5.5, height=1.5, -- area
+    recipes = { -- items do menu
+      ["Pescar"] = { -- action name
+        description="Pescar Tartaruga com Rede.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={  -- items taken per unit
+          ["rede"] = 1
+      },
+        products={ -- items given per unit
+          ["Tartaruga"] = 2
+        }
+      }
+    }
+  },
+  { -- VENDEDOR DE TARTARUGA
+    name="Vender Tartaruga", -- menu name
+    permissions = {"process.Tartaruga"}, -- you can add permissions
+    r=0,g=200,b=0, -- cor do menu
+    max_units=200, -- unidades maximas do item
+    units_per_minute=20, -- unidades que o transformador ganha de volta por minuto
+    x=-119.17678833008,y=-1486.1040039063,z=36.98205947876, -- pos -119.17678833008,-1486.1040039063,36.98205947876
+    radius=2.5, height=1.5, -- area
+    recipes = { -- items do menu
+      ["Vender Tartaruga"] = { -- action name
+        description="", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={  -- items taken per unit
+          ["Tartaruga"] = 1
+      },
+        products={ -- items given per unit
+          ["dirty_money"] = 2500
+        }
+      }
+    }
+  },
+  
+  
+  
   { -- CAMPO DE CRACK
     name="Campo de Crack", -- Nome do menu 
     permissions = {"campo.crack"}, -- Voc� pode adicionar permiss�es
@@ -355,7 +402,7 @@ cfg.item_transformers = {
     description="Colher pasta de crack.", -- Descrição do produto a se colher
     in_money=0, -- Dinheiro dado por unidade
     out_money=0, -- Dinheiro ganho por unidade
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     reagents={}, -- Itens colhidos por unidade
     products={ -- Nome do produto fornecido por unidade
     ["pastadecrack"] = 1
@@ -379,7 +426,7 @@ cfg.item_transformers = {
     ["Processar"] = { -- action name
     description="Processador de Cocaina.", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     out_money=0, -- money earned per unit
     reagents={  -- items taken per unit
     ["pastadecrack"] = 1
@@ -403,7 +450,7 @@ cfg.item_transformers = {
     description="Erva pega pronta pra processa!",
     in_money=0,
     out_money=0,
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     reagents={},
     products={
     ["erva"] = 1
@@ -446,7 +493,7 @@ cfg.item_transformers = {
     description="maconha pega pronta pra enrolar!",
     in_money=0,
     out_money=0,
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     reagents={
     ["erva"] = 1
         },
@@ -469,7 +516,7 @@ cfg.item_transformers = {
     description="maconha enrolada pronta pra vende!",
     in_money=0,
     out_money=0,
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     reagents={
     ["maconha"] = 1
         },
@@ -616,7 +663,7 @@ cfg.item_transformers = {
     ["hacking"] = { -- action name
     description="Hacking credit cards.", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     out_money=0, -- money earned per unit
     reagents={}, -- items taken per unit
     products={
@@ -661,7 +708,7 @@ cfg.item_transformers = {
     ["Coletando"] = { -- nome da ação
     description="Coletando l Uranio.", -- action description
     in_money=0, -- dinheiro tomado por unidade
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     out_money=0, -- Dinheiro ganho por unidade
     reagents={}, -- itens escolhidos por unidade
     products={
@@ -700,13 +747,13 @@ cfg.item_transformers = {
     r=102,g=51,b=0, -- color
     max_units=200,
     units_per_minute=999,
-    x=295.92770385742,y=-1349.0679931641,z=24.537803649902, -- 295.92770385742,-1349.0679931641,24.537803649902
+    x=-1742.0139160156,y=-216.63523864746,z=56.580638885498, -- 295.92770385742,-1349.0679931641,24.537803649902
     radius=4, height=1.0, -- area
     recipes = {
     ["Pegando"] = { -- action name
     description="Pegando Corpos.", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     out_money=0, -- money earned per unit
     reagents={}, -- items taken per unit
     products={
@@ -729,7 +776,7 @@ cfg.item_transformers = {
     ["Removendo"] = { -- action name
     description="Removendo Orgaos.", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     out_money=0, -- money earned per unit
     reagents={
     ["corpos"] = 1
@@ -771,7 +818,7 @@ cfg.item_transformers = {
     ["Extrair"] = { -- action name
     description="Extraindo lsd", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     out_money=0, -- money earned per unit
     reagents={}, -- items taken per unit
     products={
@@ -795,7 +842,7 @@ cfg.item_transformers = {
     description="Produzindo lsd", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     reagents={
     ["lsd"] = 1
     }, -- items taken per unit
@@ -821,7 +868,7 @@ cfg.item_transformers = {
     description="Pegue o Extasie.", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     reagents={}, -- items taken per unit
     products={
     ["metil"] = 1
@@ -844,7 +891,7 @@ cfg.item_transformers = {
     description="Trate os Sassafras.", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per 
-	out_dinheirosujo=80,
+	out_dinheirosujo=20,
     reagents={
     ["metil"] = 1
     }, -- items taken per unit
