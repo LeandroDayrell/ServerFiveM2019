@@ -89,8 +89,8 @@ local TeleportFromTo = {
 	   positionTo = { ['x'] = -1858.0501708984, ['y'] = 2250.0380859375, ['z'] = 82.478172302246, nom = "Colher pasta de crack."},
 	},
 	["Processador de Cocaina."] = {
-	   positionFrom = { ['x'] = 767.90173339844, ['y'] = -370.1455078125, ['z'] = 49.977001190186, nom = "Processador de Cocaina."},
-	   positionTo = { ['x'] = 767.90173339844, ['y'] = -370.1455078125, ['z'] = 49.977001190186, nom = "Processador de Cocaina."},
+	   positionFrom = { ['x'] = 1316.7137451172, ['y'] = -350.80725097656, ['z'] = 90.406730651855, nom = "Processador de Cocaina."},
+	   positionTo = { ['x'] = 1316.7137451172, ['y'] = -350.80725097656, ['z'] = 90.406730651855, nom = "Processador de Cocaina."},
 	},
 	["Colher pasta de Coca."] = {
 	   positionFrom = { ['x'] = 1917.013671875, ['y'] = 5101.9907226563, ['z'] = 43.21529006958, nom = "Colher pasta de Coca."},

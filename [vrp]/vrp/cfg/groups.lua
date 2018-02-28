@@ -2248,8 +2248,8 @@ cfg.selectors = {
     "TRAFICANTE DE URANIO",
     --"FOQUETEIRO"  
   },
-  ["TRABALHO ILEGAL"] = { 
-    _config = {x = -270.6329650879, y = -977.49603271484, z = 31.217309951782, blipid = 407, blipcolor = 49},
+  ["TRABALHO ILEGAL"] = {
+    _config = {x = 1272.4293212891, y = -1711.69140625, z = 54.77144241333, blipid = 407, blipcolor = 49},
     "TRAFICANTE DE MACONHA", ---prefeitura
     --"VENDEDOR DE ARMA",
     "HACKER",

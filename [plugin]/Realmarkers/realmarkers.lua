@@ -10,9 +10,9 @@ local blips = {
 {name="Coletar uranio", colour=46, scale=1.0, id=368, x=3067.7629394531,y=2219.5422363281,z=2.724246263504}, -- Arrumado
 {name="Enriquecimento de uranio", colour=46, scale=1.0, id=368, x=2329.9621582031,y=2571.7009277344,z=46.678863525391}, -- Arrumado
 {name="Campo de Crack", colour=49, scale=1.0, id=89, x=-1858.0501708984,y=2250.0380859375,z=82.478172302246},----crak
-{name="Refinaria de Crack", colour=49, scale=1.0, id=89, x=-779.89514160156,y=535.04681396484,z=121.24387359619},-----crak    
-{name="Campo de Cocaina", colour=38, scale=1.0, id=89, x=1917.013671875,y=5101.9907226563,z=43.21529006958}, -- cocaina
-{name="Processador de cocaina", colour=38, scale=1.0, id=89, x=767.90173339844,y=-370.1455078125,z=49.977001190186}, -- cocaina
+{name="Refinaria de Crack", colour=49, scale=1.0, id=89, x=-779.89514160156,y=535.04681396484,z=121.24387359619},-----crak
+{name="Campo de Cocaina", colour=38, scale=1.0, id=89, x=1316.7137451172,y=-350.80725097656,z=535.04681396484}, -- cocaina
+{name="Processador de cocaina", colour=38, scale=1.0, id=89, x=1219.1241455078,y=-618.25549316406,z=69.610862731934}, -- cocaina
 {name="Ecstasy", colour=83, scale=1.0, id=206, x=16.626104354858,y=-1832.2036132813,z=24.769153594971},
 {name="Tratamento Ecstasy", colour=83, scale=1.0, id=365, x=-561.68438720703,y=281.64797973633,z=85.676383972168},
 {name="Venda Ecstasy", colour=83, scale=1.0, id=431, x=-1666.24609375,y=-978.77520751953,z=8.1596422195435},

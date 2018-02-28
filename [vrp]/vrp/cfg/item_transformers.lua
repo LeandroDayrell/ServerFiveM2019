@@ -302,7 +302,7 @@ cfg.item_transformers = {
     r=0,g=200,b=0, -- cor
     max_units=1000,
     units_per_minute=500,
-    x=1912.1243896484,y=5108.7338867188,z=43.891887664795, -- Localização
+    x=1916.9268798828,y=5101.9365234375,z=43.23543548584, -- Localização
     radius=2, height=1.0, -- area
     recipes = {
     ["Colher"] = { -- Nome da ação
@@ -325,7 +325,7 @@ cfg.item_transformers = {
     r=0,g=200,b=0, -- cor do menu
     max_units=1000, -- unidades maximas do item
     units_per_minute=500, -- unidades que o transformador ganha de volta por minuto
-    x=-780.46740722656,y=534.67590332031,z=123.02164459229, -- pos
+    x=1316.7137451172,y=-350.80725097656,z=90.406730651855, -- pos
     radius=2, height=1.0, -- area
     recipes = { -- items do menu
     ["Processar"] = { -- action name     767.90173339844,-370.1455078125,49.977001190186
@@ -362,6 +362,8 @@ cfg.item_transformers = {
        } -- optional
       }
     },
+	
+
     onstart = function(player,recipe) vRPclient.applyWantedLevel(player,{3}) end,-- items given per unit
     aptitudes={} -- optional
   },
@@ -371,7 +373,7 @@ cfg.item_transformers = {
     r=0,g=200,b=0, -- cor do menu
     max_units=1000, -- unidades maximas do item
     units_per_minute=500, -- unidades que o transformador ganha de volta por minuto
-    x=-779.89514160156,y=535.04681396484,z=121.24387359619, -- pos
+    x=-780.46740722656,y=534.67590332031,z=123.02164459229, -- pos
     radius=2, height=1.0, -- area  
     recipes = { -- items do menu
     ["Processar"] = { -- action name
