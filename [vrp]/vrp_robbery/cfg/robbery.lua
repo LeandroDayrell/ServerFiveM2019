@@ -88,11 +88,11 @@ cfg.robbery = { -- list of robberies
 	  pos = {1126.68029785156, -980.39501953125, 45.4157257080078}, 
 	  dist = 15.0, rob = 120, wait = 300, cops = 2, stars = 2, min = 8000, max = 17000
 	},
-	["sandyshores_twentyfourseven"] = { 
+	--[[["sandyshores_twentyfourseven"] = { 
 	  name = "Twenty Four Seven. (Sandy Shores)", 
 	  pos = {2673.32006835938, 3286.4150390625, 55.241138458252}, 
   	  dist = 15.0, rob = 120, wait = 300, cops = 2, stars = 2, min = 8000, max = 17000
-	},
+	},]]
 	["grapeseed_gasstop"] = { 
 	  pos = {1707.52648925781, 4920.05126953125, 42.0636787414551}, 
 	  name = "Limited LTD Gas Stop. (Grapeseed)",

@@ -149,7 +149,7 @@ cfg.adv_garages = {
   },
   
   ["repair"] = {
-   _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=50,blipcolor=31,permissions={"repair.vehicle"}},
+   _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",permissions={"repair.vehicle"}},
     ["towtruck2"] = {"towtruck2",50, "towtruck2"}
   },
   
@@ -158,7 +158,7 @@ cfg.adv_garages = {
     ["stockade"] = {"stockade",50, "stockade"}
   }, 
     ["correio"] = {
-    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",blipid=513,blipcolor=46,permissions={"carteiro.vehicle"}},
+    _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car",permissions={"carteiro.vehicle"}},
     ["Burrito3"] = {"carro do carteiro", 50,"carro do carteiro"}
   },
     ["limpador de piscina"] = {

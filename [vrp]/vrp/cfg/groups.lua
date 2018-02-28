@@ -2151,7 +2151,7 @@ cfg.users = {
 
 cfg.selectors = {
   ["CENTRAL DE EMPREGO"] = {
-    _config = {x = -268.363739013672, y = -957.255126953125, z = 31.22313880920410, blipid = 407, blipcolor = 27},
+    _config = {x = -268.363739013672, y = -957.255126953125, z = 31.22313880920410, blipid = 267, blipcolor = 46},
     "UBER",
 	"MOTORISTA DE ONIBUS",
 	"LIMPADOR DE PISCINA",
@@ -2176,7 +2176,7 @@ cfg.selectors = {
     "CIDADAO"
   },]]
   ["EMPREGO DA POLICIA 1"] = { 
-    _config = {x = 441.203308105469, y = -981.135131835938, z = 30.6896057128906, blipid = 407, blipcolor = 27, permissions = {"cop.whitelisted"} },
+    _config = {x = 441.203308105469, y = -981.135131835938, z = 30.6896057128906, permissions = {"cop.whitelisted"} },
     "POLICIA DE FOLGA",
     "BOPE",
     "DELEGADO GERAL",
@@ -2249,7 +2249,7 @@ cfg.selectors = {
     --"FOQUETEIRO"  
   },
   ["TRABALHO ILEGAL"] = { 
-    _config = {x = -270.6329650879, y = -977.49603271484, z = 31.217309951782, blipid = 407, blipcolor = 27},
+    _config = {x = -270.6329650879, y = -977.49603271484, z = 31.217309951782, blipid = 407, blipcolor = 49},
     "TRAFICANTE DE MACONHA", ---prefeitura
     --"VENDEDOR DE ARMA",
     "HACKER",

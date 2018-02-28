@@ -30,7 +30,7 @@ cfg.dmv = {
     practical = 500
   },
   blip = {
-    id = 408,
+    id = 355,
     colour = 11,
 	size = 0.8,
     title = "Detran"
