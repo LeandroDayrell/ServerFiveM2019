@@ -636,7 +636,7 @@ cfg.homes = {
     blipid=374,
     blipcolor=2
   },
-  ["Rail Flat"] = {
+  --[[["Rail Flat"] = {
     slot = "rail_flat",
     entry_point = {673.96185302734,-724.09637451172,30.730808258057},
     buy_price = 350000,
@@ -654,7 +654,7 @@ cfg.homes = {
     blipid=374,
     blipcolor=2
   },]]
-  ["Beach Bungalo"] = {
+  --[[["Beach Bungalo"] = {
     slot = "beach_bungalo",
     entry_point = {1245.6123046875,-2686.2346191406,2.4227623939514},
     buy_price = 350000,
@@ -662,7 +662,7 @@ cfg.homes = {
     max = 1,
     blipid=374,
     blipcolor=2
-  },
+  },]]
   ["Beach House"] = {
     slot = "beach_house",
     entry_point = {-1384.8225097656,-975.95910644531,8.9470081329346},

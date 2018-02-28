@@ -10,12 +10,20 @@ local cfg = {}
 
 cfg.gunshopdinheirosujo_types = {
   ["Armas ilegais"] = {
-    _config = {blipid=154,blipcolor=150},
+    _config = {blipid=154,blipcolor=150 permissions = {"traficante.defaccao"}},
     ["WEAPON_BOTTLE"] = {"Bottle",1000,0,""},
     ["WEAPON_BAT"] = {"Bat",1500,0,""},
 	["WEAPON_ASSAULTRIFLE"] = {"Ak-47",89000,50,""},
 	["WEAPON_SNSPISTOL"] = {"Pistola",17000,30,""},
-    ["WEAPON_KNUCKLE"] = {"Knuckle",1500,0,""},
+    ["WEAPON_KNIFE"] = {"Knife",4000,0,""}
+  },
+  
+  ["Armas ilegais"] = {
+    _config = {blipid=154,blipcolor=150 permissions = {"traficante.defaccao"}},
+    ["WEAPON_BOTTLE"] = {"Bottle",1000,0,""},
+    ["WEAPON_BAT"] = {"Bat",1500,0,""},
+	["WEAPON_ASSAULTRIFLE"] = {"Ak-47",89000,50,""},
+	["WEAPON_SNSPISTOL"] = {"Pistola",17000,30,""},
     ["WEAPON_KNIFE"] = {"Knife",4000,0,""}
   },
 
