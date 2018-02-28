@@ -301,7 +301,7 @@ cfg.adv_garages = {
 	["agile"] = {"Agile",34000, ""},
   }, 
   ["loja moto"] = {
-   _config = {gpay="bank",gtype={"showroom","store","rental","personal"},vtype="car",blipid=226,blipcolor=4},
+   _config = {gpay="bank",gtype={"store","rental","personal"},vtype="car",blipid=226,blipcolor=4},
     ["cbrr"] = {"cb1000",34000, ""},
     ["bros60"] = {"Bros 160",34000, ""},
     ["r1"] = {"r1",34000, ""},
