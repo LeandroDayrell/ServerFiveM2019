@@ -72,15 +72,16 @@ function task_mission()
       local user_id = w
       local player = vRP.getUserSource(user_id)
       if not vRP.hasMission(player) then
+        if math.random(1,v.chance) == 1 then -- chance check
           -- build mission
           local mdata = {}
-          mdata.name = lang.Motorista_bancario(v.title)
+          mdata.name = lang.Motorista_bancario({v.title})
           mdata.steps = {}
 
           -- build steps
           for i=1,v.steps do
             local step = {
-              text = lang.Motorista_bancario(v.title).."<br />"..lang.reward(v.reward),
+              text = lang.Motorista_bancario({v.title}).."<br />"..lang.reward({v.reward}),
               onenter = function(player, area)
                 if vRP.tryGetInventoryItem(user_id,"bank_money",500000,true) then
                   vRPclient._playAnim(player,false,{task="CODE_HUMAN_POLICE_INVESTIGATE"},false)
@@ -96,13 +97,14 @@ function task_mission()
                   end)
                 end
               end,
-              position = v.positions[math.random(1,#v.positions+1)]
+              position = v.positions[math.random(1,#v.positions)]
             }
 
             table.insert(mdata.steps, step)
           end
 
           vRP.startMission(player,mdata)
+           end
         end
       end
     end
