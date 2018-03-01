@@ -96,6 +96,22 @@ function tvRP.addMarker(x,y,z,sx,sy,sz,r,g,b,a,visible_distance)
   return id
 end
 
+
+Citizen.CreateThread(function()
+    while true do
+	Citizen.Wait(0)
+	
+		local playerPed = GetPlayerPed(-1)
+		local playerVeh = GetVehiclePedIsIn(playerPed, false)
+
+		if (GetPedInVehicleSeat(playerVeh, -1) == playerPed) then
+			DisplayRadar(true)
+		else
+			DisplayRadar(false)
+		end
+    end
+end)
+
 -- remove marker
 function tvRP.removeMarker(id)
   if markers[id] then
