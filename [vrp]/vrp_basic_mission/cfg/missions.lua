@@ -204,9 +204,6 @@ local common_lixeiro_positions = {
 cfg.lixeiro = {
   ["mission.lixeiro.information"] = {
     positions = common_lixeiro_positions,
-	chance = 2,
-    title = "lixeiro",
-    steps = 1,
     items = {
       ["saco"] = {3,6,80}
     }
