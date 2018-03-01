@@ -7,7 +7,7 @@ local permis = {
 	marker = { r = 155, g = 155, b = 255, a = 200, type = 1 },
 }
 local permis_locations = {
-{entering = {-978.201843261719,-2699.78735351563,13.3588399887085}, inside = {-982.512939453125,-2700.10986328125,13.844352722168}, outside = {-978.201843261719,-2699.78735351563,13.3588399887085}},
+{entering = {-787.61437988281,-93.364952087402,37.752696990967}, inside = {-786.99139404297,-94.739906311035,37.749809265137}, outside = {-787.61437988281,-93.364952087402,37.752696990967}},
 }
 
 local permis_blips ={}
@@ -61,7 +61,7 @@ function ShowpermisBlips(bool)
 						DrawMarker(1,b.pos.entering[1],b.pos.entering[2],b.pos.entering[3],0,0,0,0,0,0,2.001,2.0001,0.5001,0,155,255,200,0,0,0,0)
 						currentlocation = b
 						if GetDistanceBetweenCoords(b.pos.entering[1],b.pos.entering[2],b.pos.entering[3],GetEntityCoords(LocalPed()),true) < 4 and IsPedInAnyVehicle(LocalPed(), true) == false then
-							ShowInfoPermis("Aperte ~INPUT_CONTEXT~ para ir tirar ~b~ sua CNH.", 0)
+							ShowInfoPermis("Aperte ~INPUT_CONTEXT~ para ir a ~b~ PREFEITURA.", 0)
 							inrange = true
 						end
 					end
@@ -101,7 +101,7 @@ Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
         if IsControlJustPressed(1,38) and inrangeofpermis then
-			blippermis = AddBlipForCoord(215.395786499023,-1381.52125244141,30.5615256988525)
+			blippermis = AddBlipForCoord(-235.23268127441,-992.68859863281,29.275560379028)
 			N_0x80ead8e2e1d5d52e(blippermis)
 			SetBlipRoute(blippermis, 1)
 		    onPermis = 1
@@ -125,7 +125,7 @@ colors = table.pack(GetVehicleColours(veh))
 extra_colors = table.pack(GetVehicleExtraColours(veh))
 plate = math.random(100, 900)
 local coords = GetOffsetFromEntityInWorldCoords(GetPlayerPed(-1), 0, 5.0, 0)
-local spawned_car = CreateVehicle(vehicle, coords, -988.303100585938,-2696.17993164063,13.3324317932129, true, false)
+local spawned_car = CreateVehicle(vehicle, coords, -784.48718261719,-100.25997924805,37.69681930542, true, false)
 SetVehicleColours(spawned_car,colors[1],colors[2])
 SetVehicleExtraColours(spawned_car,extra_colors[1],extra_colors[2])
 SetVehicleOnGroundProperly(spawned_car)
@@ -139,12 +139,12 @@ Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
         if onPermis == 1 then
-			DrawMissionText2("~b~Dirija ate auto escola com segurança e respeite as leis de trânsito.", 5000)
+			DrawMissionText2("~b~Dirija ate a Prefeitura e pegue sua profissao.", 5000)
 		end
 		
         local veh = GetVehiclePedIsUsing(GetPlayerPed(-1))
 		if IsVehicleDamaged(veh) and onPermis == 1 then
-			DrawMissionText2("~r~Voce danificou o carro. Sai do veiculo! Repita o Exame com CALTELA !", 5000)
+			DrawMissionText2("~r~Voce danificou o carro. Sai do veiculo!", 5000)
 			Citizen.InvokeNative(0x86A652570E5F25DD,Citizen.PointerValueIntInitialized(blippermis))
 			blippermis = nil
 			onPermis = 0
@@ -158,14 +158,14 @@ Citizen.CreateThread(function()
     	end
 	
 	if onPermis == 1 then
-		if GetDistanceBetweenCoords(GetEntityCoords(GetPlayerPed(-1)), 215.395786499023,-1381.52125244141,30.5615256988525, true) > 4.0001 then
-		   DrawMarker(1,215.395786499023,-1381.52125244141,30.5615256988525,0,0,0,0,0,0,2.001,2.0001,0.5001,0,155,255,200,0,0,0,0)
+		if GetDistanceBetweenCoords(GetEntityCoords(GetPlayerPed(-1)), -233.22596740723,-987.00762939453,29.275012969971, true) > 4.0001 then
+		   DrawMarker(1,-233.22596740723,-987.00762939453,29.275012969971,0,0,0,0,0,0,2.001,2.0001,0.5001,0,155,255,200,0,0,0,0)
 		else
 		    if blippermis ~= nil and DoesBlipExist(blippermis) then
 				Citizen.InvokeNative(0x86A652570E5F25DD,Citizen.PointerValueIntInitialized(blippermis))
 		    end
 			blippermis = nil
-		    DrawMissionText2("~g~Parabens ! Você ~b~Voce chegou na auto escola suba as escadas e continue o Exame~g~ !", 5000)
+		    DrawMissionText2("~g~Parabens ! ~b~Voce chegou a Prefeitura pegue sua profissao~g~ !", 5000)
 			onPermis = 0
 		end
 	end
