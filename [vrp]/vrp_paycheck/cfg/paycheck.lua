@@ -38,12 +38,13 @@ cfg.paycheck = { -- ["permission"] = paycheck
   
   --- LEGAIS
   ["moto_boy.paycheck"] = 166,
-  ["taxista.paycheck"] = 200,
+  ["taxista.paycheck"] = 700,
   ["repair.paycheck"] = 200,
   ["advogado.paycheck"] = 300,
   ["lixeiro.paycheck"] = 167,
   ["Pescador.paycheck"] = 166,
   ["bus.paycheck"] = 100,
+  ["motoristabancario.paycheck"] = 100,
   -- BOMBEIRO
   
   ["bombeirocomandante.paycheck"] = 1066,

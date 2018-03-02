@@ -22,6 +22,7 @@ cfg.market_types = {
     ["bread"] = 2,
     ["donut"] = 2,
     ["tacos"] = 8,
+	
     ["sandwich"] = 20,
     ["kebab"] = 20,
     ["pdonut"] = 65
@@ -79,11 +80,11 @@ cfg.market_types = {
   
   ["Loja de Materiais"] = {
     _config = {blipid=478, blipcolor=56},
-    ["picareta"] = 100,
-    ["foice"] = 100,
-    ["pa"] = 100,
-    ["rede"] = 380,
-    ["balde"] = 100,
+    ["picareta"] = 1,
+    ["foice"] = 1,
+    ["pa"] = 1,
+    ["rede"] = 1,
+    ["balde"] = 1,
   },
  
 }

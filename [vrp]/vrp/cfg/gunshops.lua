@@ -9,11 +9,6 @@ local cfg = {}
 -- _config: blipid, blipcolor, permissions (optional, only users with the permission will have access to the shop)
 
 cfg.gunshop_types = {
-  ["AmmuNation"] = {
-    _config = {blipid=150,blipcolor=1},
-    ["WEAPON_MARKSMANPISTOL"] = {"Marksman Pistol",9600,0,""},
-	["WEAPON_SWITCHBLADE"] = {"Faca do CS",1500,0,""} 	
-  },
     ["bombeiro arma"] = {
     _config = {blipid=155,blipcolor=1, permissions = {"samu.loadshop"}},
     ["WEAPON_FireExtinguisher"] = {"Extintor",0,0,""},
@@ -22,24 +17,18 @@ cfg.gunshop_types = {
   },
   ["armacivil"] = {
     _config = {blipid=150,blipcolor=67},
-    ["WEAPON_MARKSMANPISTOL"] = {"Marksman Pistol",9600,0,""},
-	["WEAPON_SWITCHBLADE"] = {"Faca do CS",0,0,""},
-	["WEAPON_SMG"] = {"SMG",75000,25,""},
+    ["WEAPON_SNSPISTOL"] = {"Marksman Pistol",12000,4,""},
+	["WEAPON_SWITCHBLADE"] = {"Faca do CS",700,0,""},
+	["WEAPON_SMG"] = {"SMG",26000,6,""},
   },
   ["policeloadout"] = {
     _config = {permissions = {"police.loadshop"}},
     ["WEAPON_STUNGUN"] = {"Arma de choque",0,0,""},
-    ["WEAPON_SNSPISTOL"] = {"Pistola",0,25,""},
+    ["WEAPON_PISTOL"] = {"Pistola",0,2,""},
     ["WEAPON_SMOKEGRENADE"] = {"Granada de fumaça",3000,2,""},
-	["WEAPON_CARBINERIFLE"] = {"Carabineri Rifle",130000,25,""},
-	--["WEAPON_SAWNOFFSHOTGUN"] = {"Saw Shotgun",0,0,""},
-    ["WEAPON_ASSAULTSHOTGUN"] = {"Assault Shotgun",15000,25,""},
-	--["WEAPON_BULLPUPRIFLE"] = {"Bullpup Rifle",0,0,""},
-    --["WEAPON_ADVANCEDRIFLE"] = {"Carabine",0,0,""},
-	--["WEAPON_MICROSMG"] = {"Mini SMG",0,0,""},
-    --["WEAPON_SMG"] = {"SMG",0,0,""},
+	["WEAPON_CARBINERIFLE"] = {"Carabineri Rifle",6000,4,""},
+    ["WEAPON_PUMPSHOTGUN"] = {"Shotgun",4500,5,""},
     ["WEAPON_FLASHLIGHT"] = {"Lanterna",0,0,""},
-    --["WEAPON_ASSAULTSMG"] = {"Assault SMG",0,0,""},
     ["WEAPON_NIGHTSTICK"] = {"Cacetete",0,0,""},
  }
 }

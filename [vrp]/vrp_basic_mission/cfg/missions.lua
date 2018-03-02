@@ -41,7 +41,7 @@ cfg.repair = {
       {2137.28881835938,2900.53442382813,57.263298034668},
       {2144.6728515625,2900.85595703125,59.7593727111816}
     },
-    reward = 400
+    reward = 250
   },
   ["mission.repair.3"] = {
     chance = 4,
@@ -72,7 +72,7 @@ cfg.repair = {
       {2137.61767578125,2906.61645507813,59.770336151123},
       {2144.6728515625,2900.85595703125,59.7593727111816}
     },
-    reward = 400
+    reward = 250
   },
   ["mission.repair.4"] = {
     chance = 4,
@@ -83,7 +83,7 @@ cfg.repair = {
     {-531.410278320313,272.908172607422,83.0196304321289},
     {-213.563415527344,272.678375244141,92.0437088012695}
     },
-    reward = 500
+    reward = 250
   },
   ["mission.repair.5"] = {
     chance = 6,
@@ -94,7 +94,7 @@ cfg.repair = {
 {457.116088867188,5572.3564453125,781.184509277344},
 {450.837219238281,5567.4228515625,796.620361328125}
     },
-    reward = 1000
+    reward = 450
   },
   ["mission.repair.2"] = {
     chance = 2,
@@ -112,7 +112,7 @@ cfg.repair = {
       {2299.90209960938,1857.3779296875,106.976081848145},
       {2356.48413085938,1836.69982910156,102.337211608887}
     },
-    reward = 600
+    reward = 450
   }
 }
 
@@ -146,7 +146,7 @@ cfg.Motorista_bancario = {
       {2137.61767578125,2906.61645507813,59.770336151123},
       {2144.6728515625,2900.85595703125,59.7593727111816}
     },
-    reward = 400
+    reward = 200
   },
   ["mission.Motorista_bancario.moneybank2"] = {
     chance = 2,
@@ -163,9 +163,10 @@ cfg.Motorista_bancario = {
       {2271.43725585938,1996.4248046875,132.123352050781},
       {2307.3681640625,1972.44323730469,131.318496704102},
       {2267.27758789063,1917.859375,123.269912719727},
-      {2299.90209960938,1857.3779296875,106.976081848145}
+      {2299.90209960938,1857.3779296875,106.976081848145},
+	  
     },
-    reward = 500
+    reward = 200
   }  
 }
 
@@ -205,7 +206,7 @@ cfg.lixeiro = {
   ["mission.lixeiro.information"] = {
     positions = common_lixeiro_positions,
     items = {
-      ["saco"] = {3,6,80}
+      ["saco"] = {3,6,22}
     }
   }
 }
@@ -237,7 +238,7 @@ cfg.limpador_de_piscina = {
   ["mission.limpador_de_piscina.information"] = {
     positions = common_limpador_de_piscina_positions,
     items = {
-      ["kitlimpeza"] = {2,3,210}
+      ["kitlimpeza"] = {2,4,27}
     }
   }
 }
@@ -264,7 +265,7 @@ cfg.carteiro = {
   ["mission.carteiro.information"] = {
     positions = common_carteiro_positions,
     items = {
-      ["encomenda"] = {20,40,40}
+      ["encomenda"] = {12,14,16}
     }
   }
 }
@@ -444,7 +445,7 @@ cfg.leite = {
   ["mission.leite.food"] = {
     positions = common_leite_positions,
     items = {
-      ["Caixas de Leite"] = {5,10,20}
+      ["Caixas de Leite"] = {5,10,23}
     }
   }
 }
@@ -534,7 +535,7 @@ cfg.diamante = {
   ["mission.diamante.food"] = {
     positions = common_diamante_positions,
     items = {
-      ["Diamante"] = {5,10,150}
+      ["Diamante"] = {5,8,45}
     }
   }
 }
@@ -624,7 +625,7 @@ cfg.ouro = {
   ["mission.ouro.food"] = {
     positions = common_ouro_positions,
     items = {
-      ["Ouro"] = {5,10,100}
+      ["Ouro"] = {4,9,29}
     }
   }
 }
@@ -714,7 +715,7 @@ cfg.cobre = {
   ["mission.cobre.food"] = {
     positions = common_cobre_positions,
     items = {
-      ["Cobre"] = {10,17,15}
+      ["Cobre"] = {7,12,42}
     }
   }
 }
@@ -804,7 +805,7 @@ cfg.sal = {
   ["mission.sal.food"] = {
     positions = common_sal_positions,
     items = {
-      ["Pacote de Sal"] = {8,17,10}
+      ["Pacote de Sal"] = {8,17,35}
     }
   }
 }
@@ -894,7 +895,7 @@ cfg.trigo = {
   ["mission.trigo.food"] = {
     positions = common_trigo_positions,
     items = {
-      ["Pacotes de Trigo"] = {10,20,8}
+      ["Pacotes de Trigo"] = {13,20,20}
     }
   }
 }
@@ -984,8 +985,8 @@ cfg.moto_boy = {
   ["mission.moto_boy.food"] = {
     positions = common_moto_boy_positions,
     items = {
-      ["cocacola"] = {5,10,15},
-      ["pizza"] = {4,7,60}
+      ["cocacola"] = {5,10,10},
+      ["pizza"] = {4,7,10}
     }
   }
 }
@@ -1171,8 +1172,8 @@ cfg.hacker = {
   }
 }
 
-----------------------------------------------traficante lsdt-------------------------------------------------
-local common_lsdt_positions = {
+----------------------------------------------traficante lsd lsdt-------------------------------------------------
+local common_lsdt_positions = { -- LSD
 {-967.28491210938,-1430.8060302734,7.7636280059814},
 {-1881.4914550781,-613.06378173828,11.763383865356},
 {-1859.2855224609,-347.96957397461,49.837703704834},
@@ -1256,13 +1257,13 @@ cfg.lsdt = {
   ["mission.lsdt.information"] = {
     positions = common_lsdt_positions,
     items = {
-      ["lsdt"] = {3,10,230}
+      ["lsd"] = {3,10,230}
     }
   }
 }
 
 ----------------------------------------------traficante crack-------------------------------------------------
-local common_crack_positions = {
+local common_crack_positions = { -- CRACK
 {-967.28491210938,-1430.8060302734,7.7636280059814},
 {-1881.4914550781,-613.06378173828,11.763383865356},
 {-1859.2855224609,-347.96957397461,49.837703704834},
@@ -1346,13 +1347,13 @@ cfg.crack = {
   ["mission.crack.information"] = {
     positions = common_crack_positions,
     items = {
-      ["crack"] = {4,10,300}
+      ["pedradecrack"] = {4,10,300}
     }
   }
 }
 
 ----------------------------------------------extase-------------------------------------------------
-local common_extase_positions = {
+local common_extase_positions = { -- ECSTASY
 {-967.28491210938,-1430.8060302734,7.7636280059814},
 {-1881.4914550781,-613.06378173828,11.763383865356},
 {-1859.2855224609,-347.96957397461,49.837703704834},
@@ -1436,13 +1437,13 @@ cfg.extase = {
   ["mission.extase.information"] = {
     positions = common_extase_positions,
     items = {
-      ["ecstasy"] = {6,10,100}
+      ["docedeecstasy"] = {6,10,100}
     }
   }
 }
 
 ----------------------------------------------traficante cocaina-------------------------------------------------
-local common_cocaina_positions = {
+local common_cocaina_positions = { -- COCAINA
 {-967.28491210938,-1430.8060302734,7.7636280059814},
 {-1881.4914550781,-613.06378173828,11.763383865356},
 {-1859.2855224609,-347.96957397461,49.837703704834},
@@ -1526,13 +1527,13 @@ cfg.cocaina = {
   ["mission.cocaina.information"] = {
     positions = common_cocaina_positions,
     items = {
-      ["cocaina"] = {4,10,270}
+      ["pinodecoca"] = {4,10,270}
     }
   }
 }
 
 ----------------------------------------------traficante uranio-------------------------------------------------
-local common_uranio_positions = {
+local common_uranio_positions = { -- URANIO
 {-967.28491210938,-1430.8060302734,7.7636280059814},
 {-1881.4914550781,-613.06378173828,11.763383865356},
 {-1859.2855224609,-347.96957397461,49.837703704834},
@@ -1622,7 +1623,7 @@ cfg.uranio = {
 }
 
 ----------------------------------------------traficante-------------------------------------------------
-local common_traficante_positions = {
+local common_traficante_positions = { -- MACONHA
 {-967.28491210938,-1430.8060302734,7.7636280059814},
 {-1881.4914550781,-613.06378173828,11.763383865356},
 {-1859.2855224609,-347.96957397461,49.837703704834},

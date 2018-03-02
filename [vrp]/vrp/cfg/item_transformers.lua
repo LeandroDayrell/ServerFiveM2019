@@ -341,6 +341,28 @@ cfg.item_transformers = {
       }
     }
   },
+    { -- TRANSFORMADOR DE COCAINA
+    name="TRANSFORMADOR DE COCAINA", -- menu name
+    permissions = {"processador.cocaina"}, -- you can add permissions
+    r=0,g=200,b=0, -- cor do menu
+    max_units=1000, -- unidades maximas do item
+    units_per_minute=500, -- unidades que o transformador ganha de volta por minuto
+    x=1675.4012451172,y=-1935.5599365234,z=114.81266784668, -- pos
+    radius=2, height=1.0, -- area
+    recipes = { -- items do menu
+    ["Processar"] = { -- action name     767.90173339844,-370.1455078125,49.977001190186
+    description="Processador de Cocaina.", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={  -- items taken per unit
+    ["cocaina"] = 1
+    },
+    products={ -- items given per unit
+    ["pinodecoca"] = 1,
+        }
+      }
+    }
+  },
   
   { -- PESCADOR DE TARTARUGA
 name="Pescador de Tartaruga", -- menu name
@@ -390,7 +412,7 @@ name="Pescador de Tartaruga", -- menu name
   
   
   { -- CAMPO DE CRACK
-    name="Campo de Crack", -- Nome do menu 
+    name="Crack - Colheita", -- Nome do menu 
     permissions = {"campo.crack"}, -- Voc� pode adicionar permiss�es
     r=0,g=200,b=0, -- cor
     max_units=1000,
@@ -415,7 +437,7 @@ name="Pescador de Tartaruga", -- menu name
     aptitudes={} -- optional
   },
   { -- REFINARA DE CRACK
-    name="Refinaria de Crack", -- menu name
+    name="Crack - Refinaria", -- menu name
     permissions = {"processador.crack"}, -- you can add permissions
     r=0,g=200,b=0, -- cor do menu
     max_units=1000, -- unidades maximas do item
@@ -437,6 +459,37 @@ name="Pescador de Tartaruga", -- menu name
       }
     }
   },
+  
+  
+  
+    { -- 
+    name="Crack Transformador", -- menu name
+    permissions = {"processador.crack"}, -- you can add permissions
+    r=0,g=200,b=0, -- cor do menu
+    max_units=1000, -- unidades maximas do item
+    units_per_minute=500, -- unidades que o transformador ganha de volta por minuto
+    x=1667.2595214844,y=-1631.2132568359,z=112.8876953125, -- pos
+    radius=2, height=1.0, -- area  
+    recipes = { -- items do menu
+    ["Processar"] = { -- action name
+    description="Processador de Cocaina.", -- action description
+    in_money=0, -- money taken per unit
+	out_dinheirosujo=0,
+    out_money=0, -- money earned per unit
+    reagents={  -- items taken per unit
+    ["crack"] = 1
+    },
+    products={ -- items given per unit
+    ["pedradecrack"] = 1
+        }
+      }
+    }
+  },
+  
+  
+  
+  
+  
   { -- PLANTAÇÃO DE ERVA
     name="Plantação de erva",
     permissions = {"trafico_drogas"},
@@ -808,21 +861,21 @@ name="Pescador de Tartaruga", -- menu name
     }
   },
   { -- EXTRAIR LSD
-    name="Extrair LsD", -- menu name
+    name="LSD Produzir", -- menu name
     r=51,g=153,b=255, -- color
     max_units=200,
     units_per_minute=999,
     x=-115.86870574951,y=1908.5133056641,z=197.42163085938, 
     radius=4, height=1.0, -- area
     recipes = {
-    ["Extrair"] = { -- action name
+    ["Produzir"] = { -- action name
     description="Extraindo lsd", -- action description
     in_money=0, -- money taken per unit
 	out_dinheirosujo=20,
     out_money=0, -- money earned per unit
     reagents={}, -- items taken per unit
     products={
-    ["lsd"] = 1
+    ["hidrazida"] = 1
     }, -- items given per unit
     aptitudes={} -- optional
       }
@@ -831,7 +884,33 @@ name="Pescador de Tartaruga", -- menu name
     aptitudes={} -- optional
   },
   { -- PRODUZIR LSD
-    name="Produzir LsD", -- menu name traitement 
+    name="LSD Processador", -- menu name traitement 
+    r=51,g=153,b=255, -- color
+    max_units=200,
+    units_per_minute=999,
+    x=-707.43524169922,y=620.88018798828,z=155.21087646484,
+    radius=2, height=1.0, -- area
+    recipes = {
+    ["Processador"] = { -- action name
+    description="Processar lsd", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+	out_dinheirosujo=20,
+    reagents={
+    ["hidrazida"] = 1
+    }, -- items taken per unit
+        products={
+    ["eter"] = 1
+     },
+     aptitudes={ -- optional
+    ["laboratory.lsd"] = 3, -- "group.aptitude", give 1 exp per unit
+    ["science.chemicals"] = 6
+        }
+      }
+    }
+  },
+  { -- PRODUZIR LSD
+    name="LSD Transformador", -- menu name traitement 
     r=51,g=153,b=255, -- color
     max_units=200,
     units_per_minute=999,
@@ -844,10 +923,10 @@ name="Pescador de Tartaruga", -- menu name
     out_money=0, -- money earned per unit
 	out_dinheirosujo=20,
     reagents={
-    ["lsd"] = 1
+    ["eter"] = 1
     }, -- items taken per unit
         products={
-    ["lsdt"] = 1
+    ["lsd"] = 1
      },
      aptitudes={ -- optional
     ["laboratory.lsd"] = 3, -- "group.aptitude", give 1 exp per unit
@@ -897,6 +976,31 @@ name="Pescador de Tartaruga", -- menu name
     }, -- items taken per unit
     products={
     ["ecstasy"] = 1
+    }, -- items given per unit
+    aptitudes={} -- optional
+      }
+    }
+  }
+  
+  
+    { -- TRANSFORMADOR DE ECSTASY
+    name="Ecstasy Transfomador", -- menu name traitement 
+    r=195,g=178,b=235, -- color
+    max_units=200,
+    units_per_minute=999,
+    x=-914.14428710938,y=750.26470947266,z=182.16152954102, 
+    radius=2, height=1.0, -- area
+    recipes = {
+    ["Transfomador"] = { -- action name
+    description="Tranformador de Ecstasy em bala.", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per 
+	out_dinheirosujo=20,
+    reagents={
+    ["ecstasy"] = 1
+    }, -- items taken per unit
+    products={
+    ["docedeecstasy"] = 1
     }, -- items given per unit
     aptitudes={} -- optional
       }

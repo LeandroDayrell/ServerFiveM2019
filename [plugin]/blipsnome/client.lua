@@ -1,13 +1,5 @@
 local TeleportFromTo = {
-
-	["Produzir LsD"] = {
-	   positionFrom = { ['x'] = 1389.6108398438, ['y'] = 3603.7277832031, ['z'] = 38.941837310791, nom = "Produzir LsD"},
-	   positionTo = { ['x'] = 1389.6108398438, ['y'] = 3603.7277832031, ['z'] = 38.941837310791, nom = "Produzir LsD"},
-	},
-	["Extrair LsD"] = {
-	   positionFrom = { ['x'] = -115.86870574951, ['y'] = 1908.5133056641, ['z'] = 197.42163085938, nom = "Extrair LsD"},
-	   positionTo = { ['x'] = -115.86870574951, ['y'] = 1908.5133056641, ['z'] = 197.42163085938, nom = "Extrair LsD"},
-	},
+	
 	["Venda De Orgaos"] = {
 	   positionFrom = { ['x'] = -2033.3133544922, ['y'] = -1035.1331787109, ['z'] = 5.8823466300964, nom = "Venda De Orgaos"},
 	   positionTo = { ['x'] = -2033.3133544922, ['y'] = -1035.1331787109, ['z'] = 5.8823466300964, nom = "Venda De Orgaos"},
@@ -23,14 +15,6 @@ local TeleportFromTo = {
 	["Roubar Corpos"] = {
 	   positionFrom = { ['x'] = 295.92770385742, ['y'] = -1349.0679931641, ['z'] = 24.537803649902, nom = "Roubar Corpos"},
 	   positionTo = { ['x'] = 295.92770385742, ['y'] = -1349.0679931641, ['z'] = 24.537803649902, nom = "Roubar Corpos"},
-	},
-	["Enriquecimento de Uranio"] = {
-	   positionFrom = { ['x'] = 2329.9621582031, ['y'] = 2571.7009277344, ['z'] = 46.678863525391, nom = "Enriquecimento de Uranio"},
-	   positionTo = { ['x'] = 2329.9621582031, ['y'] = 2571.7009277344, ['z'] = 46.678863525391, nom = "Enriquecimento de Uranio"},
-	},
-	["Coletar Uranio"] = {
-	   positionFrom = { ['x'] = 3067.7629394531, ['y'] = 2219.5422363281, ['z'] = 2.724246263504, nom = "Coletar Uranio"},
-	   positionTo = { ['x'] = 3067.7629394531, ['y'] = 2219.5422363281, ['z'] = 2.724246263504, nom = "Coletar Uranio"},
 	},
 	["Musculacao"] = {
 	   positionFrom = { ['x'] = -1202.96252441406, ['y'] = -1566.14086914063, ['z'] = 4.61040639877319, nom = "Musculacao"},
@@ -64,38 +48,12 @@ local TeleportFromTo = {
 	   positionFrom = { ['x'] = -1053.7222900391, ['y'] = -4322.240234375, ['z'] = 2.3005771636963, nom = "Mar de peixe"},
 	   positionTo = { ['x'] = -1053.7222900391, ['y'] = -4322.240234375, ['z'] = 2.3005771636963, nom = "Mar de peixe"},
 	},
-	["Enrolado de maconha"] = {
-	   positionFrom = { ['x'] = 45.760025024414, ['y'] = -1939.0877685547, ['z'] = 21.589450836182, nom = "Enrolado de maconha"},
-	   positionTo = { ['x'] = 45.760025024414, ['y'] = -1939.0877685547, ['z'] = 21.589450836182, nom = "Enrolado de maconha"},
-	},
-	["Processador de erva"] = {
-	   positionFrom = { ['x'] = 1482.2690429688, ['y'] = -1738.5200195313, ['z'] = 90.62540435791, nom = "Processador de erva"},
-	   positionTo = { ['x'] = 1482.2690429688, ['y'] = -1738.5200195313, ['z'] = 90.62540435791, nom = "Processador de erva"},
-	},
 	["Produto do lixeiro"] = {
 	   positionFrom = { ['x'] = -315.84259033203, ['y'] = -932.46270751953, ['z'] = 31.080619812012, nom = "Produto do lixeiro"},
 	   positionTo = { ['x'] = -315.84259033203, ['y'] = -932.46270751953, ['z'] = 31.080619812012, nom = "Produto do lixeiro"},
 	},
-	["Plantação de erva"] = {
-	   positionFrom = { ['x'] = 2219.1667480469, ['y'] = 5577.13671875, ['z'] = 53.843963623047, nom = "Plantacao de erva"},
-	   positionTo = { ['x'] = 2219.1667480469, ['y'] = 5577.13671875, ['z'] = 53.843963623047, nom = "Plantacao de erva"},
-	}, 
-	["Refinaria de Crack."] = {
-	   positionFrom = { ['x'] = -780.46740722656, ['y'] = 534.67590332031, ['z'] = 123.02164459229, nom = "Refinaria de Crack."}, 
-	   positionTo = { ['x'] = -780.46740722656, ['y'] = 534.67590332031, ['z'] = 123.02164459229, nom = "Refinaria de Crack."},
-	},
-	["Colher pasta de crack."] = {
-	   positionFrom = { ['x'] = -1858.0501708984, ['y'] = 2250.0380859375, ['z'] = 82.478172302246, nom = "Colher pasta de crack."},
-	   positionTo = { ['x'] = -1858.0501708984, ['y'] = 2250.0380859375, ['z'] = 82.478172302246, nom = "Colher pasta de crack."},
-	},
-	["Processador de Cocaina."] = {
-	   positionFrom = { ['x'] = 1316.7137451172, ['y'] = -350.80725097656, ['z'] = 90.406730651855, nom = "Processador de Cocaina."},
-	   positionTo = { ['x'] = 1316.7137451172, ['y'] = -350.80725097656, ['z'] = 90.406730651855, nom = "Processador de Cocaina."},
-	},
-	["Colher pasta de Coca."] = {
-	   positionFrom = { ['x'] = 1917.013671875, ['y'] = 5101.9907226563, ['z'] = 43.21529006958, nom = "Colher pasta de Coca."},
-	   positionTo = { ['x']  = 1917.013671875, ['y'] = 5101.9907226563, ['z'] = 43.21529006958, nom = "Colher pasta de Coca."},
-	},
+	
+
 	["TRABALHO ILEGAL."] = {
 	   positionFrom = { ['x'] = -270.6329650879, ['y'] = -977.49603271484, ['z'] = 31.217309951782, nom = "TRABALHO ILEGAL."},
 	   positionTo = { ['x']  = -270.6329650879, ['y'] = -977.49603271484, ['z'] = 31.217309951782, nom = "TRABALHO ILEGAL."},
@@ -173,6 +131,99 @@ local TeleportFromTo = {
 	   positionTo = { ['x'] = 893.67346191406, ['y'] = 3607.2319335938, ['z'] = 32.824211120605, nom = "Processamento de Leite"},
 
 	},
+	
+	
+	
+		-- TRAFICANTE DE DROGAS
+	-- MACONHA
+	["Enrolado de maconha"] = {
+	   positionFrom = { ['x'] = 45.760025024414, ['y'] = -1939.0877685547, ['z'] = 21.589450836182, nom = "Enrolado de maconha"},
+	   positionTo = { ['x'] = 45.760025024414, ['y'] = -1939.0877685547, ['z'] = 21.589450836182, nom = "Enrolado de maconha"},
+	},
+	["Processador de erva"] = {
+	   positionFrom = { ['x'] = 1482.2690429688, ['y'] = -1738.5200195313, ['z'] = 90.62540435791, nom = "Processador de erva"},
+	   positionTo = { ['x'] = 1482.2690429688, ['y'] = -1738.5200195313, ['z'] = 90.62540435791, nom = "Processador de erva"},
+	},	
+	["Plantação de erva"] = {
+	   positionFrom = { ['x'] = 2219.1667480469, ['y'] = 5577.13671875, ['z'] = 53.843963623047, nom = "Plantacao de erva"},
+	   positionTo = { ['x'] = 2219.1667480469, ['y'] = 5577.13671875, ['z'] = 53.843963623047, nom = "Plantacao de erva"},
+	}, 
+	
+	-- LSD
+	["LSD Produzir"] = {
+	   positionFrom = { ['x'] = 1389.6108398438, ['y'] = 3603.7277832031, ['z'] = 38.941837310791, nom = "Produzir LsD"},
+	   positionTo = { ['x'] = 1389.6108398438, ['y'] = 3603.7277832031, ['z'] = 38.941837310791, nom = "Produzir LsD"},
+	},
+	["LSD Processador"] = {
+	   positionFrom = { ['x'] = -115.86870574951, ['y'] = 1908.5133056641, ['z'] = 197.42163085938, nom = "Extrair LsD"},
+	   positionTo = { ['x'] = -115.86870574951, ['y'] = 1908.5133056641, ['z'] = 197.42163085938, nom = "Extrair LsD"},
+	},
+	["LSD Transformador"] = {
+	   positionFrom = { ['x'] = -707.43524169922, ['y'] = 620.88018798828, ['z'] = 155.21087646484, nom = "Transformar LSD"},
+	   positionTo = { ['x'] = -707.43524169922, ['y'] = 620.88018798828, ['z'] = 155.21087646484, nom = "Transformar LSD"},
+	},
+	
+	-- ECSTASY
+	["Ecstasy Colheita"] = {
+	   positionFrom = { ['x'] = 16.626104354858, ['y'] = -1832.2036132813, ['z'] = 24.769153594971, nom = "Colheita de Metil"},
+	   positionTo = { ['x'] = 16.626104354858, ['y'] = -1832.2036132813, ['z'] = 24.769153594971, nom = "Colheita de Metil"},
+	}	
+	["Ecstasy Refinaria"] = {
+	   positionFrom = { ['x'] = -561.68438720703, ['y'] = 281.64797973633, ['z'] = 85.676383972168, nom = "Colheita de Metil"},
+	   positionTo = { ['x'] = -561.68438720703, ['y'] = 281.64797973633, ['z'] = 85.676383972168, nom = "Colheita de Metil"},
+	},
+	["Ecstasy Transformador"] = {
+	   positionFrom = { ['x'] = -914.14428710938, ['y'] = 750.26470947266, ['z'] = 182.16152954102, nom = "Colheita de Metil"},
+	   positionTo = { ['x'] = -914.14428710938, ['y'] = 750.26470947266, ['z'] = 182.16152954102, nom = "Colheita de Metil"},
+	},
+	-- COCAINA
+	["Processador de Cocaina."] = {
+	   positionFrom = { ['x'] = 1316.7137451172, ['y'] = -350.80725097656, ['z'] = 90.406730651855, nom = "Processador de Cocaina."},
+	   positionTo = { ['x'] = 1316.7137451172, ['y'] = -350.80725097656, ['z'] = 90.406730651855, nom = "Processador de Cocaina."},
+	},
+	["Colher pasta de Coca."] = {
+	   positionFrom = { ['x'] = 1917.013671875, ['y'] = 5101.9907226563, ['z'] = 43.21529006958, nom = "Colher pasta de Coca."},
+	   positionTo = { ['x']  = 1917.013671875, ['y'] = 5101.9907226563, ['z'] = 43.21529006958, nom = "Colher pasta de Coca."},
+	},
+	["Cocaina Transformador"] = {
+	   positionFrom = { ['x'] = 1675.4012451172, ['y'] = -1935.5599365234, ['z'] = 114.81266784668, nom = "Transformar Coca em Pino"},
+	   positionTo = { ['x']  = 1675.4012451172, ['y'] = -1935.5599365234, ['z'] = 114.81266784668, nom = "Transformar Coca em Pino"},
+	},
+	-- CRACK
+	["Colher pasta de crack."] = {
+	   positionFrom = { ['x'] = -1858.0501708984, ['y'] = 2250.0380859375, ['z'] = 82.478172302246, nom = "Colher pasta de crack."},
+	   positionTo = { ['x'] = -1858.0501708984, ['y'] = 2250.0380859375, ['z'] = 82.478172302246, nom = "Colher pasta de crack."},
+	},
+	["Refinaria de Crack."] = {
+	   positionFrom = { ['x'] = -780.46740722656, ['y'] = 534.67590332031, ['z'] = 123.02164459229, nom = "Refinaria de Crack."}, 
+	   positionTo = { ['x'] = -780.46740722656, ['y'] = 534.67590332031, ['z'] = 123.02164459229, nom = "Refinaria de Crack."},
+	},
+	["Crack Transformador."] = {
+	   positionFrom = { ['x'] = 1667.2595214844, ['y'] = -1631.2132568359, ['z'] = 112.8876953125, nom = "Transfomar em Pedra de Crack."}, 
+	   positionTo = { ['x'] = 1667.2595214844, ['y'] = -1631.2132568359, ['z'] = 112.8876953125, nom = "Transfomar em Pedra de Crack."},
+	},
+	-- URANIO
+	["Coletar Uranio"] = {
+	   positionFrom = { ['x'] = 3067.7629394531, ['y'] = 2219.5422363281, ['z'] = 2.724246263504, nom = "Coletar Uranio"},
+	   positionTo = { ['x'] = 3067.7629394531, ['y'] = 2219.5422363281, ['z'] = 2.724246263504, nom = "Coletar Uranio"},
+	},
+	["Enriquecimento de Uranio"] = {
+	   positionFrom = { ['x'] = 2329.9621582031, ['y'] = 2571.7009277344, ['z'] = 46.678863525391, nom = "Enriquecimento de Uranio"},
+	   positionTo = { ['x'] = 2329.9621582031, ['y'] = 2571.7009277344, ['z'] = 46.678863525391, nom = "Enriquecimento de Uranio"},
+	},
+	["Uranio Transformador"] = {
+	   positionFrom = { ['x'] = -213.03514099121, ['y'] = -1683.5076904297, ['z'] = 34.850330352783, nom = "Enriquecimento de Uranio"},
+	   positionTo = { ['x'] = -213.03514099121, ['y'] = -1683.5076904297, ['z'] = 34.850330352783, nom = "Enriquecimento de Uranio"},
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
 
 Drawing = setmetatable({}, Drawing)
