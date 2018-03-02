@@ -30,6 +30,7 @@ cfg.gunshop_types = {
     ["WEAPON_PUMPSHOTGUN"] = {"Shotgun",4500,5,""},
     ["WEAPON_FLASHLIGHT"] = {"Lanterna",0,0,""},
     ["WEAPON_NIGHTSTICK"] = {"Cacetete",0,0,""},
+	["WEAPON_SPECIALCARBINE"] = {"FAL",9000,4,""},
  }
 }
 
