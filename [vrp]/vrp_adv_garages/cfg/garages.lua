@@ -51,11 +51,11 @@ cfg.adv_garages = {
 	["sheriffevo"] = {"Evo PRF",0, "police"},---
 	["polchiron"] = {"Chiron PRF",0, "police"},----
 	["pbus"] = {"PMERJ BUS",0, "police"},
-	--["policeb"] = {"MOTO ROCAM",0, "police"},
 	["police3"] = {"Logan POLICIA jazz",0, "police"},
 	["sheriff"] = {"s10 POLICIA jazz",0, "police"},
-	["police2"] = {"Carro BOPE jazz",0, "police"},
+	["police2"] = {"Carro BOPE jazz",0, "police"}
   },
+  
   ["bope"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"bope.vehicle"}},
     ["polarteon"] = {"BOPE - Arteon",0, "police"},
@@ -63,11 +63,12 @@ cfg.adv_garages = {
 	["police3"] = {"BOPE - Dodge",0, "police"},
 	["sef_pfinder"] = {"BOPE - Nissan Pathfinder",0, "police"},
     ["fbi2"] = {"BOPE - Suburban",0, "police"},
-	["police2"] = {"Carro BOPE jazz",0, "police"},
+	["police2"] = {"Carro BOPE jazz",0, "police"}
   },
+  
    ["hospitalele"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=360,blipcolor=3,permissions={"emergency.vehicle"}},
-	["polmav"] = {"Helicoptero SAMU",0, ""},
+	["polmav"] = {"Helicoptero SAMU",0, ""
   },
   
    ["hospitalcar"] = {
@@ -75,7 +76,7 @@ cfg.adv_garages = {
 	["ambulance"] = {"Ambulancia Bombeiro",0, ""},
 	["pranger"] = {"Resgate",0, ""},
 	["ems_gs1200"] = {"Moto Samu",0, ""},
-	["sprinter"] = {"Sprinter Samu",0, ""},
+	["sprinter"] = {"Sprinter Samu",0, ""}
   },
 
   ["uber"] = {
@@ -85,7 +86,7 @@ cfg.adv_garages = {
   
   ["advogado"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=225,blipcolor=59,permissions={"advogado.vehicle"}},
-    ["hondacivictr"] = {"Honda Civic", 50, ""},
+    ["hondacivictr"] = {"Honda Civic", 50, ""}
   },
   
   ["moto_boy"] = {
@@ -127,16 +128,19 @@ cfg.adv_garages = {
 	["frogger"] = {"Frogger",12000000, ""},
 	["skylift"] = {"Skylift",40000000, ""}
   },
+  
     ["Barco pescador"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=410,blipcolor=30,permissions={"pescador.barco"}},
-    ["Tug"] = {"Tug", 50,"Barco pra pesca!"},
+    ["Tug"] = {"Tug", 50,"Barco pra pesca!"}
   },
+  
     ["lixeiro"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=318,blipcolor=31,permissions={"lixeiro.vehicle"}},
-    ["Trash"] = {"Trash", 50,"carro do lixeiro!"},
+    ["Trash"] = {"Trash", 50,"carro do lixeiro!"}
   },
+  
     ["PDHeli"] = {
-   _config = {gpay="wallet",gtype={"personal","store","rental"},vtype="car", permission = "police.vehicle"},
+   _config = {gpay="wallet",gtype={"rental"},vtype="car", permission = "police.vehicle"}},
     ["swift2"] = {"Swift II", 0, "Swift II"},
     ["swift"] = {"swift", 0, "swift"}
   },
@@ -166,10 +170,12 @@ cfg.adv_garages = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=67,blipcolor=4,permissions={"Motorista_bancario.vehicle"}},
     ["stockade"] = {"stockade",50, "stockade"}
   }, 
+  
     ["correio"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"carteiro.vehicle"}},
     ["Burrito3"] = {"carro do carteiro", 50,"carro do carteiro"}
   },
+  
     ["limpador de piscina"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=225,blipcolor=30,permissions={"limpador_de_piscina.vehicle"}},
     ["UtilliTruck3"] = {"carro do limpador", 50,"carro do limpador"}
@@ -186,7 +192,7 @@ cfg.adv_garages = {
   }, 
   
   ["helicópteros da polícia"] = {
-     _config = {gpay="wallet",gtype={"rental"},{vtype="helicopters",permissions={"police.pc"}},
+   _config = {gpay="wallet",gtype={"rental"},vtype="helicopters",permissions={"police.pc"}},
     ["polmav"] = {"Policia",0, ""},
 	["valkyrie2"] = {"Tem que pedir permissao ao seu superior para usa-lo",0,""},
 	["frogger2"] = {"Policia3",0, ""}
@@ -211,7 +217,7 @@ cfg.adv_garages = {
   },
   
   ["onibus"] = {
-    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=513,blipcolor=38,permissions={"bus.vehicle"}},
+    _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=513,blipcolor=38,permissions={"bus.vehicle"}},
     ["Bus"] = {"Onibus",50, ""}
   },
   
@@ -226,38 +232,15 @@ cfg.adv_garages = {
 	["saveiro"] = {"Saveiro",34000, ""},
 	["up"] = {"up",34000, ""},
 	["celta"] = {"CELTA",34000, ""},
-	["agile"] = {"Agile",34000, ""},
+	["agile"] = {"Agile",34000, ""}
   },
   
     ["Garagem"]  = {
 	_config = {gpay="wallet",gtype={"personal"},vtype="car",blipid=50,blipcolor=38},
-    --["golf6"] = {"Golf Mk6",60000, ""},
-    --["golfgti"] = {"Golf GTI",130000, ""},
-	--["206"] = {"Peugeot 206",13426, ""},
-	--["fusca"] = {"Fusca 1968",12000, ""},
-	--["kombi"] = {"Kombi",7000, ""},
-    --["chevette"] = {"Chevette 1988",5830, ""},
-	--["clio"] = {"Renault Clio",10850, ""},
-    --["punto"] = {"Fiat Punto Evo",170000, ""},
-    --["ftoro"] = {"Fiat Toro",97270, ""},
-    --["fiestarbcamber"] = {"Ford Fiesta",67090, ""},
-    --["evoq"] = {"Evoque",243500, ""},
-    --["honda"] = {"Honda Civic Hatchback",87900, ""},
-	--["pajero4"] = {"Pajero",87900, ""},
-    --["hondacivictr"] = {"Honda Civic Type",124900, ""},
-    --["veloster"] = {"Hyundai Veloster",50000, ""},
-    --["srt8"] = {"Jeep SRT8 2015",69990, ""},
-    --["vwgolf"] = {"Volkswagen Golf Sportline",45000, ""},
-	--["evo10"] = {"Lancer Evolution x",144500, ""},
-    --["gtr"] = {"Nissan GTR",155000, ""},
 	["schafter3"] = {"fox",34000, ""},
 	["vwstance"] = {"vwstance",34000, ""},
 	["EK9"] = {"EK9",34000, ""},
 	["208"] = {"Peugeot 208",34000, ""},
-	--["police2"] = {"CARRO DO BOPE",34000, ""},
-	--["parati"] = {"Parati 1988 Turbo",34000, ""},
-	--["GTI"] = {"Gol 1989",34000, ""},
-	--["unosport"] = {"Uno Sport",34000, ""},
 	["golg7"] = {"Gol G7",34000, ""},
 	["amarok"] = {"Amarok",34000, ""},
 	["civic2"] = {"Civic 2010",34000, ""},
@@ -268,9 +251,9 @@ cfg.adv_garages = {
 	["up"] = {"up",34000, ""},
 	["ranger"] = {"Ranger",34000, ""},
 	["celta"] = {"CELTA",34000, ""},
-	--["duster"] = {"Duster",34000, ""},
-	["agile"] = {"Agile",34000, ""},
+	["agile"] = {"Agile",34000, ""}
   }, 
+  
   ["loja moto"] = {
    _config = {gpay="bank",gtype={"store","rental","personal"},vtype="car",blipid=226,blipcolor=4},
     ["cbrr"] = {"cb1000",34000, ""},
@@ -280,7 +263,7 @@ cfg.adv_garages = {
     ["z1000"] = {"moto_z1000",34000, ""},
 	["150"] = {"FAN ESD",34000, ""},
 	["cbb"] = {"CBR1000",34000, ""},
-	["xj6vip"] = {"XJ6 VIP",34000, ""},
+	["xj6vip"] = {"XJ6 VIP",34000, ""}
   }, 
   
   ["Ranch Main"]  = {
@@ -371,84 +354,55 @@ cfg.adv_garages = {
 
 -- position garages on the map {garage_type,x,y,z}
 cfg.garages = {
-
-     ---loja---
   {"loja carro",-46.674224853516,-1096.9587402344,26.422344207764},-----loja
   {"loja moto",-40.997344970703,-1099.4600830078,26.422344207764},-----------loja
-  ----garagem--- 
   {"Garagem",-332.6287,-779.1125,33.9648},
   {"Garagem",1158.8588867188,-1510.8195800781,34.692577362061},----ospi  
   {"Garagem",455.05880737305,-1020.3707275391,28.31156539917},------delegacia 
   {"Garagem",379.26959228516,-578.05090332031,28.687629699707},
   {"Garagem",1725.9693603516,3318.0473632812,41.223503112792},---------corrida
   {"Garagem",178.48603820801,-1656.724609375,29.803203582764}, 
-  --{"Garagem",1371.5729980469,-1525.9226074219,56.687828063965},
   {"Garagem",1925.3059082031,3738.9421386719,32.591606140137},---------------favelao
   {"Garagem",-623.28009033203,56.552303314209,43.7301902771}, -- house garage
-  --{"Garagem",-616.535278320313,61.0899543762207,43.7443008422852},  
-  --{"Garagem",-1450.5,-529.359191894531,31.5818099975586},
-  --{"Garagem",-1452.89953613281,-526.068786621094,31.5818119049072},
-  --{"Garagem",-1455.28564453125,-522.530517578125,31.5818119049072},
   {"Garagem",-1448.5615234375,-516.96600341797,31.581823348999},
   {"Garagem",-796.19598388672,324.0544128418,85.700408935547},
-  --{"Garagem",-800.535583496094,336.329803466797,85.700439453125},
-  
-  -- GARAGEM FAVELA
-  
   {"Garagem",90.218589782715,-1966.3078613281,20.747468948364}, -- FAVELA GTA SAN ANDREAS [TCA]
   {"Garagem",-797.77563476563,599.57348632813,127.32173156738}, -- FAVELA AREA RICA       [TCP]
   {"Garagem",752.60040283203,-201.75495910645,66.114463806152}, -- FAVELA DA BR           [ADA]
   {"Garagem",1574.8706054688,-1750.0263671875,88.224189758301}, -- FAVELA PETROLEO        [CV ]
-  
-  
-  
-  
-  -- personal garages
   {"Personal",215.124,-791.377,30.646},
   {"Personal",-334.685,289.773,85.705},
   {"Personal",-55.272,-1838.71,26.442},
   {"Personal",126.434,6610.04,31.750},
-  
-  -- lscustoms
   {"LS Customs",-337.3863,-136.9247,39.0737},
   {"LS Customs",-1155.536,-2007.183,13.244},
   {"LS Customs",731.8163,-1088.822,22.233},
   {"LS Customs",1175.04,2640.216,37.82177},
   {"LS Customs",110.8406,6626.568,32.287},
-  
-  -- house garages
   {"Ranch Main", 1408.32495117188,1117.44665527344,114.737692260742},
   {"Rich Housing", -751.5107421875,365.883117675781,87.9666687011719},
-  {"Rich Housing 2",	-81.860595703125,-809.427734375,36.4030570983887},
+  {"Rich Housing 2",-81.860595703125,-809.427734375,36.4030570983887},
   {"Basic Housing 1", -635.4501953125,57.4368324279785,44.8587303161621},
   {"Basic Housing 2", -1448.18701171875,-514.856567382813,31.6881823348999},
   {"Regular House 1", 843.398803710938,-191.063568115234,72.6714935302734},
-  {"Regular House 2",  174.276748657227,483.056274414063,142.339096069336},
+  {"Regular House 2", 174.276748657227,483.056274414063,142.339096069336},
   {"Regular House 3", -820.590148925781,184.175857543945,72.0921401977539},
   {"Regular House 4", -1858.14965820313,328.570861816406,88.6500091552734},
   {"Regular House 5", -25.002462387085,-1436.29431152344,30.6531391143799},
-  {"Regular House 6", -2587,1930.97326660156,167.304656982422},
-  
-  
+  {"Regular House 6", -2587,1930.97326660156,167.304656982422},  
   {"onibus",-325.83905029297,-1008.9650878906,30.38508605957},
   {"limpador de piscina",520.70068359375,169.26039123535,99.371765136719},---------------------------limpador de piscina
   {"correio",493.94659423828,-1968.8747558594,24.924398422241},----------------------------correio
   {"Barco pescador",12.583372116089,-2802.0444335938,2.5259544849396},
   {"lixeiro",-468.04852294922,-1676.3823242188,19.053634643555},
   {"advogado",-591.73077392578,-669.74658203125,32.09875869751},
-  {"moto_boy",141.74586486816,-1458.0601806641,29.141620635986},   -- jobs garage
-  
-  
+  {"moto_boy",141.74586486816,-1458.0601806641,29.141620635986},   -- jobs garage  
   {"police",-479.62710571289,6022.0771484375,31.340547561646},---prf 
   {"police",448.804, -1020.32, 28.4669},
   {"bope",141.06597900391,-742.68548583984,33.133296966553},
-  --{"police",-329.00738525391,-979.23400878906,31.080610275269},
-  --{"police",378.612274169922,-1629.18676757813,28.5226573944092},  -- jobs garage 
   {"hospitalcar",1161.3110351563,-1493.9163818359,34.692573547363}, 
-  --{"hospitalcar",-312.04141235352,-961.15649414063,31.080619812012}, -- PREFEITURA
   {"hospitalele",1219.2795410156,-1517.4210205078,34.700019836426},
   {"uber",900.77600097656,-181.19085693359,73.90412902832}, -- jobs garage
-  --{"moto_boy",-298.0983581543,-991.42559814453,31.080617904663},   -- jobs garage
   {"PDHeli",481.621856689453,-982.223693847656,41.0080757141113},
   {"Helicopters",1750, 3260, 41.37},
   {"Helicopters",-1233, -2269, 13.9},
@@ -468,7 +422,7 @@ cfg.garages = {
   {"Caminhões",2700.82080078125,5136.41650390625,44.4120025634766},
   {"Caminhões",-882.533325195313,-2730.81713867188,13.8284845352173},
   {"Jatos de loja",-1144.0738525391,-2944.1264648438,13.944903373718},
-  {"Aeronaves turboélice Loja",-1169.9676513672,-2931.8337402344,13.944881439209},
+  {"Aeronaves turboélice Loja",-1169.9676513672,-2931.8337402344,13.944881439209}
  
 }
 
