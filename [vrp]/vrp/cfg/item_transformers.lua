@@ -309,7 +309,7 @@ cfg.item_transformers = {
     description="Colher pasta de Coca.", -- Descrição do produto a se colher
     in_money=0, -- Dinheiro dado por unidade
     out_money=0, -- Dinheiro ganho por unidades
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     reagents={}, -- Itens colhidos por unidade
     products={ -- Nome do produto fornecido por unidade
     ["pastadecocaina"] = 1
@@ -403,7 +403,7 @@ name="Pescador de Tartaruga", -- menu name
           ["Tartaruga"] = 1
       },
         products={ -- items given per unit
-          ["dirty_money"] = 2500
+          ["dirty_money"] = 700
         }
       }
     }
@@ -424,7 +424,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Colher pasta de crack.", -- Descrição do produto a se colher
     in_money=0, -- Dinheiro dado por unidade
     out_money=0, -- Dinheiro ganho por unidade
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     reagents={}, -- Itens colhidos por unidade
     products={ -- Nome do produto fornecido por unidade
     ["pastadecrack"] = 1
@@ -448,7 +448,7 @@ name="Pescador de Tartaruga", -- menu name
     ["Processar"] = { -- action name
     description="Processador de Cocaina.", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     out_money=0, -- money earned per unit
     reagents={  -- items taken per unit
     ["pastadecrack"] = 1
@@ -503,7 +503,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Erva pega pronta pra processa!",
     in_money=0,
     out_money=0,
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     reagents={},
     products={
     ["erva"] = 1
@@ -546,7 +546,7 @@ name="Pescador de Tartaruga", -- menu name
     description="maconha pega pronta pra enrolar!",
     in_money=0,
     out_money=0,
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     reagents={
     ["erva"] = 1
         },
@@ -569,7 +569,7 @@ name="Pescador de Tartaruga", -- menu name
     description="maconha enrolada pronta pra vende!",
     in_money=0,
     out_money=0,
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     reagents={
     ["maconha"] = 1
         },
@@ -716,7 +716,7 @@ name="Pescador de Tartaruga", -- menu name
     ["hacking"] = { -- action name
     description="Hacking credit cards.", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     out_money=0, -- money earned per unit
     reagents={}, -- items taken per unit
     products={
@@ -761,7 +761,7 @@ name="Pescador de Tartaruga", -- menu name
     ["Coletando"] = { -- nome da ação
     description="Coletando l Uranio.", -- action description
     in_money=0, -- dinheiro tomado por unidade
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     out_money=0, -- Dinheiro ganho por unidade
     reagents={}, -- itens escolhidos por unidade
     products={
@@ -773,12 +773,34 @@ name="Pescador de Tartaruga", -- menu name
     onstart = function(player,recipe) vRPclient.applyWantedLevel(player,{3}) end,-- items given per unit
     aptitudes={} -- optional
   },
-  { -- ENRIQUECIMENTO DE URANIO
-    name="Enriquecimento de Uranio", -- menu name traitement
+  { -- Refinador DE URANIO
+    name="Refinador de Uranio", -- menu name traitement
     r=51,g=51,b=0, -- color
     max_units=1000,
     units_per_minute=1000,
     x=2329.9621582031,y=2571.7009277344,z=46.678863525391, --  medic ancienne meth
+    radius=2, height=1.0, -- area
+    recipes = {
+    ["Refinador"] = { -- action name
+    description="Coletando l Uranio Refinado.", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+    ["uranio"] = 5
+    }, -- items taken per unit
+    products={
+    ["uraniorefinado"] = 5
+    }, -- items given per unit
+    aptitudes={} -- optional
+      }
+    }
+  },
+    { -- ENRIQUECIMENTO DE URANIO
+    name="Enriquecimento de Uranio", -- menu name traitement
+    r=51,g=51,b=0, -- color
+    max_units=1000,
+    units_per_minute=1000,
+    x=-213.01210021973,y=-1683.3831787109,z=34.850330352783, --  medic ancienne meth
     radius=2, height=1.0, -- area
     recipes = {
     ["Enriquecendo"] = { -- action name
@@ -786,7 +808,7 @@ name="Pescador de Tartaruga", -- menu name
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
     reagents={
-    ["uranio"] = 5
+    ["uraniorefinado"] = 5
     }, -- items taken per unit
     products={
     ["uranio_enriquecido"] = 5
@@ -806,7 +828,7 @@ name="Pescador de Tartaruga", -- menu name
     ["Pegando"] = { -- action name
     description="Pegando Corpos.", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     out_money=0, -- money earned per unit
     reagents={}, -- items taken per unit
     products={
@@ -829,7 +851,7 @@ name="Pescador de Tartaruga", -- menu name
     ["Removendo"] = { -- action name
     description="Removendo Orgaos.", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     out_money=0, -- money earned per unit
     reagents={
     ["corpos"] = 1
@@ -861,17 +883,17 @@ name="Pescador de Tartaruga", -- menu name
     }
   },
   { -- EXTRAIR LSD
-    name="LSD Produzir", -- menu name
+    name="LSD Colheita", -- menu name
     r=51,g=153,b=255, -- color
     max_units=200,
     units_per_minute=999,
     x=-115.86870574951,y=1908.5133056641,z=197.42163085938, 
     radius=4, height=1.0, -- area
     recipes = {
-    ["Produzir"] = { -- action name
+    ["Colher"] = { -- action name
     description="Extraindo lsd", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     out_money=0, -- money earned per unit
     reagents={}, -- items taken per unit
     products={
@@ -888,14 +910,14 @@ name="Pescador de Tartaruga", -- menu name
     r=51,g=153,b=255, -- color
     max_units=200,
     units_per_minute=999,
-    x=-707.43524169922,y=620.88018798828,z=155.21087646484,
+    x=1389.6033935547,y=3603.8266601563,z=38.941886901855,
     radius=2, height=1.0, -- area
     recipes = {
     ["Processador"] = { -- action name
     description="Processar lsd", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     reagents={
     ["hidrazida"] = 1
     }, -- items taken per unit
@@ -914,14 +936,14 @@ name="Pescador de Tartaruga", -- menu name
     r=51,g=153,b=255, -- color
     max_units=200,
     units_per_minute=999,
-    x=1389.6033935547,y=3603.8266601563,z=38.941886901855,
+    x=-707.43524169922,y=620.88018798828,z=155.21087646484,
     radius=2, height=1.0, -- area
     recipes = {
     ["Produzir"] = { -- action name
     description="Produzindo lsd", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     reagents={
     ["eter"] = 1
     }, -- items taken per unit
@@ -947,7 +969,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Pegue o Extasie.", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     reagents={}, -- items taken per unit
     products={
     ["metil"] = 1
@@ -970,7 +992,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Trate os Sassafras.", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per 
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     reagents={
     ["metil"] = 1
     }, -- items taken per unit
@@ -995,7 +1017,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Tranformador de Ecstasy em bala.", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per 
-	out_dinheirosujo=20,
+	out_dinheirosujo=0,
     reagents={
     ["ecstasy"] = 1
     }, -- items taken per unit

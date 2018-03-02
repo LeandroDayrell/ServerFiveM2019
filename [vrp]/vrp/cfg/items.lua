@@ -91,7 +91,7 @@ cfg.items = {
     -- TRAFICANTE URANIO
   ["uranio"] = {"uranio", "Produto Radioativo.", nil, 0.80}, -- Arrumado
   ["uraniorefinado"] = {"Uranio Refinado", "Produto Radioativo.", nil, 0.80},
-  ["uranio_enriquecido"] = {"uranio_enriquecido", "Produto Radioativo.", nil, 0.80}, -- Arrumado
+  ["uranio_enriquecido"] = {"Uranio Enriquecido", "Produto Radioativo.", nil, 0.80}, -- Arrumado
 }
 
 -- load more items function
