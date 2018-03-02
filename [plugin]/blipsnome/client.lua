@@ -132,9 +132,7 @@ local TeleportFromTo = {
 
 	},
 	
-	
-	
-		-- TRAFICANTE DE DROGAS
+			-- TRAFICANTE DE DROGAS
 	-- MACONHA
 	["Enrolado de maconha"] = {
 	   positionFrom = { ['x'] = 45.760025024414, ['y'] = -1939.0877685547, ['z'] = 21.589450836182, nom = "Enrolado de maconha"},
@@ -167,7 +165,7 @@ local TeleportFromTo = {
 	["Ecstasy Colheita"] = {
 	   positionFrom = { ['x'] = 16.626104354858, ['y'] = -1832.2036132813, ['z'] = 24.769153594971, nom = "Colheita de Metil"},
 	   positionTo = { ['x'] = 16.626104354858, ['y'] = -1832.2036132813, ['z'] = 24.769153594971, nom = "Colheita de Metil"},
-	}	
+	},	
 	["Ecstasy Refinaria"] = {
 	   positionFrom = { ['x'] = -561.68438720703, ['y'] = 281.64797973633, ['z'] = 85.676383972168, nom = "Colheita de Metil"},
 	   positionTo = { ['x'] = -561.68438720703, ['y'] = 281.64797973633, ['z'] = 85.676383972168, nom = "Colheita de Metil"},
@@ -215,10 +213,6 @@ local TeleportFromTo = {
 	   positionFrom = { ['x'] = -213.03514099121, ['y'] = -1683.5076904297, ['z'] = 34.850330352783, nom = "Enriquecimento de Uranio"},
 	   positionTo = { ['x'] = -213.03514099121, ['y'] = -1683.5076904297, ['z'] = 34.850330352783, nom = "Enriquecimento de Uranio"},
 	},
-	
-	
-	
-	
 	
 	
 	
