@@ -53,7 +53,7 @@ cfg.adv_garages = {
 	["pbus"] = {"PMERJ BUS",0, "police"},
 	["police3"] = {"Logan POLICIA jazz",0, "police"},
 	["sheriff"] = {"s10 POLICIA jazz",0, "police"},
-	["police2"] = {"Carro BOPE jazz",0, "police"}
+	["police2"] = {"Carro BOPE jazz",0, "police"},
   },
   
   ["bope"] = {
@@ -63,12 +63,12 @@ cfg.adv_garages = {
 	["police3"] = {"BOPE - Dodge",0, "police"},
 	["sef_pfinder"] = {"BOPE - Nissan Pathfinder",0, "police"},
     ["fbi2"] = {"BOPE - Suburban",0, "police"},
-	["police2"] = {"Carro BOPE jazz",0, "police"}
+	["police2"] = {"Carro BOPE jazz",0, "police"},
   },
   
    ["hospitalele"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=360,blipcolor=3,permissions={"emergency.vehicle"}},
-	["polmav"] = {"Helicoptero SAMU",0, ""
+	["polmav"] = {"Helicoptero SAMU",0, ""},
   },
   
    ["hospitalcar"] = {
@@ -76,22 +76,22 @@ cfg.adv_garages = {
 	["ambulance"] = {"Ambulancia Bombeiro",0, ""},
 	["pranger"] = {"Resgate",0, ""},
 	["ems_gs1200"] = {"Moto Samu",0, ""},
-	["sprinter"] = {"Sprinter Samu",0, ""}
+	["sprinter"] = {"Sprinter Samu",0, ""},
   },
 
   ["uber"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=50,blipcolor=81,permissions={"uber.vehicle"}},
-	["civic"] = {"Honda Civic 2001", 50, ""}
+	["civic"] = {"Honda Civic 2001", 50, ""},
   },
   
   ["advogado"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=225,blipcolor=59,permissions={"advogado.vehicle"}},
-    ["hondacivictr"] = {"Honda Civic", 50, ""}
+    ["hondacivictr"] = {"Honda Civic", 50, ""},
   },
   
   ["moto_boy"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"moto_boy.vehicle"}},
-    ["enduro"] = {"HONDA CG TITAN 2009",50, ""}
+    ["enduro"] = {"HONDA CG TITAN 2009",50, ""},
   },
   
   ["barcos"] = {
@@ -113,7 +113,7 @@ cfg.adv_garages = {
      ["tropic"] = {"Tropic", 6000000, "Un bateau rapide."},
      ["tropic2"] = {"Tropic II", 6000000, "Un bateau rapide."},
      ["predator"] = {"Predator", 6000000, "Un bateau rapide."},
-     ["suntrap"] = {"Suntrap", 2500000, "Bateau de plaisance."}
+     ["suntrap"] = {"Suntrap", 2500000, "Bateau de plaisance."},
    },
    
   ["Helicopters"] = {
@@ -126,59 +126,59 @@ cfg.adv_garages = {
 	["buzzard2"] = {"Buzzard",10000000, ""},
 	["cargobob2"] = {"Cargobob",30000000, ""},
 	["frogger"] = {"Frogger",12000000, ""},
-	["skylift"] = {"Skylift",40000000, ""}
+	["skylift"] = {"Skylift",40000000, ""},
   },
   
     ["Barco pescador"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=410,blipcolor=30,permissions={"pescador.barco"}},
-    ["Tug"] = {"Tug", 50,"Barco pra pesca!"}
+    ["Tug"] = {"Tug", 50,"Barco pra pesca!"},
   },
   
     ["lixeiro"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=318,blipcolor=31,permissions={"lixeiro.vehicle"}},
-    ["Trash"] = {"Trash", 50,"carro do lixeiro!"}
+    ["Trash"] = {"Trash", 50,"carro do lixeiro!"},
   },
   
     ["PDHeli"] = {
-   _config = {gpay="wallet",gtype={"rental"},vtype="car", permission = "police.vehicle"}},
+   _config = {gpay="wallet",gtype={"rental"},vtype="car", permission = {"police.vehicle"}},
     ["swift2"] = {"Swift II", 0, "Swift II"},
-    ["swift"] = {"swift", 0, "swift"}
+    ["swift"] = {"swift", 0, "swift"},
   },
   
-  ["Transport"] = {
+   ["Transport"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=318,blipcolor=4},
     ["packer"] = {"Packer", 42000, "18-Wheeler Cabin : Holds 50lbs"},
     ["benson"] = {"Benson", 25000, "Large Box Truck : Holds 50lbs"},
     ["bison"] = {"Bison", 12000, "PickUp Truck : Holds 120lbs"},
     ["burrito3"] = {"Declasse Burriot", 18000, "Van : Holds 100lbs"},
-    ["pounder"] = {"MTL Pounder", 28000, "Large Truck w/ Cabin and Trailer : Holds 150lbs"}
+    ["pounder"] = {"MTL Pounder", 28000, "Large Truck w/ Cabin and Trailer : Holds 150lbs"},
   },
   
   ["Trailers"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=318,blipcolor=17},
     ["trailersmall"] = {"Petit", 30000, "Small Trailer : Holds 100lbs"},
     ["trailers"] = {"Basic", 300000, "18-Wheeler Trailer : Holds 350lbs"},
-    ["tanker"] = {"Tanker", 50000, "18-Wheeler Tanker Trailer : Holds 500lbs"}
+    ["tanker"] = {"Tanker", 50000, "18-Wheeler Tanker Trailer : Holds 500lbs"},
   },
   
   ["repair"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"repair.vehicle"}},
-    ["towtruck2"] = {"towtruck2",50, "towtruck2"}
+    ["towtruck2"] = {"towtruck2",50, "towtruck2"},
   },
   
   ["Motorista_bancario"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=67,blipcolor=4,permissions={"Motorista_bancario.vehicle"}},
-    ["stockade"] = {"stockade",50, "stockade"}
+    ["stockade"] = {"stockade",50, "stockade"},
   }, 
   
     ["correio"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"carteiro.vehicle"}},
-    ["Burrito3"] = {"carro do carteiro", 50,"carro do carteiro"}
+    ["Burrito3"] = {"carro do carteiro", 50,"carro do carteiro"},
   },
   
     ["limpador de piscina"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=225,blipcolor=30,permissions={"limpador_de_piscina.vehicle"}},
-    ["UtilliTruck3"] = {"carro do limpador", 50,"carro do limpador"}
+    ["UtilliTruck3"] = {"carro do limpador", 50,"carro do limpador"},
   },
   
   ["Caminhões"] = {
@@ -188,14 +188,14 @@ cfg.adv_garages = {
     ["pounder"] = {"Pounder",250000, ""},
     ["mule"] = {"Mule",150000, ""},
     ["boxville2"] = {"Boxville",100000, ""},
-    ["gburrito2"] = {"Gang burrito",80000, ""}
+    ["gburrito2"] = {"Gang burrito",80000, ""},
   }, 
   
   ["helicópteros da polícia"] = {
    _config = {gpay="wallet",gtype={"rental"},vtype="helicopters",permissions={"police.pc"}},
     ["polmav"] = {"Policia",0, ""},
 	["valkyrie2"] = {"Tem que pedir permissao ao seu superior para usa-lo",0,""},
-	["frogger2"] = {"Policia3",0, ""}
+	["frogger2"] = {"Policia3",0, ""},
   }, 
    
   ["Jatos de loja"] = {
@@ -203,7 +203,7 @@ cfg.adv_garages = {
 	["vestra"] = {"Vestra",10000000, ""},
 	["shamal"] = {"Shamal",20000000, ""},
 	["nimbus"] = {"Nimbus",40000000, ""},
-	["luxor"] = {"Luxor",30000000, ""}
+	["luxor"] = {"Luxor",30000000, ""},
   },
 
   ["Aeronaves turboélice Loja"] = {
@@ -213,12 +213,12 @@ cfg.adv_garages = {
 	["mallard"] = {"Mallard",10000000, ""},
 	["velum2"] = {"Velum",13000000, ""},
 	["duster"] = {"Duster",2500000, ""},
-	["dodo"] = {"Dodo",4000000, ""}
+	["dodo"] = {"Dodo",4000000, ""},
   },
   
   ["onibus"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=513,blipcolor=38,permissions={"bus.vehicle"}},
-    ["Bus"] = {"Onibus",50, ""}
+    ["Bus"] = {"Onibus",50, ""},
   },
   
   ["loja carro"]  = {
@@ -232,7 +232,7 @@ cfg.adv_garages = {
 	["saveiro"] = {"Saveiro",34000, ""},
 	["up"] = {"up",34000, ""},
 	["celta"] = {"CELTA",34000, ""},
-	["agile"] = {"Agile",34000, ""}
+	["agile"] = {"Agile",34000, ""},
   },
   
     ["Garagem"]  = {
@@ -251,7 +251,7 @@ cfg.adv_garages = {
 	["up"] = {"up",34000, ""},
 	["ranger"] = {"Ranger",34000, ""},
 	["celta"] = {"CELTA",34000, ""},
-	["agile"] = {"Agile",34000, ""}
+	["agile"] = {"Agile",34000, ""},
   }, 
   
   ["loja moto"] = {
@@ -263,7 +263,7 @@ cfg.adv_garages = {
     ["z1000"] = {"moto_z1000",34000, ""},
 	["150"] = {"FAN ESD",34000, ""},
 	["cbb"] = {"CBR1000",34000, ""},
-	["xj6vip"] = {"XJ6 VIP",34000, ""}
+	["xj6vip"] = {"XJ6 VIP",34000, ""},
   }, 
   
   ["Ranch Main"]  = {
@@ -422,7 +422,7 @@ cfg.garages = {
   {"Caminhões",2700.82080078125,5136.41650390625,44.4120025634766},
   {"Caminhões",-882.533325195313,-2730.81713867188,13.8284845352173},
   {"Jatos de loja",-1144.0738525391,-2944.1264648438,13.944903373718},
-  {"Aeronaves turboélice Loja",-1169.9676513672,-2931.8337402344,13.944881439209}
+  {"Aeronaves turboélice Loja",-1169.9676513672,-2931.8337402344,13.944881439209},
  
 }
 
