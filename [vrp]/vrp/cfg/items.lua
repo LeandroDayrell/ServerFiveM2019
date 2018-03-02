@@ -57,7 +57,7 @@ cfg.items = {
   ["Pepitas de Ouro"] = {"Pepitas de Ouro", "Pedra", nil, 1.20}, -- no choices  
   ["Pepitas de Cobre"] = {"Pepitas de Cobre", "Pedra.", nil, 2.00}, -- no choices
   ["Sal Fino"] = {"Sal Fino", "", nil, 1.00}, -- no choices
-  ["Trigo"] = {"Trigo", ".", nil, 1.00} -- no choices
+  ["Trigo"] = {"Trigo", ".", nil, 1.00}, -- no choices
   
   
   

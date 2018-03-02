@@ -980,7 +980,7 @@ name="Pescador de Tartaruga", -- menu name
     aptitudes={} -- optional
       }
     }
-  }
+  },
   
   
     { -- TRANSFORMADOR DE ECSTASY
