@@ -413,7 +413,7 @@ cfg.groups = {
     "police.check",
     "player.player_menu",
     "toggle.service",
-	"mission.cocaina.information",0
+	"mission.cocaina.information",
     "player.store_money",
 	"c.v.paycheckdinheirosujob",
     "player.phone",
