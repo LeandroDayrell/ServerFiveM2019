@@ -31,15 +31,15 @@ local blips = {
 {name="LSD Transformador", colour=24, scale=1.0, id=445, x=1389.6108398438, y=3603.7277832031, z=38.941837310791},
 -- MACONHA
 
-{name="Processador de erva", colour=25, scale=1.0, id=17, x=1482.2690429688,y=-1738.5200195313,z=90.62540435791},--erva
-{name="Enrolado de maconha", colour=25, scale=1.0, id=18, x=45.760025024414,y=-1939.0877685547,z=21.589450836182},--erva
+{name="Maconha Processador", colour=25, scale=1.0, id=17, x=1482.2690429688,y=-1738.5200195313,z=90.62540435791},--erva
+{name="Maconha Transformador", colour=25, scale=1.0, id=18, x=45.760025024414,y=-1939.0877685547,z=21.589450836182},--erva
 
 {name="Roubar Corpos", colour=22, scale=1.0, id=437, x=-1742.0139160156,y=-216.63523864746,z=56.580638885498}, -- Arrumado
 {name="Remover Orgaos", colour=22, scale=1.0, id=437, x=248.75984191895,y=-1374.5345458984,z=39.534374237061}, -- Arrumado
 {name="Venda de Orgaos", colour=22, scale=1.0, id=437, x=-2033.3133544922,y=-1035.1331787109,z=5.8823466300964}, -- Arrumado
 --{name="Ópio", colour=17, scale=1.0, id=387, x=2327.21875, y=2573.5673828125, z=46.667694091797},
 --{name="Tratamento de Ópio", colour=17, scale=1.0, id=364, x=-2253.9089355469, y=234.67826843262, z=174.60688781738},
-{name="Plantação de erva", colour=2, scale=1.0, id=140, x=2219.1667480469,y=5577.13671875,z=53.843963623047},-- erva
+{name="Maconha Colheita", colour=2, scale=1.0, id=140, x=2219.1667480469,y=5577.13671875,z=53.843963623047},-- erva
 }
 --configblips
 for _, map in pairs(blips) do
