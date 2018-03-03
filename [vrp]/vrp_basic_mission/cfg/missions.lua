@@ -146,7 +146,7 @@ cfg.Motorista_bancario = {
       {2137.61767578125,2906.61645507813,59.770336151123},
       {2144.6728515625,2900.85595703125,59.7593727111816}
     },
-    reward = 200
+    reward = 165
   },
   ["mission.Motorista_bancario.moneybank2"] = {
     chance = 2,
@@ -166,7 +166,7 @@ cfg.Motorista_bancario = {
       {2299.90209960938,1857.3779296875,106.976081848145},
 	  
     },
-    reward = 200
+    reward = 160
   }  
 }
 

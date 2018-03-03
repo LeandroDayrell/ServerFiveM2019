@@ -22,10 +22,7 @@ local function lavagem_enter(source)
           if vRP.tryDinheirosujo ~= nil then
           vRP.tryDinheirosujo(user_id,amount)
           -- DAR DINHEIRO LIMPO
-		  SetTimeout(120000, function()
-			vRPclient._notify(player,"~g~ Aguade 2 minuto para lavar seu dinheiro.")
             vRP.giveMoney(user_id,amount - 0.4*amount)
-			end)
             vRPclient._notify(player,lang.lavagem.launder.laundered({amount}))
 			
           else
