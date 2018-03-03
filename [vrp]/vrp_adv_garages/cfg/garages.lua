@@ -224,46 +224,57 @@ cfg.adv_garages = {
   ["loja carro"]  = {
     _config = {gpay="bank",gtype={"showroom","store","rental","personal"},vtype="car",blipid=225,blipcolor=81},
 	["schafter3"] = {"fox",34000, ""},
-	["vwstance"] = {"vwstance",34000, ""},
-	["208"] = {"Peugeot 208",34000, ""},
-	["golg7"] = {"Gol G7",34000, ""},
-	["civic2"] = {"Civic 2010",34000, ""},
-	["jetta"] = {"Jetta",34000, ""},
-	["saveiro"] = {"Saveiro",34000, ""},
-	["up"] = {"up",34000, ""},
-	["celta"] = {"CELTA",34000, ""},
-	["agile"] = {"Agile",34000, ""},
+	["vwstance"] = {"vwstance",70000, ""},
+	["208"] = {"Peugeot 208",40000, ""},
+	["golg7"] = {"Gol G7",31000, ""},
+	["civic2"] = {"Civic 2010",36000, ""},
+	["jetta"] = {"Jetta",80000, ""},
+	["saveiro"] = {"Saveiro",40000, ""},
+	["up"] = {"up",38000, ""},
+	["celta"] = {"CELTA",21000, ""},
+	["agile"] = {"Agile",33000, ""}, --
+	
+	["comodoro"] = {"Comodoro Chevrolet",33000, ""}, --
+	["c10"] = {"C10 Chevrolet",33000, ""}, --
+	["astra"] = {"Astra Chevrolet",33000, ""}, --
+	["cruze"] = {"Cruze Chevrolet",33000, ""}, --
+	["golf1"] = {"Golf 1994",22000, ""}, --
+	["golf2"] = {"Golf 2002",20000, ""}, --
   },
   
     ["Garagem"]  = {
 	_config = {gpay="wallet",gtype={"personal"},vtype="car",blipid=50,blipcolor=38},
+	
+	-- CARROS
+	
 	["schafter3"] = {"fox",34000, ""},
-	["vwstance"] = {"vwstance",34000, ""},
-	["EK9"] = {"EK9",34000, ""},
-	["208"] = {"Peugeot 208",34000, ""},
-	["golg7"] = {"Gol G7",34000, ""},
-	["amarok"] = {"Amarok",34000, ""},
-	["civic2"] = {"Civic 2010",34000, ""},
-	["hb20s"] = {"HB20",34000, ""},
-	["jetta"] = {"Jetta",34000, ""},
-	["palio"] = {"Palio 2001",34000, ""},
-	["saveiro"] = {"Saveiro",34000, ""},
-	["up"] = {"up",34000, ""},
-	["ranger"] = {"Ranger",34000, ""},
-	["celta"] = {"CELTA",34000, ""},
-	["agile"] = {"Agile",34000, ""},
+	["vwstance"] = {"vwstance",70000, ""},
+	["208"] = {"Peugeot 208",40000, ""},
+	["golg7"] = {"Gol G7",31000, ""},
+	["civic2"] = {"Civic 2010",36000, ""},
+	["jetta"] = {"Jetta",80000, ""},
+	["saveiro"] = {"Saveiro",40000, ""},
+	["up"] = {"up",38000, ""},
+	["celta"] = {"CELTA",21000, ""},
+	["agile"] = {"Agile",33000, ""}, --
+	
+	["comodoro"] = {"Comodoro Chevrolet",33000, ""}, --
+	["c10"] = {"C10 Chevrolet",33000, ""}, --
+	["astra"] = {"Astra Chevrolet",33000, ""}, --
+	["cruze"] = {"Cruze Chevrolet",33000, ""}, --
+	["golf1"] = {"Golf 1994",22000, ""}, --
+	["golf2"] = {"Golf 2002",20000, ""}, --
+	
+	
+	
+	-- MOTOS
   }, 
   
   ["loja moto"] = {
    _config = {gpay="bank",gtype={"store","rental","personal"},vtype="car",blipid=226,blipcolor=4},
-    ["cbrr"] = {"cb1000",34000, ""},
-    ["bros60"] = {"Bros 160",34000, ""},
-    ["r1"] = {"r1",34000, ""},
-    ["r6"] = {"r6",34000, ""},
-    ["z1000"] = {"moto_z1000",34000, ""},
-	["150"] = {"FAN ESD",34000, ""},
-	["cbb"] = {"CBR1000",34000, ""},
-	["xj6vip"] = {"XJ6 VIP",34000, ""},
+    ["bros60"] = {"Bros 160",16000, ""},
+	["150"] = {"FAN ESD",9000, ""},
+	["xj6vip"] = {"XJ6 VIP",27000, ""},
   }, 
   
   ["Ranch Main"]  = {

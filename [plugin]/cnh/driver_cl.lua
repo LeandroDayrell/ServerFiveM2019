@@ -114,7 +114,7 @@ function SpawnPermisCar()
 	Citizen.Wait(0)
 	local myPed = GetPlayerPed(-1)
 	local player = PlayerId()
-	local vehicle = GetHashKey('dilettante')
+	local vehicle = GetHashKey('cruiser')
 
     RequestModel(vehicle)
 
@@ -139,7 +139,7 @@ Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
         if onPermis == 1 then
-			DrawMissionText2("~b~Dirija ate a Prefeitura e pegue sua profissao.", 5000)
+			DrawMissionText2("~b~Pilote a bicileta até a prefeitura e pegue um emprego", 5000)
 		end
 		
         local veh = GetVehiclePedIsUsing(GetPlayerPed(-1))
