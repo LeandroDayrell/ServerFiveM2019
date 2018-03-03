@@ -2384,11 +2384,6 @@ cfg.users = {
     "fundador3232",
     "superadmin",
     "admin",
-  },
-  [2] = { -- give superadmin and admin group to the first created user on the database
-    "fundador3232",
-    "superadmin",
-    "admin",
   }
   
 }
