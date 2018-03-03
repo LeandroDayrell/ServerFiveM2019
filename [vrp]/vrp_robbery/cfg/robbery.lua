@@ -118,11 +118,11 @@ cfg.robbery = { -- list of robberies
 	  pos = {1160.06237792969, -314.061828613281, 69.2050628662109},
 	  dist = 15.0, rob = 120, wait = 300, cops = 2, stars = 2, min = 8000, max = 17000
 	},
-	["tongva_gasstop"] = { 
+	--[[["tongva_gasstop"] = { 
 	  name = "Limited LTD Gas Stop. (Tongva Valley)", 
 	  pos = {-1829.00427246094, 798.903076171875, 138.186706542969}, 
 	  dist = 15.0, rob = 120, wait = 300, cops = 2, stars = 2, min = 8000, max = 17000
-	},
+	},]]
 	["tataviam_twentyfourseven"] = { 
 	  name = "Twenty Four Seven. (Tataviam Mountains)", 
 	  pos = {2549.400390625, 385.048309326172, 108.622955322266}, 

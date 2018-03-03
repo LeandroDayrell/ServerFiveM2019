@@ -54,10 +54,10 @@ local TeleportFromTo = {
 	},
 	
 
-	["TRABALHO ILEGAL."] = {
+	--[[["TRABALHO ILEGAL."] = {
 	   positionFrom = { ['x'] = -270.6329650879, ['y'] = -977.49603271484, ['z'] = 31.217309951782, nom = "TRABALHO ILEGAL."},
 	   positionTo = { ['x']  = -270.6329650879, ['y'] = -977.49603271484, ['z'] = 31.217309951782, nom = "TRABALHO ILEGAL."},
-	},
+	},]]
 	["CENTRAL DE EMPREGO."] = {
 	   positionFrom = { ['x'] = -268.363739013672, ['y'] = -957.255126953125, ['z'] = 31.22313880920410, nom = "CENTRAL DE EMPREGO."},
 	   positionTo = { ['x']  = -268.363739013672, ['y'] = -957.255126953125, ['z'] = 31.22313880920410, nom = "CENTRAL DE EMPREGO."},
