@@ -247,7 +247,7 @@ cfg.adv_garages = {
 	
 	-- CARROS
 	
-	["schafter3"] = {"fox",34000, ""},
+--	["schafter3"] = {"fox",34000, ""},
 	["vwstance"] = {"vwstance",70000, ""},
 	["208"] = {"Peugeot 208",40000, ""},
 	["golg7"] = {"Gol G7",31000, ""},

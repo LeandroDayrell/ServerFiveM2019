@@ -1228,7 +1228,7 @@ cfg.groups = {
     "police.store_weapons",
     "police.seizable",
     "emergency.revive",
-    
+    "multa.police",
     "emergency.shop",
     "emergency.service",
     "emergency.medkit",--------novo
@@ -1255,7 +1255,7 @@ cfg.groups = {
     "police.store_weapons",
     "police.seizable",
     "emergency.revive",
-    
+    "multa.police",
     "emergency.shop",
     "emergency.service",
     "emergency.medkit",--------novo
@@ -1282,7 +1282,7 @@ cfg.groups = {
     "police.store_weapons",
     "police.seizable",
     "emergency.revive",
-    
+    "multa.police",
     "emergency.shop",
     "emergency.service",
     "emergency.medkit",--------novo
@@ -1309,7 +1309,7 @@ cfg.groups = {
     "police.store_weapons",
     "police.seizable",
     "emergency.revive",
-    
+    "multa.police",
     "emergency.shop",
     "emergency.service",
     "emergency.medkit",--------novo
@@ -1336,7 +1336,7 @@ cfg.groups = {
     "police.store_weapons",
     "police.seizable",
     "emergency.revive",
-    
+    "multa.police",
     "emergency.shop",
     "emergency.service",
     "emergency.medkit",--------novo
@@ -1363,7 +1363,7 @@ cfg.groups = {
     "police.store_weapons",
     "police.seizable",
     "emergency.revive",
-    
+    "multa.police",
     "emergency.shop",
     "emergency.service",
     "emergency.medkit",--------novo
@@ -1390,7 +1390,7 @@ cfg.groups = {
     "police.store_weapons",
     "police.seizable",
     "emergency.revive",
-    
+    "multa.police",
     "emergency.shop",
     "emergency.service",
     "emergency.medkit",--------novo
@@ -1417,7 +1417,7 @@ cfg.groups = {
     "police.store_weapons",
     "police.seizable",
     "emergency.revive",
-    
+    "multa.police",
     "emergency.shop",
     "emergency.service",
     "emergency.medkit",--------novo
@@ -1444,7 +1444,7 @@ cfg.groups = {
     "police.store_weapons",
     "police.seizable",
     "emergency.revive",
-    
+    "multa.police",
     "emergency.shop",
     "emergency.service",
     "emergency.medkit",--------novo
@@ -1468,6 +1468,7 @@ cfg.groups = {
     "police.verificarlicenca",
     "userr.paycheck",
     "police.deletarlicenca",
+	"multa.police",
     "police.easy_jail",
     "police.askid",
     "police.bmunjail",
@@ -1515,6 +1516,7 @@ cfg.groups = {
     "police.easy_jail",
     "police.bmunjail",
     "police.askid",
+	"multa.police",
     "police.fine",
     "police.easy_cuff",
 	--"police.portamalas",
@@ -1569,6 +1571,7 @@ cfg.groups = {
 	--"police.portamalas",
 	"police.checkdinheirosujo",
     "police.spikes",
+	"multa.police",
     "userr.paycheck",
     "emergency_heal",
     "police.verificarlicenca",
@@ -1618,6 +1621,7 @@ cfg.groups = {
     "police.askid",
     "police.easy_cuff",
 	--"police.portamalas",
+	"multa.police",
     "police.spikes",
     "userr.paycheck",
 	"police.asklc",
@@ -1664,6 +1668,7 @@ cfg.groups = {
     "police.easy_jail",
     "police.bmunjail",
     "police.askid",
+	"multa.police",
 	"robbery.police",
     "police.fine",
     "police.easy_cuff",
@@ -1713,6 +1718,7 @@ cfg.groups = {
     "police.bmunjail",
     "police.askid",
 	"robbery.police",
+	"multa.police",
     "police.fine",
     "police.easy_cuff",
     "Police Interaction",
@@ -1762,6 +1768,7 @@ cfg.groups = {
     "police.askid",
     "police.fine",
     "police.easy_cuff",
+	"multa.police",
 	--"police.portamalas",
 	"police.asklc",
 	"police.takelc",
@@ -1813,6 +1820,7 @@ cfg.groups = {
     "police.easy_cuff",
 	"robbery.police",
     "Police Interaction",
+	"multa.police",
     "police.spikes",
 	"police.asklc",
 	"police.takelc",
@@ -1871,6 +1879,7 @@ cfg.groups = {
     "police.drag",
     "player.list",
     "police.verificarlicenca",
+	"multa.police",
     "holdup.police",
     "police.weapons",
     "police.menu",
@@ -1914,6 +1923,7 @@ cfg.groups = {
 	"robbery.police",
     "emergency_heal",
 	"police.checkdinheirosujo",
+	"multa.police",
     "police.drag",
 	"police.asklc",
 	"police.takelc",
@@ -1962,6 +1972,7 @@ cfg.groups = {
     "police.easy_cuff",
 	"police.darlicenca",
     "Police Interaction",
+	"multa.police",
     "police.spikes",
     "police.vehicle",
 	"police.asklc",
@@ -2005,6 +2016,7 @@ cfg.groups = {
     "police.bmunjail",
     "police.askid",
     "police.fine",
+	"multa.police",
     "police.easy_cuff",
 	"robbery.police",
 	"police.asklc",
@@ -2057,6 +2069,7 @@ cfg.groups = {
     "police.easy_cuff",
 	--"police.portamalas",
 	"police.darlicenca",
+	"multa.police",
     "Police Interaction",
 	"robbery.police",
     "police.spikes",
@@ -2106,6 +2119,7 @@ cfg.groups = {
     "police.askid",
     "police.fine",
     "police.easy_cuff",
+	"multa.police",
     "Police Interaction",
     "police.spikes",
 	"police.checkdinheirosujo",
@@ -2156,6 +2170,7 @@ cfg.groups = {
     "police.askid",
 	"police.checkdinheirosujo",
     "police.fine",
+	"multa.police",
     "police.easy_cuff",
 	"police.darlicenca",
     "Police Interaction",
@@ -2211,6 +2226,7 @@ cfg.groups = {
 	--"police.portamalas",
     "emergency_heal",
     "police.drag",
+	"multa.police",
     "player.list",
     "police.verificarlicenca",
 	"police.asklc",
@@ -2253,6 +2269,7 @@ cfg.groups = {
     "police.fine",
 	"police.darlicenca",
 	"police.checkdinheirosujo",
+	"multa.police",
     "police.easy_cuff",
 	"robbery.police",
     "Police Interaction",
@@ -2301,6 +2318,374 @@ cfg.groups = {
     "police.fine",
 	"police.darlicenca",
 	"police.checkdinheirosujo",
+	"multa.police",
+    "police.easy_cuff",
+	"robbery.police",
+    "Police Interaction",
+    "police.spikes",
+	--"police.portamalas",
+    "police.vehicle",
+	"police.asklc",
+	"police.takelc",
+    "emergency_heal",
+    "police.drag",
+    "player.list",
+    "police.verificarlicenca",
+    "holdup.police",
+    "police.weapons",
+    "police.menu",
+    "police.pc",
+    "police.handcuff",
+    "police.putinveh",
+    "police.getoutveh",
+    "police.check",
+    "police.service",
+    "police.wanted",
+    "police.seize.weapons",
+    "police.seize.items",
+    "police.bmjail", -- PRISÃO DA DP
+    "police.announce",
+    "store.weapons",
+    "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
+    "policiaaguia.garagem", -- GARAGEM AGUIA
+    "police.weapons", -- ARMAS DA POLICIA
+    "police.loadshop",
+    "cop.whitelisted",
+    "comandantegeral.paycheck",
+  },
+  
+  
+  -- whitelist group for police, emergency and president jobs / add player to this group and user can view the job selection / search in the map
+  -- moderator=president / president is guy from the server give a player group cop ems moderator when admin is offline / sallary : $10.000
+  ["cop"] = {
+    "cop.whitelisted"
+  },
+  ["ada"] = {
+    "ada.whitelisted"
+  },
+  ["ba"] = {
+    "ba.whitelisted"
+  },
+  ["cv"] = {
+    "cv.whitelisted"
+  },
+  ["bm"] = {
+    "bm.whitelisted"
+  },
+  ["tca"] = {
+    "tca.whitelisted"
+  },
+  ["tcp"] = {
+    "tcp.whitelisted"
+  }
+}
+
+-- groups are added dynamically using the API or the menu, but you can add group when an user join here
+cfg.users = {
+  [1] = { -- give superadmin and admin group to the first created user on the database
+    "fundadoradmin",
+    "superadmin",
+    "admin"
+  }
+}
+
+-- group selectors
+-- _config
+--- x,y,z, blipid, blipcolor, permissions (optional)
+
+cfg.selectors = {
+  ["CENTRAL DE EMPREGO"] = {
+    _config = {x = -268.363739013672, y = -957.255126953125, z = 31.22313880920410, blipid = 267, blipcolor = 46},
+    "UBER",
+	"MOTORISTA DE ONIBUS",
+	"LIMPADOR DE PISCINA",
+    "GARIMPEIRO SAL",
+    "CATADOR DE TRIGO",
+    "GARIMPEIRO COBRE",
+    "GARIMPEIRO OURO",
+    "GARIMPEIRO DIAMANTE",
+	"LEITEIRO",
+	"CARTEIRO",
+	"LIXEIRO",
+    "MECANICO",
+    "MOTO BOY",
+    "ADVOGADO",
+    "MOTORISTA BANCARIO",
+    "PESCADOR",
+    "CIDADAO"
+  },
+  --[[["EMPREGO DA POLICIA"] = {
+    _config = {x = -449.62930297852, y = 6010.1455078125, z = 31.71639251709, blipid = 407, blipcolor = 27, permissions = {"cop.whitelisted"} },
+    "PRF",
+    "CIDADAO"
+  },]]
+  ["EMPREGO DA PMRJ"] = { 
+    _config = {x = 441.203308105469, y = -981.135131835938, z = 30.6896057128906, permissions = {"cop.whitelisted"} },
+    "CMD BOPE",
+	"SOLDADO BOPE",
+    "DELEGADO GERAL",
+	"PMRJ (Recruta)",
+	"PMRJ (Soldado)",
+	"PMRJ (Cabo)",
+	"PMRJ (Terceiro Sargento)",
+	"PMRJ (Segundo Sargento)",
+	"PMRJ (Primeiro Sargento)",
+	"PMRJ (Sub-Tenente)",
+	"PMRJ (Segundo Tenente)",
+	"PMRJ (Primeiro Tenente)",
+	"PMRJ (Capitao)",
+	"PMRJ (Major)",
+	"PMRJ (Tenente Coronel)",
+	"PMRJ (Coronel)",
+	"PMRJ (Comandante Geral)",
+    "CIDADAO"
+  },
+  ["EMPREGO BOPE"] = { 
+    _config = {x = 139.24792480469, y = -763.82971191406, z = 258.15173339844, permissions = {"cop.whitelisted"} },
+    "CMD BOPE",
+	"SOLDADO BOPE",
+    "CIDADAO",
+  },
+  ["EMPREGO DO BOMBEIRO"] = {
+    _config = {x =  1207.8588867188, y = -1472.9903564453, z = 34.859539031982, blipid = 351, blipcolor = 3, permissions = {"bm.whitelisted"} },
+	"COMANDANTE BOMBEIRO",
+	"SUBCOMANDANTE BOMBEIRO",
+	"CORONEL BOMBEIRO",
+	"TEN CORONEL BOMBEIRO",
+	"CAPITAO BOMBEIRO",
+	"PRIMEIRO SARG BOMBEIRO",
+	"CABO BOMBEIRO",
+	"SOLDADO BOMBEIRO",
+	"RECRUTA BOMBEIRO",   
+    "CIDADAO"   
+  },
+  ["ILEGAL"] = {  ---- FAVELA SANANDREAS TCA
+    _config = {x = 130.53402709961, y = -1943.1276855469, z = 20.494197845459, blipid = 407, blipcolor = 27},
+    "TRAFICANTE DE MACONHA", ---- cv
+    --"VENDEDOR DE ARMA",
+    "HACKER",
+    ----"FARMACEUTICO",
+    --"TRAFICANTE DE ARMA",
+    --"LADRAO DE CARRO",
+    "TRAFICANTE DE LSD",
+	"TRAFICANTE DE EXTASE",
+    "TRAFICANTE DE COCAINA",
+    "TRAFICANTE DE CRACK",
+    "TRAFICANTE DE URANIO",
+    --"FOQUETEIRO"  
+  },
+  ["ILEGAL4"] = { --- FAVELA DA BR ADA
+    _config = {x = 1419.1293945313, y = -415.75665283203, z = 135.99172973633, blipid = 407, blipcolor = 27},
+    "TRAFICANTE DE MACONHA",
+    --"VENDEDOR DE ARMA",
+    "HACKER",
+    ----"FARMACEUTICO",
+    --"TRAFICANTE DE ARMA",
+    --"LADRAO DE CARRO",
+    "TRAFICANTE DE LSD",
+	"TRAFICANTE DE EXTASE",
+    "TRAFICANTE DE COCAINA",
+    "TRAFICANTE DE CRACK",
+    "TRAFICANTE DE URANIO",
+    --"FOQUETEIRO"   
+  },
+  ["ILEGAL 3"] = { --- FAVELA TCP
+    _config = {x = -784.19067382813, y = 577.82110595703, z = 126.74500274658, blipid = 407, blipcolor = 27},
+    "TRAFICANTE DE MACONHA",
+    --"VENDEDOR DE ARMA",
+    "HACKER",
+    ----"FARMACEUTICO",
+    --"TRAFICANTE DE ARMA",
+    --"LADRAO DE CARRO",
+    "TRAFICANTE DE LSD",
+	"TRAFICANTE DE EXTASE",
+    "TRAFICANTE DE COCAINA",
+    "TRAFICANTE DE CRACK",
+    "TRAFICANTE DE URANIO",
+    --"FOQUETEIRO"  
+  },
+  ["TRABALHO ILEGAL"] = {
+    _config = {x = 1272.4293212891, y = -1711.69140625, z = 54.77144241333, blipid = 407, blipcolor = 49},
+    "TRAFICANTE DE MACONHA", ---prefeitura
+    --"VENDEDOR DE ARMA",
+    "HACKER",
+    ----"FARMACEUTICO",
+    --"TRAFICANTE DE ARMA",
+    --"LADRAO DE CARRO",
+    "TRAFICANTE DE LSD",
+	"TRAFICANTE DE EXTASE",
+    "TRAFICANTE DE COCAINA",
+    "TRAFICANTE DE CRACK",
+    "TRAFICANTE DE URANIO",
+	"TRAFICANTE DE TARTARUGA"
+  },
+  ["ILEGAL 1"] = {   -- FAVELA PETROLEO CV
+    _config = {x = 1674.7474365234, y = -1893.0368652344, z = 110.31902313232, blipid = 407, blipcolor = 27},
+    "TRAFICANTE DE MACONHA",------cv 
+    --"VENDEDOR DE ARMA",
+    "HACKER",
+    --"FARMACEUTICO",
+    --"TRAFICANTE DE ARMA",
+    --"LADRAO DE CARRO",
+    "TRAFICANTE DE LSD",
+	"TRAFICANTE DE EXTASE",
+    "TRAFICANTE DE COCAINA",
+    "TRAFICANTE DE CRACK",
+    "TRAFICANTE DE URANIO",
+    --"FOQUETEIRO"
+  },
+  ["chefe do Trafico 2"] = {
+    _config = {x = 1414.6766357422, y = -413.46575927734, z = 135.99172973633, blipid = 407, blipcolor = 27, permissions = {"ada.whitelisted"} },
+    "CHEFE A.D.A",
+    "SOLDADO A.D.A",
+    "BRACO DIREITO A.D.A"
+  },
+  --[[["chefe do Trafico 4"] = {
+    _config = {x = 418.59060668945, y = -1811.34375, z = 32.662738800049, blipid = 407, blipcolor = 27, permissions = {"tcp.whitelisted"} },
+    "CHEFE T.C.P",
+    "SOLDADO T.C.P",
+    "BRACO DIREITO T.C.P"
+  },]]
+  ["chefe do Trafico 1"] = {
+    _config = {x = 129.20359802246, y = -1938.8078613281, z = 20.621507644653, blipid = 407, blipcolor = 27, permissions = {"tca.whitelisted"} },
+    "CHEFE T.C.A",
+    "SOLDADO T.C.A",
+    "BRACO DIREITO T.C.A"
+  },
+  ["chefe do Trafico"] = {
+    _config = {x = 1672.251953125, y = -1895.6634521484, z = 110.31903076172, blipid = 407, blipcolor = 27, permissions = {"cv.whitelisted"} },
+    "CHEFE C.V",
+    "SOLDADO C.V",
+    "BRACO DIREITO C.V",
+  }  
+}
+
+return cfg  "police.seize.items",
+    "police.bmjail", -- PRISÃO DA DP
+    "police.announce",
+    "store.weapons",
+    "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
+    "policiaaguia.garagem", -- GARAGEM AGUIA
+    "police.weapons", -- ARMAS DA POLICIA
+
+    "police.loadshop",
+    "cop.whitelisted",
+    "major.paycheck",
+  },
+  ["PMRJ (Tenente Coronel)"] = {
+    _config = { gtype = "job",
+    onjoin = function(player) vRPclient._setCop(player,true) end,
+    onspawn = function(player) vRPclient._setCop(player,true) end,
+    onleave = function(player) vRPclient._setCop(player,true) end
+    },
+    "Civil.cloakroom",-- < ROUPA DA POLICIA
+    "police.store_money",
+    "police.easy_jail",
+    "police.bmunjail",
+    "police.askid",
+	"robbery.police",
+    "police.fine",
+    "police.easy_cuff",
+    "Police Interaction",
+	"police.checkdinheirosujo",
+    "police.spikes",
+    "police.vehicle",
+	--"police.portamalas",
+    "emergency_heal",
+    "police.drag",
+	"multa.police",
+    "player.list",
+    "police.verificarlicenca",
+	"police.asklc",
+	"police.takelc",
+    "holdup.police",
+    "police.weapons",
+    "police.menu",
+	"police.darlicenca",
+    "police.pc",
+    "police.handcuff",
+    "police.putinveh",
+    "police.getoutveh",
+    "police.check",
+    "police.service",
+    "police.wanted",
+    "police.seize.weapons",
+    "police.seize.items",
+    "police.bmjail", -- PRISÃO DA DP
+    "police.announce",
+    "store.weapons",
+    "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
+    "policiaaguia.garagem", -- GARAGEM AGUIA
+    "police.weapons", -- ARMAS DA POLICIA
+
+    "police.loadshop",
+    "cop.whitelisted",
+    "tenentecoronel.paycheck",
+  },
+  ["PMRJ (Coronel)"] = {
+    _config = { gtype = "job",
+    onjoin = function(player) vRPclient._setCop(player,true) end,
+    onspawn = function(player) vRPclient._setCop(player,true) end,
+    onleave = function(player) vRPclient._setCop(player,true) end
+    },
+    "Civil.cloakroom",-- < ROUPA DA POLICIA
+    "police.store_money",
+    "police.easy_jail",
+    "police.bmunjail",
+    "police.askid",
+    "police.fine",
+	"police.darlicenca",
+	"police.checkdinheirosujo",
+	"multa.police",
+    "police.easy_cuff",
+	"robbery.police",
+    "Police Interaction",
+    "police.spikes",
+	--"police.portamalas",
+    "police.vehicle",
+	"police.asklc",
+	"police.takelc",
+    "emergency_heal",
+    "police.drag",
+    "player.list",
+    "police.verificarlicenca",
+    "holdup.police",
+    "police.weapons",
+    "police.menu",
+    "police.pc",
+    "police.handcuff",
+    "police.putinveh",
+    "police.getoutveh",
+    "police.check",
+    "police.service",
+    "police.wanted",
+    "police.seize.weapons",
+    "police.seize.items",
+    "police.bmjail", -- PRISÃO DA DP
+    "police.announce",
+    "store.weapons",
+    "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
+    "policiaaguia.garagem", -- GARAGEM AGUIA
+    "police.weapons", -- ARMAS DA POLICIA
+    "police.loadshop",
+    "cop.whitelisted",
+    "coronel.paycheck",
+  },
+  ["PMRJ (Comandante Geral)"] = {
+    _config = { gtype = "job",
+    onjoin = function(player) vRPclient._setCop(player,true) end,
+    onspawn = function(player) vRPclient._setCop(player,true) end,
+    onleave = function(player) vRPclient._setCop(player,true) end
+    },
+    "Civil.cloakroom",-- < ROUPA DA POLICIA
+    "police.store_money",
+    "police.easy_jail",
+    "police.bmunjail",
+    "police.askid",
+    "police.fine",
+	"police.darlicenca",
+	"police.checkdinheirosujo",
+	"multa.police",
     "police.easy_cuff",
 	"robbery.police",
     "Police Interaction",
