@@ -34,12 +34,12 @@ html, body {
   font-family: 'Roboto', sans-serif; 
   background-size: cover;
   color: white;
-  width: 200px;
-  height: 401px;
+  width: 160px;
+  height: 311px;
   font-size: 9px;
   text-align: center;
   margin-left: 70%;
-  margin-top: 18%;
+  margin-top: 22%;
   position: absolute;
   float: left;
   border-style: solid; 
@@ -61,8 +61,8 @@ html, body {
   font-weight: bold;
   padding: 9px;
   font-size: 1.2em;
-  max-width: 500px;
-  max-height: 200px;
+  max-width: 460px;
+  max-height: 110px;
 }
 
 .menu h1{
