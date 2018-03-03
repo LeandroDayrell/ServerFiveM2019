@@ -874,7 +874,7 @@ name="Pescador de Tartaruga", -- menu name
     ["Vendendo"] = { -- action name
     description="Vendendo Os Orgaos.", -- action description
     in_money=0, -- money taken per unit
-    out_money=80, -- money earned per unit
+    out_money=10, -- money earned per unit
     reagents={
     ["orgaos"] = 1
     },
