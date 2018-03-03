@@ -10,7 +10,7 @@ local cfg = {}
 --- (você tem acesso direto a vRP e vRPclient, o túnel ao cliente, nas chamadas de configuração)
 
 cfg.groups = {
-  ["fundadoradmin"] = {
+  ["fundador3232"] = {
     _config = {onspawn = function(player) vRPclient._notify(player,"You are superadmin.") end},
     "admin.deleteveh",
 	"player.group.add",
@@ -44,20 +44,19 @@ cfg.groups = {
     "player.tptome",
     "player.tpto",
     "player.giveitem",
+    "player.whitelist",
+    "player.unwhitelist",
     "reviveplayer",
     --"mugger.mug",
 	"player.givemoney",
   },
   ["superadmin"] = {
     _config = {onspawn = function(player) vRPclient._notify(player,"You are superadmin.") end},
-    "admin.deleteveh",
-	"player.group.add",
+"admin.deleteveh",
+    "player.group.add",
     "player.group.remove",
     "player.userlist",
-    "freeze.admin",
     "reviveadmin",
-    "player.concertarcarro",
-    "player.noclip",
     "admin.tickets",
     "admin.announce",
     "police.bmjail",
@@ -2382,10 +2381,16 @@ cfg.groups = {
 -- groups are added dynamically using the API or the menu, but you can add group when an user join here
 cfg.users = {
   [1] = { -- give superadmin and admin group to the first created user on the database
-    "fundadoradmin",
+    "fundador3232",
     "superadmin",
-    "admin"
+    "admin",
+  },
+  [2] = { -- give superadmin and admin group to the first created user on the database
+    "fundador3232",
+    "superadmin",
+    "admin",
   }
+  
 }
 
 -- group selectors

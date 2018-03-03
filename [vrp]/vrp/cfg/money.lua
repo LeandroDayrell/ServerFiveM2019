@@ -2,8 +2,8 @@
 local cfg = {}
 
 -- start wallet/bank values
-cfg.open_wallet = 5000
-cfg.open_bank = 5000
+cfg.open_wallet = 200
+cfg.open_bank = 50
 cfg.open_dinheirosujo = 0
 cfg.open_bankdinheirosujo = 0
 
