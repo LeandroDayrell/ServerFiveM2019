@@ -8,6 +8,10 @@ local lang = {
     title = "Alo, tem como trazer uma coca-cola e uma pizza aqui em casa?",
     item = "- {2} {1}"
       },
+   advogado = {
+	title = "Opa, tem como trazer aquele documento pra minha sogra!",
+	item = "- {2} {1}"
+	  },
    trigo = {
 	title = "Vender trigo",
 	item = "- {2} {1}"

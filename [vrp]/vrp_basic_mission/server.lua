@@ -176,6 +176,74 @@ function task_mission()
         end
       end
     end
+	
+----------------------------- advogado ------------------------------------------------------
+  for k,v in pairs(cfg.advogado) do -- each repair perm def
+    -- add missions to users
+    local users = vRP.getUsersByPermission(k)
+    for l,w in pairs(users) do
+      local user_id = w
+      local player = vRP.getUserSource(user_id)
+      if not vRP.hasMission(player) then
+          -- build mission
+          local mdata = {}
+          mdata.name = lang.advogado.title()
+
+          -- generate items
+          local todo = 0
+          local advogado_items = {}
+          for idname,data in pairs(v.items) do
+            local amount = math.random(data[1],data[2])
+            if amount > 0 then
+              advogado_items[idname] = amount
+              todo = todo+1
+            end
+          end
+
+          local step = {
+            text = "",
+            onenter = function(player, area)
+              for idname,amount in pairs(advogado_items) do
+                if amount > 0 then -- check if not done
+                  if vRP.tryGetInventoryItem(user_id,idname,amount,true) then
+--------------------------------------------------------------------------------
+				  vRPclient._playAnim(player,false,{task="WORLD_HUMAN_CLIPBOARD"},false)
+                  SetTimeout(15000, function()
+                    vRP.nextMissionStep(player)
+                    vRPclient._stopAnim(player,false)
+					  end)
+---------------------------------------------------------------------------------					  
+                    local reward = v.items[idname][3]*amount
+                      vRP.giveMoney(user_id,reward)
+                      vRPclient._notify(player,lang.money.received({reward}))
+					end
+                    todo = todo-1
+                    advogado_items[idname] = 0
+                    if todo == 0 then -- all received, finish mission
+                      vRP.nextMissionStep(player)
+                    end
+				else
+                    vRPclient._notify(player,"~r~Algo esta faltando!")
+                end
+              end
+            end,
+            position = v.positions[math.random(1,#v.positions)]
+          }
+
+          -- mission display
+          for idname,amount in pairs(advogado_items) do
+            local name = vRP.getItemName(idname)
+            step.text = step.text..lang.advogado.item({name,amount}).."<br />"
+          end
+
+          mdata.steps = {step}
+
+          if todo > 0 then
+            vRP.startMission(player,mdata)
+          end
+        end
+      end
+    end
    		
 ----------------------------- sal ------------------------------------------------------
   for k,v in pairs(cfg.sal) do -- each repair perm def
@@ -653,74 +721,6 @@ function task_mission()
       end
     end
    
------------------------------ traficante crack ------------------------------------------------------
-  for k,v in pairs(cfg.crack) do -- each repair perm def
-    -- add missions to users
-    local users = vRP.getUsersByPermission(k)
-    for l,w in pairs(users) do
-      local user_id = w
-      local player = vRP.getUserSource(user_id)
-      if not vRP.hasMission(player) then
-          -- build mission
-          local mdata = {}
-          mdata.name = lang.crack.title()
-
-          -- generate items
-          local todo = 0
-          local crack_items = {}
-          for idname,data in pairs(v.items) do
-            local amount = math.random(data[1],data[2])
-            if amount > 0 then
-              crack_items[idname] = amount
-              todo = todo+1
-            end
-          end
-
-          local step = {
-            text = "",
-            onenter = function(player, area)
-              for idname,amount in pairs(crack_items) do
-                if amount > 0 then -- check if not done
-                  if vRP.tryGetInventoryItem(user_id,idname,amount,true) then
---------------------------------------------------------------------------------
-				  vRPclient._playAnim(player,false,{task="PROP_HUMAN_PARKING_METER"},false)
-                  SetTimeout(15000, function()
-                    vRP.nextMissionStep(player)
-                    vRPclient._stopAnim(player,false)
-					  end)
----------------------------------------------------------------------------------					  
-                    local reward = v.items[idname][3]*amount
-                      vRP.giveDinheirosujo(user_id,reward)
-                      vRPclient._notify(player,lang.money.received({reward}))
-					end
-                    todo = todo-1
-                    crack_items[idname] = 0
-                    if todo == 0 then -- all received, finish mission
-                      vRP.nextMissionStep(player)
-                    end
-				else
-                    vRPclient._notify(player,"~r~Algo esta faltando!")
-                end
-              end
-            end,
-            position = v.positions[math.random(1,#v.positions)]
-          }
-
-          -- mission display
-          for idname,amount in pairs(crack_items) do
-            local name = vRP.getItemName(idname)
-            step.text = step.text..lang.crack.item({name,amount}).."<br />"
-          end
-
-          mdata.steps = {step}
-
-          if todo > 0 then
-            vRP.startMission(player,mdata)
-          end
-        end
-      end
-    end
-  
 ----------------------------- traficante crack ------------------------------------------------------
   for k,v in pairs(cfg.crack) do -- each repair perm def
     -- add missions to users
