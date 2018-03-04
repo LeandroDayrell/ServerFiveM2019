@@ -292,7 +292,7 @@ cfg.advogado = {
   ["mission.advogado.information"] = {
     positions = common_advogado_positions,
     items = {
-      ["documento"] = {12,14,13}
+      ["documento"] = {7,14,13}
     }
   }
 }
