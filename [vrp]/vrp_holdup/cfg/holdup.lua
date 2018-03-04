@@ -1,10 +1,10 @@
 cfg = {}
 
-cfg.blips = false -- enable blips
+cfg.blips = true -- enable blips
 
-cfg.seconds = 120 -- seconds to rob
+cfg.seconds = 350 -- seconds to rob
 
-cfg.cooldown = 300 -- time between robbaries
+cfg.cooldown = 500 -- time between robbaries
 
 cfg.cops = 2 -- minimum cops online
 cfg.permission = "holdup.police" -- permission given to cops
@@ -24,13 +24,13 @@ cfg.holdups = { -- list of stores
 	},
 	["bar_one"] = {
 		position = { ['x'] = 1986.1240234375, ['y'] = 3053.8747558594, ['z'] = 47.215171813965 },
-		reward = 100 + math.random(500,10000),
+		reward = 100 + math.random(500,2000),
 		nameofstore = "Yellow Jack. (Sandy Shores)",
 		lastrobbed = 0
 	},
 	["littleseoul_twentyfourseven"] = {
 		position = { ['x'] = -709.17022705078, ['y'] = -904.21722412109, ['z'] = 19.215591430664 },
-		reward = 100 + math.random(500,10000),
+		reward = 100 + math.random(500,2000),
 		nameofstore = "Twenty Four Seven. (Little Seoul)",
 		lastrobbed = 0
 	},
