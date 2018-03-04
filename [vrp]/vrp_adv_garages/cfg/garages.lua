@@ -130,7 +130,7 @@ cfg.adv_garages = {
   },
   
     ["Barco pescador"] = {
-    _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=410,blipcolor=30,permissions={"pescador.barco"}},
+    _config = {gpay="wallet",gtype={"rental","Personal"},vtype="car",blipid=410,blipcolor=30,permissions={"pescador.barco"}},
     ["Tug"] = {"Tug", 50,"Barco pra pesca!"},
   },
   
