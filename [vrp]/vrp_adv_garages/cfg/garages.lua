@@ -85,7 +85,7 @@ cfg.adv_garages = {
   },
   
   ["advogado"] = {
-    _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=225,blipcolor=59,permissions={"advogado.vehicle"}},
+    _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"advogado.vehicle"}},
     ["astra"] = {"Honda Civic", 50, ""},
   },
   

@@ -551,7 +551,7 @@ cfg.slot_types = {
       {"itemtr", _config = itemtr_hacker, -928.425598144531,-382.820159912109,113.67407989502},
     }
   },
-  ["plantation_flat"] = {
+  --[[["plantation_flat"] = {
     {
       {"entry",1393.0272216797,3612.8176269531,34.980930328369},
       {"chest",1396.7132568359,3604.9682617188,38.941928863525, _config = {weight=500}},
@@ -559,7 +559,7 @@ cfg.slot_types = {
       {"gametable",1394.2917480469,3610.3530273438,38.941928863525},
       {"itemtr", _config = itemtr_laboratory, 1391.9298095703,3603.7819824219,38.941928863525}
     }
-  },
+  },]]
   ["rail_flat"] = {
     {
       {"entry",658.84442138672,-709.59503173828,38.257362365723},
@@ -644,7 +644,7 @@ cfg.homes = {
     max = 1,
     blipid=374,
     blipcolor=2
-  },
+  },]]
   --[[["Lowside House'"] = {
     slot = "franklin_house",
     entry_point = {-13.843012809753,-1444.6134033203,30.646482467651},
@@ -672,7 +672,7 @@ cfg.homes = {
     blipid=374,
     blipcolor=2
   },
-  ["Beach Home"] = {
+  --[[["Beach Home"] = {
     slot = "Beach_Home",
     entry_point = {-1149.7276611328,-1522.0582275391,10.628049850464},
     buy_price = 350000,
@@ -762,7 +762,7 @@ cfg.homes = {
     blipid=374,
     blipcolor=2
   },
-  --[[["Rich Home"] = {
+  --["Rich Home"] = {
     slot = "Rich_Home",
     entry_point = {1394.4956054688,1152.6457519531,114.41397857666},
     buy_price = 500000,
@@ -771,7 +771,7 @@ cfg.homes = {
     blipid=374,
     blipcolor=2
   },]]
-  ["Mountainside Mansion"] = {
+  --[[["Mountainside Mansion"] = {
     slot = "mansion2",
     entry_point = {8.5883893966675,541.60162353516,176.02816772461},
     buy_price = 5000000,
@@ -779,7 +779,7 @@ cfg.homes = {
     max = 1,
     blipid=374,
     blipcolor=5
-  },
+  },]]
   --[[["Downtown Mansion"] = {
     slot = "mansion",
     entry_point = {-818.27014160156,177.49227905273,72.222503662109},

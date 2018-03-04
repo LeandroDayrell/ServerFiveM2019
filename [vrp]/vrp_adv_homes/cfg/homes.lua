@@ -212,7 +212,7 @@ cfg.homes = {
     blipid=40,
     blipcolor=5
   },
-  ["Rich Housing 2"] = {
+  --[[["Rich Housing 2"] = {
     slot = "other_flat",
     entry_point = {-84.2591705322266,-822.232788085938,36.0280227661133},
     buy_price = 500000,
@@ -220,7 +220,7 @@ cfg.homes = {
     max = 25,
     blipid=40,
     blipcolor=5
-  },
+  },]]
   ["Ranch Main"] = {
     slot = "ranch_main",
     entry_point = {1394.48278808594,1141.74035644531,114.606857299805},
@@ -230,7 +230,7 @@ cfg.homes = {
     blipid=40,
     blipcolor=26
   },
-  ["Regular House 1"] = {
+  --[[["Regular House 1"] = {
     slot = "basic_flat",
     entry_point = {840.455139160156,-182.032470703125,74.1880493164063},
     buy_price = 150000,
@@ -238,7 +238,7 @@ cfg.homes = {
     max = 1,
     blipid=40,
     blipcolor=26
-  },
+  },]]
   ["Regular House 2"] = {
     slot = "basic_flat",
     entry_point = {149.283508300781,475.028900146484,142.504623413086},

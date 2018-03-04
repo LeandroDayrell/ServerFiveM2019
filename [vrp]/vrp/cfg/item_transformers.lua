@@ -704,6 +704,31 @@ name="Pescador de Tartaruga", -- menu name
       }
     }
   },  
+  
+    { -- OAB ADVOGADO
+    name="Documentos", -- menu name
+    permissions = {"advogado.oab"},
+    r=255,g=125,b=0, -- color
+    max_units=1,
+    units_per_minute=1,
+	-585.24676513672,-703.81573486328,36.287094116211
+    x=-585.24676513672,y=-703.81573486328,z=36.287094116211,   
+    radius=2, height=1.0, -- area
+    recipes = {
+    ["Documentos"] = { -- action name
+    description="Pegar documentos", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={}, -- items taken per unit
+    products={
+    ["documento"] = 1
+    }, -- items given per unit
+    aptitudes={} -- optional
+      }
+    }
+  },  
+  
+  
   { -- HACKER
     name="Hacker", -- menu name
     permissions = {"hacker.credit_cards"}, -- you can add permissions
