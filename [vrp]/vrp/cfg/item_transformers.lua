@@ -709,8 +709,8 @@ name="Pescador de Tartaruga", -- menu name
     name="Documentos", -- menu name
     permissions = {"advogado.oab"},
     r=255,g=125,b=0, -- color
-    max_units=1,
-    units_per_minute=1,
+    max_units=1000,
+    units_per_minute=500,
     x=-585.24676513672,y=-703.81573486328,z=36.287094116211,   
     radius=2, height=1.0, -- area
     recipes = {

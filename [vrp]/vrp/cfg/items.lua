@@ -17,7 +17,7 @@ cfg.items = {
   ["pizza"] = {"pizza","pizza quentinha pra entrega", nil, 0.5},
    -- ITENS LEGAIS
   ["minerio_bruto"] = {"minerio_bruto", "minerio_bruto pronto pra vende", nil, 0.8}, -- no choices
-  
+  ["documento"] = {"Documento", "Documento do advogado", nil, 0.8}, -- no choices
 
 
   ----------------------------pescador-----------------------
