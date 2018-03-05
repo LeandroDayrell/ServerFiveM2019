@@ -8,76 +8,76 @@ AddEventHandler('paycheck:salary', function()
 	-- POLICIA
 	-- COMANDANTE
 	if vRP.hasPermission(user_id,"comandantegeral.paycheck") then
-		vRP.BankMoney(user_id,435)
+		vRP.BankMoney(user_id,550)
 		vRPclient._notify(source,"Dia do pagamento: RS435")
 	end	
 	
 	-- CORONEL
 	if vRP.hasPermission(user_id,"coronel.paycheck") then
-		vRP.BankMoney(user_id,385)
+		vRP.BankMoney(user_id,470)
 		vRPclient._notify(source,"Dia do pagamento: RS385")
 	end	
 	-- TENENTE CORONEL
 	if vRP.hasPermission(user_id,"tenentecoronel.paycheck") then
-		vRP.BankMoney(user_id,385)
+		vRP.BankMoney(user_id,470)
 		vRPclient._notify(source,"Dia do pagamento: RS385")
 	end
 	-- MAJOR
 	if vRP.hasPermission(user_id,"major.paycheck") then
-		vRP.BankMoney(user_id,385)
+		vRP.BankMoney(user_id,470)
 		vRPclient._notify(source,"Dia do pagamento: RS385")
 	end	
 	-- CAPITÃO
 	if vRP.hasPermission(user_id,"capitao.paycheck") then
-		vRP.BankMoney(user_id,385)
+		vRP.BankMoney(user_id,470)
 		vRPclient._notify(source,"Dia do pagamento: RS385")
 	end
 		
 	-- PRIMEIRO TENENte
 	if vRP.hasPermission(user_id,"primeirotenente.paycheck") then
-		vRP.BankMoney(user_id,335)
+		vRP.BankMoney(user_id,420)
 		vRPclient._notify(source,"Dia do pagamento: RS335")
 	end	
 	-- SEGUNDO TENENTE
 	if vRP.hasPermission(user_id,"segundotenente.paycheck") then
-		vRP.BankMoney(user_id,335)
+		vRP.BankMoney(user_id,420)
 		vRPclient._notify(source,"Dia do pagamento: RS335")
 	end	
 	-- SUB TENENTE
 	if vRP.hasPermission(user_id,"subtenente.paycheck") then
-		vRP.BankMoney(user_id,335)
+		vRP.BankMoney(user_id,420)
 		vRPclient._notify(source,"Dia do pagamento: RS335")
 	end
 	
 	-- PRIMEIRO SARGENTO
 	if vRP.hasPermission(user_id,"primeirosargento.paycheck") then
-		vRP.BankMoney(user_id,300)
+		vRP.BankMoney(user_id,370)
 		vRPclient._notify(source,"Dia do pagamento: RS300")
 	end	
 	-- SEGUNDO SARGENTO
 	if vRP.hasPermission(user_id,"segundosargento.paycheck") then
-		vRP.BankMoney(user_id,300)
+		vRP.BankMoney(user_id,370)
 		vRPclient._notify(source,"Dia do pagamento: RS300")
 	end	
 	-- TERCEIRO SARGENTO
 	if vRP.hasPermission(user_id,"terceirosargento.paycheck") then
-		vRP.BankMoney(user_id,300)
+		vRP.BankMoney(user_id,370)
 		vRPclient._notify(source,"Dia do pagamento: RS300")
 	end	
 	
 	-- CABO
 	if vRP.hasPermission(user_id,"cabo.paycheck") then
-		vRP.BankMoney(user_id,235)
+		vRP.BankMoney(user_id,320)
 		vRPclient._notify(source,"Dia do pagamento: RS235")
 	end	
 	-- SOLDADO
 	if vRP.hasPermission(user_id,"Soldado.paycheck") then
-		vRP.BankMoney(user_id,235)
+		vRP.BankMoney(user_id,320)
 		vRPclient._notify(source,"Dia do pagamento: RS235")
 	end	
 	-- RECRUTA
 	if vRP.hasPermission(user_id,"recruta.paycheck") then
-		vRP.BankMoney(user_id,235)
+		vRP.BankMoney(user_id,320)
 		vRPclient._notify(source,"Dia do pagamento: RS235")
 	end	
 
@@ -90,60 +90,60 @@ AddEventHandler('paycheck:salary', function()
 		
 	-- COMANDANTE
 	if vRP.hasPermission(user_id,"bombeirocomandante.paycheck") then
-		vRP.BankMoney(user_id,355)
+		vRP.BankMoney(user_id,400)
 		vRPclient._notify(source,"Dia do pagamento: RS350")
 	end
 	-- SUBCOMANDANTE
 	if vRP.hasPermission(user_id,"bombeirosubccomandante.paycheck") then
-		vRP.BankMoney(user_id,355)
+		vRP.BankMoney(user_id,400)
 		vRPclient._notify(source,"Dia do pagamento: RS355")
 	end	
 	-- CORONEL
 	if vRP.hasPermission(user_id,"bombeirocoronel.paycheck") then
-		vRP.BankMoney(user_id,266)
+		vRP.BankMoney(user_id,330)
 		vRPclient._notify(source,"Dia do pagamento: RS266")
 	end
 	-- TENENTE CORONEL
 	if vRP.hasPermission(user_id,"bombeirotencoronel.paycheck") then
-		vRP.BankMoney(user_id,266)
+		vRP.BankMoney(user_id,330)
 		vRPclient._notify(source,"Dia do pagamento: RS266")
 	end
 	-- CAPITÃO
 	if vRP.hasPermission(user_id,"bombeirocapitao.paycheck") then
-		vRP.BankMoney(user_id,266)
+		vRP.BankMoney(user_id,330)
 		vRPclient._notify(source,"Dia do pagamento: RS266")
 	end	
 	-- PRIMEIRO SARGENTO
 	if vRP.hasPermission(user_id,"bombeiroprimeirosargento.paycheck") then
-		vRP.BankMoney(user_id,222)
+		vRP.BankMoney(user_id,270)
 		vRPclient._notify(source,"Dia do pagamento: RS222")
 	end	
 	-- CABO
 	if vRP.hasPermission(user_id,"bombeirocabo.paycheck") then
-		vRP.BankMoney(user_id,222)
+		vRP.BankMoney(user_id,270)
 		vRPclient._notify(source,"Dia do pagamento: RS222")
 	end
 	-- SOLDADO
 	if vRP.hasPermission(user_id,"bombeirotensoldado.paycheck") then
-		vRP.BankMoney(user_id,222)
+		vRP.BankMoney(user_id,270)
 		vRPclient._notify(source,"Dia do pagamento: RS222")
 	end	
 	-- RECRUTA
 	if vRP.hasPermission(user_id,"bombeirotenrecruta.paycheck") then
-		vRP.BankMoney(user_id,222)
+		vRP.BankMoney(user_id,270)
 		vRPclient._notify(source,"Dia do pagamento: RS222")
 	end
 	-------- orthes
 	if vRP.hasPermission(user_id,"dg.paycheck") then
-		vRP.BankMoney(user_id,334)
+		vRP.BankMoney(user_id,400)
 		vRPclient._notify(source,"Dia do pagamento: RS40")
 	end
 	if vRP.hasPermission(user_id,"cmdbope.paycheck") then
-		vRP.BankMoney(user_id,384)
+		vRP.BankMoney(user_id,400)
 		vRPclient._notify(source,"Dia do pagamento: RS40")
 	end
 	if vRP.hasPermission(user_id,"soldadobope.paycheck") then
-		vRP.BankMoney(user_id,222)
+		vRP.BankMoney(user_id,370)
 		vRPclient._notify(source,"Dia do pagamento: RS40")
 	end
 	
