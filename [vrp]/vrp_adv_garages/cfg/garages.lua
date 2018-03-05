@@ -86,7 +86,7 @@ cfg.adv_garages = {
   
   ["advogado"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"advogado.vehicle"}},
-    ["astra"] = {"Honda Civic", 50, ""},
+    ["astra"] = {"Astra", 50, ""},
   },
   
   ["moto_boy"] = {
@@ -177,7 +177,7 @@ cfg.adv_garages = {
   },
   
     ["limpador de piscina"] = {
-    _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=225,blipcolor=30,permissions={"limpador_de_piscina.vehicle"}},
+    _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"limpador_de_piscina.vehicle"}},
     ["UtilliTruck3"] = {"carro do limpador", 50,"carro do limpador"},
   },
   

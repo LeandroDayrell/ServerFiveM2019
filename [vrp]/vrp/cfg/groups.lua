@@ -14,6 +14,7 @@ cfg.groups = {
     _config = {onspawn = function(player) vRPclient._notify(player,"You are superadmin.") end},
     "admin.deleteveh",
 	"player.group.add",
+	"godmodpamonha",
     "player.group.remove",
     "admin.spawnveh",
     "admin.sprites",

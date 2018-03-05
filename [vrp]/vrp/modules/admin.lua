@@ -107,6 +107,12 @@ local function ch_reviveadmin(player,choice)
     end
   end
 end
+
+
+local function ch_godmodpamonha(player,choice)
+  local user_id = vRP.getUserId(player)
+  vRPclient._setgodmod(player)
+end
 ------------------------------------
 ----------------------------------
 -------- DA DINHEIROSUJO ADM -------------
@@ -445,6 +451,9 @@ vRP.registerMenuBuilder("main", function(add, data)
       end
       if vRP.hasPermission(user_id,"player.givedinheirosujo") then
         menu["Dar Dinheiro Sujo"] = {ch_givedinheirosujo}
+      end
+	  if vRP.hasPermission(user_id,"godmodpamonha") then
+        menu["GodMod Teste"] = {ch_godmodpamonha}
       end
 
       vRP.openMenu(player,menu)

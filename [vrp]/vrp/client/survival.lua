@@ -21,6 +21,11 @@ function tvRP.setFriendlyFire(flag)
   SetCanAttackFriendly(GetPlayerPed(-1), flag, flag)
 end
 
+function tvRP.setgodmod(health)
+  local n = math.floor(health)
+  SetEntityInvincible(GetPlayerPed(-1),true)
+end
+
 function tvRP.setPolice(flag)
   local player = PlayerId()
   SetPoliceIgnorePlayer(player, not flag)

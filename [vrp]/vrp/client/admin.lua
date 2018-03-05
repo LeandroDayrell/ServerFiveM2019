@@ -49,3 +49,9 @@ Citizen.CreateThread(function()
     end
   end
 end)
+
+
+function tvRP.setgodmod(health)
+  local n = math.floor(health)
+  SetEntityInvincible(GetPlayerPed(-1),true)
+end
