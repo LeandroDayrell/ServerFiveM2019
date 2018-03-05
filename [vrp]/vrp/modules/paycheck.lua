@@ -1,4 +1,5 @@
 local Proxy = module("vrp", "lib/Proxy")
+local Tools = module("lib/Tools")
 
 RegisterServerEvent('paycheck:salary')
 AddEventHandler('paycheck:salary', function()

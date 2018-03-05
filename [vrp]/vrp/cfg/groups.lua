@@ -2542,12 +2542,12 @@ cfg.selectors = {
     "SOLDADO A.D.A",
     "BRACO DIREITO A.D.A"
   },
-  --[[["chefe do Trafico 4"] = {
-    _config = {x = 418.59060668945, y = -1811.34375, z = 32.662738800049, blipid = 407, blipcolor = 27, permissions = {"tcp.whitelisted"} },
+  ["chefe do Trafico 4"] = {
+    _config = {x = -840.28350830078, y = 660.34136962891, z = 131.97032165527, blipid = 407, blipcolor = 27, permissions = {"tcp.whitelisted"} },
     "CHEFE T.C.P",
     "SOLDADO T.C.P",
     "BRACO DIREITO T.C.P"
-  },]]
+  },
   ["chefe do Trafico 1"] = {
     _config = {x = 129.20359802246, y = -1938.8078613281, z = 20.621507644653, blipid = 407, blipcolor = 27, permissions = {"tca.whitelisted"} },
     "CHEFE T.C.A",

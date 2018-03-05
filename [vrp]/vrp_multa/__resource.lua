@@ -13,3 +13,7 @@ server_scripts{
   "@vrp/lib/utils.lua",
   "server.lua"
 }
+
+files{
+  "cfg/multa.lua",
+}
