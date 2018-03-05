@@ -25,12 +25,12 @@ cfg.gunshop_types = {
     _config = {permissions = {"police.loadshop"}},
     ["WEAPON_STUNGUN"] = {"Arma de choque",0,0,""},
     ["WEAPON_PISTOL"] = {"Pistola",0,2,""},
-    ["WEAPON_SMOKEGRENADE"] = {"Granada de fumaça",3000,2,""},
-	["WEAPON_CARBINERIFLE"] = {"Carabineri Rifle",6000,4,""},
-    ["WEAPON_PUMPSHOTGUN"] = {"Shotgun",4500,5,""},
+    ["WEAPON_SMOKEGRENADE"] = {"Granada de fumaça",0,2,""},
+	["WEAPON_CARBINERIFLE"] = {"Carabineri Rifle",0,4,""},
+    ["WEAPON_PUMPSHOTGUN"] = {"Shotgun",0,5,""},
     ["WEAPON_FLASHLIGHT"] = {"Lanterna",0,0,""},
     ["WEAPON_NIGHTSTICK"] = {"Cacetete",0,0,""},
-	["WEAPON_SPECIALCARBINE"] = {"FAL",9000,4,""},
+	["WEAPON_SPECIALCARBINE"] = {"FAL",0,4,""},
  }
 }
 

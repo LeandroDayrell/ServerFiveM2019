@@ -1166,7 +1166,7 @@ function task_mission()
 					  end)
 ---------------------------------------------------------------------------------					  
                     local reward = v.items[idname][3]*amount
-                      vRP.giveMoney(user_id,reward)
+                      vRP.giveDinheirosujo(user_id,reward)
                       vRPclient._notify(player,lang.money.received({reward}))
 					end
                     todo = todo-1

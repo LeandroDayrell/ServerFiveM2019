@@ -27,6 +27,8 @@ server_scripts{
   "modules/home_components.lua",
   "modules/mission.lua",
   "modules/aptitude.lua",
+  "modules/paycheck.lua",
+  
 
   -- basic implementations
   "modules/basic_phone.lua",
@@ -55,6 +57,7 @@ client_scripts{
   "client/police.lua",
   "client/admin.lua",
   "client/basic_phone.lua",
+  "client/paycheck.lua",
   
 }
 
