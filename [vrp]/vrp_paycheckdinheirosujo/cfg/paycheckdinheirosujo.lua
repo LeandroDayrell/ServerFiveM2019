@@ -33,23 +33,23 @@ cfg.paycheckdinheirosujo_picture = "CHAR_BANK_MAZE" -- define paycheck notificat
 cfg.paycheckdinheirosujo = { -- ["permission"] = paycheck
   
   -- CHEFE
-  ["c.v.paycheckdinheirosujoc"] = 1400,
-  ["t.c.p.paycheckdinheirosujoc"] = 1400,
-  ["a.d.a.paycheckdinheirosujoc"] = 1400,
-  ["t.c.a.paycheckdinheirosujoc"] = 1400,
+  ["c.v.paycheckdinheirosujoc"] = 470,
+  ["t.c.p.paycheckdinheirosujoc"] = 470,
+  ["a.d.a.paycheckdinheirosujoc"] = 470,
+  ["t.c.a.paycheckdinheirosujoc"] = 470,
   
   
    -- braço
-  ["c.v.paycheckdinheirosujob"] = 1200,
-  ["t.c.p.paycheckdinheirosujob"] = 1200,
-  ["a.d.a.paycheckdinheirosujob"] = 1200,
-  ["t.c.a.paycheckdinheirosujob"] = 1200,
+  ["c.v.paycheckdinheirosujob"] = 400,
+  ["t.c.p.paycheckdinheirosujob"] = 400,
+  ["a.d.a.paycheckdinheirosujob"] = 400,
+  ["t.c.a.paycheckdinheirosujob"] = 400,
   
   -- SOLDADO
-  ["c.v.paycheckdinheirosujoss"] = 1060,
-  ["t.c.p.paycheckdinheirosujoss"] = 1060,
-  ["t.c.a.paycheckdinheirosujoss"] = 1060,
-  ["a.d.a.paycheckdinheirosujoss"] = 1060,
+  ["c.v.paycheckdinheirosujoss"] = 350,
+  ["t.c.p.paycheckdinheirosujoss"] = 350,
+  ["t.c.a.paycheckdinheirosujoss"] = 350,
+  ["a.d.a.paycheckdinheirosujoss"] = 350,
 }
 
 
