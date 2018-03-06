@@ -200,9 +200,7 @@ cfg.adv_garages = {
    
    ["helicópteros da Bope"] = {
    _config = {gpay="wallet",gtype={"rental"},vtype="helicopters",permissions={"police.pc"}},
-    ["polmav"] = {"Policia",0, ""},
-	["valkyrie2"] = {"Tem que pedir permissao ao seu superior para usa-lo",0,""},
-	["frogger2"] = {"Policia3",0, ""},
+    ["helibope"] = {"Helicoptero",0, ""},
   }, 
    
    
