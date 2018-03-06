@@ -265,7 +265,7 @@ cfg.carteiro = {
   ["mission.carteiro.information"] = {
     positions = common_carteiro_positions,
     items = {
-      ["encomenda"] = {12,14,16}
+      ["encomenda"] = {12,14,14}
     }
   }
 }
@@ -472,7 +472,7 @@ cfg.leite = {
   ["mission.leite.food"] = {
     positions = common_leite_positions,
     items = {
-      ["Caixas de Leite"] = {5,10,23}
+      ["Caixas de Leite"] = {5,10,20}
     }
   }
 }

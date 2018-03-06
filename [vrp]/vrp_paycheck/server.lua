@@ -41,7 +41,7 @@ function paycheck_giver()
 	  vRPclient.notifyPicture(player,cfg.paycheck_picture, 9, cfg.paycheck_title_picture, false, cfg.message_paycheck..paycheck..cfg.post)
 	end	
   end
-  SetTimeout(1000*60*cfg.minutes_paycheck, function()
+  SetTimeout(1020*60*cfg.minutes_paycheck, function()
 	paycheck_giver()
   end)
 end

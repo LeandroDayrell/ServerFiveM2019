@@ -198,6 +198,16 @@ cfg.adv_garages = {
 	["frogger2"] = {"Policia3",0, ""},
   }, 
    
+   ["helicópteros da Bope"] = {
+   _config = {gpay="wallet",gtype={"rental"},vtype="helicopters",permissions={"police.pc"}},
+    ["polmav"] = {"Policia",0, ""},
+	["valkyrie2"] = {"Tem que pedir permissao ao seu superior para usa-lo",0,""},
+	["frogger2"] = {"Policia3",0, ""},
+  }, 
+   
+   
+   
+   
   ["Jatos de loja"] = {
    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=16,blipcolor=49},
 	["vestra"] = {"Vestra",10000000, ""},
@@ -223,23 +233,34 @@ cfg.adv_garages = {
   
   ["loja carro"]  = {
     _config = {gpay="bank",gtype={"showroom","store","rental","personal"},vtype="car",blipid=225,blipcolor=81},
-	["schafter3"] = {"fox",34000, ""},
-	["vwstance"] = {"vwstance",70000, ""},
-	["208"] = {"Peugeot 208",40000, ""},
-	["golg7"] = {"Gol G7",31000, ""},
-	["civic2"] = {"Civic 2010",36000, ""},
-	["jetta"] = {"Jetta",80000, ""},
-	["saveiro"] = {"Saveiro",40000, ""},
+	["vwstance"] = {"vwstance",140000, ""},
+	["208"] = {"Peugeot 208",47900, ""},
+	["golg7"] = {"Gol G7",45900, ""},
+	["civic"] = {"Honda Civic",43000, ""},
+	["jetta"] = {"Jetta",58000, ""},
+	["saveiro3"] = {"Saveiro",40000, ""},
 	["up"] = {"up",38000, ""},
-	["celta"] = {"CELTA",21000, ""},
-	["agile"] = {"Agile",33000, ""}, --
+	["celta"] = {"CELTA",19900, ""},
+	["agile"] = {"Agile",28000, ""}, --
 	
 	["comodoro"] = {"Comodoro Chevrolet",33000, ""}, --
-	["c10"] = {"C10 Chevrolet",33000, ""}, --
-	["astra"] = {"Astra Chevrolet",33000, ""}, --
-	["cruze"] = {"Cruze Chevrolet",33000, ""}, --
+	["c10"] = {"C10 Chevrolet",40000, ""}, --
+	["astra"] = {"Astra Chevrolet",29800, ""}, --
+	["cruze"] = {"Cruze Chevrolet",50000, ""}, --
 	["golf1"] = {"Golf 1994",22000, ""}, --
 	["golf2"] = {"Golf 2002",20000, ""}, --
+	
+	
+	["paratisurf"] = {"Parati Surf",15000, ""}, --
+	["palio"] = {"Palio",9000, ""}, --
+	["polo"] = {"Polo Volks",20000, ""}, --
+	["ranger"] = {"Ranger",99990, ""}, --
+	["omega"] = {"Chevrolet Omega 1997",32500, ""}, --
+    ["opalas"] = {"Chevrolet Opala SS 1977",65000, ""}, --
+	["maveco"] = {"Ford Maverick 1976",51000, ""}, --
+	["hb20s"] = {"Hyundai HB20s 2016",54450, ""}, --
+	["amarok"] = {"VW AMAROK 2016",85890, ""}, --
+	["gol2"] = {"VW Gol 1996",15900, ""}, --
   },
   
     ["Garagem"]  = {
@@ -247,7 +268,6 @@ cfg.adv_garages = {
 	
 	-- CARROS
 	
---	["schafter3"] = {"fox",34000, ""},
 	["vwstance"] = {"vwstance",70000, ""},
 	["208"] = {"Peugeot 208",40000, ""},
 	["golg7"] = {"Gol G7",31000, ""},
@@ -434,6 +454,7 @@ cfg.garages = {
   {"Caminhões",-882.533325195313,-2730.81713867188,13.8284845352173},
   {"Jatos de loja",-1144.0738525391,-2944.1264648438,13.944903373718},
   {"Aeronaves turboélice Loja",-1169.9676513672,-2931.8337402344,13.944881439209},
+  {"helicópteros da Bope",-75.268730163574,-818.94635009766,326.17510986328},
  
 }
 
