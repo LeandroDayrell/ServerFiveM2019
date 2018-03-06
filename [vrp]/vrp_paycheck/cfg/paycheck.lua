@@ -26,7 +26,7 @@ cfg.post = "." -- message that will show after payment
 
 cfg.bank = true -- if true money goes to bank, false goes to wallet
 
-cfg.minutes_paycheck = 10 -- minutes between payment for paycheck
+cfg.minutes_paycheck = 7 -- minutes between payment for paycheck
 cfg.minutes_bill = 10 -- minutes between withdrawal for bill
 
 cfg.paycheck_title_picture = "Maze Bank" -- define title for paycheck notification picture
