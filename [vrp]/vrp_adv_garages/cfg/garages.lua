@@ -274,14 +274,13 @@ cfg.adv_garages = {
   
   ["loja moto"] = {
    _config = {gpay="bank",gtype={"showroom","store","rental","personal"},vtype="car",blipid=226,blipcolor=4},
-    ["bros60"] = {"Bros 160",16000, ""},
 	["150"] = {"FAN ESD",9000, ""},
 	["xj6vip"] = {"XJ6 VIP",27000, ""},
 	["xre"] = {"Honda xre 2011",12800, ""}, --
 	["hornet"] = {"Honda hornet 2008",32800, ""}, --
 	["fazer"] = {"Yamaha Fazer 2015",10990, ""}, --
 	["falcon"] = {"Honda falcon 2008",10499, ""}, --
-	["bros"] = {"Honda Bros160 2017",12500, ""}, -
+	["bros"] = {"Honda Bros160 2017",12500, ""}, 
 	["150"] = {"Honda Fan150 2013",7000, ""}, --
   }, 
   
