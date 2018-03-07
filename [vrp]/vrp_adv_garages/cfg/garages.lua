@@ -271,20 +271,13 @@ cfg.adv_garages = {
 	["saveiro"] = {"Saveiro",40000, ""},
 	["up"] = {"up",38000, ""},
 	["celta"] = {"CELTA",21000, ""},
-	["agile"] = {"Agile",33000, ""}, --
-	
+	["agile"] = {"Agile",33000, ""}, --	
 	["comodoro"] = {"Comodoro Chevrolet",33000, ""}, --
 	["c10"] = {"C10 Chevrolet",33000, ""}, --
 	["astra"] = {"Astra Chevrolet",33000, ""}, --
 	["cruze"] = {"Cruze Chevrolet",33000, ""}, --
 	["golf1"] = {"Golf 1994",22000, ""}, --
 	["golf2"] = {"Golf 2002",20000, ""}, --
-	["xre"] = {"Honda xre 2011",12800, ""}, --
-	["hornet"] = {"Honda hornet 2008",32800, ""}, --
-	["fazer"] = {"Yamaha Fazer 2015",10990, ""}, --
-	["falcon"] = {"Honda falcon 2008",10499, ""}, --
-	["bros"] = {"Honda Bros160 2017",12500, ""}, -
-	["150"] = {"Honda Fan150 2013",7000, ""}, --
 	
 	
 	-- MOTOS
@@ -295,7 +288,14 @@ cfg.adv_garages = {
     ["bros60"] = {"Bros 160",16000, ""},
 	["150"] = {"FAN ESD",9000, ""},
 	["xj6vip"] = {"XJ6 VIP",27000, ""},
+	["xre"] = {"Honda xre 2011",12800, ""}, --
+	["hornet"] = {"Honda hornet 2008",32800, ""}, --
+	["fazer"] = {"Yamaha Fazer 2015",10990, ""}, --
+	["falcon"] = {"Honda falcon 2008",10499, ""}, --
+	["bros"] = {"Honda Bros160 2017",12500, ""}, -
+	["150"] = {"Honda Fan150 2013",7000, ""}, --
   }, 
+  
   
   ["Ranch Main"]  = {
     _config = {gpay="wallet",gtype={"personal"},vtype="car",blipid=357,blipcolor=3,ghome="Ranch Main"},
