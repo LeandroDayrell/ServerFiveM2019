@@ -65,8 +65,8 @@ AddEventHandler("essence:buy", function(amount, index,e)
 	end
 
 	local toPay = round(amount*price,2)
-	local user_id = vRP.getUserId({_source})
-	if(vRP.tryPayment({user_id,toPay})) then
+	local user_id = vRP.getUserId(_source)
+	if(vRP.tryPayment(user_id,toPay)) then
 		TriggerClientEvent("essence:hasBuying", _source, amount)
 	else
 		TriggerClientEvent("showErrorNotif", _source, "Voce nao tem Dinheiro Suficiente.")
@@ -113,8 +113,8 @@ AddEventHandler("essence:buyCan", function()
 	local _source = source
 
 	local toPay = petrolCanPrice
-	local user_id = vRP.getUserId({_source})
-	if(vRP.tryPayment({user_id,toPay})) then
+	local user_id = vRP.getUserId(_source)
+	if(vRP.tryPayment(user_id,toPay)) then
 		TriggerClientEvent("essence:hasBuying", _source)
  	else
 		TriggerClientEvent("showErrorNotif", _source, "Voce nao tem Dinheiro Suficiente.")
