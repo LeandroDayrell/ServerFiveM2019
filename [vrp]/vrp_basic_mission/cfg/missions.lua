@@ -265,7 +265,7 @@ cfg.carteiro = {
   ["mission.carteiro.information"] = {
     positions = common_carteiro_positions,
     items = {
-      ["encomenda"] = {7,9,14}
+      ["encomenda"] = {7,9,13}
     }
   }
 }

@@ -49,6 +49,7 @@ cfg.seizable_items = {
   "folhadecoca",
   "lsdt",
   "crack",
+  "rede",
   "WEAPON_SMG",
 }
 

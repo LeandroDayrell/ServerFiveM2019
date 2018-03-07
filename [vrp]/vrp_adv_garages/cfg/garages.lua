@@ -39,31 +39,27 @@ cfg.items = {
 cfg.adv_garages = {
   ["police"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"police.vehicle"}},
-    ["polarteon"] = {"BOPE - Arteon",0, "police"},
+    --["polarteon"] = {"BOPE - Arteon",0, "police"},
 	["riot"] = {"BOPE - Caveirao",0, "police"},
-	["police3"] = {"BOPE - Dodge",0, "police"},
-	["sef_pfinder"] = {"BOPE - Nissan Pathfinder",0, "police"},
-    ["fbi2"] = {"BOPE - Suburban",0, "police"},
-	["ghispo2"] = {"PMERJ - Maseratti",0, "police"},
-	["police5"] = {"Duster PMERJ",0, ""},
-	["cprotection"] = {"Landhover PMERJ",0, ""},
-	["rmodpolice"] = {"PRF Nissan",0, "police"},----
-	["sheriffevo"] = {"Evo PRF",0, "police"},---
-	["polchiron"] = {"Chiron PRF",0, "police"},----
+	--["police3"] = {"BOPE - Dodge",0, "police"},
+	--["sef_pfinder"] = {"BOPE - Nissan Pathfinder",0, "police"},
+    --["fbi2"] = {"BOPE - Suburban",0, "police"},
+	--["ghispo2"] = {"PMERJ - Maseratti",0, "police"},
+	--["police5"] = {"Duster PMERJ",0, ""},
+	--["cprotection"] = {"Landhover PMERJ",0, ""},
+	--["rmodpolice"] = {"PRF Nissan",0, "police"},----
+	--["sheriffevo"] = {"Evo PRF",0, "police"},---
+	--["polchiron"] = {"Chiron PRF",0, "police"},----
 	["pbus"] = {"PMERJ BUS",0, "police"},
-	["police3"] = {"Logan POLICIA jazz",0, "police"},
-	["sheriff"] = {"s10 POLICIA jazz",0, "police"},
-	["police2"] = {"Carro BOPE jazz",0, "police"},
+	["logan"] = {"Logan POLICIA jazz",0, "police"},
+	["s10p"] = {"s10 POLICIA jazz",0, "police"},
   },
   
   ["bope"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"bope.vehicle"}},
-    ["polarteon"] = {"BOPE - Arteon",0, "police"},
-	["riot"] = {"BOPE - Caveirao",0, "police"},
-	["police3"] = {"BOPE - Dodge",0, "police"},
-	["sef_pfinder"] = {"BOPE - Nissan Pathfinder",0, "police"},
-    ["fbi2"] = {"BOPE - Suburban",0, "police"},
-	["police2"] = {"Carro BOPE jazz",0, "police"},
+    --["polarteon"] = {"BOPE - Arteon",0, "police"},
+	["police2"] = {"Pickup BOPE",0, "police"},
+	["RIOT"] = {"Caveirão BOPE",0, "police"},
   },
   
    ["hospitalele"] = {
@@ -74,7 +70,7 @@ cfg.adv_garages = {
   
    ["hospitalcar"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=50,blipcolor=3,permissions={"emergency.vehicle"}},
-	["ambulance"] = {"Ambulancia Bombeiro",0, ""},
+	--["ambulance"] = {"Ambulancia Bombeiro",0, ""},
 	["pranger"] = {"Resgate",0, ""},
 	["ems_gs1200"] = {"Moto Samu",0, ""},
 	["sprinter"] = {"Sprinter Samu",0, ""},
@@ -283,7 +279,12 @@ cfg.adv_garages = {
 	["cruze"] = {"Cruze Chevrolet",33000, ""}, --
 	["golf1"] = {"Golf 1994",22000, ""}, --
 	["golf2"] = {"Golf 2002",20000, ""}, --
-	
+	["xre"] = {"Honda xre 2011",12800, ""}, --
+	["hornet"] = {"Honda hornet 2008",32800, ""}, --
+	["fazer"] = {"Yamaha Fazer 2015",10990, ""}, --
+	["falcon"] = {"Honda falcon 2008",10499, ""}, --
+	["bros"] = {"Honda Bros160 2017",12500, ""}, -
+	["150"] = {"Honda Fan150 2013",7000, ""}, --
 	
 	
 	-- MOTOS

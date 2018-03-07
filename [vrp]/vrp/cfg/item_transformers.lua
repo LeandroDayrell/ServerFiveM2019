@@ -399,11 +399,11 @@ name="Pescador de Tartaruga", -- menu name
         description="", -- action description
         in_money=0, -- money taken per unit
         out_money=0, -- money earned per unit
+		out_dinheirosujo=0,
         reagents={  -- items taken per unit
           ["Tartaruga"] = 1
       },
-        products={ -- items given per unit
-          ["dirty_money"] = 700
+        products={
         }
       }
     }
