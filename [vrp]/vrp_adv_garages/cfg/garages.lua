@@ -69,6 +69,7 @@ cfg.adv_garages = {
    ["hospitalele"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=360,blipcolor=3,permissions={"emergency.vehicle"}},
 	["polmav"] = {"Helicoptero SAMU",0, ""},
+	["RIOT"] = {"Teste 2",0, ""},
   },
   
    ["hospitalcar"] = {

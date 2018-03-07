@@ -21,12 +21,13 @@ local cfg = {}
 
 -- paycheck and bill for users
 cfg.message_paycheck = "Você recebeu o salario de: ~g~$" -- message that will show before payment of salary
+cfg.message_paycheckdinheirosujo = "Você recebeu o salario de: ~g~$" -- message that will 
 cfg.message_bill = "Você pagou: ~r~$" -- message that will show before payment of bill
 cfg.post = "." -- message that will show after payment
 
 cfg.bank = true -- if true money goes to bank, false goes to wallet
 
-cfg.minutes_paycheck = 7 -- minutes between payment for paycheck
+cfg.minutes_paycheck = 10 -- minutes between payment for paycheck
 cfg.minutes_bill = 10 -- minutes between withdrawal for bill
 
 cfg.paycheck_title_picture = "Maze Bank" -- define title for paycheck notification picture
@@ -75,6 +76,28 @@ cfg.paycheck = { -- ["permission"] = paycheck
   
 }
 
+cfg.paycheckdinheirosujo = {
+	-- CHEFE
+  ["c.v.paycheckdinheirosujoc"] = 470,
+  ["t.c.p.paycheckdinheirosujoc"] = 470,
+  ["a.d.a.paycheckdinheirosujoc"] = 470,
+  ["t.c.a.paycheckdinheirosujoc"] = 470,
+  
+  
+   -- braço
+  ["c.v.paycheckdinheirosujob"] = 400,
+  ["t.c.p.paycheckdinheirosujob"] = 400,
+  ["a.d.a.paycheckdinheirosujob"] = 400,
+  ["t.c.a.paycheckdinheirosujob"] = 400,
+  
+  -- SOLDADO
+  ["c.v.paycheckdinheirosujoss"] = 350,
+  ["t.c.p.paycheckdinheirosujoss"] = 350,
+  ["t.c.a.paycheckdinheirosujoss"] = 350,
+  ["a.d.a.paycheckdinheirosujoss"] = 350,
+
+
+}
 cfg.bill = {
 }
 
