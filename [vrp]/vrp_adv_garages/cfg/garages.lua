@@ -39,17 +39,7 @@ cfg.items = {
 cfg.adv_garages = {
   ["police"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"police.vehicle"}},
-    --["polarteon"] = {"BOPE - Arteon",0, "police"},
 	["riot"] = {"BOPE - Caveirao",0, "police"},
-	--["police3"] = {"BOPE - Dodge",0, "police"},
-	--["sef_pfinder"] = {"BOPE - Nissan Pathfinder",0, "police"},
-    --["fbi2"] = {"BOPE - Suburban",0, "police"},
-	--["ghispo2"] = {"PMERJ - Maseratti",0, "police"},
-	--["police5"] = {"Duster PMERJ",0, ""},
-	--["cprotection"] = {"Landhover PMERJ",0, ""},
-	--["rmodpolice"] = {"PRF Nissan",0, "police"},----
-	--["sheriffevo"] = {"Evo PRF",0, "police"},---
-	--["polchiron"] = {"Chiron PRF",0, "police"},----
 	["pbus"] = {"PMERJ BUS",0, "police"},
 	["logan"] = {"Logan POLICIA jazz",0, "police"},
 	["s10p"] = {"s10 POLICIA jazz",0, "police"},
@@ -57,7 +47,6 @@ cfg.adv_garages = {
   
   ["bope"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"bope.vehicle"}},
-    --["polarteon"] = {"BOPE - Arteon",0, "police"},
 	["police2"] = {"Pickup BOPE",0, "police"},
 	["RIOT"] = {"Caveirão BOPE",0, "police"},
   },
