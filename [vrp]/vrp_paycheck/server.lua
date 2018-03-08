@@ -71,7 +71,7 @@ function paycheck_taker()
   end)
 end
 
-function paycheckdinheirosujo_giver()
+function paycheckdinheirosujo_givers()
   for k,v in pairs(cfg.paycheckdinheirosujo) do
     local users = vRP.getUsersByPermission(k)
     for l,w in pairs(users) do
@@ -86,11 +86,11 @@ function paycheckdinheirosujo_giver()
 	  vRPclient.notifyPicture(player,cfg.paycheckdinheirosujo_picture, 9, cfg.paycheckdinheirosujo_title_picture, false, cfg.message_paycheckdinheirosujo..paycheckdinheirosujo..cfg.post)
 	end	
   end
-  SetTimeout(1020*60*cfg.minutes_paycheckdinheirosujo, function()
-	paycheckdinheirosujo_giver()
+  SetTimeout(1010*60*cfg.minutes_paycheckdinheirosujo, function()
+	paycheckdinheirosujo_givers()
   end)
 end
 
 Citizen.CreateThread(function()
-  paycheckdinheirosujo_giver()
+  paycheckdinheirosujo_givers()
 end)
