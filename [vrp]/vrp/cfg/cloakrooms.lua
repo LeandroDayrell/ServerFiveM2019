@@ -44,7 +44,7 @@ end
 cfg.cloakroom_types = {
   ["Advogado"] = {
     _config = { permissions = {"advogado.cloakroom"} },
-    ["Male uniform"] = {
+    ["Uniforme Masculino"] = {
       [2] = {3,1},
       [3] = {14,0},
       [4] = {24,0},
@@ -67,7 +67,7 @@ cfg.cloakroom_types = {
   
    ["Advogado"] = {
     _config = { permissions = {"advogado.cloakroom"} },
-    ["Male uniform"] = {
+    ["Uniforme Masculino"] = {
       [2] = {3,1},
       [3] = {14,0},
       [4] = {24,0},
@@ -80,41 +80,41 @@ cfg.cloakroom_types = {
   },
   ["surgery"] = {
     _config = { not_uniform = true },
-    ["Male"] = surgery_male,
-    ["Female"] = surgery_female
+    ["Uniforme Masculino"] = surgery_male,
+    ["Uniforme feminino"] = surgery_female
   },
   ["Bombeiro"] = {
     _config = { permissions = {"emergency.cloakroom"} },
-    ["Male"] = emergency_male,
-    ["Female"] = emergency_female
+    ["Uniforme Masculino"] = emergency_male,
+    ["Uniforme feminino"] = emergency_female
   },
     ["motorista_de_onibus"] = {--------------------------------------limpador_de_piscina
     _config = { permissions = {"bus.cloakroom"} },
-    ["Male"] = Motoristabus_male
+    ["Uniforme Masculino"] = Motoristabus_male
   },
     ["limpador_de_piscina"] = {--------------------------------------limpador_de_piscina
     _config = { permissions = {"limpador_de_piscina.cloakroom"} },
-    ["Male"] = limpador_de_piscina_male
+    ["Uniforme Masculino"] = limpador_de_piscina_male
   },
     ["carteiro"] = {--------------------------------------carteiro
     _config = { permissions = {"carteiro.cloakroom"} },
-    ["Male"] = carteiro_male
+    ["Uniforme Masculino"] = carteiro_male
   },
     ["lixeiro"] = {--------------------------------------lixeiro
     _config = { permissions = {"lixeiro.cloakroom"} },
-    ["Male"] = lixeiro_male
+    ["Uniforme Masculino"] = lixeiro_male
   },
     ["motoristabancario"] = {--------------------------------------motoristabancario
     _config = { permissions = {"motoristabancario.cloakroom"} },
-    ["Male"] = motoristabancario_male
+    ["Uniforme Masculino"] = motoristabancario_male
   },
     ["motoboy"] = {--------------------------------------motoboy
     _config = { permissions = {"motoboy.cloakroom"} },
-    ["Male"] = motoboy_male
+    ["Uniforme Masculino"] = motoboy_male
   },
     ["Policia Civil"] = {-----NOVO
     _config = { permissions = {"Civil.cloakroom"} },
-    ["Male"] = Civil_male
+    ["Uniforme Masculino"] = Civil_male
   },
     ["delegado"] = {
     _config = { permissions = {"delegado.cloakroom"} },
@@ -140,29 +140,9 @@ cfg.cloakrooms = {
   {"motoristabancario",-338.76171875,-972.93182373047,31.080617904663},-- MOTORISTA BANCARIO
   {"motoboy", 140.68260192871,-1461.2135009766,29.357044219971}, -- MOTO BOY
   {"bope", 139.31167602539,-736.06536865234,258.15209960938},     -- BOPE
-  {"Advogado",-589.49383544922,-706.19000244141,36.27938079834}, -- ADVOGADO
-  
-  
-  
-  
+  {"Advogado",-589.49383544922,-706.19000244141,36.27938079834}, -- ADVOGADO  
   {"Policia Civil", 459.71633911133,-988.71325683594,30.68957901001},-----NOVO
-  --{"surgery",1849.7425,3686.5759,34.2670},----first spawn change skin
-  --{"surgery",75.3451766967773,-1392.86596679688,29.3761329650879},---skinsshops
-  --{"surgery",-700.089477539063,-151.570571899414,37.4151458740234},
-  --{"surgery",-170.416717529297,-296.563873291016,39.7332878112793},
-  --{"surgery",425.61181640625,-806.519897460938,29.4911422729492},
-  --{"surgery",-822.166687011719,-1073.58020019531,11.3281087875366},
-  --{"surgery",-1186.25744628906,-771.20166015625,17.3308639526367},
-  --{"surgery",-1450.98388671875,-238.164260864258,49.8105850219727},
-  --{"surgery",4.44537162780762,6512.244140625,31.8778476715088},
-  --{"surgery",1693.91735839844,4822.66162109375,42.0631141662598},
-  --{"surgery",118.071769714355,-224.893646240234,54.5578384399414},
-  --{"surgery",620.459167480469,2766.82641601563,42.0881042480469},
-  --{"surgery",1196.89221191406,2710.220703125,38.2226066589355},
-  --{"surgery",-3178.01000976563,1043.21044921875,20.8632164001465},
-  --{"surgery",-1101.15161132813,2710.8203125,19.1078643798828},
-  {"Bombeiro",1192.5698242188,-1474.3294677734,34.859539031982},   
-  --{"Advogado",-309.03363037109,-946.48193359375,31.08060836792},
+  {"Bombeiro",1192.5698242188,-1474.3294677734,34.859539031982}, 
   {"Mecanico",474.02072143555,-1310.9348144531,29.225872039795} 
 }
 

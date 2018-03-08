@@ -44,7 +44,7 @@ cfg.item_transformers = {
           ["baldedeleite"] = 1
       },
         products={ -- items given per unit
-          ["Caixas de Leite"] = 1
+          ["caixas de leite"] = 1
         }
       }
     }
@@ -64,7 +64,7 @@ cfg.item_transformers = {
     out_money=0, -- Dinheiro ganho por unidade
     reagents={},
     products={ -- items given per unit
-    ["Diamante com Pedra"] = 2
+    ["diamante com pedra"] = 2
         }
       }
     }
@@ -83,10 +83,10 @@ cfg.item_transformers = {
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
     reagents={  -- items taken per unit
-    ["Diamante com Pedra"] = 1
+    ["diamante com pedra"] = 1
       },
     products={ -- items given per unit
-    ["Diamante"] = 1
+    ["diamante"] = 1
         }
       }
     }
@@ -108,7 +108,7 @@ cfg.item_transformers = {
     ["picareta"] = 1
       },
     products={ -- items given per unit
-    ["Pepitas de Ouro"] = 3
+    ["pepitas de ouro"] = 3
         }
       }
     }
@@ -127,10 +127,10 @@ cfg.item_transformers = {
         in_money=0, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={  -- items taken per unit
-          ["Pepitas de Ouro"] = 1
+          ["pepitas de ouro"] = 1
       },
         products={ -- items given per unit
-          ["Ouro"] = 1
+          ["ouro"] = 1
         }
       }
     }
@@ -152,7 +152,7 @@ cfg.item_transformers = {
           ["picareta"] = 1
       },
         products={ -- items given per unit
-          ["Pepitas de Cobre"] = 4
+          ["pepitas de cobre"] = 4
         }
       }
     }
@@ -171,10 +171,10 @@ cfg.item_transformers = {
         in_money=0, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={  -- items taken per unit
-          ["Pepitas de Cobre"] = 1
+          ["pepitas de cobre"] = 1
       },
         products={ -- items given per unit
-          ["Cobre"] = 1
+          ["cobre"] = 1
         }
       }
     }
@@ -196,7 +196,7 @@ cfg.item_transformers = {
           ["pa"] = 1
       },
         products={ -- items given per unit
-          ["Sal Fino"] = 5
+          ["sal fino"] = 5
         }
       }
     }
@@ -215,10 +215,10 @@ cfg.item_transformers = {
         in_money=0, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={  -- items taken per unit
-          ["Sal Fino"] = 1
+          ["sal fino"] = 1
       },
         products={ -- items given per unit
-          ["Pacote de Sal"] = 1
+          ["pacote de sal"] = 1
         }
       }
     }
@@ -240,7 +240,7 @@ cfg.item_transformers = {
           ["foice"] = 1
       },
         products={ -- items given per unit
-          ["Trigo"] = 5
+          ["trigo"] = 5
         }
       }
     }
@@ -259,10 +259,10 @@ cfg.item_transformers = {
         in_money=0, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={  -- items taken per unit
-          ["Trigo"] = 1
+          ["trigo"] = 1
       },
         products={ -- items given per unit
-          ["Pacotes de Trigo"] = 1
+          ["pacotes de trigo"] = 1
         }
       }
     }
@@ -362,26 +362,25 @@ cfg.item_transformers = {
         }
       }
     }
-  },
-  
+  },  
   { -- PESCADOR DE TARTARUGA
 name="Pescador de Tartaruga", -- menu name
     permissions = {"harvest.tartaruga"}, -- you can add permissions
     r=0,g=200,b=0, -- cor do menu
     max_units=200, -- unidades maximas do item
     units_per_minute=20, -- unidades que o transformador ganha de volta por minuto
-    x=4095.5485839844,y=4464.8696289063,z=1.9822434186935, -- pos
-    radius=5.5, height=1.5, -- area
+    x=4007.3933105469,y=4467.4580078125,z=-8.9409952163696, -- pos
+    radius=5.5, height=1.5, -- area  4007.3933105469,4467.4580078125,-8.9409952163696
     recipes = { -- items do menu
       ["Pescar"] = { -- action name
-        description="Pescar Tartaruga com Rede.", -- action description
+        description="Pescar Tartaruga com oxigenio para submarino.", -- action description
         in_money=0, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={  -- items taken per unit
-          ["rede"] = 1
+          ["oxigenio"] = 1
       },
         products={ -- items given per unit
-          ["Tartaruga"] = 2
+          ["tartaruga"] = 2
         }
       }
     }
@@ -401,16 +400,13 @@ name="Pescador de Tartaruga", -- menu name
         out_money=0, -- money earned per unit
 		out_dinheirosujo=0,
         reagents={  -- items taken per unit
-          ["Tartaruga"] = 1
+          ["tartaruga"] = 1
       },
         products={
         }
       }
     }
-  },
-  
-  
-  
+  },  
   { -- CAMPO DE CRACK
     name="Crack - Colheita", -- Nome do menu 
     permissions = {"campo.crack"}, -- Você pode adicionar permissões

@@ -18,7 +18,6 @@ local TeleportFromTo = {
 	   positionFrom = { ['x'] = 117.50189971924, ['y'] = -736.56060791016, ['z'] = 258.15243530273, nom = "Heliponto"},
 	   positionTo = { ['x'] = -68.625274658203, ['y'] = -810.55493164063, ['z'] = 326.17416381836, nom = "Bope"},
 	},
-	-------------------------
 	["Venda De Orgaos"] = {
 	   positionFrom = { ['x'] = -2033.3133544922, ['y'] = -1035.1331787109, ['z'] = 5.8823466300964, nom = "Venda De Orgaos"},
 	   positionTo = { ['x'] = -2033.3133544922, ['y'] = -1035.1331787109, ['z'] = 5.8823466300964, nom = "Venda De Orgaos"},
@@ -50,8 +49,7 @@ local TeleportFromTo = {
 	["Documentos"] = {
 	   positionFrom = { ['x'] = -585.24676513672, ['y'] = -703.81573486328, ['z'] = 36.287094116211, nom = "Documentos"},
 	   positionTo = { ['x'] = -585.24676513672, ['y'] = -703.81573486328, ['z'] = 36.287094116211, nom = "Documentos"},
-	},
-	
+	},	
 	["frita peixe"] = {
 	   positionFrom = { ['x'] = -1594.3208007813, ['y'] = 5192.6240234375, ['z'] = 4.3100934028625, nom = "frita peixe"},
 	   positionTo = { ['x'] = -1594.3208007813, ['y'] = 5192.6240234375, ['z'] = 4.3100934028625, nom = "frita peixe"},
@@ -76,12 +74,6 @@ local TeleportFromTo = {
 	   positionFrom = { ['x'] = -315.84259033203, ['y'] = -932.46270751953, ['z'] = 31.080619812012, nom = "Produto do lixeiro"},
 	   positionTo = { ['x'] = -315.84259033203, ['y'] = -932.46270751953, ['z'] = 31.080619812012, nom = "Produto do lixeiro"},
 	},
-	
-
-	--[[["TRABALHO ILEGAL."] = {
-	   positionFrom = { ['x'] = -270.6329650879, ['y'] = -977.49603271484, ['z'] = 31.217309951782, nom = "TRABALHO ILEGAL."},
-	   positionTo = { ['x']  = -270.6329650879, ['y'] = -977.49603271484, ['z'] = 31.217309951782, nom = "TRABALHO ILEGAL."},
-	},]]
 	["CENTRAL DE EMPREGO."] = {
 	   positionFrom = { ['x'] = -268.363739013672, ['y'] = -957.255126953125, ['z'] = 31.22313880920410, nom = "CENTRAL DE EMPREGO."},
 	   positionTo = { ['x']  = -268.363739013672, ['y'] = -957.255126953125, ['z'] = 31.22313880920410, nom = "CENTRAL DE EMPREGO."},
@@ -105,6 +97,14 @@ local TeleportFromTo = {
 	["COCACOLA E PIZZA"] = {
 	   positionFrom = { ['x'] = 132.14855957031, ['y'] = -1462.1141357422, ['z'] = 29.357055664063, nom = "COCACOLA E PIZZA"},
 	   positionTo = { ['x'] = 132.14855957031, ['y'] = -1462.1141357422, ['z'] = 29.357055664063, nom = "COCACOLA E PIZZA"},
+	},
+	["submarino pra pesca"] = {
+	   positionFrom = { ['x'] = 3846.9533691406, ['y'] = 4443.2265625, ['z'] = -0.069415986537933, nom = "submarino pra pesca"},
+	   positionTo = { ['x'] = 3846.9533691406, ['y'] = 4443.2265625, ['z'] = -0.069415986537933, nom = "submarino pra pesca"},
+	},
+	["PESCA TARTARUGA"] = {
+	   positionFrom = { ['x'] = 4007.3933105469, ['y'] = 4467.4580078125, ['z'] = -8.9409952163696, nom = "PESCA TARTARUGA"},
+	   positionTo = { ['x'] = 4007.3933105469, ['y'] = 4467.4580078125, ['z'] = -8.9409952163696, nom = "PESCA TARTARUGA"},
 	},
 	["Campo de Sal"] = {
 	   positionFrom = { ['x'] = -1605.7797851563, ['y'] = 5258.8530273438, ['z'] = 2.0872757434845, nom = "Campo de Sal"},
@@ -153,7 +153,6 @@ local TeleportFromTo = {
 	["Processamento de Leite"] = {
 	   positionFrom = { ['x'] = 893.67346191406, ['y'] = 3607.2319335938, ['z'] = 32.824211120605, nom = "Processamento de Leite"},
 	   positionTo = { ['x'] = 893.67346191406, ['y'] = 3607.2319335938, ['z'] = 32.824211120605, nom = "Processamento de Leite"},
-
 	},
 	
 			-- TRAFICANTE DE DROGAS
@@ -169,8 +168,7 @@ local TeleportFromTo = {
 	["Plantação de erva"] = {
 	   positionFrom = { ['x'] = 2219.1667480469, ['y'] = 5577.13671875, ['z'] = 53.843963623047, nom = "Plantacao de erva"},
 	   positionTo = { ['x'] = 2219.1667480469, ['y'] = 5577.13671875, ['z'] = 53.843963623047, nom = "Plantacao de erva"},
-	}, 
-	
+	}, 	
 	-- LSD
 	["LSD Produzir"] = {
 	   positionFrom = { ['x'] = 1389.6108398438, ['y'] = 3603.7277832031, ['z'] = 38.941837310791, nom = "Produzir LsD"},

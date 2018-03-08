@@ -1159,9 +1159,9 @@ cfg.groups = {
     "fogueteiro.arma"
   },
   ["VENDEDOR DE ARMA"] = {
-		_config = { gtype = "job",
-		onspawn = function(player) vRPclient._notify(player,"Voce  a venderdor de arma.") end
-		},
+	_config = { gtype = "job",
+	onspawn = function(player) vRPclient._notify(player,"Voce  a venderdor de arma.") end
+	},
     "player.player_menu",
     "toggle.service",
     "player.store_money",
@@ -1188,12 +1188,12 @@ cfg.groups = {
     onspawn = function(player) vRPclient.notify(player,{"Voce e traficante de tartaruga"}) end
     },
     "player.player_menu",
-    "mission.sal.food",
     "toggle.service",
     "emergency_heal",
     "player.store_money",
     "player.phone",
     "player.calladmin",
+	"tartaruga.vehicle",
     "police.askid",
     "trafico_drogas",
     "userr.paycheck",
@@ -1206,7 +1206,6 @@ cfg.groups = {
     "police.seizable",
     "process.Tartaruga",
     "harvest.tartaruga",
-    "venda.sal",
     "bolsafamilia.paycheck"
   },
 

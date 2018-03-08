@@ -21,8 +21,7 @@ cfg.market_types = {
     ["vodka"] = 30,
     ["bread"] = 2,
     ["donut"] = 2,
-    ["tacos"] = 8,
-	
+    ["tacos"] = 8,	
     ["sandwich"] = 20,
     ["kebab"] = 20,
     ["pdonut"] = 65
@@ -76,17 +75,15 @@ cfg.market_types = {
   ["Mecanico"] = {
     _config = {blipid=446, blipcolor=47, permissions={"repair.market"}},
     ["repairkit"] = 0
-  },
-  
+  }, 
   ["Loja de Materiais"] = {
     _config = {blipid=478, blipcolor=56},
     ["picareta"] = 1,
     ["foice"] = 1,
     ["pa"] = 1,
-    ["rede"] = 1,
+    ["oxigenio"] = 1,
     ["balde"] = 1,
   },
- 
 }
 
 -- list of markets {type,x,y,z}

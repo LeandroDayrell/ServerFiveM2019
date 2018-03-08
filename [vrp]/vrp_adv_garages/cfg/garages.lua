@@ -75,6 +75,11 @@ cfg.adv_garages = {
     ["astra"] = {"Astra", 50, ""},
   },
   
+  ["submarino pra pesca"] = {
+    _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"tartaruga.vehicle"}},
+    ["submersible"] = {"submarino pra pega tartaruga",50, ""},
+  },
+  
   ["moto_boy"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"moto_boy.vehicle"}},
     ["enduro"] = {"HONDA CG TITAN 2009",50, ""},
@@ -415,6 +420,7 @@ cfg.garages = {
   {"Barco pescador",12.583372116089,-2802.0444335938,2.5259544849396},
   {"lixeiro",-468.04852294922,-1676.3823242188,19.053634643555},
   {"advogado",-591.73077392578,-669.74658203125,32.09875869751},
+  {"submarino pra pesca",3846.9533691406,4443.2265625,-0.069415986537933},
   {"moto_boy",141.74586486816,-1458.0601806641,29.141620635986},   -- jobs garage  
   {"police",-479.62710571289,6022.0771484375,31.340547561646},---prf 
   {"police",448.804, -1020.32, 28.4669},

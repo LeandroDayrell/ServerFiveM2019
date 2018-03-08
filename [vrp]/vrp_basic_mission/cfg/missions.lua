@@ -472,7 +472,7 @@ cfg.leite = {
   ["mission.leite.food"] = {
     positions = common_leite_positions,
     items = {
-      ["Caixas de Leite"] = {5,10,20}
+      ["caixas de leite"] = {5,10,20}
     }
   }
 }
@@ -562,7 +562,7 @@ cfg.diamante = {
   ["mission.diamante.food"] = {
     positions = common_diamante_positions,
     items = {
-      ["Diamante"] = {5,8,45}
+      ["diamante"] = {5,8,45}
     }
   }
 }
@@ -652,7 +652,7 @@ cfg.ouro = {
   ["mission.ouro.food"] = {
     positions = common_ouro_positions,
     items = {
-      ["Ouro"] = {4,9,29}
+      ["ouro"] = {4,9,29}
     }
   }
 }
@@ -742,7 +742,7 @@ cfg.cobre = {
   ["mission.cobre.food"] = {
     positions = common_cobre_positions,
     items = {
-      ["Cobre"] = {7,12,42}
+      ["cobre"] = {7,12,42}
     }
   }
 }
@@ -832,7 +832,7 @@ cfg.sal = {
   ["mission.sal.food"] = {
     positions = common_sal_positions,
     items = {
-      ["Pacote de Sal"] = {8,17,35}
+      ["pacote de sal"] = {8,17,35}
     }
   }
 }
@@ -922,7 +922,7 @@ cfg.trigo = {
   ["mission.trigo.food"] = {
     positions = common_trigo_positions,
     items = {
-      ["Pacotes de Trigo"] = {13,20,20}
+      ["pacotes de trigo"] = {13,20,20}
     }
   }
 }
