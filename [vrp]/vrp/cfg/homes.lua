@@ -213,15 +213,6 @@ cfg.slot_types = {
       {"itemtr", _config = itemtr_hacker, -761.95947265625,614.33587646484,136.53060913086}
     }
   },
-  --[[["barraco9"] = {
-    {
-    {"entry",1447.2883300781,-810.88580322266,112.32314300537},
-      {"chest",1443.3333740234,-814.43377685547,112.32317352295, _config = {weight=200}},
-      {"wardrobe",1449.9177246094,-814.98889160156,112.3231048584},
-      {"gametable",1448.7856445313,-811.52740478516,112.32300567627},
-    {"itemtr", _config = itemtr_study, 1446.3872070313,-811.81329345703,112.32316589355}
-    }
-  },]]
   ["barraco8"] = {
     {
     {"entry",1369.8107910156,-783.84368896484,70.743957519531},
@@ -293,16 +284,6 @@ cfg.slot_types = {
       {"itemtr", _config = itemtr_hacker, 1278.1821289063,-660.05529785156,70.972709655762}
     }
   },
-  --[["mansion"] = {
-    {
-      {"entry",-815.5,178.78350830078,72.153137207031},
-      {"chest",-808.51202392578,175.12515258789,76.740737915039, _config = {weight=200}},
-      {"wardrobe",-811.91864013672,175.12641906738,76.745376586914},
-      {"gametable",-802.62530517578,173.50367736816,72.844650268555},
-      {"itemtr", _config = itemtr_study, -811.89361572266,182.51545715332,76.740768432617},
-      {"itemtr", _config = itemtr_laboratory, -799.93286132813,187.0225982666,72.605445861816}
-    }
-  },]]
   ["Modern_Apt"] = {
     {
       {"entry",-262.89743041992,-713.50500488281,71.032737731934},
@@ -356,18 +337,8 @@ cfg.slot_types = {
       {"chest",1243.6141357422,-2668.6169433594,2.8671708106995, _config = {weight=200}},
       {"wardrobe",1252.1770019531,-2678.8491210938,2.8671703338623},
       {"gametable",1240.0080566406,-2679.7204589844,2.8671700954437}
-      --{"itemtr", _config = itemtr_study, -1156.6875,-1517.3475341797,10.632729530334}
     }
   },
-  --[[["trevor_trailer"] = {
-    {
-      {"entry",1972.5347900391,3817.2524414063,33.428737640381},
-      {"chest",1972.7764892578,3819.447265625,33.428737640381, _config = {weight=200}},
-      {"wardrobe",1969.2116699219,3814.6779785156,33.428745269775},
-      {"gametable",1975.8670654297,3821.0249023438,33.44958114624},
-      {"itemtr", _config = itemtr_study, 1970.9127197266,3818.9682617188,33.428722381592}
-    }
-  },]]
   ["franklin_house"] = {
     {
       {"entry",-13.934011459351,-1438.681640625,31.101552963257},
@@ -551,15 +522,6 @@ cfg.slot_types = {
       {"itemtr", _config = itemtr_hacker, -928.425598144531,-382.820159912109,113.67407989502},
     }
   },
-  --[[["plantation_flat"] = {
-    {
-      {"entry",1393.0272216797,3612.8176269531,34.980930328369},
-      {"chest",1396.7132568359,3604.9682617188,38.941928863525, _config = {weight=500}},
-      {"wardrobe",1395.5855712891,3616.0346679688,38.941928863525},
-      {"gametable",1394.2917480469,3610.3530273438,38.941928863525},
-      {"itemtr", _config = itemtr_laboratory, 1391.9298095703,3603.7819824219,38.941928863525}
-    }
-  },]]
   ["rail_flat"] = {
     {
       {"entry",658.84442138672,-709.59503173828,38.257362365723},
@@ -618,15 +580,6 @@ cfg.homes = {
     sell_price = 150000,
     max = 2
   },
-  --[[["Rundown Trailor"] = {
-    slot = "trevor_trailer",
-    entry_point = {1980.0181884766,3816.54296875,32.275169372559},
-    buy_price = 150000,
-    sell_price = 100000,
-    max = 1,
-    blipid=374,
-    blipcolor=2
-  },]]
   ["Cheap Home"] = {
     slot = "Cheap_Home",
     entry_point = {500.54632568359,-1697.3969726563,29.789241790771},
@@ -636,33 +589,6 @@ cfg.homes = {
     blipid=374,
     blipcolor=2
   },
-  --[[["Rail Flat"] = {
-    slot = "rail_flat",
-    entry_point = {673.96185302734,-724.09637451172,30.730808258057},
-    buy_price = 350000,
-    sell_price = 300000,
-    max = 1,
-    blipid=374,
-    blipcolor=2
-  },]]
-  --[[["Lowside House'"] = {
-    slot = "franklin_house",
-    entry_point = {-13.843012809753,-1444.6134033203,30.646482467651},
-    buy_price = 350000,
-    sell_price = 300000,
-    max = 1,
-    blipid=374,
-    blipcolor=2
-  },]]
-  --[[["Beach Bungalo"] = {
-    slot = "beach_bungalo",
-    entry_point = {1245.6123046875,-2686.2346191406,2.4227623939514},
-    buy_price = 350000,
-    sell_price = 300000,
-    max = 1,
-    blipid=374,
-    blipcolor=2
-  },]]
   ["Beach House"] = {
     slot = "beach_house",
     entry_point = {-1384.8225097656,-975.95910644531,8.9470081329346},
@@ -672,123 +598,6 @@ cfg.homes = {
     blipid=374,
     blipcolor=2
   },
-  --[[["Beach Home"] = {
-    slot = "Beach_Home",
-    entry_point = {-1149.7276611328,-1522.0582275391,10.628049850464},
-    buy_price = 350000,
-    sell_price = 300000,
-    max = 1,
-    blipid=374,
-    blipcolor=2
-  },
-  ["Basic Housing 1"] = {
-    slot = "basic_flat",
-    entry_point = {-635.665,44.155,42.697},
-    buy_price = 500000,
-    sell_price = 400000,
-    max = 5,
-    blipid=374,
-    blipcolor=2
-  },
-  ["Basic Housing 2"] = {
-    slot = "basic_flat",
-    entry_point = {-1446.769,-538.531,34.740},
-    buy_price = 500000,
-    sell_price = 400000,
-    max = 5,
-    blipid=374,
-    blipcolor=2
-  },
-  ["Storefront Apartment"] = {
-    slot = "plantation_flat",
-    entry_point = {1395.3175048828,3623.8327636719,35.012145996094},
-    buy_price = 500000,
-    sell_price = 400000,
-    max = 1,
-    blipid=374,
-    blipcolor=2
-  },
-  ["Rich Housing"] = {
-    slot = "other_flat",
-    entry_point = {-770.921,312.537,85.698},
-    buy_price = 750000,
-    sell_price = 650000,
-    max = 4,
-    blipid=374,
-    blipcolor=2
-  },
-  ["Modern Apt"] = {
-    slot = "Modern_Apt",
-    entry_point = {-271.54443359375,-704.84051513672,38.276908874512},
-    buy_price = 1000000,
-    sell_price = 900000,
-    max = 1,
-    blipid=374,
-    blipcolor=2
-  },
-  ["Country Ranch'"] = {
-    slot = "plantation_flat_2",
-    entry_point = {2452.4807128906,4961.3364257813,45.502922058105},
-    buy_price = 2000000,
-    sell_price = 1800000,
-    max = 1,
-    blipid=374,
-    blipcolor=2
-  },
-  ["Normal flat"] = {
-    slot = "Normal_flat",
-    entry_point = {-109.87996673584,502.23614501953,143.47735595703},
-    buy_price = 2500000,
-    sell_price = 2250000,
-    max = 1,
-    blipid=374,
-    blipcolor=2
-  },
-  ["Rich flat"] = {
-    slot = "Rich_flat",
-    entry_point = {-175.16819763184,502.37973022461,137.42015075684},
-    buy_price = 2500000,
-    sell_price = 2250000,
-    max = 1,
-    blipid=374,
-    blipcolor=2
-  },
-  ["Expensive flat"] = {
-    slot = "Expensive_flat",
-    entry_point = {-66.644836425781,490.34689331055,144.69012451172},
-    buy_price = 2500000,
-    sell_price = 2250000,
-    max = 1,
-    blipid=374,
-    blipcolor=2
-  },
-  --["Rich Home"] = {
-    slot = "Rich_Home",
-    entry_point = {1394.4956054688,1152.6457519531,114.41397857666},
-    buy_price = 500000,
-    sell_price = 450000,
-    max = 1,
-    blipid=374,
-    blipcolor=2
-  },]]
-  --[[["Mountainside Mansion"] = {
-    slot = "mansion2",
-    entry_point = {8.5883893966675,541.60162353516,176.02816772461},
-    buy_price = 5000000,
-    sell_price = 4000000,
-    max = 1,
-    blipid=374,
-    blipcolor=5
-  },]]
-  --[[["Downtown Mansion"] = {
-    slot = "mansion",
-    entry_point = {-818.27014160156,177.49227905273,72.222503662109},
-    buy_price = 6000000,
-    sell_price = 5000000,
-    max = 1,
-    blipid=374,
-    blipcolor=5
-  } ]]
 }
 
 return cfg
