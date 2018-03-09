@@ -16,8 +16,8 @@ local lang = {
     pistol = "Pistol"
   },
   survival = {
-    starving = "Atenção,Voce está Morrendo de Fome",
-    thirsty = "Atenção,Voce está Morrendo de Sede"
+    starving = "MORRENDO DE FOME",
+    thirsty = "MORRENDO DE SEDE"
   },
   money = {
     display = "<span class=\"symbol\">$</span> {1}",
