@@ -398,7 +398,7 @@ name="Pescador de Tartaruga", -- menu name
         description="", -- action description
         in_money=0, -- money taken per unit
         out_money=0, -- money earned per unit
-		out_dinheirosujo=0,
+		out_dinheirosujo=70,
         reagents={  -- items taken per unit
           ["tartaruga"] = 1
       },
@@ -480,12 +480,7 @@ name="Pescador de Tartaruga", -- menu name
         }
       }
     }
-  },
-  
-  
-  
-  
-  
+  },  
   { -- PLANTAÇÃO DE ERVA
     name="Plantação de erva",
     permissions = {"trafico_drogas"},
