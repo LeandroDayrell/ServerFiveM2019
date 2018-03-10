@@ -562,7 +562,7 @@ cfg.diamante = {
   ["mission.diamante.food"] = {
     positions = common_diamante_positions,
     items = {
-      ["diamante"] = {5,8,45}
+      ["diamante"] = {5,8,30}
     }
   }
 }
@@ -1194,7 +1194,7 @@ cfg.hacker = {
   ["mission.hacker.information"] = {
     positions = common_hacker_positions,
     items = {
-      ["credit"] = {5,8,15}
+      ["credit"] = {5,8,19}
     }
   }
 }
@@ -1284,7 +1284,7 @@ cfg.lsdt = {
   ["mission.lsdt.information"] = {
     positions = common_lsdt_positions,
     items = {
-      ["lsd"] = {3,10,22}
+      ["lsd"] = {3,10,35}
     }
   }
 }
@@ -1374,7 +1374,7 @@ cfg.crack = {
   ["mission.crack.information"] = {
     positions = common_crack_positions,
     items = {
-      ["pedradecrack"] = {4,10,22}
+      ["pedradecrack"] = {4,10,35}
     }
   }
 }
@@ -1464,7 +1464,7 @@ cfg.extase = {
   ["mission.extase.information"] = {
     positions = common_extase_positions,
     items = {
-      ["docedeecstasy"] = {6,10,22}
+      ["docedeecstasy"] = {6,10,35}
     }
   }
 }
@@ -1554,7 +1554,7 @@ cfg.cocaina = {
   ["mission.cocaina.information"] = {
     positions = common_cocaina_positions,
     items = {
-      ["pinodecoca"] = {4,10,22}
+      ["pinodecoca"] = {4,10,35}
     }
   }
 }
@@ -1734,7 +1734,7 @@ cfg.traficante = {
   ["mission.traficante.information"] = {
     positions = common_traficante_positions,
     items = {
-      ["baseado"] = {4,10,22}
+      ["baseado"] = {4,10,35}
     }
   }
 }
