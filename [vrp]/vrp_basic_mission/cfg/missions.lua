@@ -292,7 +292,7 @@ cfg.advogado = {
   ["mission.advogado.information"] = {
     positions = common_advogado_positions,
     items = {
-      ["documento"] = {7,14,13}
+      ["documento"] = {5,10,13}
     }
   }
 }
@@ -382,7 +382,7 @@ cfg.pescador = {
   ["mission.pescador.information"] = {
     positions = common_pescador_positions,
     items = {
-      ["peixe_frito"] = {15,30,50}
+      ["peixe_frito"] = {15,30,12}
     }
   }
 }
@@ -472,7 +472,7 @@ cfg.leite = {
   ["mission.leite.food"] = {
     positions = common_leite_positions,
     items = {
-      ["caixas de leite"] = {5,10,20}
+      ["caixas de leite"] = {5,10,10}
     }
   }
 }
@@ -562,7 +562,7 @@ cfg.diamante = {
   ["mission.diamante.food"] = {
     positions = common_diamante_positions,
     items = {
-      ["diamante"] = {5,8,30}
+      ["diamante"] = {5,8,20}
     }
   }
 }
@@ -652,7 +652,7 @@ cfg.ouro = {
   ["mission.ouro.food"] = {
     positions = common_ouro_positions,
     items = {
-      ["ouro"] = {4,9,20}
+      ["ouro"] = {4,9,15}
     }
   }
 }
@@ -742,7 +742,7 @@ cfg.cobre = {
   ["mission.cobre.food"] = {
     positions = common_cobre_positions,
     items = {
-      ["cobre"] = {7,12,17}
+      ["cobre"] = {7,12,11}
     }
   }
 }
@@ -832,7 +832,7 @@ cfg.sal = {
   ["mission.sal.food"] = {
     positions = common_sal_positions,
     items = {
-      ["pacote de sal"] = {8,17,10}
+      ["pacote de sal"] = {10,17,8}
     }
   }
 }
@@ -922,7 +922,7 @@ cfg.trigo = {
   ["mission.trigo.food"] = {
     positions = common_trigo_positions,
     items = {
-      ["pacotes de trigo"] = {13,20,11}
+      ["pacotes de trigo"] = {13,20,7}
     }
   }
 }
@@ -1103,8 +1103,8 @@ cfg.farmaceutico = {
   ["mission.farmaceutico.weed"] = {
     positions = common_farmaceutico_positions,
     items = {
-      ["weed"] = {1,10,12},
-	  ["cocaine"] = {1,10,10}
+      ["weed"] = {1,10,32},
+	  ["cocaine"] = {1,10,30}
     }
   }
 }
@@ -1284,7 +1284,7 @@ cfg.lsdt = {
   ["mission.lsdt.information"] = {
     positions = common_lsdt_positions,
     items = {
-      ["lsd"] = {3,10,35}
+      ["lsd"] = {3,10,50}
     }
   }
 }
@@ -1374,7 +1374,7 @@ cfg.crack = {
   ["mission.crack.information"] = {
     positions = common_crack_positions,
     items = {
-      ["pedradecrack"] = {4,10,35}
+      ["pedradecrack"] = {4,10,50}
     }
   }
 }
@@ -1464,7 +1464,7 @@ cfg.extase = {
   ["mission.extase.information"] = {
     positions = common_extase_positions,
     items = {
-      ["docedeecstasy"] = {6,10,35}
+      ["docedeecstasy"] = {6,10,50}
     }
   }
 }
@@ -1554,7 +1554,7 @@ cfg.cocaina = {
   ["mission.cocaina.information"] = {
     positions = common_cocaina_positions,
     items = {
-      ["pinodecoca"] = {4,10,35}
+      ["pinodecoca"] = {4,10,50}
     }
   }
 }
@@ -1644,7 +1644,7 @@ cfg.uranio = {
   ["mission.uranio.information"] = {
     positions = common_uranio_positions,
     items = {
-      ["uranio_enriquecido"] = {5,10,22}
+      ["uranio_enriquecido"] = {5,10,45}
     }
   }
 }
@@ -1734,7 +1734,7 @@ cfg.traficante = {
   ["mission.traficante.information"] = {
     positions = common_traficante_positions,
     items = {
-      ["baseado"] = {4,10,35}
+      ["baseado"] = {4,10,50}
     }
   }
 }
