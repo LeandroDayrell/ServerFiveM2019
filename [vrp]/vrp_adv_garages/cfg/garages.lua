@@ -1,22 +1,5 @@
 
 local cfg = {}
--- define garage types with their associated vehicles
--- (vehicle list: https://wiki.fivem.net/wiki/Vehicles)
-
--- each garage type is an associated list of veh_name/veh_definition 
--- they need a _config property to define the blip and the vehicle type for the garage (each vtype allow one vehicle to be spawned at a time, the default vtype is "default")
--- this is used to let the player spawn a boat AND a car at the same time for example, and only despawn it in the correct garage
--- _config: gtype, vtype, blipid, blipcolor, ghome, permissions (optional, only users with the permission will have access to the shop)
--- vtype: identifies the "type" of vehicle for the personal garages and vehicles (you can create new ones)
--- gtype: there are 5 gtypes> personal, showroom, shop, store and rental (you cant create new ones, one garage can have many gtypes)
-   -- personal: allow you to get any personal vehicle of the same vtype of the garage
-   -- showroom: allows you to see the vehicle model before purchasing it
-   -- shop: allows you to modify your vehicle
-   -- store: allows you to purchase and sell vehicles
-   -- rental: allows you to rent vehicles for that session for a part of the price
--- ghome: links the garage with an address, only owners of that address will have see the garage
--- gpay: bank or wallet
--- Car/Mod: [id/model] = {"Display Name", price/amount, "", (optional) item}, -- when charging items, price becomes amount
 
 cfg.lang = "en" -- lenguage file
 
@@ -51,15 +34,14 @@ cfg.adv_garages = {
 	["RIOT"] = {"Caveirão BOPE",0, "police"},
   },
   
-   ["hospitalele"] = {
+  ["hospitalele"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=360,blipcolor=3,permissions={"emergency.vehicle"}},
 	["polmav"] = {"Helicoptero SAMU",0, ""},
 	["RIOT"] = {"Teste 2",0, ""},
   },
   
-   ["hospitalcar"] = {
+  ["hospitalcar"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=50,blipcolor=3,permissions={"emergency.vehicle"}},
-	--["ambulance"] = {"Ambulancia Bombeiro",0, ""},
 	["pranger"] = {"Resgate",0, ""},
 	["ems_gs1200"] = {"Moto Samu",0, ""},
 	["sprinter"] = {"Sprinter Samu",0, ""},
@@ -120,23 +102,23 @@ cfg.adv_garages = {
 	["skylift"] = {"Skylift",40000000, ""},
   },
   
-    ["Barco pescador"] = {
+  ["Barco pescador"] = {
     _config = {gpay="wallet",gtype={"rental","Personal"},vtype="car",blipid=410,blipcolor=30,permissions={"pescador.barco"}},
     ["Tug"] = {"Tug", 50,"Barco pra pesca!"},
   },
   
-    ["lixeiro"] = {
+  ["lixeiro"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=318,blipcolor=31,permissions={"lixeiro.vehicle"}},
     ["Trash"] = {"Trash", 50,"carro do lixeiro!"},
   },
   
-    ["PDHeli"] = {
+  ["PDHeli"] = {
    _config = {gpay="wallet",gtype={"rental"},vtype="car", permission = {"police.vehicle"}},
     ["swift2"] = {"Swift II", 0, "Swift II"},
     ["swift"] = {"swift", 0, "swift"},
   },
   
-   ["Transport"] = {
+  ["Transport"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=318,blipcolor=4},
     ["packer"] = {"Packer", 42000, "18-Wheeler Cabin : Holds 50lbs"},
     ["benson"] = {"Benson", 25000, "Large Box Truck : Holds 50lbs"},
@@ -162,12 +144,12 @@ cfg.adv_garages = {
     ["stockade"] = {"stockade",50, "stockade"},
   }, 
   
-    ["correio"] = {
+  ["correio"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"carteiro.vehicle"}},
     ["Burrito3"] = {"carro do carteiro", 50,"carro do carteiro"},
   },
   
-    ["limpador de piscina"] = {
+  ["limpador de piscina"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",permissions={"limpador_de_piscina.vehicle"}},
     ["UtilliTruck3"] = {"carro do limpador", 50,"carro do limpador"},
   },
@@ -193,10 +175,7 @@ cfg.adv_garages = {
    _config = {gpay="wallet",gtype={"rental"},vtype="helicopters",permissions={"police.pc"}},
     ["helibope"] = {"Helicoptero",0, ""},
   }, 
-   
-   
-   
-   
+     
   ["Jatos de loja"] = {
    _config = {gpay="wallet",gtype={"personal","showroom","store","rental"},vtype="car",blipid=16,blipcolor=49},
 	["vestra"] = {"Vestra",10000000, ""},
@@ -230,16 +209,13 @@ cfg.adv_garages = {
 	["saveiro3"] = {"Saveiro",40000, ""},
 	["up"] = {"up",38000, ""},
 	["celta"] = {"CELTA",19900, ""},
-	["agile"] = {"Agile",28000, ""}, --
-	
+	["agile"] = {"Agile",28000, ""}, --	
 	["comodoro"] = {"Comodoro Chevrolet",33000, ""}, --
 	["c10"] = {"C10 Chevrolet",40000, ""}, --
 	["astra"] = {"Astra Chevrolet",29800, ""}, --
 	["cruze"] = {"Cruze Chevrolet",50000, ""}, --
 	["golf1"] = {"Golf 1994",22000, ""}, --
-	["golf2"] = {"Golf 2002",20000, ""}, --
-	
-	
+	["golf2"] = {"Golf 2002",20000, ""}, --	
 	["paratisurf"] = {"Parati Surf",15000, ""}, --
 	["palio"] = {"Palio",9000, ""}, --
 	["polo"] = {"Polo Volks",20000, ""}, --
@@ -249,14 +225,11 @@ cfg.adv_garages = {
 	["maveco"] = {"Ford Maverick 1976",51000, ""}, --
 	["hb20s"] = {"Hyundai HB20s 2016",54450, ""}, --
 	["amarok"] = {"VW AMAROK 2016",85890, ""}, --
-	["gol2"] = {"VW Gol 1996",15900, ""}, --
+	--["gol2"] = {"VW Gol 1996",15900, ""}, -- bugado
   },
   
-    ["Garagem"]  = {
+  ["Garagem"]  = {
 	_config = {gpay="wallet",gtype={"personal"},vtype="car",blipid=50,blipcolor=38},
-	
-	-- CARROS
-	
 	["vwstance"] = {"vwstance",70000, ""},
 	["208"] = {"Peugeot 208",40000, ""},
 	["golg7"] = {"Gol G7",31000, ""},
@@ -272,9 +245,6 @@ cfg.adv_garages = {
 	["cruze"] = {"Cruze Chevrolet",33000, ""}, --
 	["golf1"] = {"Golf 1994",22000, ""}, --
 	["golf2"] = {"Golf 2002",20000, ""}, --
-	
-	
-	-- MOTOS
   }, 
   
   ["loja moto"] = {
