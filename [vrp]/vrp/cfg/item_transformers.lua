@@ -309,7 +309,7 @@ cfg.item_transformers = {
     description="Colher pasta de Coca.", -- Descrição do produto a se colher
     in_money=0, -- Dinheiro dado por unidade
     out_money=0, -- Dinheiro ganho por unidades
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     reagents={}, -- Itens colhidos por unidade
     products={ -- Nome do produto fornecido por unidade
     ["pastadecocaina"] = 1
@@ -332,6 +332,7 @@ cfg.item_transformers = {
     description="Processador de Cocaina.", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
+	out_dinheirosujo=2,
     reagents={  -- items taken per unit
     ["pastadecocaina"] = 1
     },
@@ -354,6 +355,7 @@ cfg.item_transformers = {
     description="Processador de Cocaina.", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
+	out_dinheirosujo=2,
     reagents={  -- items taken per unit
     ["cocaina"] = 1
     },
@@ -376,6 +378,7 @@ name="Pescador de Tartaruga", -- menu name
         description="Pescar Tartaruga com oxigenio para submarino.", -- action description
         in_money=0, -- money taken per unit
         out_money=0, -- money earned per unit
+		out_dinheirosujo=2,
         reagents={  -- items taken per unit
           ["oxigenio"] = 1
       },
@@ -420,7 +423,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Colher pasta de crack.", -- Descrição do produto a se colher
     in_money=0, -- Dinheiro dado por unidade
     out_money=0, -- Dinheiro ganho por unidade
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     reagents={}, -- Itens colhidos por unidade
     products={ -- Nome do produto fornecido por unidade
     ["pastadecrack"] = 1
@@ -444,7 +447,7 @@ name="Pescador de Tartaruga", -- menu name
     ["Processar"] = { -- action name
     description="Processador de Cocaina.", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     out_money=0, -- money earned per unit
     reagents={  -- items taken per unit
     ["pastadecrack"] = 1
@@ -470,7 +473,7 @@ name="Pescador de Tartaruga", -- menu name
     ["Processar"] = { -- action name
     description="Processador de Cocaina.", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     out_money=0, -- money earned per unit
     reagents={  -- items taken per unit
     ["crack"] = 1
@@ -494,7 +497,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Erva pega pronta pra processa!",
     in_money=0,
     out_money=0,
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     reagents={},
     products={
     ["erva"] = 1
@@ -537,7 +540,7 @@ name="Pescador de Tartaruga", -- menu name
     description="maconha pega pronta pra enrolar!",
     in_money=0,
     out_money=0,
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     reagents={
     ["erva"] = 1
         },
@@ -560,7 +563,7 @@ name="Pescador de Tartaruga", -- menu name
     description="maconha enrolada pronta pra vende!",
     in_money=0,
     out_money=0,
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     reagents={
     ["maconha"] = 1
         },
@@ -717,8 +720,6 @@ name="Pescador de Tartaruga", -- menu name
       }
     }
   },  
-  
-  
   { -- HACKER
     name="Hacker", -- menu name
     permissions = {"hacker.credit_cards"}, -- you can add permissions
@@ -731,7 +732,7 @@ name="Pescador de Tartaruga", -- menu name
     ["hacking"] = { -- action name
     description="Hacking credit cards.", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=0,
+	out_dinheirosujo=5,
     out_money=0, -- money earned per unit
     reagents={}, -- items taken per unit
     products={
@@ -776,7 +777,7 @@ name="Pescador de Tartaruga", -- menu name
     ["Coletando"] = { -- nome da ação
     description="Coletando l Uranio.", -- action description
     in_money=0, -- dinheiro tomado por unidade
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     out_money=0, -- Dinheiro ganho por unidade
     reagents={}, -- itens escolhidos por unidade
     products={
@@ -800,6 +801,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Coletando l Uranio Refinado.", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
+	out_dinheirosujo=2,
     reagents={
     ["uranio"] = 5
     }, -- items taken per unit
@@ -822,6 +824,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Coletando l Uranio Enriquecido.", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
+	out_dinheirosujo=2,
     reagents={
     ["uraniorefinado"] = 5
     }, -- items taken per unit
@@ -843,7 +846,7 @@ name="Pescador de Tartaruga", -- menu name
     ["Pegando"] = { -- action name
     description="Pegando Corpos.", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     out_money=0, -- money earned per unit
     reagents={}, -- items taken per unit
     products={
@@ -866,7 +869,7 @@ name="Pescador de Tartaruga", -- menu name
     ["Removendo"] = { -- action name
     description="Removendo Orgaos.", -- action description
     in_money=0, -- money taken per unit
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     out_money=0, -- money earned per unit
     reagents={
     ["corpos"] = 1
@@ -890,6 +893,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Vendendo Os Orgaos.", -- action description
     in_money=0, -- money taken per unit
     out_money=10, -- money earned per unit
+	out_dinheirosujo=2,
     reagents={
     ["orgaos"] = 1
     },
@@ -910,6 +914,7 @@ name="Pescador de Tartaruga", -- menu name
     in_money=0, -- money taken per unit
 	out_dinheirosujo=0,
     out_money=0, -- money earned per unit
+	out_dinheirosujo=2,
     reagents={}, -- items taken per unit
     products={
     ["hidrazida"] = 1
@@ -932,7 +937,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Processar lsd", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     reagents={
     ["hidrazida"] = 1
     }, -- items taken per unit
@@ -958,7 +963,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Produzindo lsd", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     reagents={
     ["eter"] = 1
     }, -- items taken per unit
@@ -984,7 +989,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Pegue o Extasie.", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per unit
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     reagents={}, -- items taken per unit
     products={
     ["metil"] = 1
@@ -1007,7 +1012,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Trate os Sassafras.", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per 
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     reagents={
     ["metil"] = 1
     }, -- items taken per unit
@@ -1032,7 +1037,7 @@ name="Pescador de Tartaruga", -- menu name
     description="Tranformador de Ecstasy em bala.", -- action description
     in_money=0, -- money taken per unit
     out_money=0, -- money earned per 
-	out_dinheirosujo=0,
+	out_dinheirosujo=2,
     reagents={
     ["ecstasy"] = 1
     }, -- items taken per unit
@@ -1096,7 +1101,8 @@ for k,v in pairs(warehouses) do
     recipes = {
       ["Build Pistol"] = { -- action name
         description="Construir pistola.", -- action description
-        in_money=1500, -- money taken per unit
+        in_money=100, -- money taken per unit
+		out_dinheirosujo=2,
         out_money=0, -- money earned per unit
         reagents={
       ["pistol_parts"] = 1
@@ -1107,7 +1113,7 @@ for k,v in pairs(warehouses) do
       },
       ["Build Shotgun"] = { -- action name
         description="Construir shotgun.", -- action description
-        in_money=3000, -- money taken per unit
+        in_money=100, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={
       ["shotgun_parts"] = 1
@@ -1118,7 +1124,7 @@ for k,v in pairs(warehouses) do
       },
       ["Build SMG"] = { -- action name
         description="Construir submachinegun.", -- action description
-        in_money=5000, -- money taken per unit
+        in_money=100, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={
       ["smg_parts"] = 1
