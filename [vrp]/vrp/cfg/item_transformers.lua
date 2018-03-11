@@ -1022,9 +1022,7 @@ name="Pescador de Tartaruga", -- menu name
     aptitudes={} -- optional
       }
     }
-  },
-  
-  
+  },    
     { -- TRANSFORMADOR DE ECSTASY
     name="Ecstasy Transfomador", -- menu name traitement 
     r=195,g=178,b=235, -- color
@@ -1085,9 +1083,7 @@ for k,v in pairs(weedplants) do
 end
 
 local warehouses = {
-  {-1111.2841796875,4937.4052734375,218.386306762695},
-  {1539.01794433594,1704.29174804688,109.659622192383},
-  {981.412841796875,-1805.70349121094,35.4845695495605}
+  {-814.01898193359,527.14166259766,102.19955444336}
 }
 for k,v in pairs(warehouses) do
   local warehouse = {
@@ -1101,7 +1097,7 @@ for k,v in pairs(warehouses) do
     recipes = {
       ["Build Pistol"] = { -- action name
         description="Construir pistola.", -- action description
-        in_money=100, -- money taken per unit
+        in_money=5000, -- money taken per unit
 		out_dinheirosujo=2,
         out_money=0, -- money earned per unit
         reagents={
@@ -1113,7 +1109,7 @@ for k,v in pairs(warehouses) do
       },
       ["Build Shotgun"] = { -- action name
         description="Construir shotgun.", -- action description
-        in_money=100, -- money taken per unit
+        in_money=11000, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={
       ["shotgun_parts"] = 1
@@ -1124,7 +1120,7 @@ for k,v in pairs(warehouses) do
       },
       ["Build SMG"] = { -- action name
         description="Construir submachinegun.", -- action description
-        in_money=100, -- money taken per unit
+        in_money=15000, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={
       ["smg_parts"] = 1

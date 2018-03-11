@@ -1,14 +1,5 @@
 local cfg = {}
 
-
---- definir cada grupo com um conjunto de permissões
---- _config propriedade:
---- gtype (opcional): costumava ter apenas um grupo com o mesmo gtype por jogador (exemplo: um job gtype para ter apenas um trabalho)
---- onspawn (opcional): função (player) (chamado quando o jogador se aproxima do grupo)
---- onjoin (opcional): função (jogador) (chamado quando o jogador se junta ao grupo)
---- onleave (opcional): função (player) (chamado quando o jogador deixar o grupo)
---- (você tem acesso direto a vRP e vRPclient, o túnel ao cliente, nas chamadas de configuração)
-
 cfg.groups = {
   ["fundador3232"] = {
     _config = {onspawn = function(player) vRPclient._notify(player,"You are superadmin.") end},
@@ -90,7 +81,6 @@ cfg.groups = {
   ["pamonheiro22"] = {
 	"freeze.admin",
   },
-  -- USER
   ["user"] = {
     "player.player_menu",
     "toggle.service",
@@ -236,8 +226,6 @@ cfg.groups = {
     "t.c.p.paycheck",
     "trafico_drogas"
   },
-  
-  
   ["SOLDADO C.V"] = {
     _config = { gtype = "job",
       onspawn = function(player) vRPclient._notify(player,"Voce e soldado do trafico.") end
@@ -349,8 +337,6 @@ cfg.groups = {
     "arma_do_chefe.arma",
     "braco.paycheck"
   },
-  
-  
   ["BRACO DIREITO T.C.A"] = {
     _config = { gtype = "job",
     onspawn = function(player) vRPclient._notify(player,"Voce e braco direito do trafico.") end
@@ -464,8 +450,7 @@ cfg.groups = {
     "processador.crack",
     "arma_do_chefe.arma",
     "braco.paycheck"
-  },
-  
+  }, 
   -- EMPREGOS
   ["MECANICO"] = {
     _config = { gtype = "job",
@@ -646,15 +631,6 @@ cfg.groups = {
     "moto_boy.paycheck",
     "motoboy.cloakroom",
     "moto_boy.cocacola_pizza"
-  },
-  ["DELIVERY"] = {
-    _config = { gtype = "job",
-    onspawn = function(player) vRPclient._notify(player,"Voce e moto boy") end
-     },
-    "player.player_menu",
-    "toggle.service",
-    "player.phone",
-    "mission.delivery.food",
   },
   ["REPARADOR"] = {
     _config = { gtype = "job",
@@ -1158,31 +1134,6 @@ cfg.groups = {
     "hacker.credit_cards",
     "fogueteiro.arma"
   },
-  ["VENDEDOR DE ARMA"] = {
-	_config = { gtype = "job",
-	onspawn = function(player) vRPclient._notify(player,"Voce  a venderdor de arma.") end
-	},
-    "player.player_menu",
-    "toggle.service",
-    "player.store_money",
-    "player.phone",
-    "player.calladmin",
-    "police.askid",
-    "emergency_heal",
-    "trafico_drogas",
-    "userr.paycheck",
-    "traficante.baseado",
-    "campo.cocaina",
-    "processador.cocaina",
-    "campo.crack",
-    "processador.crack",
-    "police.store_weapons",
-    "police.seizable",
-    "build.gun",
-    "mission.delivery.pistol",
-    "mission.delivery.shotgun",
-    "mission.delivery.smg"
-  },
   ["TRAFICANTE DE TARTARUGA"] = {
     _config = { gtype = "job",
     onspawn = function(player) vRPclient.notify(player,{"Voce e traficante de tartaruga"}) end
@@ -1208,8 +1159,6 @@ cfg.groups = {
     "harvest.tartaruga",
     "bolsafamilia.paycheck"
   },
-
-  
   -- BOMBEIRO
   ["COMANDANTE BOMBEIRO"] = {
     _config = { gtype = "job",
@@ -2381,19 +2330,13 @@ cfg.groups = {
   }
 }
 
--- groups are added dynamically using the API or the menu, but you can add group when an user join here
 cfg.users = {
-  [1] = { -- give superadmin and admin group to the first created user on the database
+  [1] = { -- database
     "fundador3232",
     "superadmin",
     "admin",
-  }
-  
+  }  
 }
-
--- group selectors
--- _config
---- x,y,z, blipid, blipcolor, permissions (optional)
 
 cfg.selectors = {
   ["CENTRAL DE EMPREGO"] = {
@@ -2416,15 +2359,13 @@ cfg.selectors = {
     "PESCADOR",
     "CIDADAO"
   },
-  --[[["EMPREGO DA POLICIA"] = {
+  --[[["EMPREGO DA PRF"] = {
     _config = {x = -449.62930297852, y = 6010.1455078125, z = 31.71639251709, blipid = 407, blipcolor = 27, permissions = {"cop.whitelisted"} },
     "PRF",
     "CIDADAO"
   },]]
   ["EMPREGO DA PMRJ"] = { 
     _config = {x = 441.203308105469, y = -981.135131835938, z = 30.6896057128906, permissions = {"cop.whitelisted"} },
-    "CMD BOPE",
-	"SOLDADO BOPE",
     "DELEGADO GERAL",
 	"PMRJ (Recruta)",
 	"PMRJ (Soldado)",
@@ -2446,7 +2387,7 @@ cfg.selectors = {
     _config = {x = 139.24792480469, y = -763.82971191406, z = 258.15173339844, permissions = {"cop.whitelisted"} },
     "CMD BOPE",
 	"SOLDADO BOPE",
-    "CIDADAO",
+    "CIDADAO"
   },
   ["EMPREGO DO BOMBEIRO"] = {
     _config = {x =  1207.8588867188, y = -1472.9903564453, z = 34.859539031982, blipid = 351, blipcolor = 3, permissions = {"bm.whitelisted"} },
@@ -2461,104 +2402,77 @@ cfg.selectors = {
 	"RECRUTA BOMBEIRO",   
     "CIDADAO"   
   },
-  ["ILEGAL"] = {  ---- FAVELA SANANDREAS TCA
-    _config = {x = 130.53402709961, y = -1943.1276855469, z = 20.494197845459, blipid = 407, blipcolor = 27},
-    "TRAFICANTE DE MACONHA", ---- cv
-    --"VENDEDOR DE ARMA",
-    "HACKER",
-    ----"FARMACEUTICO",
-    --"TRAFICANTE DE ARMA",
-    --"LADRAO DE CARRO",
-    "TRAFICANTE DE LSD",
-	"TRAFICANTE DE EXTASE",
-    "TRAFICANTE DE COCAINA",
-    "TRAFICANTE DE CRACK",
-    "TRAFICANTE DE URANIO",
-    --"FOQUETEIRO"  
-  },
-  ["ILEGAL4"] = { --- FAVELA DA BR ADA
-    _config = {x = 1419.1293945313, y = -415.75665283203, z = 135.99172973633, blipid = 407, blipcolor = 27},
+  ["ILEGAL TCA"] = {
+    _config = {x = -228.66577148438, y = -1633.0632324219, z = 33.556415557861, blipid = 407, blipcolor = 59},
     "TRAFICANTE DE MACONHA",
-    --"VENDEDOR DE ARMA",
     "HACKER",
-    ----"FARMACEUTICO",
-    --"TRAFICANTE DE ARMA",
-    --"LADRAO DE CARRO",
+    "TRAFICANTE DE ARMA",
+    "LADRAO DE CARRO",
     "TRAFICANTE DE LSD",
 	"TRAFICANTE DE EXTASE",
     "TRAFICANTE DE COCAINA",
     "TRAFICANTE DE CRACK",
-    "TRAFICANTE DE URANIO",
-    --"FOQUETEIRO"   
+    "TRAFICANTE DE URANIO"
   },
-  ["ILEGAL 3"] = { --- FAVELA TCP
-    _config = {x = -784.19067382813, y = 577.82110595703, z = 126.74500274658, blipid = 407, blipcolor = 27},
+  ["ILEGAL TCP"] = {
+    _config = {x = -781.95812988281, y = 586.74792480469, z = 126.84687042236, blipid = 407, blipcolor = 59},
     "TRAFICANTE DE MACONHA",
-    --"VENDEDOR DE ARMA",
     "HACKER",
-    ----"FARMACEUTICO",
-    --"TRAFICANTE DE ARMA",
-    --"LADRAO DE CARRO",
+    "TRAFICANTE DE ARMA",
+    "LADRAO DE CARRO",
     "TRAFICANTE DE LSD",
 	"TRAFICANTE DE EXTASE",
     "TRAFICANTE DE COCAINA",
     "TRAFICANTE DE CRACK",
-    "TRAFICANTE DE URANIO",
-    --"FOQUETEIRO"  
+    "TRAFICANTE DE URANIO"
   },
-  ["TRABALHO ILEGAL"] = {
-    _config = {x = 1272.4293212891, y = -1711.69140625, z = 54.77144241333, blipid = 407, blipcolor = 49},
-    "TRAFICANTE DE MACONHA", ---prefeitura
-    --"VENDEDOR DE ARMA",
+  ["ILEGAL ADA"] = {
+    _config = {x = 1266.3565673828, y = -475.91131591797, z = 72.70191192627, blipid = 407, blipcolor = 59},
+    "TRAFICANTE DE MACONHA",
     "HACKER",
-    ----"FARMACEUTICO",
-    --"TRAFICANTE DE ARMA",
-    --"LADRAO DE CARRO",
+    "TRAFICANTE DE ARMA",
+    "LADRAO DE CARRO",
     "TRAFICANTE DE LSD",
 	"TRAFICANTE DE EXTASE",
     "TRAFICANTE DE COCAINA",
     "TRAFICANTE DE CRACK",
-    "TRAFICANTE DE URANIO",
-	"TRAFICANTE DE TARTARUGA"
+    "TRAFICANTE DE URANIO"
   },
-  ["ILEGAL 1"] = {   -- FAVELA PETROLEO CV
-    _config = {x = 1674.7474365234, y = -1893.0368652344, z = 110.31902313232, blipid = 407, blipcolor = 27},
-    "TRAFICANTE DE MACONHA",------cv 
-    --"VENDEDOR DE ARMA",
+  ["ILEGAL CV"] = { 
+    _config = {x = 1576.2775878906, y = -1718.4676513672, z = 88.152297973633, blipid = 407, blipcolor = 59},
+    "TRAFICANTE DE MACONHA",
     "HACKER",
-    --"FARMACEUTICO",
-    --"TRAFICANTE DE ARMA",
-    --"LADRAO DE CARRO",
+    "TRAFICANTE DE ARMA",
+    "LADRAO DE CARRO",
     "TRAFICANTE DE LSD",
 	"TRAFICANTE DE EXTASE",
     "TRAFICANTE DE COCAINA",
     "TRAFICANTE DE CRACK",
-    "TRAFICANTE DE URANIO",
-    --"FOQUETEIRO"
+    "TRAFICANTE DE URANIO"
   },
-  ["chefe do Trafico 2"] = {
-    _config = {x = 1414.6766357422, y = -413.46575927734, z = 135.99172973633, blipid = 407, blipcolor = 27, permissions = {"ada.whitelisted"} },
+  ["chefe do Trafico ADA"] = {
+    _config = {x = 1358.3355712891, y = -444.05804443359, z = 103.6482925415, blipid = 407, blipcolor = 27, permissions = {"ada.whitelisted"} },
     "CHEFE A.D.A",
     "SOLDADO A.D.A",
     "BRACO DIREITO A.D.A"
   },
-  ["chefe do Trafico 4"] = {
-    _config = {x = -840.28350830078, y = 660.34136962891, z = 131.97032165527, blipid = 407, blipcolor = 27, permissions = {"tcp.whitelisted"} },
+  ["chefe do Trafico TCP"] = {
+    _config = {x = -767.60522460938, y = 613.22760009766, z = 143.93040466309, blipid = 407, blipcolor = 27, permissions = {"tcp.whitelisted"} },
     "CHEFE T.C.P",
     "SOLDADO T.C.P",
     "BRACO DIREITO T.C.P"
   },
-  ["chefe do Trafico 1"] = {
-    _config = {x = 129.20359802246, y = -1938.8078613281, z = 20.621507644653, blipid = 407, blipcolor = 27, permissions = {"tca.whitelisted"} },
+  ["chefe do Trafico TCA"] = {
+    _config = {x = -264.82763671875, y = -1604.5163574219, z = 35.789936065674, blipid = 407, blipcolor = 27, permissions = {"tca.whitelisted"} },
     "CHEFE T.C.A",
     "SOLDADO T.C.A",
     "BRACO DIREITO T.C.A"
   },
-  ["chefe do Trafico"] = {
-    _config = {x = 1672.251953125, y = -1895.6634521484, z = 110.31903076172, blipid = 407, blipcolor = 27, permissions = {"cv.whitelisted"} },
+  ["chefe do Trafico CV"] = {
+    _config = {x = 1637.4079589844, y = -1720.1376953125, z = 125.26893615723, blipid = 407, blipcolor = 27, permissions = {"cv.whitelisted"} },
     "CHEFE C.V",
     "SOLDADO C.V",
-    "BRACO DIREITO C.V",
+    "BRACO DIREITO C.V"
   }  
 }
 

@@ -57,11 +57,12 @@ local clothing_shops = {
     {name="Loja de roupas", id=73, x=-821.69, y=-1073.90, z=11.32},
     {name="Loja de roupas", id=73, x=-1192.81, y=-768.24, z=17.31},
     {name="Loja de roupas", id=73, x=4.25, y=6512.88, z=31.87},
-    {name="Loja de roupas", id=73, x=425.471, y=-806.164, z=29.4911},	
-	{name="Loja de roupas", id=73, x=-781.07580566406, y=578.32269287109, z=126.73268127441},
-    {name="Loja de roupas", id=73, x=770.95397949219, y=-260.23568725586, z=68.945816040039},
-    {name="Loja de roupas", id=73, x=1419.7888183594, y=-833.97003173828, z=106.064453125},
-    {name="Loja de roupas", id=73, x=471.62524414063, y=-1684.708984375, z=29.351430892944},
+    {name="Loja de roupas", id=73, x=425.471, y=-806.164, z=29.4911},
+	
+	{name="Loja de roupas", id=73, x=1489.9299316406, y=-1706.0076904297, z=88.550765991211},--CV
+    {name="Loja de roupas", id=73, x=1137.4527587891, y=-640.54296875, z=60.125659942627},--ada
+    {name="Loja de roupas", id=73, x=-785.10504150391, y=577.91662597656, z=129.82713317871},--tcp
+    {name="Loja de roupas", id=73, x=-227.93507385254, y=-1694.4182128906, z=37.204429626465},--tca
 }
 incircle = false
 Citizen.CreateThread(function()
