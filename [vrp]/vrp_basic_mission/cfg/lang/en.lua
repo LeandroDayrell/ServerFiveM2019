@@ -36,14 +36,6 @@ local lang = {
 	title = "Vender leite",
 	item = "- {2} {1}"
 	  },
-  farmaceutico = {
-	title = "Vender drogas",
-	item = "- {2} {1}"
-	  },
-  delivery = {
-    title = "Entrega",
-    item = "- {2} {1}"
-     },
   lixeiro = {
 	title = "vamos limpar a cidade!",
 	item = "- {2} {1}"
