@@ -1807,8 +1807,8 @@ cfg.carjack = {
 	chance = 2,
     steps = 2,
     positions = common_carjack_positions,
-    min_reward = 6000,
-    max_reward = 10000
+    min_reward = 1000,
+    max_reward = 2000
   }
 }
 
