@@ -1097,7 +1097,7 @@ for k,v in pairs(warehouses) do
     recipes = {
       ["Build Pistol"] = { -- action name
         description="Construir pistola.", -- action description
-        in_money=5000, -- money taken per unit
+        in_money=10000, -- money taken per unit
 		out_dinheirosujo=2,
         out_money=0, -- money earned per unit
         reagents={
@@ -1109,7 +1109,7 @@ for k,v in pairs(warehouses) do
       },
       ["Build Shotgun"] = { -- action name
         description="Construir shotgun.", -- action description
-        in_money=11000, -- money taken per unit
+        in_money=15000, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={
       ["shotgun_parts"] = 1
@@ -1120,7 +1120,7 @@ for k,v in pairs(warehouses) do
       },
       ["Build SMG"] = { -- action name
         description="Construir submachinegun.", -- action description
-        in_money=15000, -- money taken per unit
+        in_money=20000, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={
       ["smg_parts"] = 1

@@ -12,6 +12,8 @@ cfg.gunshopdinheirosujo_types = {
   ["Armas ilegais"] = {
     _config = {blipid=154,blipcolor=150, permissions = {"traficante.defaccao"}},
     ["WEAPON_BOTTLE"] = {"Bottle",500,0,""},
+    ["WEAPON_PUMPSHOTGUN"] = {"shotgun",12000,5,""},
+	["WEAPON_SMG"] = {"smg",18000,5,""},
     ["WEAPON_BAT"] = {"Bat",150,0,""},
 	["WEAPON_ASSAULTRIFLE"] = {"Ak-47",20000,5,""},
 	["WEAPON_PISTOL"] = {"Pistola",7000,3,""},
