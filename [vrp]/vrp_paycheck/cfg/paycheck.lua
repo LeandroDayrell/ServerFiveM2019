@@ -6,7 +6,7 @@ cfg.message_paycheckdinheirosujo = "Você recebeu o salario do crime: ~g~$" -- m
 cfg.message_bill = "Imposto do governo: ~r~$" -- message that will show before payment of bill
 cfg.post = "." -- message that will show after payment
 
-cfg.bank = true -- if true money goes to bank, false goes to wallet
+cfg.bank = false -- Se dinheiro verdadeiro for para o banco, falso vai para carteira
 
 cfg.minutes_paycheck = 10 -- minutes between payment for paycheck
 cfg.minutes_paycheckdinheirosujo = 11

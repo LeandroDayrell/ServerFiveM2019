@@ -41,7 +41,7 @@ function task_mission()
                     -- last step
                     if i == v.steps then
                       vRP.giveMoney(user_id,v.reward)
-                      vRPclient._notify(player,glang.money.received({v.reward}))
+                      vRPclient._notify(player,lang.money.received({v.reward}))
                     end
                   end)
                 end
@@ -86,7 +86,7 @@ function task_mission()
                     -- last step
                     if i == v.steps then
                       vRP.giveMoney(user_id,v.reward)
-                      vRPclient._notify(player,glang.money.received({v.reward}))
+                      vRPclient._notify(player,lang.money.received({v.reward}))
                     end
                   end)
                 end
@@ -141,7 +141,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   trigo_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -207,7 +207,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   advogado_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -273,7 +273,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   sal_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -339,7 +339,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   cobre_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -405,7 +405,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                  local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   ouro_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -471,7 +471,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   diamante_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -537,7 +537,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   leite_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -603,7 +603,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   extase_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -669,7 +669,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   traficante_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -735,7 +735,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   crack_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -801,7 +801,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   cocaina_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -867,7 +867,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   lsdt_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -933,7 +933,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   uranio_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -999,7 +999,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   pescador_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -1065,7 +1065,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   lixeiro_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -1131,7 +1131,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   hacker_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -1197,7 +1197,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   limpador_de_piscina_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -1263,7 +1263,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   carteiro_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
@@ -1329,7 +1329,7 @@ function task_mission()
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
                   vRP.giveMoney(user_id,reward)
-                  vRPclient._notify(player,glang.money.received({reward}))
+                  vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   moto_boy_items[idname] = 0
                   if todo == 0 then -- all received, finish mission
