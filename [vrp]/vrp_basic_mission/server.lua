@@ -1,19 +1,16 @@
-
 local Tunnel = module("vrp", "lib/Tunnel")
 local Proxy = module("vrp", "lib/Proxy")
+local Luang = module("vrp", "lib/Luang")
 local cfg = module("vrp_basic_mission", "cfg/missions")
-local lcfg = module("vrp", "cfg/base")
 
 -- load global and local languages
-local Luang = module("vrp", "lib/Luang")
 local Lang = Luang()
-Lang:loadLocale(lcfg.lang, module("vrp", "cfg/lang/"..lcfg.lang) or {})
-Lang:loadLocale(lcfg.lang, module("vrp_basic_mission", "cfg/lang/"..lcfg.lang) or {})
-lang = Lang.lang[lcfg.lang]
+Lang:loadLocale(cfg.lang, module("vrp", "cfg/lang/"..cfg.lang) or {})
+Lang:loadLocale(cfg.lang, module("vrp_basic_mission", "cfg/lang/"..cfg.lang) or {})
+lang = Lang.lang[cfg.lang]
 
 vRP = Proxy.getInterface("vRP")
 vRPclient = Tunnel.getInterface("vRP")
-Mclient = Tunnel.getInterface("vrp_basic_mission")
 
 function task_mission()
   -- --------------------------mecanico------------------------------------------------------------
@@ -44,7 +41,7 @@ function task_mission()
                     -- last step
                     if i == v.steps then
                       vRP.giveMoney(user_id,v.reward)
-                      vRPclient._notify(player, glang.money.received({v.reward}))
+                      vRPclient._notify(player,glang.money.received({v.reward}))
                     end
                   end)
                 end
