@@ -167,11 +167,11 @@ cfg.announces = {
     description = "Somente para advogado, ex: anuncio desejado",
     permission = "advogado.announce"
   },
-  ["commercial"] = {
+  ["olx"] = {
     --image = "nui://vrp_mod/announce_commercial.png",
-    image = "http://i.imgur.com/b2O9WMa.png",
-    description = "Material comercial (comprar, vender, trabalhar).",
-    price = 0
+    image = "https://i.imgur.com/wpIxV2x.png",
+    description = "OLX (comprar, vender,).",
+    price = 10
   },
   ["festa"] = {
     --image = "nui://vrp_mod/announce_party.png",
