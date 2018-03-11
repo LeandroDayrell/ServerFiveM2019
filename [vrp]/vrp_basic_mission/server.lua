@@ -602,7 +602,7 @@ function task_mission()
 					  end)
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
-                  vRP.giveMoney(user_id,reward)
+                  vRP.giveDinheirosujo(user_id,reward)
                   vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   extase_items[idname] = 0
@@ -668,7 +668,7 @@ function task_mission()
 					  end)
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
-                  vRP.giveMoney(user_id,reward)
+                  vRP.giveDinheirosujo(user_id,reward)
                   vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   traficante_items[idname] = 0
@@ -734,7 +734,7 @@ function task_mission()
 					  end)
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
-                  vRP.giveMoney(user_id,reward)
+                  vRP.giveDinheirosujo(user_id,reward)
                   vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   crack_items[idname] = 0
@@ -800,7 +800,7 @@ function task_mission()
 					  end)
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
-                  vRP.giveMoney(user_id,reward)
+                  vRP.giveDinheirosujo(user_id,reward)
                   vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   cocaina_items[idname] = 0
@@ -866,7 +866,7 @@ function task_mission()
 					  end)
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
-                  vRP.giveMoney(user_id,reward)
+                  vRP.giveDinheirosujo(user_id,reward)
                   vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   lsdt_items[idname] = 0
@@ -932,7 +932,7 @@ function task_mission()
 					  end)
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
-                  vRP.giveMoney(user_id,reward)
+                  vRP.giveDinheirosujo(user_id,reward)
                   vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   uranio_items[idname] = 0
@@ -1130,7 +1130,7 @@ function task_mission()
 					  end)
 ---------------------------------------------------------------------------------					  
                 local reward = v.items[idname][3]*amount
-                  vRP.giveMoney(user_id,reward)
+                  vRP.giveDinheirosujo(user_id,reward)
                   vRPclient._notify(player,lang.money.received({v.reward}))
                   todo = todo-1
                   hacker_items[idname] = 0
