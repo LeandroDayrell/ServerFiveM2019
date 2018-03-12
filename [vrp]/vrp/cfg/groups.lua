@@ -107,7 +107,7 @@ cfg.groups = {
       "police.check",
       "player.player_menu",
       "toggle.service",
-	  "adachefe.paycheckdinheirosujo",
+	  "adachefe.paycheck",
       "userr.paycheck",
       "player.store_money",
 	  "traficante.defaccao",
@@ -126,8 +126,7 @@ cfg.groups = {
       "ada.announce",
       "ada.service",
       "ada.whitelisted",
-      "a.d.a.paycheck",
-      "trafico_drogas",
+      "a.d.a.paycheck"
   },
   ["CHEFE C.V"] = {
     _config = { gtype = "job",
@@ -143,7 +142,7 @@ cfg.groups = {
       "cv.cloakroom",
 	  "traficante.defaccao",
       "emergency_heal",
-	  "cvchefe.paycheckdinheirosujo",
+	  "cvchefe.paycheck",
       "player.store_money",
       "player.phone",
       "player.calladmin",
@@ -159,8 +158,7 @@ cfg.groups = {
       "cv.announce",
       "cv.service",
       "cv.whitelisted",
-      "c.v.paycheck",
-      "trafico_drogas"
+      "c.v.paycheck"
   },
   ["CHEFE T.C.A"] = {
    _config = { gtype = "job",
@@ -180,7 +178,7 @@ cfg.groups = {
     "campo.cocaina",
     "processador.cocaina",
     "emergency_heal",
-	"tcachefe.paycheckdinheirosujo",
+	"tcachefe.paycheck",
 	"mission.traficante.information",
     "campo.crack",
     "processador.crack",
@@ -191,8 +189,7 @@ cfg.groups = {
     "tca.announce",
     "tpa.service",
     "tca.whitelisted",
-    "t.c.p.paycheck",
-    "trafico_drogas"
+    "t.c.p.paycheck"
   },
   ["CHEFE T.C.P"] = {
     _config = { gtype = "job",
@@ -204,7 +201,7 @@ cfg.groups = {
     "player.player_menu",
 	"mission.crack.information",
     "toggle.service",
-	"tcpchefe.paycheckdinheirosujo",
+	"tcpchefe.paycheck",
     "player.store_money",
     "emergency_heal",
     "player.phone",
@@ -223,8 +220,7 @@ cfg.groups = {
     "tcp.announce",
     "tpc.service",
     "tcp.whitelisted",
-    "t.c.p.paycheck",
-    "trafico_drogas"
+    "t.c.p.paycheck"
   },
   ["SOLDADO C.V"] = {
     _config = { gtype = "job",
@@ -237,7 +233,7 @@ cfg.groups = {
     "toggle.service",
 	"mission.cocaina.information",
     "player.store_money",
-	"cvsol.paycheckdinheirosujo",
+	"cvsol.paycheck",
     "player.phone",
     "police.store_weapons",
     "police.seizable",
@@ -251,8 +247,7 @@ cfg.groups = {
     "processador.cocaina",
     "campo.crack",
     "processador.crack",
-    "arma_do_chefe.arma",
-    "braco.paycheck"
+    "arma_do_chefe.arma"
   },
   ["SOLDADO A.D.A"] = {
     _config = { gtype = "job",
@@ -272,14 +267,13 @@ cfg.groups = {
     "trafico_drogas",
     "traficante.baseado",
     "campo.cocaina",
-	"adasol.paycheckdinheirosujo",
+	"adasol.paycheck",
     "emergency_heal",
     "processador.cocaina",
     "campo.crack",
 	"traficante.defaccao",
     "processador.crack",
-    "arma_do_chefe.arma",
-    "braco.paycheck"
+    "arma_do_chefe.arma"
   },
   ["SOLDADO T.C.P"] = {
     _config = { gtype = "job",
@@ -290,7 +284,7 @@ cfg.groups = {
     "police.check",
     "player.player_menu",
     "toggle.service",
-	"tcpsol.paycheckdinheirosujo",
+	"tcpsol.paycheck",
     "player.store_money",
 	"mission.crack.information",
     "player.phone",
@@ -306,8 +300,7 @@ cfg.groups = {
     "emergency_heal",
     "processador.crack",
     "userr.paycheck",
-    "arma_do_chefe.arma",
-    "braco.paycheck"
+    "arma_do_chefe.arma"
   },
   ["SOLDADO T.C.A"] = {
     _config = { gtype = "job",
@@ -323,7 +316,7 @@ cfg.groups = {
     "player.phone",
     "police.store_weapons",
     "police.seizable",
-	"tcasol.paycheckdinheirosujo",
+	"tcasol.paycheck",
     "police.askid",
     "trafico_drogas",
     "traficante.baseado",
@@ -334,8 +327,7 @@ cfg.groups = {
     "campo.crack",
     "userr.paycheck",
     "processador.crack",
-    "arma_do_chefe.arma",
-    "braco.paycheck"
+    "arma_do_chefe.arma"
   },
   ["BRACO DIREITO T.C.A"] = {
     _config = { gtype = "job",
@@ -353,7 +345,7 @@ cfg.groups = {
     "police.store_weapons",
     "police.seizable",
     "police.askid",
-	"tcabd.paycheckdinheirosujo",
+	"tcabd.paycheck",
     "trafico_drogas",
     "traficante.baseado",
     "emergency_heal",
@@ -362,8 +354,7 @@ cfg.groups = {
     "userr.paycheck",
     "campo.crack",
     "processador.crack",
-    "arma_do_chefe.arma",
-    "braco.paycheck"
+    "arma_do_chefe.arma"
   },
   ["BRACO DIREITO A.D.A"] = {
     _config = { gtype = "job",
@@ -385,12 +376,11 @@ cfg.groups = {
     "emergency_heal",
     "traficante.baseado",
     "campo.cocaina",
-	"adabd.paycheckdinheirosujo",
+	"adabd.paycheck",
     "processador.cocaina",
     "campo.crack",
     "processador.crack",
-    "arma_do_chefe.arma",
-    "braco.paycheck"
+    "arma_do_chefe.arma"
   },
   ["BRACO DIREITO C.V"] = {
     _config = { gtype = "job",
@@ -403,7 +393,7 @@ cfg.groups = {
     "toggle.service",
 	"mission.cocaina.information",
     "player.store_money",
-	"cvbd.paycheckdinheirosujo",
+	"cvbd.paycheck",
     "player.phone",
     "police.store_weapons",
     "userr.paycheck",
@@ -418,8 +408,7 @@ cfg.groups = {
     "processador.cocaina",
     "campo.crack",
     "processador.crack",
-    "arma_do_chefe.arma",
-    "braco.paycheck"
+    "arma_do_chefe.arma"
   },
   ["BRACO DIREITO T.C.P"] = {
    _config = { gtype = "job",
@@ -434,7 +423,7 @@ cfg.groups = {
     "player.store_money",
     "userr.paycheck",
 	"traficante.defaccao",
-	"tcpbd.paycheckdinheirosujo",
+	"tcpbd.paycheck",
     "player.phone",
     "police.store_weapons",
     "police.seizable",
@@ -448,8 +437,7 @@ cfg.groups = {
     "player.store_dinheirosujo",
     "campo.crack",
     "processador.crack",
-    "arma_do_chefe.arma",
-    "braco.paycheck"
+    "arma_do_chefe.arma"
   }, 
   -- EMPREGOS
   ["MECANICO"] = {

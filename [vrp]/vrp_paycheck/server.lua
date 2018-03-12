@@ -21,7 +21,7 @@ function paycheck_giver()
 	  vRPclient.notifyPicture(player,cfg.paycheck_picture, 9, cfg.paycheck_title_picture, false, cfg.message_paycheck..paycheck..cfg.post)
 	end	
   end
-  SetTimeout(1020*60*cfg.minutes_paycheck, function()
+  SetTimeout(1000*60*cfg.minutes_paycheck, function()
 	paycheck_giver()
   end)
 end
@@ -51,26 +51,6 @@ function paycheck_taker()
   end)
 end
 
-function paycheckdinheirosujo_giver()
-  for k,v in pairs(cfg.paycheckdinheirosujo) do
-    local users = vRP.getUsersByPermission(k)
-    for l,w in pairs(users) do
-      local user_id = w
-	  local paycheckdinheirosujo = v
-      local player = vRP.getUserSource(user_id)
-	  if cfg.bank then
-		vRP.giveBankDinheirosujo(user_id,paycheckdinheirosujo)
-	  else
-		vRP.giveDinheirosujo(user_id,paycheckdinheirosujo)
-	  end	
-	  vRPclient.notifyPicture(player,cfg.paycheckdinheirosujo_picture, 9, cfg.paycheckdinheirosujo_title_picture, false, cfg.message_paycheckdinheirosujo..paycheckdinheirosujo..cfg.post)
-	end	
-  end
-  SetTimeout(1020*60*cfg.minutes_paycheckdinheirosujo, function()
-	paycheckdinheirosujo_giver()
-  end)
-end
-
 Citizen.CreateThread(function()
-  paycheckdinheirosujo_giver()
+  paycheck_taker()
 end)
