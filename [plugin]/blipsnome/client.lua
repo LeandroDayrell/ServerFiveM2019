@@ -1,23 +1,36 @@
 local TeleportFromTo = {
-	
-	---------- BOPE
-	["Garagem - Bope"] = {
-	   positionFrom = { ['x'] = 110.99529266357, ['y'] = -734.64471435547, ['z'] = 33.133224487305, nom = "Bope"},
-	   positionTo = { ['x'] = 115.20038604736, ['y'] = -741.78411865234, ['z'] = 258.15209960938, nom = "Garagem"},
+	["Moca Lavagem Dinheiro1"] = {
+		positionFrom = { ['x'] = -905.79376220703, ['y'] = 625.50018310547, ['z'] = 123.49476623535, nom = "Moca Lavagem Dinheiro1"},
+		positionTo = { ['x'] = -905.79376220703, ['y'] = 625.50018310547, ['z'] = 123.49476623535, nom = "Moca Lavagem Dinheiro1"},
 	},
-	["Entrada - Bope"] = {
-	   positionFrom = { ['x'] = 156.67526245117, ['y'] = -757.97729492188, ['z'] = 258.15188598633, nom = "Recepção"},
-	   positionTo = { ['x'] = 136.10906982422, ['y'] = -761.7353515625, ['z'] = 45.752010345459, nom = "Bope"},
+	["Moca Lavagem Dinheiro2"] = {
+		positionFrom = { ['x'] = -46.414993286133, ['y'] = -1840.13671875, ['z'] = 26.548919677734, nom = "Moca Lavagem Dinheiro2"},
+		positionTo = { ['x'] = -46.414993286133, ['y'] = -1840.13671875, ['z'] = 26.548919677734, nom = "Moca Lavagem Dinheiro2"},
+    },
+    ["Moca Lavagem Dinheiro3"] = {
+		positionFrom = { ['x'] = 1347.4807128906, ['y'] = -471.02209472656, ['z'] = 73.976684570313, nom = "Moca Lavagem Dinheiro3"},
+		positionTo = { ['x'] = 1347.4807128906, ['y'] = -471.02209472656, ['z'] = 73.976684570313, nom = "Moca Lavagem Dinheiro3"},
 	},
-	["Entrada - Garagem"] = {
-	   positionFrom = { ['x'] = 139.02188110352, ['y'] = -762.57849121094, ['z'] = 45.75203704834, nom = "Garagem"},
-	   positionTo = { ['x'] = 114.36162567139, ['y'] = -735.36999511719, ['z'] = 33.133190155029, nom = "Recepção"},
+	["Moca Lavagem Dinheiro4"] = {
+		positionFrom = { ['x'] = 1482.6285400391, ['y'] = -1609.8885498047, ['z'] = 72.228302001953, nom = "Moca Lavagem Dinheiro4"},
+		positionTo = { ['x'] = 1482.6285400391, ['y'] = -1609.8885498047, ['z'] = 72.228302001953, nom = "Moca Lavagem Dinheiro4"},
+    },---	
+	["Lavagem 1 40%"] = {
+		positionFrom = { ['x'] = 1560.1743164063, ['y'] = -1842.4279785156, ['z'] = 92.6630859375, nom = "Lavagem 1 40%"},
+		positionTo = { ['x'] = 1560.1743164063, ['y'] = -1842.4279785156, ['z'] = 92.6630859375, nom = "Lavagem 1 40%"},
 	},
-	
-	["Bope - Heliponto"] = {
-	   positionFrom = { ['x'] = 117.50189971924, ['y'] = -736.56060791016, ['z'] = 258.15243530273, nom = "Heliponto"},
-	   positionTo = { ['x'] = -68.625274658203, ['y'] = -810.55493164063, ['z'] = 326.17416381836, nom = "Bope"},
+	["Lavagem 2 40%"] = {
+		positionFrom = { ['x'] = 1227.6488037109, ['y'] = -570.26208496094, ['z'] = 69.38639831543, nom = "Lavagem 2 40%"},
+		positionTo = { ['x'] = 1227.6488037109, ['y'] = -570.26208496094, ['z'] = 69.38639831543, nom = "Lavagem 2 40%"},
+    },
+    ["Lavagem 3 40%"] = {
+		positionFrom = { ['x'] = -855.84478759766, ['y'] = 646.37432861328, ['z'] = 132.12269592285, nom = "Lavagem 3 40%"},
+		positionTo = { ['x'] = -855.84478759766, ['y'] = 646.37432861328, ['z'] = 132.12269592285, nom = "Lavagem 3 40%"},
 	},
+	["Lavagem 4 40%"] = {
+		positionFrom = { ['x'] = -17.819309234619, ['y'] = -1867.8327636719, ['z'] = 24.951789855957, nom = "Lavagem 4 40%"},
+		positionTo = { ['x'] = -17.819309234619, ['y'] = -1867.8327636719, ['z'] = 24.951789855957, nom = "Lavagem 4 40%"},
+    },
 	["Venda De Orgaos"] = {
 	   positionFrom = { ['x'] = -2033.3133544922, ['y'] = -1035.1331787109, ['z'] = 5.8823466300964, nom = "Venda De Orgaos"},
 	   positionTo = { ['x'] = -2033.3133544922, ['y'] = -1035.1331787109, ['z'] = 5.8823466300964, nom = "Venda De Orgaos"},
@@ -234,12 +247,7 @@ local TeleportFromTo = {
 	["Uranio Transformador"] = {
 	   positionFrom = { ['x'] = -213.03514099121, ['y'] = -1683.5076904297, ['z'] = 34.850330352783, nom = "Enriquecimento de Uranio"},
 	   positionTo = { ['x'] = -213.03514099121, ['y'] = -1683.5076904297, ['z'] = 34.850330352783, nom = "Enriquecimento de Uranio"},
-	},
-	
-	
-	
-	
-	
+	},	
 }
 
 Drawing = setmetatable({}, Drawing)

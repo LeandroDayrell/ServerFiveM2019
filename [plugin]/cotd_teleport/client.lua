@@ -1,11 +1,21 @@
 local TeleportFromTo = {
-	["Policia Militar - COPOM - BOPE"] = {
-		positionFrom = { ['x'] = 442.02203369141, ['y'] = -977.77301025391, ['z'] = 30.689603805542, nom = "COPOM - BOPE"},
-		positionTo = { ['x'] = 442.02203369141, ['y'] = -977.77301025391, ['z'] = 30.689603805542, nom = ""},
-	},	
-	["Policia Militar - Arsenal- BOPE"] = {
-		positionFrom = { ['x'] = 458.43692016602, ['y'] = -979.39678955078, ['z'] = 30.689599990845, nom = "Arsenal - Policia BOPE"},
-		positionTo = { ['x'] = 458.43692016602, ['y'] = -979.39678955078, ['z'] = 30.689599990845, nom = ""},
+	---------- BOPE
+	["Garagem - Bope"] = {
+	   positionFrom = { ['x'] = 110.99529266357, ['y'] = -734.64471435547, ['z'] = 33.133224487305, nom = "Bope"},
+	   positionTo = { ['x'] = 115.20038604736, ['y'] = -741.78411865234, ['z'] = 258.15209960938, nom = "Garagem"},
+	},
+	["Entrada - Bope"] = {
+	   positionFrom = { ['x'] = 156.67526245117, ['y'] = -757.97729492188, ['z'] = 258.15188598633, nom = "Recepção"},
+	   positionTo = { ['x'] = 136.10906982422, ['y'] = -761.7353515625, ['z'] = 45.752010345459, nom = "Bope"},
+	},
+	["Entrada - Garagem"] = {
+	   positionFrom = { ['x'] = 139.02188110352, ['y'] = -762.57849121094, ['z'] = 45.75203704834, nom = "Garagem"},
+	   positionTo = { ['x'] = 114.36162567139, ['y'] = -735.36999511719, ['z'] = 33.133190155029, nom = "Recepção"},
+	},
+	
+	["Bope - Heliponto"] = {
+	   positionFrom = { ['x'] = 117.50189971924, ['y'] = -736.56060791016, ['z'] = 258.15243530273, nom = "Heliponto"},
+	   positionTo = { ['x'] = -68.625274658203, ['y'] = -810.55493164063, ['z'] = 326.17416381836, nom = "Bope"},
 	},
     ["ELEPONTO"] = {
 	   positionFrom = { ['x'] = 356.04583740234, ['y'] = -597.63043212891, ['z'] = 28.777612686157, nom = "Entrar - Ele porto samu"}, 
@@ -14,30 +24,6 @@ local TeleportFromTo = {
 	["Pista de corrida"] = {
 	   positionFrom = { ['x'] = -50.484031677246, ['y'] = -1090.2028808594, ['z'] = 26.422355651855, nom = "Entrar - Pista de corrida"}, 
 	   positionTo = { ['x'] = 1729.4901123047, ['y'] = 3320.2272949219, ['z'] = 41.223495483398, nom = "Sair - Pista de corrida"},
-	},
-	["Lavagem 1 40% Favela"] = {
-		positionFrom = { ['x'] = 360.80770874023, ['y'] = -1850.1646728516, ['z'] = 28.02691078186, nom = "Entrar - Lavagem De Dinheiro"},
-		positionTo = { ['x'] = 356.02044677734, ['y'] = -1853.6613769531, ['z'] = 38.730449676514, nom = "Sair - Lavagem De Dinheiro"},
-	},
-	["Lavagem 2 40% Favela"] = {
-		positionFrom = { ['x'] = 795.49810791016, ['y'] = -218.65570068359, ['z'] = 66.114479064941, nom = "Entrar - Lavagem De Dinheiro"},
-		positionTo = { ['x'] = 787.23156738281, ['y'] = -209.78819274902, ['z'] = 79.330581665039, nom = "Sair - Lavagem De Dinheiro"},
-    },
-    ["Lavagem 3 40% Favela"] = {
-		positionFrom = { ['x'] = 1441.6030273438, ['y'] = -810.21228027344, ['z'] = 102.17218017578, nom = "Entrar - Lavagem De Dinheiro"},
-		positionTo = { ['x'] = 1445.630859375, ['y'] = -809.24078369141, ['z'] = 112.33567047119, nom = "Sair - Lavagem De Dinheiro"},
-	},
-	["Lavagem 4 40% Favela"] = {
-		positionFrom = { ['x'] = -866.15386962891, ['y'] = 668.65002441406, ['z'] = 135.7872467041, nom = "Entrar - Lavagem De Dinheiro"},
-		positionTo = { ['x'] = -857.33715820313, ['y'] = 670.17041015625, ['z'] = 159.90385437012, nom = "Sair - Lavagem De Dinheiro "},
-    },
-    ["Cocaina"] = {
-		positionFrom = { ['x'] = 1411.7082519531, ['y'] = 1147.1169433594, ['z'] = 114.3341217041, nom = "Entrar - Fabricar Cocaina"},
-		positionTo = { ['x'] = 1408.0523681641, ['y'] = 1147.2625732422, ['z'] = 114.33359527588, nom = "Sair - Fabricar Cocaina"},
-	},
-	["Corpos"] = {
-		positionFrom = { ['x'] = 230.97947692871, ['y'] = -1360.5107421875, ['z'] = 28.651819229126, nom = "Entrar - Extrair Orgaos no IML"},
-		positionTo = { ['x'] = 236.07377624512, ['y'] = -1372.0689697266, ['z'] = 22.015092849731, nom = "Sair - Saida Do IML"},
 	},
 }
 
