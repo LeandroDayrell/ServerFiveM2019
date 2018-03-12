@@ -22,7 +22,7 @@ cfg.item_transformers = {
           ["balde"] = 1
       },
         products={ -- items given per unit
-          ["baldedeleite"] = 2
+          ["baldedeleite"] = 1
         }
       }
     }
@@ -64,7 +64,7 @@ cfg.item_transformers = {
     out_money=0, -- Dinheiro ganho por unidade
     reagents={},
     products={ -- items given per unit
-    ["diamante com pedra"] = 2
+    ["diamante com pedra"] = 1
         }
       }
     }
@@ -568,7 +568,7 @@ name="Pescador de Tartaruga", -- menu name
     ["maconha"] = 1
         },
     products={
-    ["baseado"] = 2
+    ["baseado"] = 1
     }
       }   
     }      
@@ -803,10 +803,10 @@ name="Pescador de Tartaruga", -- menu name
     out_money=0, -- money earned per unit
 	out_dinheirosujo=3,
     reagents={
-    ["uranio"] = 5
+    ["uranio"] = 1
     }, -- items taken per unit
     products={
-    ["uraniorefinado"] = 5
+    ["uraniorefinado"] = 1
     }, -- items given per unit
     aptitudes={} -- optional
       }
@@ -826,10 +826,10 @@ name="Pescador de Tartaruga", -- menu name
     out_money=0, -- money earned per unit
 	out_dinheirosujo=3,
     reagents={
-    ["uraniorefinado"] = 5
+    ["uraniorefinado"] = 1
     }, -- items taken per unit
     products={
-    ["uranio_enriquecido"] = 5
+    ["uranio_enriquecido"] = 1
     }, -- items given per unit
     aptitudes={} -- optional
       }

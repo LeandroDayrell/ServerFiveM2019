@@ -23,9 +23,9 @@ local blips = {
 {name="Ecstasy Refinaria", colour=83, scale=1.0, id=365, x=-561.68438720703,y=281.64797973633,z=85.676383972168},
 {name="Ecstasy Transformador", colour=83, scale=1.0, id=431, x=-914.14428710938,y=750.26470947266,z=182.16152954102},
 -- ------------LSD
-{name="LSD Produzir", colour=24, scale=1.0, id=445, x=-115.86870574951, y=1908.5133056641, z=197.42163085938},
+{name="LSD Extrair", colour=24, scale=1.0, id=445, x=-115.86870574951, y=1908.5133056641, z=197.42163085938},
 {name="LSD Processador", colour=24, scale=1.0, id=445, x=1389.6108398438, y=3603.7277832031, z=38.941837310791},
-{name="LSD Transformador", colour=24, scale=1.0, id=445, x=1389.6108398438, y=3603.7277832031, z=38.941837310791},
+{name="LSD Transformador", colour=24, scale=1.0, id=445, x=-707.59344482422, y=620.65325927734, z=155.2137298584},
 ------------- --MACONHA
 {name="Maconha Processador", colour=25, scale=1.0, id=17, x=1482.2690429688,y=-1738.5200195313,z=90.62540435791},--erva
 {name="Maconha Transformador", colour=25, scale=1.0, id=18, x=45.760025024414,y=-1939.0877685547,z=21.589450836182},--erva
