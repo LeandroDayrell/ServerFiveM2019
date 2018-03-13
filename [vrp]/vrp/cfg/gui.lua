@@ -27,37 +27,35 @@ body{
 -- list of static menu types (map of name => {.title,.blipid,.blipcolor,.permissions (optional)})
 -- static menus are menu with choices defined by vRP.addStaticMenuChoices(name, choices)
 cfg.static_menu_types = {
-   ["police_weapons"] = {
+   ["Arsenal Policia PMERJ"] = {
       title = "Arsenal Policia PMERJ", 
       blipcolor = 0,
 	  permissions = {
 	    "police.weapons"
 	  }
 	},
-   ["emergency_heal"] = {
-      title = "Atendimento Médico", 
+   ["Atendimento Medico"] = {
+      title = "Atendimento Medico", 
       blipcolor = 0,
 	  permissions = {
-	    "emergency_heal"
+	    "emergency.heal"
 	  }
 	},
-   ["emergency_medkit"] = {
-      title = "Emergência", 
+   ["Bombeito medkit"] = {
+      title = "Bombeito medkit", 
       blipcolor = 0,
 	  permissions = {
 	    "emergency.medkit"
 	  }
-	}
+   }
 }
 
 -- list of static menu points
 cfg.static_menus = {
-  {"police_weapons", 461.31414794922,-981.15582275391,30.689588546753},
-  --{"emergency_medkit", 268.22784423828,-1364.8872070313,24.537782669067},
-  --{"emergency_heal", 260.49597167969,-1358.4555664063,24.537788391113},
-  {"emergency_heal", -447.79333496094,6007.9038085938,31.716388702393},  ----prf
-  {"emergency_heal", 452.58203125,-973.78430175781,30.689588546753},-----dp
-  {"emergency_heal", 1196.6419677734,-1466.3703613281,34.85954284668}-----hosp
+  {"Arsenal Policia PMERJ", 461.31414794922,-981.15582275391,30.689588546753},
+  {"Atendimento Medico", -447.79333496094,6007.9038085938,31.716388702393},  ----prf
+  {"Atendimento Medico", 452.58203125,-973.78430175781,30.689588546753},-----dp
+  {"Atendimento Medico", 1150.9288330078,-1529.9295654297,35.373558044434}-----hosp
 }
 
 -- VoIP
