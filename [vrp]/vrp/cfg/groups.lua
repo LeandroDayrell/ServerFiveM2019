@@ -107,8 +107,7 @@ cfg.groups = {
       "police.check",
       "player.player_menu",
       "toggle.service",
-	  "adachefe.paycheck",
-      "userr.paycheck",
+	  "adachefe.paycheck",      
       "player.store_money",
 	  "traficante.defaccao",
       "player.phone",
@@ -135,8 +134,7 @@ cfg.groups = {
       "police.menu",
       "police.handcuff",
       "police.check",
-      "player.player_menu",
-      "userr.paycheck",
+      "player.player_menu",      
       "toggle.service",
 	  "mission.cocaina.information",
       "cv.cloakroom",
@@ -169,8 +167,7 @@ cfg.groups = {
     "police.check",
     "player.player_menu",
     "toggle.service",
-    "player.store_money",
-    "userr.paycheck",
+    "player.store_money",   
     "player.phone",
     "player.calladmin",
     "police.askid",
@@ -204,8 +201,7 @@ cfg.groups = {
 	"tcpchefe.paycheck",
     "player.store_money",
     "emergency.heal",
-    "player.phone",
-    "userr.paycheck",
+    "player.phone",    
     "player.calladmin",
     "police.askid",
     "campo.cocaina",
@@ -237,8 +233,7 @@ cfg.groups = {
     "player.phone",
     "police.store_weapons",
     "police.seizable",
-    "police.askid",
-    "userr.paycheck",
+    "police.askid",    
     "trafico_drogas",
     "traficante.baseado",
     "emergency.heal",
@@ -259,7 +254,6 @@ cfg.groups = {
     "player.player_menu",
     "toggle.service",
     "player.store_money",
-    "userr.paycheck",
     "player.phone",
     "police.store_weapons",
     "police.seizable",
@@ -299,7 +293,6 @@ cfg.groups = {
     "campo.crack",
     "emergency.heal",
     "processador.crack",
-    "userr.paycheck",
     "arma_do_chefe.arma"
   },
   ["SOLDADO T.C.A"] = {
@@ -325,7 +318,6 @@ cfg.groups = {
     "emergency.heal",
     "processador.cocaina",
     "campo.crack",
-    "userr.paycheck",
     "processador.crack",
     "arma_do_chefe.arma"
   },
@@ -351,7 +343,6 @@ cfg.groups = {
     "emergency.heal",
     "campo.cocaina",
     "processador.cocaina",
-    "userr.paycheck",
     "campo.crack",
     "processador.crack",
     "arma_do_chefe.arma"
@@ -366,7 +357,6 @@ cfg.groups = {
     "player.player_menu",
     "toggle.service",
     "player.store_money",
-    "userr.paycheck",
 	"traficante.defaccao",
     "player.phone",
     "police.store_weapons",
@@ -396,7 +386,6 @@ cfg.groups = {
 	"cvbd.paycheck",
     "player.phone",
     "police.store_weapons",
-    "userr.paycheck",
     "police.seizable",
     "police.askid",
 	"traficante.defaccao",
@@ -421,7 +410,6 @@ cfg.groups = {
     "toggle.service",
 	"mission.crack.information",
     "player.store_money",
-    "userr.paycheck",
 	"traficante.defaccao",
 	"tcpbd.paycheck",
     "player.phone",
@@ -449,8 +437,7 @@ cfg.groups = {
     "player.store_money",
     "emergency.heal",
     "player.phone",
-    "player.calladmin",
-    "userr.paycheck",
+    "player.calladmin",   
     "police.askid",
     "trafico_drogas",
     "traficante.baseado",
@@ -479,8 +466,7 @@ cfg.groups = {
     onspawn = function(player) vRPclient._notify(player,"Voce e Uber.") end
     },
     "player.player_menu",
-    "toggle.service",
-    "userr.paycheck",
+    "toggle.service",    
     "player.store_money",
     "player.phone",
     "emergency.heal",
@@ -504,8 +490,7 @@ cfg.groups = {
       "player.phone",
       "player.calladmin",
       "police.askid",
-      "trafico_drogas",
-      "userr.paycheck",
+      "trafico_drogas",     
       "traficante.baseado",
       "campo.cocaina",
       "processador.cocaina",
@@ -530,8 +515,7 @@ cfg.groups = {
       "emergency.heal",
       "player.calladmin",
       "police.askid",
-      "trafico_drogas",
-      "userr.paycheck",
+      "trafico_drogas",      
       "traficante.baseado",
       "campo.cocaina",
       "processador.cocaina",
@@ -559,8 +543,7 @@ cfg.groups = {
     "trafico_drogas",
     "traficante.baseado",
     "campo.cocaina",
-    "processador.cocaina",
-    "userr.paycheck",
+    "processador.cocaina",    
     "campo.crack",
     "processador.crack",
     "police.store_weapons",
@@ -583,8 +566,7 @@ cfg.groups = {
     "toggle.service",
     "player.store_money",
     "emergency.heal",
-    "player.phone",
-    "userr.paycheck",
+    "player.phone",    
     "player.calladmin",
     "police.askid",
     "police.store_weapons",
@@ -599,15 +581,12 @@ cfg.groups = {
     "emergency.heal",
     "toggle.service",
     "player.store_money",
-	"mission.moto_boy.entrega",
-	"mission.moto_boy.entrega2",
     "player.phone",
     "player.calladmin",
     "police.askid",
     "police.store_weapons",
     "police.seizable",
     "trafico_drogas",
-    "userr.paycheck",
     "traficante.baseado",
     "campo.cocaina",
     "processador.cocaina",
@@ -620,17 +599,29 @@ cfg.groups = {
     "motoboy.cloakroom",
     "moto_boy.cocacola_pizza"
   },
-  ["REPARADOR"] = {
+  ["JORNALISTA"] = {
     _config = { gtype = "job",
-    onspawn = function(player) vRPclient._notify(player,"Voce e moto boy") end
-     },
+  onspawn = function(player) vRPclient.notify(player,{"Porfavor Faça Seu Jornal."}) end
+  },
     "player.player_menu",
+    "emergency.heal",
     "toggle.service",
+    "player.store_money",
     "player.phone",
-	"emergency.heal",
-    "mission.delivery.food",
-	"mission.repair.wind_turbines",
-	"mission.repair.satellite_dishes",
+    "player.calladmin",
+    "police.askid",
+    "police.store_weapons",
+    "police.seizable",
+    "carteirasjr.loadshop",
+    "jornalista.vehicle",
+    "jornal.paycheck",
+	"trafico_drogas",
+    "traficante.baseado",
+    "campo.cocaina",
+    "processador.cocaina",
+    "campo.crack",
+    "processador.crack",
+    "jornalista.cloakroom"
   },
   ["PESCADOR"] = {
     _config = { gtype = "job",
@@ -639,8 +630,7 @@ cfg.groups = {
     "player.player_menu",
     "toggle.service",
     "player.store_money",
-    "player.phone",
-    "userr.paycheck",
+    "player.phone",    
     "player.calladmin",
     "police.askid",
     "trafico_drogas",
@@ -670,8 +660,7 @@ cfg.groups = {
     "police.askid",
     "police.store_weapons",
     "emergency.heal",
-    "police.seizable",
-    "userr.paycheck",
+    "police.seizable",    
     "mission.Motorista_bancario.moneybank",
     "mission.Motorista_bancario.moneybank2",
     "Motorista_bancario.vehicle",
@@ -690,8 +679,7 @@ cfg.groups = {
     "player.phone",
     "player.calladmin",
     "police.askid",
-	"trafico_drogas",
-	"userr.paycheck",
+	"trafico_drogas",	
 	"traficante.baseado",
 	"campo.cocaina",
     "processador.cocaina",
@@ -718,8 +706,7 @@ cfg.groups = {
     "player.phone",
     "player.calladmin",
     "police.askid",
-	"trafico_drogas",
-	"userr.paycheck",
+	"trafico_drogas",	
 	"traficante.baseado",
 	"campo.cocaina",
     "processador.cocaina",
@@ -744,8 +731,7 @@ cfg.groups = {
     "player.phone",
     "player.calladmin",
     "police.askid",
-	"trafico_drogas",
-	"userr.paycheck",
+	"trafico_drogas",	
 	"traficante.baseado",
 	"campo.cocaina",
     "processador.cocaina",
@@ -770,8 +756,7 @@ cfg.groups = {
     "player.phone",
     "player.calladmin",
     "police.askid",
-	"trafico_drogas",
-	"userr.paycheck",
+	"trafico_drogas",	
 	"traficante.baseado",
 	"campo.cocaina",
     "processador.cocaina",
@@ -796,8 +781,7 @@ cfg.groups = {
     "player.phone",
     "player.calladmin",
     "police.askid",
-	"trafico_drogas",
-	"userr.paycheck",
+	"trafico_drogas",	
 	"traficante.baseado",
 	"campo.cocaina",
     "processador.cocaina",
@@ -822,8 +806,7 @@ cfg.groups = {
     "player.phone",
     "player.calladmin",
     "police.askid",
-	"trafico_drogas",
-	"userr.paycheck",
+	"trafico_drogas",	
 	"traficante.baseado",
 	"campo.cocaina",
     "processador.cocaina",
@@ -843,8 +826,7 @@ cfg.groups = {
     onspawn = function(player) vRPclient._notify(player,"Voce e farmaceutico.") end
     },
     "player.player_menu",
-    "toggle.service",
-    "userr.paycheck",
+    "toggle.service",   
     "emergency.heal",
     "player.store_money",
     "player.phone",
@@ -870,8 +852,7 @@ cfg.groups = {
     "player.player_menu",
     "toggle.service",
     "player.store_money",
-    "player.phone",
-    "userr.paycheck",
+    "player.phone",    
     "player.calladmin",
     "police.askid",
     "emergency.heal",
@@ -894,8 +875,7 @@ cfg.groups = {
     "toggle.service",
     "player.store_money",
     "player.phone",
-    "player.calladmin",
-    "userr.paycheck",
+    "player.calladmin",   
     "trafico_drogas",
     "emergency.heal",
     "traficante.baseado",
@@ -921,8 +901,7 @@ cfg.groups = {
     "traficante.baseado",
     "campo.cocaina",
     "processador.cocaina",
-    "campo.crack",
-    "userr.paycheck",
+    "campo.crack",    
     "emergency.heal",
     "processador.crack"
   },
@@ -940,8 +919,7 @@ cfg.groups = {
     "trafico_drogas",
     "traficante.baseado",
     "emergency.heal",
-    "campo.cocaina",
-    "userr.paycheck",
+    "campo.cocaina",    
     "processador.cocaina",
     "campo.crack",
     "processador.crack",
@@ -965,8 +943,7 @@ cfg.groups = {
     "campo.cocaina",
     "processador.cocaina",
     "campo.crack",
-    "processador.crack",
-    "userr.paycheck",
+    "processador.crack",    
     "player.calladmin",
     "police.askid",
     "police.store_weapons",
@@ -988,8 +965,7 @@ cfg.groups = {
     "emergency.heal",
     "player.calladmin",
     "police.askid",
-    "trafico_drogas",
-    "userr.paycheck",
+    "trafico_drogas",    
     "traficante.baseado",
     "campo.cocaina",
     "processador.cocaina",
@@ -1012,8 +988,7 @@ cfg.groups = {
     "emergency.heal",
     "player.calladmin",
     "police.askid",
-    "trafico_drogas",
-    "userr.paycheck",
+    "trafico_drogas",    
     "traficante.baseado",
     "campo.cocaina",
     "processador.cocaina",
@@ -1039,8 +1014,7 @@ cfg.groups = {
     "emergency.heal",
     "traficante.baseado",
     "campo.cocaina",
-    "processador.cocaina",
-    "userr.paycheck",
+    "processador.cocaina",    
     "campo.crack",
     "processador.crack",
     "police.store_weapons",
@@ -1057,8 +1031,7 @@ cfg.groups = {
     "toggle.service",
     "player.store_money",
     "emergency.heal",
-    "player.phone",
-    "userr.paycheck",
+    "player.phone",   
     "player.calladmin",
     "police.askid",
     "trafico_drogas",
@@ -1078,8 +1051,7 @@ cfg.groups = {
     onspawn = function(player) vRPclient._notify(player,"Voce e traficante de cocaina.") end
     },
     "player.player_menu",
-    "toggle.service",
-    "userr.paycheck",
+    "toggle.service",    
     "player.store_money",
     "player.phone",
     "player.calladmin",
@@ -1105,8 +1077,7 @@ cfg.groups = {
     "toggle.service",
     "player.store_money",
     "player.phone",
-    "player.calladmin",
-    "userr.paycheck",
+    "player.calladmin",    
     "emergency.heal",
     "police.askid",
     "trafico_drogas",
@@ -1134,8 +1105,7 @@ cfg.groups = {
     "player.calladmin",
 	"tartaruga.vehicle",
     "police.askid",
-    "trafico_drogas",
-    "userr.paycheck",
+    "trafico_drogas",    
     "traficante.baseado",
     "campo.cocaina",
     "processador.cocaina",
@@ -1403,8 +1373,7 @@ cfg.groups = {
     "delegado.cloakroom", -- < ROUPA DA POLICIA
     "police.store_money",
     "police.darlicenca",
-    "police.verificarlicenca",
-    "userr.paycheck",
+    "police.verificarlicenca",    
     "police.deletarlicenca",
 	"multa.police",
     "police.easy_jail",
@@ -1459,8 +1428,7 @@ cfg.groups = {
     "police.easy_cuff",
 	--"police.portamalas",
 	"police.checkdinheirosujo",
-    "police.spikes",
-    "userr.paycheck",
+    "police.spikes",   
     "emergency.heal",
     "police.verificarlicenca",
     "Police Interaction",
@@ -1488,7 +1456,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
     "cmdbope.paycheck",
@@ -1509,8 +1476,7 @@ cfg.groups = {
 	--"police.portamalas",
 	"police.checkdinheirosujo",
     "police.spikes",
-	"multa.police",
-    "userr.paycheck",
+	"multa.police",   
     "emergency.heal",
     "police.verificarlicenca",
     "Police Interaction",
@@ -1538,7 +1504,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
     "soldadobope.paycheck",
@@ -1560,8 +1525,7 @@ cfg.groups = {
     "police.easy_cuff",
 	--"police.portamalas",
 	"multa.police",
-    "police.spikes",
-    "userr.paycheck",
+    "police.spikes",    
 	"police.asklc",
 	"police.takelc",
     "emergency.heal",
@@ -1589,7 +1553,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
     "prf.paycheck"
@@ -1640,7 +1603,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
   },
@@ -1688,7 +1650,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
 	"Soldado.paycheck",
@@ -1737,7 +1698,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
     "cabo.paycheck",
@@ -1787,7 +1747,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
     "terceirosargento.paycheck"
@@ -1836,7 +1795,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
     "segundosargento.paycheck",
@@ -1886,7 +1844,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
     "primeirosargento.paycheck",
@@ -1937,7 +1894,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
     "subtenente.paycheck",
@@ -1987,7 +1943,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
     "segundotenente.paycheck",
@@ -2037,7 +1992,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
     "primeirotenente.paycheck"
@@ -2088,7 +2042,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
     "capitao.paycheck",
@@ -2138,7 +2091,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
     "major.paycheck",
@@ -2188,7 +2140,6 @@ cfg.groups = {
     "-police.seizable", -- negative permission, police can't seize itself, even if another group add the permission
     "policiaaguia.garagem", -- GARAGEM AGUIA
     "police.weapons", -- ARMAS DA POLICIA
-
     "police.loadshop",
     "cop.whitelisted",
     "tenentecoronel.paycheck",
@@ -2330,6 +2281,7 @@ cfg.selectors = {
   ["CENTRAL DE EMPREGO"] = {
     _config = {x = -268.363739013672, y = -957.255126953125, z = 31.22313880920410, blipid = 267, blipcolor = 46},
     "UBER",
+	"JORNALISTA",
 	"MOTORISTA DE ONIBUS",
 	"LIMPADOR DE PISCINA",
     "GARIMPEIRO SAL",

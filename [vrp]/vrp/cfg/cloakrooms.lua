@@ -37,6 +37,7 @@ local xmech_02 = { model = "s_m_y_xmech_02" }
 local andreas = { model = "ig_andreas" }
 local barry = { model = "ig_barry" }
 local baygor = { model = "u_m_y_baygor" }
+local ig_beverly = { model = "ig_beverly" }
 
 for i=0,19 do
   uniforme_bope[i] = {0,0}
@@ -51,6 +52,7 @@ for i=0,19 do
   limpador_de_piscina_male[i] = {0,0}
   lixeiro_male[i] = {0,0}
   uniforme_delegado[i] = {0,0}
+  ig_beverly[i] = {0,0}
 end
 
 -- cloakroom types (_config, map of name => customization)
@@ -67,6 +69,10 @@ cfg.cloakroom_types = {
     _config = { permissions = {"emergency.cloakroom"} },
     ["Uniforme Masculino"] = emergency_male,
     ["Uniforme feminino"] = emergency_female
+  },
+  ["Jornalista"] = {
+    _config = { permissions = {"jornalista.cloakroom"} },
+    ["Skin jornal"] = ig_beverly,
   },
     ["motorista_de_onibus"] = {--------------------------------------limpador_de_piscina
     _config = { permissions = {"bus.cloakroom"} },
@@ -137,6 +143,7 @@ cfg.cloakroom_types = {
 }
 
 cfg.cloakrooms = {
+  {"Jornalista", -598.55364990234,-927.71960449219,23.862928390503},
   {"Uniforme delegado",450.76196289063,-974.14392089844,30.68957901001},---prf
   {"Uniforme prf",-449.00964355469,6015.482421875,31.716388702393},---prf
   {"Uniforme Motorista de Onibus", -328.38424682617,-1007.8889770508,30.38508605957},--bus

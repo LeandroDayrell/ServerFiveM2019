@@ -194,6 +194,11 @@ cfg.adv_garages = {
 	["dodo"] = {"Dodo",4000000, ""},
   },
   
+  ["Garagem do Jornalista"] = {
+     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=513,blipcolor=38,permissions={"jornalista.vehicle"}},
+    ["globocar"] = {"Carro do Jornalista",0, ""},
+  },
+  
   ["onibus"] = {
     _config = {gpay="wallet",gtype={"rental"},vtype="car",blipid=513,blipcolor=38,permissions={"bus.vehicle"}},
     ["Bus"] = {"Onibus",50, ""},
@@ -348,6 +353,7 @@ cfg.adv_garages = {
 
 -- position garages on the map {garage_type,x,y,z}
 cfg.garages = {
+  {"Garagem do Jornalista",-621.27142333984,-923.95275878906,23.096454620361},
   {"loja carro",-46.674224853516,-1096.9587402344,26.422344207764},-----loja
   {"loja moto",-40.997344970703,-1099.4600830078,26.422344207764},-----------loja
   {"Garagem",-332.6287,-779.1125,33.9648},

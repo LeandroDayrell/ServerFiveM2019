@@ -28,6 +28,27 @@ cfg.item_transformers = {
     }
   },
   { -- PROCESSADOR DE LEITE
+    name="FENAJ Carteira de Jornalista", -- menu name
+  permissions = {"carteirasjr.loadshop"},
+    r=255,g=125,b=46, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=-597.74279785156,y=-936.12847900391,z=23.864892959595,        
+    radius=1, height=1.0, -- area
+    recipes = {
+      ["Pegar"] = { -- action name
+       description="FENAJ Carteira de Jornalista.", -- action description`
+        in_money=100, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={
+    ["carteirajr"] = 1
+    }, -- items given per unit
+        aptitudes={} -- optional
+      }
+    }
+  },
+  {------Jornalista
     name="Processador de Leite", -- menu name
     permissions = {"process.Leite"}, -- you can add permissions
     r=0,g=200,b=0, -- cor do menu
