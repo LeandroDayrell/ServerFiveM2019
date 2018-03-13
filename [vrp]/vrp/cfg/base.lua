@@ -6,7 +6,7 @@ cfg.db = {
   host = "127.0.0.1",
   database = "ex",
   user = "root",
-  password = "30201010"
+  password = "30201010bili"
 }
 
 cfg.save_interval = 40 -- seconds

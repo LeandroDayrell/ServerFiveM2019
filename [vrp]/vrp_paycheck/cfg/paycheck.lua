@@ -1,8 +1,9 @@
+
 local cfg = {}
 
 -- paycheck and bill for users
-cfg.message_paycheck = "Você recebeu seu salário: ~g~$" -- message that will show before payment of salary
-cfg.message_bill = "Imposto lava jato: ~r~$" -- message that will show before payment of bill
+cfg.message_paycheck = "Dia do Pagamento Suado: ~g~$" -- message that will show before payment of salary
+cfg.message_bill = "Imposto para cobrir gasto do Governo com lava jato: ~r~$" -- message that will show before payment of bill
 cfg.post = "." -- message that will show after payment
 
 cfg.bank = false -- if true money goes to bank, false goes to wallet
@@ -10,9 +11,9 @@ cfg.bank = false -- if true money goes to bank, false goes to wallet
 cfg.minutes_paycheck = 10 -- minutes between payment for paycheck
 cfg.minutes_bill = 20 -- minutes between withdrawal for bill
 
-cfg.paycheck_title_picture = "Maze Bank" -- define title for paycheck notification picture
+cfg.paycheck_title_picture = "BANCO DO BRASIL" -- define title for paycheck notification picture
 cfg.paycheck_picture = "CHAR_BANK_MAZE" -- define paycheck notification picture want's to display
-cfg.bill_title_picture = "Mors Mutual" -- define title for bill notification picture
+cfg.bill_title_picture = "CAIXA 2" -- define title for bill notification picture
 cfg.bill_picture = "CHAR_MP_MORS_MUTUAL" -- define bill notification picture want's to display
 
 cfg.paycheck = { -- ["permission"] = paycheck
@@ -118,3 +119,4 @@ cfg.bill = { -- ["permission"] = withdrawal
 }
 
 return cfg
+

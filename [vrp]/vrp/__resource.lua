@@ -39,7 +39,7 @@ server_scripts{
   "modules/basic_garage.lua",
   "modules/basic_items.lua",
   "modules/basic_skinshop.lua",
-  "modules/cloakroom.lua"
+  "modules/cloakroom.lua",
 }
 
 -- client scripts
