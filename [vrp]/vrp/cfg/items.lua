@@ -31,6 +31,7 @@ cfg.items = {
   ["orgaos"] = {"orgaos", "Orgaos Humanos.", nil, 1.00}, -- Arrumado
   ["diamant"] = {"diamant", "du diamant brut.", nil, 1.00}, -- no choices
   ["oab"] = {"oab", "Carteira de Advogado.", nil, 0.01}, -- no choices
+  ["carteirajr"] = {"carteirajr", "Carteira de Jornalista.", nil, 0.01}, -- no choices
   ["diamantt"] = {"diamantt", "du diamant pret a la revente", nil, 1.00}, -- no choices  
   ["folhadecoca"] = {"folhadecoca", "Folhas De Coca", nil, 0.80}, -- Arrumado
   ["pomme"] = {"pomme", "Uma maçã vermelha.", nil, 1.00}, -- no choices
