@@ -8,15 +8,15 @@ items["shotgun_parts"] = {"Partes de Shotgun","Usado para criar shotgun.",nil,10
 items["smg_parts"] = {"Partes de SMG","Usado para criar submachinegun.",nil,7.5}
 
 -- money
-items["money"] = {"Money","Packed money.",function(args)
+items["money"] = {"Dinheiro","Dinheiro Armazenado.",function(args)
   local choices = {}
   local idname = args[1]
 
-  choices["Unpack"] = {function(player,choice,mod)
+  choices["Colocar Dinheiro na Carteira"] = {function(player,choice,mod)
     local user_id = vRP.getUserId(player)
     if user_id then
       local amount = vRP.getInventoryItemAmount(user_id, idname)
-      local ramount = vRP.prompt(player, "How much to unpack ? (max "..amount..")", "")
+      local ramount = vRP.prompt(player, "Coloque o valor que deseja colocar na carteira (max "..amount..")", "")
       ramount = parseInt(ramount)
       if vRP.tryGetInventoryItem(user_id, idname, ramount, true) then -- unpack the money
         vRP.giveMoney(user_id, ramount)

@@ -16,19 +16,8 @@ cfg.gaptitudes = {
     _title = "Fisico",
     ["strength"] = {"Forca", 30, 210} -- required, level 3 to 6 (by default, can carry 10kg per level)
   },
-  ["science"] = {
-    _title = "Ciencia",
-    ["produtos químicos"] = {"Estudo de produtos quimicos", 0, -1}, -- example
-    ["matematica"] = {"Estudo de Matematica", 0, -1} -- example
-   },
-  ["laboratory"] = {
-    _title = "laboratorio de drogas",
-	["cocaine"] = {"Processo voce cocaina, precisa de benzoilmetilecgonina, encontre em plantacao.", 0, -1},
-	["weed"] = {"processar-lhe erva , precisar de sementes, encontrar em plantacao.", 0, -1},
-	["lsd"] = {"Processo voce lsd, precisa de arnes, encontre em plantacao.", 0, -1}
-  },
   ["hacker"] = {
-    _title = "Study of hacker",
+    _title = "Estudo de hacker",
 	["logic"] = {"Estudo da logica.", 0, -1},
 	["c++"] = {"Estudo de linguagem C ++.", 0, -1},
 	["lua"] = {"Estudo da língua lua.", 0, -1},

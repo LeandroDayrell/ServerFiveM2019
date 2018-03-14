@@ -1,4 +1,8 @@
 local TeleportFromTo = {
+	["Oficina de armas"] = {
+		positionFrom = { ['x'] = -814.01898193359, ['y'] = 527.14166259766, ['z'] = 102.19955444336, nom = "Oficina de armas"},
+		positionTo = { ['x'] = -814.01898193359, ['y'] = 527.14166259766, ['z'] = 102.19955444336, nom = "Oficina de armas"},
+	},
 	["Carteira de Jornalista"] = {
 		positionFrom = { ['x'] = -597.74279785156, ['y'] = -936.12847900391, ['z'] = 23.864892959595, nom = "Carteira de Jornalista"},
 		positionTo = { ['x'] = -597.74279785156, ['y'] = -936.12847900391, ['z'] = 23.864892959595, nom = "Carteira de Jornalista"},
@@ -88,8 +92,8 @@ local TeleportFromTo = {
 	   positionTo = { ['x'] = -1053.7222900391, ['y'] = -4322.240234375, ['z'] = 2.3005771636963, nom = "Mar de peixe"},
 	},
 	["Produto do lixeiro"] = {
-	   positionFrom = { ['x'] = -315.84259033203, ['y'] = -932.46270751953, ['z'] = 31.080619812012, nom = "Produto do lixeiro"},
-	   positionTo = { ['x'] = -315.84259033203, ['y'] = -932.46270751953, ['z'] = 31.080619812012, nom = "Produto do lixeiro"},
+	   positionFrom = { ['x'] = -472.36685180664, ['y'] = -1695.7678222656, ['z'] = 18.906158447266, nom = "Produto do lixeiro"},
+	   positionTo = { ['x'] = -472.36685180664, ['y'] = -1695.7678222656, ['z'] = 18.906158447266, nom = "Produto do lixeiro"},
 	},
 	["CENTRAL DE EMPREGO."] = {
 	   positionFrom = { ['x'] = -268.363739013672, ['y'] = -957.255126953125, ['z'] = 31.22313880920410, nom = "CENTRAL DE EMPREGO."},
@@ -314,31 +318,6 @@ Citizen.CreateThread(function()
 						SetTextEntry_2("STRING")
 						AddTextComponentString("Pressione o botão ~r~Enter~w~ pra pega".. j.positionFrom.nom)
 						DrawSubtitleTimed(2000, 1)
-						if IsControlJustPressed(1, 38) then
-							DoScreenFadeOut(1000)
-							Citizen.Wait(2000)
-							SetEntityCoords(GetPlayerPed(-1), j.positionTo.x, j.positionTo.y, j.positionTo.z - 1)
-							DoScreenFadeIn(1000)
-						end
-					end
-				end
-			end
-			
-			if(Vdist(pos.x, pos.y, pos.z, j.positionTo.x, j.positionTo.y, j.positionTo.z) < 150.0)then
-				DrawMarker(1, j.positionTo.x, j.positionTo.y, j.positionTo.z - 1, 0, 0, 0, 0, 0, 0, 1.0001, 1.0001, .801, 255, 255, 255,255, 0, 0, 0,0)
-				if(Vdist(pos.x, pos.y, pos.z, j.positionTo.x, j.positionTo.y, j.positionTo.z) < 5.0)then
-					Drawing.draw3DText(j.positionTo.x, j.positionTo.y, j.positionTo.z - 1.100, j.positionTo.nom, 1, 0.2, 0.1, 255, 255, 255, 215)
-					if(Vdist(pos.x, pos.y, pos.z, j.positionTo.x, j.positionTo.y, j.positionTo.z) < 2.0)then
-						ClearPrints()
-						SetTextEntry_2("STRING")
-						AddTextComponentString("Pressione o botão ~r~Enter~w~ pra pega".. j.positionTo.nom)
-						DrawSubtitleTimed(2000, 1)
-						if IsControlJustPressed(1, 38) then
-							DoScreenFadeOut(1000)
-							Citizen.Wait(2000)
-							SetEntityCoords(GetPlayerPed(-1), j.positionFrom.x, j.positionFrom.y, j.positionFrom.z - 1)
-							DoScreenFadeIn(1000)
-						end
 					end
 				end
 			end
