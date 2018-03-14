@@ -95,6 +95,6 @@ end}
 
 items["baseado"] = {"baseado","Pronto pro Uso.",function(args) return smell_choices end,0.50}
 items["pedradecrack"] = {"pedradecrack","Pronto pro Uso.",function(args) return lsd_choices end,0.50}
-items["pills"] = {"pills","Pronto pro Uso e Para Entrega.",function(args) return smoke_choices end,0.50}
+items["pills"] = {"pills","Pronto pro Uso e Para Entrega.",function(args) return pills_choices end,0.50}
 
 return items

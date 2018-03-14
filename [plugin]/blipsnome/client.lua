@@ -1,4 +1,12 @@
 local TeleportFromTo = {
+	["Liberacao de Soltura"] = {
+		positionFrom = { ['x'] = 449.45922851563, ['y'] = -973.44592285156, ['z'] = 30.68959236145, nom = "Liberacao de Soltura"},
+		positionTo = { ['x'] = 449.45922851563, ['y'] = -973.44592285156, ['z'] = 30.68959236145, nom = "Liberacao de Soltura"},
+	},
+	["Arquivamento Liberacao de Soltura"] = {
+		positionFrom = { ['x'] = -9.6614046096802, ['y'] = -593.53057861328, ['z'] = 79.430274963379, nom = "Arquivamento Liberacao de Soltura"},
+		positionTo = { ['x'] = -9.6614046096802, ['y'] = -593.53057861328, ['z'] = 79.430274963379, nom = "Arquivamento Liberacao de Soltura"},
+	},
 	["Oficina de armas"] = {
 		positionFrom = { ['x'] = -814.01898193359, ['y'] = 527.14166259766, ['z'] = 102.19955444336, nom = "Oficina de armas"},
 		positionTo = { ['x'] = -814.01898193359, ['y'] = 527.14166259766, ['z'] = 102.19955444336, nom = "Oficina de armas"},
@@ -64,12 +72,12 @@ local TeleportFromTo = {
 	   positionTo = { ['x'] = 707.357238769531, ['y'] = -966.98876953125, ['z'] = 30.4128551483154, nom = "Hackiar credit cards"},
 	},
 	["OAB"] = {                
-	   positionFrom = { ['x'] = -594.04711914063, ['y'] = -702.10955810547, ['z'] = 36.287094116211, nom = "OAB"},
-	   positionTo = { ['x'] = -594.04711914063, ['y'] = -702.10955810547, ['z'] = 36.287094116211, nom = "OAB"},
+	   positionFrom = { ['x'] = -27.569351196289, ['y'] = -582.34844970703, ['z'] = 79.230758666992, nom = "OAB"},
+	   positionTo = { ['x'] = -27.569351196289, ['y'] = -582.34844970703, ['z'] = 79.230758666992, nom = "OAB"},
 	},
 	["Documentos"] = {
-	   positionFrom = { ['x'] = -585.24676513672, ['y'] = -703.81573486328, ['z'] = 36.287094116211, nom = "Documentos"},
-	   positionTo = { ['x'] = -585.24676513672, ['y'] = -703.81573486328, ['z'] = 36.287094116211, nom = "Documentos"},
+	   positionFrom = { ['x'] = -21.763561248779, ['y'] = -587.74920654297, ['z'] = 79.230758666992, nom = "Documentos"},
+	   positionTo = { ['x'] = -21.763561248779, ['y'] = -587.74920654297, ['z'] = 79.230758666992, nom = "Documentos"},
 	},	
 	["frita peixe"] = {
 	   positionFrom = { ['x'] = -1594.3208007813, ['y'] = 5192.6240234375, ['z'] = 4.3100934028625, nom = "frita peixe"},

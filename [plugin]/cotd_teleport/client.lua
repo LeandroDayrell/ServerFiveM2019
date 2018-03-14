@@ -1,4 +1,8 @@
 local TeleportFromTo = {
+	["RJ Consultoria e Advocacia"] = {
+		positionFrom = { ['x'] = -30.857946395874, ['y'] = -594.98889160156, ['z'] = 80.030899047852, nom = "Subir Elevador"},
+		positionTo = { ['x'] = -44.492431640625, ['y'] = -584.63793945313, ['z'] = 38.161968231201, nom = "Descer Elevador"},
+	},
 	---------- BOPE
 	["Garagem - Bope"] = {
 	   positionFrom = { ['x'] = 110.99529266357, ['y'] = -734.64471435547, ['z'] = 33.133224487305, nom = "Bope"},

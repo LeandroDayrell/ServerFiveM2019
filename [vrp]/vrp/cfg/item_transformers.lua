@@ -698,13 +698,13 @@ name="Pescador de Tartaruga", -- menu name
       }     
     }        
   },
-  { -- OAB ADVOGADO
+  { -- OAB
     name="OAB", -- menu name
     permissions = {"advogado.oab"},
-    r=255,g=125,b=0, -- color
+    r=255,g=125,b=0, -- color     -27.569351196289,-582.34844970703,79.230758666992
     max_units=1,
     units_per_minute=1,
-    x=-589.39282226563,y=-701.62200927734,z=36.287059783936,   
+    x=-27.569351196289,y=-582.34844970703,z=79.230758666992,   
     radius=2, height=1.0, -- area
     recipes = {
     ["OAB"] = { -- action name
@@ -719,14 +719,56 @@ name="Pescador de Tartaruga", -- menu name
       }
     }
   },  
-  
-    { -- OAB ADVOGADO
-    name="Documentos", -- menu name
+  { -- DOCUMENTO ADVOGADO
+    name="Liberacao de Soltura", -- menu name 
+    permissions = {"pmrj.doc"},
+    r=255,g=125,b=0, -- color
+    max_units=1,
+    units_per_minute=1,
+    x=449.45922851563,y=-973.44592285156,z=30.68959236145,   
+    radius=2, height=1.0, -- area        
+    recipes = {
+    ["Liberacao de Soltura"] = { -- action name
+    description="Liberacao de Soltura Aprovado", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={}, -- items taken per unit
+    products={
+    ["liberacao_de_soltura"] = 1
+    }, -- items given per unit
+    aptitudes={} -- optional
+      }
+    }
+  },  
+  { -- Liberacao ARQUIVA 
+    name="Arquivamento Liberacao de Soltura", -- menu name
+    permissions = {"liberacao.doc"}, -- you can add permissions
+    r=0,g=200,b=0, -- cor do menu
+    max_units=1,
+    units_per_minute=1,
+    x=-9.6614046096802,y=-593.53057861328,z=79.430274963379, 
+    radius=2.5, height=1.5, -- area
+    recipes = { -- items do menu
+      ["Arquivando Liberacao"] = { -- action name
+        description="", -- action description
+        in_money=0, -- money taken per unit
+        out_money=1000, -- money earned per unit
+		out_dinheirosujo=0,
+        reagents={  -- items taken per unit
+          ["liberacao_de_soltura"] = 1
+      },
+        products={
+        }
+      }
+    }
+  },  
+  { -- ADVOGADO OAB
+    name="Documentos", -- menu name 
     permissions = {"advogado.oab"},
     r=255,g=125,b=0, -- color
     max_units=1000,
     units_per_minute=500,
-    x=-585.24676513672,y=-703.81573486328,z=36.287094116211,   
+    x=-21.763561248779,y=-587.74920654297,z=79.230758666992,   
     radius=2, height=1.0, -- area
     recipes = {
     ["Documentos"] = { -- action name
