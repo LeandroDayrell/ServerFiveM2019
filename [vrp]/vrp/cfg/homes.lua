@@ -94,6 +94,14 @@ local radio_stations = {
 }
 
 cfg.slot_types = {
+  ["Balada"] = {
+    {
+      {"entry",-1388.4665527344,-589.47680664063,30.319555282593},
+      {"chest",-1390.8697509766,-598.0107421875,30.31954574585, _config = {weight=250}},
+      {"gametable",-1400.869140625,-604.92706298828,30.319547653198},
+	  {"radio",-1386.1531982422,-618.10437011719,30.819574356079, _config = { stations = radio_stations }}
+    }
+    },
   ["barraco14"] = {
     {
       {"entry",1578.1643066406,-1473.3696289063,93.586006164551},---entra
@@ -220,6 +228,15 @@ cfg.slot_types = {
 
 -- define home clusters
 cfg.homes = {
+  ["Balada"] = {
+    slot = "Balada",
+    entry_point = {-1388.9752197266,-586.35467529297,30.220504760742},
+    buy_price = 100000,
+    sell_price = 80000,
+    max = 40,
+    blipid=362,
+    blipcolor=7
+  },
   ["barraco do lider TCP"] = { -- FAVELA RICA TCP
     slot = "barraco1",
     entry_point = {-789.33831787109,599.568359375,127.3191986084},

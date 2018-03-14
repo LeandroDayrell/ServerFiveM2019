@@ -6,11 +6,11 @@ cfg.db = {
   host = "127.0.0.1",
   database = "ex",
   user = "root",
-  password = "30201010bili"
+  password = "30201010"
 }
 
 cfg.save_interval = 40 -- seconds
-cfg.whitelist = false -- enable/disable whitelist
+cfg.whitelist = true -- enable/disable whitelist
 
 -- delay the tunnel at loading (for weak connections)
 cfg.load_duration = 30 -- seconds, player duration in loading mode at the first spawn
